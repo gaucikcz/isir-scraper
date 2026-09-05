@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-05T10:10:58+00:00",
+ "generated_at": "2026-09-05T10:23:42+00:00",
  "window": {
   "from": "2026-08-25",
   "to": "2026-09-04"
@@ -30,7 +30,7 @@
     "telefon": null,
     "datova_schranka": null
    },
-   "shrnuti": "Dokument se nepodarilo automaticky rozklicovat - otevri PDF navrhu a posud rucne.",
+   "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: HP fast s.r.o.). Konkrétní položky majetku se z textu nepodařilo automaticky rozpoznat. Klasifikováno heuristicky – nutná ruční kontrola dokumentu.",
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70719380",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=4B77D8EECD4AE229E06333F21FAC1C6A&actSheet=B&pageB=all",
    "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=27354083&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
@@ -51,8 +51,8 @@
    "assets": [
     {
      "typ": "movity",
-     "popis": "– osobní automobil Škoda Superb, RZ VIN: , barva: černá – metal",
-     "navrhovana_cena": null,
+     "popis": "Pokud by však ke zpeněžení prostřednictvím společnosti KLÁN, spol. s r.o. nedošlo, činí náklady na uskladnění vozidla 700 Kč bez DPH za každý započatý měsíc.",
+     "navrhovana_cena": "36300 CZK vč. DPH",
      "kupujici": null
     }
    ],
@@ -62,7 +62,7 @@
     "telefon": null,
     "datova_schranka": null
    },
-   "shrnuti": "Spravce podal navrh na zpenezeni mimo drazbu: movity majetek. Klasifikovano heuristicky - overit v dokumentu.",
+   "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: Thein Digital s.r.o.): movitý majetek (1 položka). Navrhovaná cena 36300 CZK vč. DPH. Klasifikováno heuristicky – ověřit v dokumentu.",
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70716981",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=487D9CC80485B038E06333F21FAC3FAA&actSheet=B&pageB=all",
    "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=60779420&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
@@ -83,24 +83,18 @@
    "assets": [
     {
      "typ": "nemovity",
-     "popis": "Insolvenční správce navrhuje zpeněžení nemovitosti na základě § 286 odst. 1 písm. c) insolvenčního",
-     "navrhovana_cena": null,
-     "kupujici": null
-    },
-    {
-     "typ": "movity",
-     "popis": "Groborz Michal (dále jen „dlužník“)",
+     "popis": "Insolvenční správce navrhuje zpeněžení nemovitosti na základě § 286 odst. 1 písm. c) insolvenčního zákona a to formou přímého prodeje mimo dražbu nejvyšší nabídce.",
      "navrhovana_cena": null,
      "kupujici": null
     }
    ],
    "spravce": {
-    "jmeno": "AS ZIZLAVSKY v.o.s.",
+    "jmeno": "Mgr. Jakub Juřena",
     "email": "oddluzeni@zizlavsky.cz",
-    "telefon": "224 947 055",
+    "telefon": "+420 224 947 055",
     "datova_schranka": null
    },
-   "shrnuti": "Spravce podal navrh na zpenezeni mimo drazbu: nemovity majetek, movity majetek. Klasifikovano heuristicky - overit v dokumentu.",
+   "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: Michal Groborz): nemovitý majetek (1 položka). Podrobnosti jsou v soupisu majetkové podstaty. Klasifikováno heuristicky – ověřit v dokumentu.",
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70723653",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=2E8CBA9B8F49F223E06333F21FAC6E6E&actSheet=B&pageB=all",
    "or_url": null,
@@ -121,24 +115,24 @@
    "assets": [
     {
      "typ": "nemovity",
-     "popis": "Nemovitosti, zahrnuté do majetkové podstaty dlužníka pod č. 1:",
-     "navrhovana_cena": "18000000 CZK",
+     "popis": "Název Ocenění Druh majetku Pozemek p.č. St. 457, zastavěná plocha a nádvoří (jehož součástí je stavba Hradiště na Písku č.p. 78, rodinný dům), pozemek p.č. St. 458, zastavěná plocha a nádvoří (jehož součástí je stavba…",
+     "navrhovana_cena": null,
      "kupujici": null
     },
     {
      "typ": "nehmotny",
-     "popis": "Právního zástupce věřitelů, kteří přihlásili své pohledávky jako zajištěné výše uvedeným majetkem,",
-     "navrhovana_cena": null,
+     "popis": "Právního zástupce věřitelů, kteří přihlásili své pohledávky jako zajištěné výše uvedeným majetkem, přičemž o zajištění jsou vedeny spory, jsem z opatrnosti požádal o souhlas s tímto způsobem zpeněžení, jejich souhlas je…",
+     "navrhovana_cena": "18000000 CZK",
      "kupujici": null
     }
    ],
    "spravce": {
-    "jmeno": "insolvenční správce a likvidátor",
+    "jmeno": "Mgr. Karel Knypl",
     "email": "knypl@sterlingsro.cz",
     "telefon": "602 665 047",
     "datova_schranka": null
    },
-   "shrnuti": "Spravce podal navrh na zpenezeni mimo drazbu: nemovity majetek, nehmotny majetek. Navrhovana cena 18000000 CZK. Klasifikovano heuristicky - overit v dokumentu.",
+   "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: Ing. Stanislav Kužela): nemovitý majetek, nehmotný majetek (2 položky). Navrhovaná cena 18000000 CZK. Klasifikováno heuristicky – ověřit v dokumentu.",
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70720216",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=13EA15E35055AEC6E06333F21FAC5869&actSheet=B&pageB=all",
    "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=47505052&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
@@ -159,24 +153,24 @@
    "assets": [
     {
      "typ": "nemovity",
-     "popis": "- pozemek parc. č. st. 40 - zastavěná plocha a nádvoří (zbořeniště) a pozemek parc. č. 122 -",
+     "popis": "pozemek parc. č. st. 40 - zastavěná plocha a nádvoří (zbořeniště) a pozemek parc. č. 122 - zahrada, nacházející se v k. ú. Radišov, obci Staré Město, okres Svitavy, vše zapsáno na LV č. 701 u Katastrálního úřadu pro…",
      "navrhovana_cena": null,
      "kupujici": null
     },
     {
      "typ": "movity",
-     "popis": "souhlasu k prodeji movitého majetku nacházejícího se v majetkové podstatě dlužníka přímým",
+     "popis": "Insolvenční správce tímto žádá insolvenční soud, a to i v působnosti věřitelského výboru, o udělení souhlasu k prodeji movitého majetku nacházejícího se v majetkové podstatě dlužníka přímým prodejem mimo dražbu dle ust…",
      "navrhovana_cena": null,
      "kupujici": null
     }
    ],
    "spravce": {
-    "jmeno": "AKKRM insolvence, v.o.s.",
+    "jmeno": "Mgr. Michaela Rotterová",
     "email": "insolvence@akkrm.cz",
     "telefon": null,
     "datova_schranka": "zgaj8mz"
    },
-   "shrnuti": "Spravce podal navrh na zpenezeni mimo drazbu: nemovity majetek, movity majetek. Klasifikovano heuristicky - overit v dokumentu.",
+   "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: Františka Pirklová): nemovitý majetek, movitý majetek (2 položky). Klasifikováno heuristicky – ověřit v dokumentu.",
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70703281",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=4C2CDE823BB85B46E06333F21FAC7A14&actSheet=B&pageB=all",
    "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=14379031&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
@@ -201,7 +195,7 @@
     "telefon": null,
     "datova_schranka": null
    },
-   "shrnuti": "Dokument se nepodarilo automaticky rozklicovat - otevri PDF navrhu a posud rucne.",
+   "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: Milan Hána). Konkrétní položky majetku se z textu nepodařilo automaticky rozpoznat. Klasifikováno heuristicky – nutná ruční kontrola dokumentu.",
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70709102",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=0C727DD110A0F583E06333F21FACBE7E&actSheet=B&pageB=all",
    "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=00919403&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
@@ -222,18 +216,18 @@
    "assets": [
     {
      "typ": "movity",
-     "popis": "x\u0003 Osobní automobil Škoda Octavia, registrační značka 2SI 2864, VIN TMBBS61Z982207246, datum",
+     "popis": "x\u0003 Osobní automobil Škoda Octavia, registrační značka 2SI 2864, VIN TMBBS61Z982207246, datum první registrace v roce 2008",
      "navrhovana_cena": null,
      "kupujici": null
     }
    ],
    "spravce": {
-    "jmeno": "Správce uskuteční prodej za následujících podmínek:",
+    "jmeno": "Mgr. Karolína Dvořáková",
     "email": null,
-    "telefon": "982 207 246",
+    "telefon": null,
     "datova_schranka": null
    },
-   "shrnuti": "Spravce podal navrh na zpenezeni mimo drazbu: movity majetek. Klasifikovano heuristicky - overit v dokumentu.",
+   "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: Tomáš Baumgartner): movitý majetek (1 položka). Klasifikováno heuristicky – ověřit v dokumentu.",
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70711058",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=BD502DFDE4102256E05333F21FACE4E5&actSheet=B&pageB=all",
    "or_url": null,
@@ -258,7 +252,7 @@
     "telefon": null,
     "datova_schranka": null
    },
-   "shrnuti": "Dokument se nepodarilo automaticky rozklicovat - otevri PDF navrhu a posud rucne.",
+   "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: Jana Gocieková). Konkrétní položky majetku se z textu nepodařilo automaticky rozpoznat. Klasifikováno heuristicky – nutná ruční kontrola dokumentu.",
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70691177",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=3F0D551E1230E9BDE06333F21FACD6F7&actSheet=B&pageB=all",
    "or_url": null,
@@ -279,14 +273,14 @@
    "assets": [
     {
      "typ": "nemovity",
-     "popis": "b) Nepřetržitá fyzická ostraha uzavřeného areálu, v němž se nachází parkovací plocha,",
+     "popis": "Komisionář zajistí zabezpečení parkovací plochy proti odcizení či poškození uskladněného vozidla, a to minimálně následujícím způsobem: a) Oplocením parkovacích ploch, b) Nepřetržitá fyzická ostraha uzavřeného areálu, v…",
      "navrhovana_cena": null,
      "kupujici": null
     },
     {
      "typ": "movity",
-     "popis": "číslo karoserie (VIN): LCELDSZN7M6000365",
-     "navrhovana_cena": null,
+     "popis": "a) Provedení zápisu změny v technickém průkazu před prodejem (vystavení duplikátu TP, dohlášení vozidla na komitenta, správní řízení) 1000,- Kč",
+     "navrhovana_cena": "15000 CZK bez DPH",
      "kupujici": null
     }
    ],
@@ -296,7 +290,7 @@
     "telefon": null,
     "datova_schranka": null
    },
-   "shrnuti": "Spravce podal navrh na zpenezeni mimo drazbu: nemovity majetek, movity majetek. Klasifikovano heuristicky - overit v dokumentu.",
+   "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: Ladislav Městka): nemovitý majetek, movitý majetek (2 položky). Navrhovaná cena 15000 CZK bez DPH. Klasifikováno heuristicky – ověřit v dokumentu.",
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70685604",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=3F0C94E4C46EE9D0E06333F21FAC62F2&actSheet=B&pageB=all",
    "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=22573542&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
@@ -317,18 +311,18 @@
    "assets": [
     {
      "typ": "movity",
-     "popis": "AUDI A4, VIN: , RZ: , první registrace",
+     "popis": "x osobní automobil zn. AUDI A4, VIN: , RZ: , první registrace 15.7.2010",
      "navrhovana_cena": null,
      "kupujici": null
     }
    ],
    "spravce": {
-    "jmeno": "Funkci věřitelského orgánu vykonává ve smyslu § 61 odst. 2 insolvenční soud",
+    "jmeno": "JUDr. Jitky Sobotkové",
     "email": "info@aiccs.cz",
-    "telefon": "222 755 661",
+    "telefon": "+420 222 755 661",
     "datova_schranka": null
    },
-   "shrnuti": "Spravce podal navrh na zpenezeni mimo drazbu: movity majetek. Klasifikovano heuristicky - overit v dokumentu.",
+   "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: Veronika Jakubec): movitý majetek (1 položka). Klasifikováno heuristicky – ověřit v dokumentu.",
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70681657",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=58FAE8E0D017D672E06333F21FAC508B&actSheet=B&pageB=all",
    "or_url": null,
@@ -353,7 +347,7 @@
     "telefon": null,
     "datova_schranka": null
    },
-   "shrnuti": "Dokument se nepodarilo automaticky rozklicovat - otevri PDF navrhu a posud rucne.",
+   "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: Alena Horálková). Konkrétní položky majetku se z textu nepodařilo automaticky rozpoznat. Klasifikováno heuristicky – nutná ruční kontrola dokumentu.",
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70691032",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=250F33A86907D0FEE06333F21FAC07E9&actSheet=B&pageB=all",
    "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=62783033&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
@@ -370,22 +364,15 @@
    "sidlo": "Hradec Králové, Karla Tomana 42, PSČ 500 03, Okres Hradec Králové",
    "stav_rizeni": "Povoleno oddlužení",
    "datum_podani": "2026-09-02",
-   "priorita": "stredni",
-   "assets": [
-    {
-     "typ": "movity",
-     "popis": "kuchyňského koutu spolu s vybavením rodinné domácnosti v obvyklé ceně ve výši",
-     "navrhovana_cena": null,
-     "kupujici": null
-    }
-   ],
+   "priorita": "nizka",
+   "assets": [],
    "spravce": {
-    "jmeno": "AS ZIZLAVSKY v.o.s.",
+    "jmeno": "Mgr. Ondřej Platil",
     "email": "oddluzeni@zizlavsky.cz",
-    "telefon": "224 947 055",
+    "telefon": "+420 224 947 055",
     "datova_schranka": null
    },
-   "shrnuti": "Spravce podal navrh na zpenezeni mimo drazbu: movity majetek. Klasifikovano heuristicky - overit v dokumentu.",
+   "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: Gabriela Pajurková). Majetek není v návrhu popsán, je pouze odkázán do soupisu majetkové podstaty. Klasifikováno heuristicky – nutná ruční kontrola dokumentu.",
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70689261",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=0D13B163E7A58DDBE06333F21FAC86C6&actSheet=B&pageB=all",
    "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=88539857&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
@@ -410,7 +397,7 @@
     "telefon": null,
     "datova_schranka": null
    },
-   "shrnuti": "Dokument se nepodarilo automaticky rozklicovat - otevri PDF navrhu a posud rucne.",
+   "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: ILUVATAR Consulting s.r.o.). Konkrétní položky majetku se z textu nepodařilo automaticky rozpoznat. Klasifikováno heuristicky – nutná ruční kontrola dokumentu.",
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70660067",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=41A8C8CAB140E9ADE06333F21FACE3B0&actSheet=B&pageB=all",
    "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=28498526&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
@@ -431,18 +418,18 @@
    "assets": [
     {
      "typ": "nemovity",
-     "popis": "o pozemek parc. č. 45, 122 m2 - zastavěná plocha a nádvoří;",
+     "popis": "položka č. 4 - podíl o velikosti 1/4 na: o pozemek parc. č. 45, 122 m2 - zastavěná plocha a nádvoří; o součástí je stavba: Olšovec č.p. 121, rodinný dům; o stavba stojí na pozemku č.p.: st. 45; o pozemek parc. č. 96/2…",
      "navrhovana_cena": null,
      "kupujici": null
     }
    ],
    "spravce": {
-    "jmeno": "Praha 1 (dále jen „insolvenční správce“)",
+    "jmeno": "Bc. Jan Mašek",
     "email": null,
     "telefon": null,
     "datova_schranka": null
    },
-   "shrnuti": "Spravce podal navrh na zpenezeni mimo drazbu: nemovity majetek. Klasifikovano heuristicky - overit v dokumentu.",
+   "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: Lucie Hrušková): nemovitý majetek (1 položka). Klasifikováno heuristicky – ověřit v dokumentu.",
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70660222",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=CFDBEEE343BE201BE05333F21FACC0FE&actSheet=B&pageB=all",
    "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=87795124&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
@@ -467,7 +454,7 @@
     "telefon": null,
     "datova_schranka": null
    },
-   "shrnuti": "Dokument se nepodarilo automaticky rozklicovat - otevri PDF navrhu a posud rucne.",
+   "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: Mastodont Baits s.r.o.). Konkrétní položky majetku se z textu nepodařilo automaticky rozpoznat. Klasifikováno heuristicky – nutná ruční kontrola dokumentu.",
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70649313",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=4DFF53DCD8B2AB66E06333F21FACFDF2&actSheet=B&pageB=all",
    "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=04651758&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
@@ -492,7 +479,7 @@
     "telefon": null,
     "datova_schranka": null
    },
-   "shrnuti": "Dokument se nepodarilo automaticky rozklicovat - otevri PDF navrhu a posud rucne.",
+   "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: Kristýna Černá). Konkrétní položky majetku se z textu nepodařilo automaticky rozpoznat. Klasifikováno heuristicky – nutná ruční kontrola dokumentu.",
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70645772",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=F21F6BB7348FDE06E05333F21FAC66C4&actSheet=B&pageB=all",
    "or_url": null,
@@ -513,18 +500,18 @@
    "assets": [
     {
      "typ": "nemovity",
-     "popis": "- ideální podíl ve výši 96/1584 na pozemkové parcele č. 778/1 (lesní pozemek), vše zapsáno na",
+     "popis": "Insolvenčnímu správci se opětovně ozvala paní Liberdová, která by měla zájem koupit výše uvedený podíl na pozemku zapsaném na LV č. 48, kdy navýšila cenu na 250.000,-Kč (cena dle znaleckého posudku 780.000,-K). Někteří…",
      "navrhovana_cena": "250000 CZK",
      "kupujici": null
     }
    ],
    "spravce": {
-    "jmeno": "Za VPI CZ v.o.s.",
+    "jmeno": "JUDr. Jan Malý",
     "email": null,
     "telefon": null,
     "datova_schranka": null
    },
-   "shrnuti": "Spravce podal navrh na zpenezeni mimo drazbu: nemovity majetek. Navrhovana cena 250000 CZK. Klasifikovano heuristicky - overit v dokumentu.",
+   "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: Bronislava Faranová): nemovitý majetek (1 položka). Navrhovaná cena 250000 CZK. Klasifikováno heuristicky – ověřit v dokumentu.",
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70644832",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=CFDC8B5B5BB9206FE05333F21FAC09E2&actSheet=B&pageB=all",
    "or_url": null,
@@ -545,18 +532,18 @@
    "assets": [
     {
      "typ": "nemovity",
-     "popis": "- pozemkové parcely č. 23/2, č. 25/1 a č.1652/2 , vše zapsáno na LV č. 97, k.ú.",
+     "popis": "pozemkové parcely č. 23/2, č. 25/1 a č.1652/2 , vše zapsáno na LV č. 97, k.ú. Milíkov u Jablunkova, vedeno Katastrálním úřadem pro Moravskoslezský kraj, Katastrální pracoviště Třinec",
      "navrhovana_cena": "185000 CZK",
      "kupujici": null
     }
    ],
    "spravce": {
-    "jmeno": "Za VPI CZ v.o.s.",
+    "jmeno": "Ing. Miroslav Sikora",
     "email": null,
     "telefon": null,
     "datova_schranka": null
    },
-   "shrnuti": "Spravce podal navrh na zpenezeni mimo drazbu: nemovity majetek. Navrhovana cena 185000 CZK. Klasifikovano heuristicky - overit v dokumentu.",
+   "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: Bronislava Faranová): nemovitý majetek (1 položka). Navrhovaná cena 185000 CZK. Klasifikováno heuristicky – ověřit v dokumentu.",
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70644770",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=CFDC8B5B5BB9206FE05333F21FAC09E2&actSheet=B&pageB=all",
    "or_url": null,
@@ -581,7 +568,7 @@
     "telefon": null,
     "datova_schranka": null
    },
-   "shrnuti": "Dokument se nepodarilo automaticky rozklicovat - otevri PDF navrhu a posud rucne.",
+   "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: NATECH Truck s.r.o.). Konkrétní položky majetku se z textu nepodařilo automaticky rozpoznat. Klasifikováno heuristicky – nutná ruční kontrola dokumentu.",
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70638323",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=4CE1B451F10727B5E06333F21FACD116&actSheet=B&pageB=all",
    "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=27547701&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
@@ -606,7 +593,7 @@
     "telefon": null,
     "datova_schranka": null
    },
-   "shrnuti": "Dokument se nepodarilo automaticky rozklicovat - otevri PDF navrhu a posud rucne.",
+   "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: Bc. Sára Hájková). Konkrétní položky majetku se z textu nepodařilo automaticky rozpoznat. Klasifikováno heuristicky – nutná ruční kontrola dokumentu.",
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70630073",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=44E2945725F6D38AE06333F21FACC3F6&actSheet=B&pageB=all",
    "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=22473793&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
@@ -623,22 +610,28 @@
    "sidlo": "Roztoky, Nad Vltavou 2167, PSČ 252 63, Okres Praha-západ",
    "stav_rizeni": "Prohlášený konkurs",
    "datum_podani": "2026-08-27",
-   "priorita": "nizka",
+   "priorita": "stredni",
    "assets": [
     {
+     "typ": "movity",
+     "popis": "D\u0011V\u0011 ]D þiVWNX \u0015 \u0011\u0014 \u0013\u000f\u0010 .þ Y\\MiGĜLO GQH \u0015\u0018\u0011\u0013\u001b\u0011\u0015\u0013\u0015\u0019 VRXKODV ]iVWXSFH YČĜLWHOĤ\u000f VSROHþQRVW 'RZQWRZQ ,QYHVW V\u0011U\u0011R\u0011\u000f ]DVWRXSHQi 0JU\u0011 -DQHP 'UR]GHP\u0011",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
      "typ": "nehmotny",
-     "popis": "x akcie TRINITY BANK a.s. v počtu 21 ks, NAV na ks 1.390,- Kč, zaknihované a veřejně",
+     "popis": "x akcie TRINITY BANK a.s. v počtu 21 ks, NAV na ks 1.390,- Kč, zaknihované a veřejně neobchodovatelné",
      "navrhovana_cena": "29190 CZK",
      "kupujici": null
     }
    ],
    "spravce": {
-    "jmeno": "Mgr. Jan Drozd <drozd@dkak.cz>",
+    "jmeno": "Mgr. Jan Drozd",
     "email": "drozd@dkak.cz",
-    "telefon": null,
+    "telefon": "+420 605 501 199",
     "datova_schranka": null
    },
-   "shrnuti": "Spravce podal navrh na zpenezeni mimo drazbu: nehmotny majetek. Navrhovana cena 29190 CZK. Klasifikovano heuristicky - overit v dokumentu.",
+   "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: Ing. Jaroslav Veverka MBA): movitý majetek, nehmotný majetek (2 položky). Navrhovaná cena 29190 CZK. Klasifikováno heuristicky – ověřit v dokumentu.",
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70628301",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=2149E9046063D036E06333F21FACB471&actSheet=B&pageB=all",
    "or_url": null,
@@ -659,18 +652,18 @@
    "assets": [
     {
      "typ": "nemovity",
-     "popis": "- pozemkové parcely č. 23/2, č. 25/1 a č.1652/2 , vše zapsáno na LV č. 97, k.ú.",
+     "popis": "pozemkové parcely č. 23/2, č. 25/1 a č.1652/2 , vše zapsáno na LV č. 97, k.ú. Milíkov u Jablunkova, vedeno Katastrálním úřadem pro Moravskoslezský kraj, Katastrální pracoviště Třinec",
      "navrhovana_cena": "185000 CZK",
      "kupujici": null
     }
    ],
    "spravce": {
-    "jmeno": "Za VPI CZ v.o.s.",
+    "jmeno": "Ing. Miroslav Sikora",
     "email": null,
     "telefon": null,
     "datova_schranka": null
    },
-   "shrnuti": "Spravce podal navrh na zpenezeni mimo drazbu: nemovity majetek. Navrhovana cena 185000 CZK. Klasifikovano heuristicky - overit v dokumentu.",
+   "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: Bronislava Faranová): nemovitý majetek (1 položka). Navrhovaná cena 185000 CZK. Klasifikováno heuristicky – ověřit v dokumentu.",
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70635929",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=CFDC8B5B5BB9206FE05333F21FAC09E2&actSheet=B&pageB=all",
    "or_url": null,
@@ -691,19 +684,19 @@
    "assets": [
     {
      "typ": "nemovity",
-     "popis": "insolvenčního správce, dlužníka a zástupce vlastníka areálu, v němž se majetek nachází.",
+     "popis": "mět zajištění pohledávky zajištěného věřitele č. 74, Jenica Corporation a.s. Insolvenční správce konzultoval způsob zpeněžení se společností PROKONZULTA, a.s., IČ: 26307367, jejíž pracovník provedl osobní prohlídku…",
      "navrhovana_cena": null,
-     "kupujici": null
+     "kupujici": "Abilora insolvence v.o.s."
     },
     {
      "typ": "movity",
-     "popis": "56 Nářadí (vrtáky, vruty, kladiva, nože, přísl. soustruhů) 10 000 Kč 5 000 Kč 2 500 Kč",
-     "navrhovana_cena": null,
+     "popis": "8 000 Kč 4 000 Kč 2 000 Kč 7 Rohová vysekávačka PESCHA TYPE 130 M 10 000 Kč 5 000 Kč 2 500 Kč 8 Váha PRESTO 2 000 Kč 1 000 Kč 500 Kč 9 Paletový vozík 10 ks 15 000 Kč 7 500 Kč 3 750 Kč 10 Příklopový lis IMPERIA - D 20…",
+     "navrhovana_cena": "50000 CZK",
      "kupujici": null
     },
     {
      "typ": "nehmotny",
-     "popis": "76, která tvoří předmět zajištění pohledávky zajištěného věřitele č. 74, Jenica Corporation a.s.",
+     "popis": "Předmětem zamýšleného zpeněžení jsou položky č. 1–71, 80 a 81 a dále položka č. 76, která tvoří předmět zajištění pohledávky zajištěného věřitele č. 74, Jenica Corporation a.s. Insolvenční správce konzultoval způsob…",
      "navrhovana_cena": null,
      "kupujici": null
     }
@@ -711,10 +704,10 @@
    "spravce": {
     "jmeno": null,
     "email": "info@abilora.cz",
-    "telefon": null,
-    "datova_schranka": null
+    "telefon": "+420 775 563 000",
+    "datova_schranka": "rp36bbc"
    },
-   "shrnuti": "Spravce podal navrh na zpenezeni mimo drazbu: nemovity majetek, movity majetek, nehmotny majetek. Klasifikovano heuristicky - overit v dokumentu.",
+   "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: SEVEROČESKÁ PAPÍRNA, s.r.o.): nemovitý majetek, movitý majetek, nehmotný majetek (3 položky). Navrhovaná cena 50000 CZK. Kupující: Abilora insolvence v.o.s. Klasifikováno heuristicky – ověřit v dokumentu.",
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70621585",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=4C2CDE8238F05B46E06333F21FAC7A14&actSheet=B&pageB=all",
    "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=27132277&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
@@ -739,7 +732,7 @@
     "telefon": null,
     "datova_schranka": null
    },
-   "shrnuti": "Dokument se nepodarilo automaticky rozklicovat - otevri PDF navrhu a posud rucne.",
+   "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: Jan Blahut). Konkrétní položky majetku se z textu nepodařilo automaticky rozpoznat. Klasifikováno heuristicky – nutná ruční kontrola dokumentu.",
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70623690",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=483F25F0116C0023E06333F21FAC8DD0&actSheet=B&pageB=all",
    "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=17794161&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
@@ -764,7 +757,7 @@
     "telefon": null,
     "datova_schranka": null
    },
-   "shrnuti": "Dokument se nepodarilo automaticky rozklicovat - otevri PDF navrhu a posud rucne.",
+   "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: Jan Blahut). Konkrétní položky majetku se z textu nepodařilo automaticky rozpoznat. Klasifikováno heuristicky – nutná ruční kontrola dokumentu.",
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70623607",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=483F25F0116C0023E06333F21FAC8DD0&actSheet=B&pageB=all",
    "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=17794161&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
@@ -785,18 +778,18 @@
    "assets": [
     {
      "typ": "movity",
-     "popis": "Insolvenční správce k dnešnímu dni sepsal do majetkové podstaty dlužníka další movité věci,",
+     "popis": "Insolvenční správce k dnešnímu dni sepsal do majetkové podstaty dlužníka další movité věci, které jsou uvedeny pod položkami 17 – 22 soupisu majetkové podstaty ze dne 25. 8. 2026. Přehled věcí včetně fotodokumentace…",
      "navrhovana_cena": null,
-     "kupujici": null
+     "kupujici": "Archa Insolvence v.o.s."
     }
    ],
    "spravce": {
-    "jmeno": "Insolvenční správce:",
+    "jmeno": "Mgr. Tomáš Bartůněk",
     "email": null,
     "telefon": null,
-    "datova_schranka": null
+    "datova_schranka": "krajsky"
    },
-   "shrnuti": "Spravce podal navrh na zpenezeni mimo drazbu: movity majetek. Klasifikovano heuristicky - overit v dokumentu.",
+   "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: Jakub Růžička): movitý majetek (1 položka). Kupující: Archa Insolvence v.o.s. Podrobnosti jsou v soupisu majetkové podstaty. Klasifikováno heuristicky – ověřit v dokumentu.",
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70618576",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=2E8D1E30BEBFF1BCE06333F21FAC9734&actSheet=B&pageB=all",
    "or_url": null,
@@ -821,7 +814,7 @@
     "telefon": null,
     "datova_schranka": null
    },
-   "shrnuti": "Dokument se nepodarilo automaticky rozklicovat - otevri PDF navrhu a posud rucne.",
+   "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: STEBAL Spedition, s.r.o.). Majetek není v návrhu popsán, je pouze odkázán do soupisu majetkové podstaty. Klasifikováno heuristicky – nutná ruční kontrola dokumentu.",
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70620244",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=2272B601662A3AA8E06333F21FAC5121&actSheet=B&pageB=all",
    "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=25036114&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
@@ -842,14 +835,14 @@
    "assets": [
     {
      "typ": "nemovity",
-     "popis": "x pozemek parc. č. 1032 – zastavěná plocha a nádvoří o výměře 314 m², přičemž",
-     "navrhovana_cena": "6500000 CZK",
+     "popis": "ní 1,00 poloha pozemku - blíž k centru města 0,98 dopravní dostupnost - srovnatelná 1,00 možnost zastavění poz. - 1,00 intenzita využití poz. - srovnatelná 1,00 vybavenost pozemku - 1,00 úvaha zpracovatele ocenění…",
+     "navrhovana_cena": null,
      "kupujici": null
     },
     {
-     "typ": "movity",
-     "popis": "skutečnost, že pozemek leží v rovině.",
-     "navrhovana_cena": null,
+     "typ": "nehmotny",
+     "popis": "Při zpeněžení nemovitostí by hodnota spoluvlastnického podílu dlužnice přesahovala výši přihlášených pohledávek věřitelů (nepodřízených i podřízených). Došlo by tak k uspokojení 100 % jejich pohledávek a část výtěžku by…",
+     "navrhovana_cena": "6500000 CZK",
      "kupujici": null
     }
    ],
@@ -859,7 +852,7 @@
     "telefon": "465 391 403",
     "datova_schranka": null
    },
-   "shrnuti": "Spravce podal navrh na zpenezeni mimo drazbu: nemovity majetek, movity majetek. Navrhovana cena 6500000 CZK. Klasifikovano heuristicky - overit v dokumentu.",
+   "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: Jiří Klimeš): nemovitý majetek, nehmotný majetek (2 položky). Navrhovaná cena 6500000 CZK. Klasifikováno heuristicky – ověřit v dokumentu.",
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70616374",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=13E9C9F5C20CAE4DE06333F21FACB2EC&actSheet=B&pageB=all",
    "or_url": null,
@@ -880,18 +873,18 @@
    "assets": [
     {
      "typ": "movity",
-     "popis": "osobní automobil Volkswagen Kombi, bílá barva, RZ 3AX9486, VIN .",
-     "navrhovana_cena": "92600 CZK",
+     "popis": "Tímto navrhuji, aby soud schválil prodej automobilu mimo dražbu za minimální kupní cenu 92.600,- Kč + DPH s tím, že úhrada kupní ceny bude provedena před podpisem kupní smlouvy.",
+     "navrhovana_cena": "92600 CZK vč. DPH",
      "kupujici": null
     }
    ],
    "spravce": {
-    "jmeno": "E.Mi - International s.r.o.",
+    "jmeno": "JUDr. Filip Punda",
     "email": "filip.punda@centrum.cz",
     "telefon": "384 391 776",
     "datova_schranka": null
    },
-   "shrnuti": "Spravce podal navrh na zpenezeni mimo drazbu: movity majetek. Navrhovana cena 92600 CZK. Klasifikovano heuristicky - overit v dokumentu.",
+   "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: E.Mi - International s.r.o.): movitý majetek (1 položka). Navrhovaná cena 92600 CZK vč. DPH. Klasifikováno heuristicky – ověřit v dokumentu.",
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70606340",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=4C2CEE8C6FC95B4CE06333F21FACA8BD&actSheet=B&pageB=all",
    "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=24214647&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
