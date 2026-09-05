@@ -64,6 +64,8 @@ jobs:
           # sam degraduje na heuristiku (classified_by: "heuristic").
           # Job na tom zamerne NENI zavisly a kvuli chybejicimu klici nepadne.
           ANTHROPIC_API_KEY_SECRET: ${{ secrets.ANTHROPIC_API_KEY }}
+          # Volitelne: nutne jen kdyz klic neni pripnuty k workspace.
+          ANTHROPIC_WORKSPACE_ID: ${{ secrets.ANTHROPIC_WORKSPACE_ID }}
           DAYS: ${{ inputs.days || '10' }}
         run: |
           # Prazdny ANTHROPIC_API_KEY ma v SDK prednost pred workload identity

@@ -988,7 +988,14 @@ def classify_document(text, case_meta):
     try:
         # Bez argumentu: SDK si samo vybere API klic NEBO workload identity
         # federation podle promennych prostredi.
-        client = anthropic.Anthropic()
+        # Klic, ktery neni pripnuty ke konkretnimu workspace, navic vyzaduje
+        # hlavicku anthropic-workspace-id - jinak API vraci 400.
+        workspace = (os.environ.get("ANTHROPIC_WORKSPACE_ID") or "").strip()
+        if workspace:
+            client = anthropic.Anthropic(
+                default_headers={"anthropic-workspace-id": workspace})
+        else:
+            client = anthropic.Anthropic()
         response = _call_api(client, model, SYSTEM_PROMPT, _build_user_message(text, case_meta))
         payload = _extract_tool_payload(response)
         if payload is None:

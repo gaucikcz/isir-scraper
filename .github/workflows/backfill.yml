@@ -57,6 +57,8 @@ jobs:
         env:
           # Volitelny secret - bez nej klasifikace degraduje na heuristiku.
           ANTHROPIC_API_KEY_SECRET: ${{ secrets.ANTHROPIC_API_KEY }}
+          # Volitelne: nutne jen kdyz klic neni pripnuty k workspace.
+          ANTHROPIC_WORKSPACE_ID: ${{ secrets.ANTHROPIC_WORKSPACE_ID }}
           DATE_FROM: ${{ inputs.date_from }}
           DATE_TO: ${{ inputs.date_to }}
         run: |
