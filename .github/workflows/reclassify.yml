@@ -63,6 +63,9 @@ jobs:
           ANTHROPIC_API_KEY_SECRET: ${{ secrets.ANTHROPIC_API_KEY }}
           # Volitelne: nutne jen kdyz klic neni pripnuty k workspace.
           ANTHROPIC_WORKSPACE_ID: ${{ secrets.ANTHROPIC_WORKSPACE_ID }}
+          # Prepinani modelu bez zasahu do kodu: Settings -> Variables -> Actions.
+          # Prazdna hodnota = vychozi claude-sonnet-5 (viz isir/classify.py).
+          ISIR_MODEL: ${{ vars.ISIR_MODEL }}
           LIMIT: ${{ inputs.limit || '25' }}
           DRY_RUN: ${{ inputs.dry_run || 'false' }}
         run: |
