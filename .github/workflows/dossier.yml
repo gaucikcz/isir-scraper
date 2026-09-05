@@ -26,11 +26,17 @@ concurrency:
 
 jobs:
   dossier:
-    # Issue spousti beh jen se stitkem "dossier". Je to zaroven autorizace:
-    # repo je verejne a issue muze zalozit kdokoliv, ale stitek prideli jen
-    # clovek s pravem write/triage - tedy majitel repa.
+    # Autorizace: repo je verejne, issue muze zalozit kdokoliv, takze beh
+    # spusti jen issue od MAJITELE repa, nebo issue se stitkem "dossier"
+    # (stitek prideli jen clovek s pravem write/triage).
+    #
+    # Samotny stitek jako jedina podminka nestacil: stitek "dossier" v repu
+    # neexistuje, takze zadny beh nikdy nezacal a tlacitko na dashboardu
+    # nedelalo nic. Autor issue je stejne silna autorizace a nepotrebuje
+    # zadne nastaveni repa. Kdyz si stitek zalozis, druha vetev funguje dal.
     if: >-
       github.event_name == 'workflow_dispatch' ||
+      github.event.issue.user.login == github.repository_owner ||
       contains(github.event.issue.labels.*.name, 'dossier')
     runs-on: ubuntu-latest
     timeout-minutes: 45

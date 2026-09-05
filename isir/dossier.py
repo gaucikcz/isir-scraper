@@ -312,6 +312,18 @@ def build_dossier(spisova_znacka: str, max_docs: int = MAX_DOCS,
 
     log.info("Dossier %s: stahuji detail veci", znacka)
     events = detail.fetch_events(case["detail_id"])
+    # Nula udalosti = stranka se nerozparsovala (ISIR vratil chybovou stranku
+    # s HTTP 200, nebo se zmenilo markup). Kazda vec v rejstriku ma udalosti
+    # desitky az stovky. Kdybychom pokracovali, vznikl by dvoukilobajtovy
+    # dossier, ktery tvrdi "do stropu se veslo vsechno, co shortlist nasel"
+    # (tedy "u teto veci nic neni"), pretlacil by predchozi dobry soubor na
+    # stejnem slugu a v databazi vynuloval shortlist dokumentu. Radeji spadnout.
+    if not events:
+        raise ValueError(
+            u"Detail věci %s nevrátil žádnou událost - ISIR nejspíš odpověděl "
+            u"chybovou stránkou. Dossier nesestavuji, aby nepřepsal ten "
+            u"předchozí. Zkus to za chvíli znovu." % znacka
+        )
     dokumenty = detail.relevant_documents(events)
     soupis = detail.latest_soupis(events)
     _store_case_docs(znacka, soupis, dokumenty)

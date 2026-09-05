@@ -53,7 +53,15 @@ def _with_case_docs(record: dict, events: list) -> dict:
         row["soupis_doc_id"] = soupis["doc_id"]
         row["soupis_date"] = soupis["datum"].isoformat() if soupis["datum"] else None
         row["soupis_label"] = soupis.get("popis")
-    row["dokumenty_json"] = json.dumps(detail.relevant_documents(events), ensure_ascii=False)
+    # ZADNA udalost neznamena "vec nema dokumenty" - detail veci ma bezne
+    # 100-650 radku, takze nula = stranka se nerozparsovala (ISIR vratil
+    # chybovou/udrzbovou stranku s HTTP 200, nebo se zmenilo markup). Kdybychom
+    # v tu chvili zapsali "[]", jeden takovy den by pretlacil shortlisty u vsech
+    # veci naraz. Klic proto vubec nenastavujeme -> COALESCE v upsert_case
+    # necha ulozeny seznam byt. (Soupis se takhle chova uz diky "if soupis".)
+    if events:
+        row["dokumenty_json"] = json.dumps(detail.relevant_documents(events),
+                                           ensure_ascii=False)
     return row
 
 
@@ -349,14 +357,23 @@ def refresh_case_docs(limit: Optional[int] = None, only_missing: bool = True) ->
                              soupis["doc_id"], (soupis.get("popis") or "")[:60])
 
             # Prazdny seznam ("[]") se uklada taky - je to informace "divali
-            # jsme se a nic relevantniho tam neni", ne "nevime".
-            dokumenty_json = json.dumps(dokumenty, ensure_ascii=False)
-            if dokumenty_json != (row.get("dokumenty_json") or ""):
-                sets.append("dokumenty_json=?")
-                params.append(dokumenty_json)
-                stats["dokumenty"] += 1
-                log.info("DOKUMENTY: %s | %d ks | %s", znacka, len(dokumenty),
-                         ", ".join(sorted(set(d["kategorie"] for d in dokumenty))) or "-")
+            # jsme se a nic relevantniho tam neni", ne "nevime". Ale POUZE kdyz
+            # se detail veci opravdu rozparsoval: nula udalosti u veci, ktera
+            # jich ma bezne 100-650, znamena rozbitou stranku (HTTP 200 s
+            # chybovou hlaskou, zmena markupu) - a to uz ulozeny shortlist
+            # pretlacit nesmi, jinak jeden takovy beh vymaze dokumenty u vsech.
+            if not events:
+                stats["errors"] += 1
+                log.warning("%s: detail veci nevratil zadnou udalost - shortlist "
+                            "dokumentu nechavam beze zmeny", znacka)
+            else:
+                dokumenty_json = json.dumps(dokumenty, ensure_ascii=False)
+                if dokumenty_json != (row.get("dokumenty_json") or ""):
+                    sets.append("dokumenty_json=?")
+                    params.append(dokumenty_json)
+                    stats["dokumenty"] += 1
+                    log.info("DOKUMENTY: %s | %d ks | %s", znacka, len(dokumenty),
+                             ", ".join(sorted(set(d["kategorie"] for d in dokumenty))) or "-")
 
             params.append(znacka)
             conn.execute("UPDATE cases SET %s WHERE spisova_znacka=?" % ", ".join(sets),

@@ -787,8 +787,11 @@ footer p{margin:0;font-size:11.5px;color:var(--faint);line-height:1.6}
     if(doc) lines.push("Návrh na zpeněžení (PDF): " + doc);
     lines.push("");
     lines.push("Prosím sesbírej dokumenty z tohoto spisu do jednoho dossieru.");
-    return DOSSIER_REPO + "/issues/new?labels=dossier" +
-           "&title=" + encodeURIComponent(title) +
+    /* ZADNY parametr "labels": GitHub na ?labels=<stitek, ktery v repu
+       neexistuje> vraci 404 a tlacitko by nefungovalo. Autorizaci resi
+       workflow podle autora issue (viz .github/workflows/dossier.yml). */
+    return DOSSIER_REPO + "/issues/new" +
+           "?title=" + encodeURIComponent(title) +
            "&body=" + encodeURIComponent(lines.join("\n"));
   }
   function buildDossier(o){
