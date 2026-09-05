@@ -947,14 +947,35 @@ def _normalise_llm_payload(payload, text, folded, case_meta):
     }
 
 
+# Promenne, ktere SDK potrebuje pro workload identity federation (OIDC).
+# Pouziva se napr. v GitHub Actions misto dlouhodobeho API klice.
+_WIF_VARS = ("ANTHROPIC_FEDERATION_RULE_ID", "ANTHROPIC_ORGANIZATION_ID",
+             "ANTHROPIC_SERVICE_ACCOUNT_ID")
+
+
+def _have_credentials():
+    # type: () -> bool
+    """Je k dispozici jakykoliv zpusob autentizace vuci Anthropic API?
+
+    Pozor: prazdny ANTHROPIC_API_KEY ma v SDK prednost pred federaci, takze
+    prazdnou hodnotu tu zamerne nepovazujeme za platny klic.
+    """
+    if (os.environ.get("ANTHROPIC_API_KEY") or "").strip():
+        return True
+    if (os.environ.get("ANTHROPIC_AUTH_TOKEN") or "").strip():
+        return True
+    have_token = ((os.environ.get("ANTHROPIC_IDENTITY_TOKEN_FILE") or "").strip()
+                  or (os.environ.get("ANTHROPIC_IDENTITY_TOKEN") or "").strip())
+    return bool(have_token and all((os.environ.get(v) or "").strip() for v in _WIF_VARS))
+
+
 def classify_document(text, case_meta):
     # type: (str, Dict[str, Any]) -> Dict[str, Any]
     """Hlavni vstupni bod. LLM pokud je k dispozici, jinak (a pri chybe) heuristika."""
     case_meta = case_meta or {}
     text = text or ""
 
-    api_key = os.environ.get("ANTHROPIC_API_KEY")
-    if not api_key or not text.strip():
+    if not text.strip() or not _have_credentials():
         return heuristic_classify(text, case_meta)
 
     try:
@@ -965,7 +986,9 @@ def classify_document(text, case_meta):
 
     model = os.environ.get("ISIR_MODEL") or DEFAULT_MODEL
     try:
-        client = anthropic.Anthropic(api_key=api_key)
+        # Bez argumentu: SDK si samo vybere API klic NEBO workload identity
+        # federation podle promennych prostredi.
+        client = anthropic.Anthropic()
         response = _call_api(client, model, SYSTEM_PROMPT, _build_user_message(text, case_meta))
         payload = _extract_tool_payload(response)
         if payload is None:

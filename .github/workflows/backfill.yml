@@ -56,11 +56,16 @@ jobs:
         shell: bash
         env:
           # Volitelny secret - bez nej klasifikace degraduje na heuristiku.
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          ANTHROPIC_API_KEY_SECRET: ${{ secrets.ANTHROPIC_API_KEY }}
           DATE_FROM: ${{ inputs.date_from }}
           DATE_TO: ${{ inputs.date_to }}
         run: |
-          if [ -z "${ANTHROPIC_API_KEY}" ]; then
+          # Prazdny ANTHROPIC_API_KEY ma v SDK prednost pred workload identity
+          # federation - proto ho exportujeme jen kdyz secret opravdu existuje.
+          if [ -n "${ANTHROPIC_API_KEY_SECRET}" ]; then
+            export ANTHROPIC_API_KEY="${ANTHROPIC_API_KEY_SECRET}"
+          fi
+          if [ -z "${ANTHROPIC_API_KEY_SECRET}" ]; then
             echo "::notice title=Bez LLM::ANTHROPIC_API_KEY neni nastaven - klasifikace pobezi heuristicky."
           fi
           if [ -n "${DATE_TO}" ]; then
