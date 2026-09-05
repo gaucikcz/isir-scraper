@@ -1,0 +1,143 @@
+name: ISIR historicky backfill
+
+# Dlouhy historicky beh (kap. 11 specifikace): projde ISIR od zadaneho data
+# do dneska a doplni vsechny udalosti I_347 do databaze.
+# Spousti se VYHRADNE rucne - nikdy ne planovane.
+# Tempo je omezeno primo v Pythonu (isir/http.py, REQUEST_DELAY ~ 1 pozadavek/s),
+# takze beh na nekolika letech historie trva hodiny. Proto timeout-minutes: 350
+# (limit jednoho jobu na GitHub-hosted runneru je 360 minut).
+
+on:
+  workflow_dispatch:
+    inputs:
+      date_from:
+        description: "Datum OD (YYYY-MM-DD)"
+        required: true
+        default: "2024-01-01"
+      date_to:
+        description: "Datum DO (YYYY-MM-DD) - prazdne = dnesek"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: isir-data-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: requirements.txt
+
+      - name: Systemove zavislosti (pdftotext + cesky OCR)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y poppler-utils tesseract-ocr tesseract-ocr-ces
+
+      - name: Python zavislosti
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Backfill
+        shell: bash
+        env:
+          # Volitelny secret - bez nej klasifikace degraduje na heuristiku.
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          DATE_FROM: ${{ inputs.date_from }}
+          DATE_TO: ${{ inputs.date_to }}
+        run: |
+          if [ -z "${ANTHROPIC_API_KEY}" ]; then
+            echo "::notice title=Bez LLM::ANTHROPIC_API_KEY neni nastaven - klasifikace pobezi heuristicky."
+          fi
+          if [ -n "${DATE_TO}" ]; then
+            python cli.py backfill --from "${DATE_FROM}" --to "${DATE_TO}" 2>&1 | tee run.log
+          else
+            python cli.py backfill --from "${DATE_FROM}" 2>&1 | tee run.log
+          fi
+
+      - name: Export docs/data.json
+        shell: bash
+        run: |
+          python cli.py export 2>&1 | tee -a run.log
+
+      - name: Commit vysledku
+        shell: bash
+        env:
+          DATE_FROM: ${{ inputs.date_from }}
+          DATE_TO: ${{ inputs.date_to }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          mkdir -p data
+          git add data
+          if [ -f docs/data.json ]; then
+            git add docs/data.json
+          fi
+          git diff --staged --quiet || git commit -m "ISIR: backfill ${DATE_FROM} - ${DATE_TO:-dnes}"
+          git push || (git pull --rebase --autostash && git push)
+
+      - name: Souhrn do GitHub Actions
+        if: always()
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import json, os, pathlib
+
+          def load(path):
+              try:
+                  data = json.loads(pathlib.Path(path).read_text(encoding="utf-8"))
+              except Exception:
+                  return []
+              if isinstance(data, dict):
+                  for key in ("opportunities", "prilezitosti", "items", "data"):
+                      if isinstance(data.get(key), list):
+                          return data[key]
+                  return []
+              return data if isinstance(data, list) else []
+
+          items = load("docs/data.json")
+          high = [i for i in items if isinstance(i, dict) and i.get("priorita") == "vysoka"]
+          mid = [i for i in items if isinstance(i, dict) and i.get("priorita") == "stredni"]
+          lines = [
+              "## ISIR historicky backfill",
+              "",
+              "- Rozsah: **{}** - **{}**".format(
+                  os.environ.get("FROM", "?"), os.environ.get("TO") or "dnes"),
+              "- Celkem prilezitosti v databazi: **{}**".format(len(items)),
+              "- Vysoka priorita: **{}**, stredni: **{}**".format(len(high), len(mid)),
+          ]
+          summary = os.environ.get("GITHUB_STEP_SUMMARY")
+          if summary:
+              with open(summary, "a", encoding="utf-8") as fh:
+                  fh.write("\n".join(lines) + "\n")
+          print("\n".join(lines))
+          PY
+        env:
+          FROM: ${{ inputs.date_from }}
+          TO: ${{ inputs.date_to }}
+
+      - name: Log pri selhani
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: isir-backfill-log
+          path: |
+            run.log
+            *.log
+            data/*.log
+          if-no-files-found: ignore
+          retention-days: 14

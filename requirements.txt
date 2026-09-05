@@ -1,0 +1,11 @@
+# Runtime zavislosti ISIR scraperu.
+# Cilova verze v CI je Python 3.11, kod musi jit importovat i na Pythonu 3.9.
+
+requests>=2.31,<3
+beautifulsoup4>=4.12,<5
+lxml>=4.9,<6
+
+# anthropic je VOLITELNY: pouziva se jen pro LLM klasifikaci dokumentu.
+# Bez nej (nebo bez ANTHROPIC_API_KEY) klasifikator degraduje na heuristiku
+# a v datech je "classified_by": "heuristic". Pipeline bezi dal.
+anthropic>=0.40,<2

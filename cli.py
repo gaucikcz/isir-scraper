@@ -1,0 +1,79 @@
+#!/usr/bin/env python3
+"""ISIR scraper CLI.
+
+  python cli.py daily [--days 10]
+  python cli.py backfill --from 2024-01-01 [--to 2024-12-31] [--no-resume]
+  python cli.py export
+  python cli.py search --from 2026-08-10 --to 2026-09-05   (jen vypis, nic neuklada)
+"""
+import argparse
+import logging
+import sys
+from datetime import date, timedelta
+
+from isir import config, pipeline, search
+
+
+def _date(value: str) -> date:
+    try:
+        return date.fromisoformat(value)
+    except ValueError:
+        raise argparse.ArgumentTypeError("ocekavan format RRRR-MM-DD, dostal jsem %r" % value)
+
+
+def main(argv=None) -> int:
+    parser = argparse.ArgumentParser(prog="cli.py", description="ISIR distressed-asset scraper")
+    parser.add_argument("-v", "--verbose", action="store_true")
+    sub = parser.add_subparsers(dest="command")
+
+    p_daily = sub.add_parser("daily", help="denni inkrementalni beh")
+    p_daily.add_argument("--days", type=int, default=10,
+                         help="sirka posuvneho okna ve dnech (default 10)")
+    p_daily.add_argument("--no-export", action="store_true")
+
+    p_back = sub.add_parser("backfill", help="historicky sber po 30dennich oknech")
+    p_back.add_argument("--from", dest="date_from", type=_date, required=True)
+    p_back.add_argument("--to", dest="date_to", type=_date, default=None)
+    p_back.add_argument("--no-resume", action="store_true")
+
+    sub.add_parser("export", help="regenerovat docs/data.json z databaze")
+
+    p_search = sub.add_parser("search", help="jen vypsat nalezene dluzniky (bez stahovani)")
+    p_search.add_argument("--from", dest="date_from", type=_date,
+                          default=date.today() - timedelta(days=10))
+    p_search.add_argument("--to", dest="date_to", type=_date, default=date.today())
+
+    args = parser.parse_args(argv)
+    logging.basicConfig(
+        level=logging.DEBUG if args.verbose else logging.INFO,
+        format="%(asctime)s %(levelname)-7s %(message)s",
+        datefmt="%H:%M:%S",
+    )
+    logging.getLogger("urllib3").setLevel(logging.WARNING)
+
+    if args.command == "daily":
+        stats = pipeline.run_daily(days=args.days)
+        if not args.no_export:
+            pipeline.export_json()
+        print(stats)
+    elif args.command == "backfill":
+        stats = pipeline.run_backfill(args.date_from, args.date_to,
+                                      resume=not args.no_resume)
+        pipeline.export_json()
+        print(stats)
+    elif args.command == "export":
+        print(pipeline.export_json())
+    elif args.command == "search":
+        records = search.search_window(args.date_from, args.date_to)
+        for r in records:
+            print("%-28s %-40s %s" % (r["spisova_znacka"],
+                                      (r["dluznik_jmeno"] or "")[:40], r["stav_rizeni"]))
+        print("celkem: %d" % len(records))
+    else:
+        parser.print_help()
+        return 1
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

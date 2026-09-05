@@ -1,0 +1,165 @@
+name: ISIR denni sber
+
+on:
+  schedule:
+    # GitHub Actions spousti cron VZDY v UTC.
+    # "17 4 * * *" = 04:17 UTC = 06:17 Praha v letnim case (CEST, UTC+2)
+    #                          = 05:17 Praha v zimnim case (CET, UTC+1).
+    - cron: "17 4 * * *"
+  workflow_dispatch:
+    inputs:
+      days:
+        description: "Kolik dni zpetne prohledat (vychozi 10)"
+        required: false
+        default: "10"
+
+# Workflow commituje SQLite databazi a docs/data.json zpet do repozitare.
+permissions:
+  contents: write
+
+# Dva behy (naplanovany + rucni z mobilu) nesmi commitovat do stejne vetve zaroven.
+concurrency:
+  group: isir-data-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  sber:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: requirements.txt
+
+      - name: Systemove zavislosti (pdftotext + cesky OCR)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y poppler-utils tesseract-ocr tesseract-ocr-ces
+
+      - name: Python zavislosti
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Snapshot predchoziho docs/data.json
+        run: |
+          mkdir -p /tmp/isir
+          if [ -f docs/data.json ]; then
+            cp docs/data.json /tmp/isir/data.prev.json
+          else
+            echo "[]" > /tmp/isir/data.prev.json
+          fi
+
+      - name: Denni sber (I_347)
+        shell: bash
+        env:
+          # Secret je VOLITELNY. Kdyz chybi, promenna je prazdna, klasifikator
+          # sam degraduje na heuristiku (classified_by: "heuristic").
+          # Job na tom zamerne NENI zavisly a kvuli chybejicimu klici nepadne.
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          DAYS: ${{ inputs.days || '10' }}
+        run: |
+          if [ -z "${ANTHROPIC_API_KEY}" ]; then
+            echo "::notice title=Bez LLM::ANTHROPIC_API_KEY neni nastaven - klasifikace pobezi heuristicky."
+          fi
+          python cli.py daily --days "${DAYS}" 2>&1 | tee run.log
+
+      - name: Export docs/data.json
+        shell: bash
+        run: |
+          python cli.py export 2>&1 | tee -a run.log
+
+      - name: Commit vysledku
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          mkdir -p data
+          git add data
+          if [ -f docs/data.json ]; then
+            git add docs/data.json
+          fi
+          # Commit jen kdyz se neco opravdu zmenilo.
+          git diff --staged --quiet || git commit -m "ISIR: denni sber $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push || (git pull --rebase --autostash && git push)
+
+      - name: Souhrn do GitHub Actions (viditelny v mobilni appce)
+        if: always()
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import json, os, pathlib
+
+          def load(path):
+              try:
+                  data = json.loads(pathlib.Path(path).read_text(encoding="utf-8"))
+              except Exception:
+                  return []
+              if isinstance(data, dict):
+                  for key in ("opportunities", "prilezitosti", "items", "data"):
+                      if isinstance(data.get(key), list):
+                          return data[key]
+                  return []
+              return data if isinstance(data, list) else []
+
+          def ident(item):
+              if not isinstance(item, dict):
+                  return json.dumps(item, sort_keys=True, ensure_ascii=False)
+              for key in ("id", "doc_id", "doc_url", "url"):
+                  if item.get(key):
+                      return str(item[key])
+              return "{}|{}".format(item.get("spisova_znacka"), item.get("datum"))
+
+          current = load("docs/data.json")
+          previous = load("/tmp/isir/data.prev.json")
+          seen = set(ident(item) for item in previous)
+          new = [item for item in current if ident(item) not in seen]
+
+          def high(items):
+              return [i for i in items if isinstance(i, dict) and i.get("priorita") == "vysoka"]
+
+          lines = [
+              "## ISIR denni sber",
+              "",
+              "- Nove prilezitosti v tomto behu: **{}** (z toho vysoka priorita: **{}**)".format(
+                  len(new), len(high(new))),
+              "- Celkem v databazi: **{}** (vysoka priorita celkem: **{}**)".format(
+                  len(current), len(high(current))),
+          ]
+
+          top = high(new)[:5]
+          if top:
+              lines += ["", "### Nove s vysokou prioritou", ""]
+              for item in top:
+                  dluznik = item.get("dluznik_jmeno") or item.get("dluznik") or "?"
+                  znacka = item.get("spisova_znacka") or "?"
+                  shrnuti = (item.get("shrnuti") or "").strip().replace("\n", " ")
+                  if len(shrnuti) > 160:
+                      shrnuti = shrnuti[:157] + "..."
+                  lines.append("- **{}** ({}) - {}".format(dluznik, znacka, shrnuti))
+
+          summary = os.environ.get("GITHUB_STEP_SUMMARY")
+          if summary:
+              with open(summary, "a", encoding="utf-8") as fh:
+                  fh.write("\n".join(lines) + "\n")
+          print("\n".join(lines))
+          PY
+
+      - name: Log pri selhani
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: isir-daily-log
+          path: |
+            run.log
+            *.log
+            data/*.log
+          if-no-files-found: ignore
+          retention-days: 14

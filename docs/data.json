@@ -1,0 +1,166 @@
+{
+  "placeholder": true,
+  "generated_at": "2026-09-05T06:12:00Z",
+  "window": { "from": "2026-08-06", "to": "2026-09-05" },
+  "stats": { "total": 4, "vysoka": 2, "stredni": 1, "nizka": 1, "new_7d": 2, "cases": 4 },
+  "opportunities": [
+    {
+      "doc_id": "70548460",
+      "spisova_znacka": "KSOS 37 INS 16018/2019",
+      "soud": "Krajský soud v Ostravě",
+      "dluznik_jmeno": "STEELCUT servis s.r.o.",
+      "ico": "29454999",
+      "sidlo": "Ostrava, Nádražní 100, PSČ 702 00",
+      "stav_rizeni": "Prohlášený konkurs",
+      "datum_podani": "2026-09-03",
+      "priorita": "vysoka",
+      "assets": [
+        {
+          "typ": "nemovity",
+          "popis": "Výrobní hala č.p. 1184 na pozemku parc. č. 2317/4, k.ú. Přívoz, výměra 1 940 m2",
+          "navrhovana_cena": "18400000 CZK vc. DPH",
+          "kupujici": "NEVEX REALITY a.s."
+        },
+        {
+          "typ": "nemovity",
+          "popis": "Pozemek parc. č. 2317/9, ostatní plocha, 3 118 m2, k.ú. Přívoz",
+          "navrhovana_cena": "2985400 CZK vc. DPH",
+          "kupujici": "NEVEX REALITY a.s."
+        },
+        {
+          "typ": "movity",
+          "popis": "Mostový jeřáb ABUS 8t včetně dráhy, rok výroby 2011",
+          "navrhovana_cena": "410000 CZK bez DPH",
+          "kupujici": null
+        }
+      ],
+      "spravce": {
+        "jmeno": "AMBINS v.o.s.",
+        "email": "podatelna@ambins.cz",
+        "telefon": "602 116 606",
+        "datova_schranka": "n4mu9ks"
+      },
+      "shrnuti": "Správce navrhuje prodej výrobního areálu v Ostravě-Přívoze mimo dražbu jedinému zájemci. Součástí je hala, přilehlý pozemek a jeřábová technologie.",
+      "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70548460",
+      "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=2f1c7b4e-8a30-4d21-9b77-1c0a5e3d9a11&actSheet=B&pageB=all",
+      "or_url": "https://or.justice.cz/ias/ui/rejstrik-firma.vysledky?subjektId=712345",
+      "text_source": "pdftotext",
+      "classified_by": "llm",
+      "first_seen": "2026-09-04"
+    },
+    {
+      "doc_id": "70551902",
+      "spisova_znacka": "KSBR 28 INS 4471/2024",
+      "soud": "Krajský soud v Brně",
+      "dluznik_jmeno": "Marek Vondráček",
+      "ico": null,
+      "sidlo": "Brno, Kounicova 42, PSČ 602 00",
+      "stav_rizeni": "Oddlužení plněním splátkového kalendáře",
+      "datum_podani": "2026-08-27",
+      "priorita": "vysoka",
+      "assets": [
+        {
+          "typ": "nemovity",
+          "popis": "Bytová jednotka č. 1274/9, 2+kk, 58 m2, Brno-Žabovřesky, vč. podílu na společných částech",
+          "navrhovana_cena": null,
+          "kupujici": null
+        }
+      ],
+      "spravce": {
+        "jmeno": "Mgr. Ivana Kořínková",
+        "email": "korinkova@spravce-brno.cz",
+        "telefon": "541 212 908",
+        "datova_schranka": null
+      },
+      "shrnuti": "Návrh na zpeněžení bytu v Žabovřeskách mimo dražbu. Kupní cena ani zájemce nejsou v návrhu uvedeni, správce žádá o souhlas s prodejem za nejvyšší nabídku.",
+      "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70551902",
+      "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=8b41d0aa-1f52-49c7-8e3d-77a2b6c04e58&actSheet=B&pageB=all",
+      "or_url": null,
+      "text_source": "ocr",
+      "classified_by": "llm",
+      "first_seen": "2026-08-28"
+    },
+    {
+      "doc_id": "70549771",
+      "spisova_znacka": "KSPH 66 INS 9902/2025",
+      "soud": "Krajský soud v Praze",
+      "dluznik_jmeno": "TRIMEX Tools s.r.o.",
+      "ico": "28471533",
+      "sidlo": "Kladno, Průmyslová 1233, PSČ 272 01",
+      "stav_rizeni": "Prohlášený konkurs",
+      "datum_podani": "2026-09-01",
+      "priorita": "stredni",
+      "assets": [
+        {
+          "typ": "movity",
+          "popis": "CNC obráběcí centrum DMG MORI NLX 2500, rok 2016",
+          "navrhovana_cena": "1985400 CZK vc. DPH",
+          "kupujici": "KOVOSTROJ Beroun s.r.o."
+        },
+        {
+          "typ": "movity",
+          "popis": "Skladová zásoba řezných nástrojů a příslušenství dle soupisu pol. 41–188",
+          "navrhovana_cena": "640000 CZK bez DPH",
+          "kupujici": "KOVOSTROJ Beroun s.r.o."
+        },
+        {
+          "typ": "movity",
+          "popis": "Vysokozdvižný vozík Linde H25T, 2014, nájezd 6 100 mth",
+          "navrhovana_cena": "215000 CZK vc. DPH",
+          "kupujici": null
+        }
+      ],
+      "spravce": {
+        "jmeno": "Insolvency Project v.o.s.",
+        "email": "kancelar@insolvencyproject.cz",
+        "telefon": "495 220 636",
+        "datova_schranka": "cx4yfun"
+      },
+      "shrnuti": "Zpeněžení strojního vybavení nástrojárny mimo dražbu jednomu zájemci. Klasifikováno automaticky, u položek doporučeno ověřit soupis v PDF.",
+      "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70549771",
+      "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=c07e9a15-6d84-4b0a-9a1f-3e5f8d2b7c60&actSheet=B&pageB=all",
+      "or_url": "https://or.justice.cz/ias/ui/rejstrik-firma.vysledky?subjektId=598211",
+      "text_source": "pdftotext",
+      "classified_by": "heuristic",
+      "first_seen": "2026-09-02"
+    },
+    {
+      "doc_id": "70536118",
+      "spisova_znacka": "MSPH 91 INS 2288/2023",
+      "soud": "Městský soud v Praze",
+      "dluznik_jmeno": "Bohemia Media Group a.s.",
+      "ico": "24761532",
+      "sidlo": "Praha 8, Sokolovská 651/136a, PSČ 186 00",
+      "stav_rizeni": "Prohlášený konkurs",
+      "datum_podani": "2026-08-11",
+      "priorita": "nizka",
+      "assets": [
+        {
+          "typ": "nehmotny",
+          "popis": "Soubor pohledávek za 34 dlužníky v nominální hodnotě 12 480 000 Kč",
+          "navrhovana_cena": "890000 CZK bez DPH",
+          "kupujici": "Credit Recovery Partners s.r.o."
+        },
+        {
+          "typ": "nehmotny",
+          "popis": "Ochranná známka č. 385211 „BOHEMIA MEDIA“ vč. doménových jmen",
+          "navrhovana_cena": "120000 CZK bez DPH",
+          "kupujici": null
+        }
+      ],
+      "spravce": {
+        "jmeno": "JUDr. Petr Sedláček",
+        "email": null,
+        "telefon": "222 314 077",
+        "datova_schranka": "s9j3xhb"
+      },
+      "shrnuti": "Návrh na prodej balíku pohledávek a ochranné známky mimo dražbu. Nemovitý ani movitý majetek se nezpeněžuje.",
+      "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70536118",
+      "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=45aa1e02-9c73-4f18-8d55-2b6e1a0c93df&actSheet=B&pageB=all",
+      "or_url": "https://or.justice.cz/ias/ui/rejstrik-firma.vysledky?subjektId=884120",
+      "text_source": "pdftotext",
+      "classified_by": "llm",
+      "first_seen": "2026-08-12"
+    }
+  ]
+}

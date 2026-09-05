@@ -1,0 +1,909 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f7f6f3" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0e0f11" media="(prefers-color-scheme: dark)">
+<meta name="robots" content="noindex">
+<title>ISIR — příležitosti mimo dražbu</title>
+<style>
+:root{
+  color-scheme: light dark;
+  --bg:#f7f6f3;
+  --panel:#ffffff;
+  --panel-2:#fbfaf8;
+  --ink:#16181b;
+  --muted:#5c6169;
+  --faint:#8a9099;
+  --rule:#e5e2dc;
+  --rule-strong:#d3cec6;
+  --accent:#9c3a16;
+  --accent-tint:rgba(156,58,22,.08);
+  --mid:#1f5d7a;
+  --mid-tint:rgba(31,93,122,.08);
+  --low:#6e737b;
+  --low-tint:rgba(110,115,123,.09);
+  --new-ink:#1b6b4a;
+  --new-tint:rgba(27,107,74,.10);
+  --warn-ink:#7a5411;
+  --warn-tint:#fdf3d8;
+  --warn-rule:#e8d093;
+  --shadow:0 1px 2px rgba(20,22,26,.05), 0 6px 18px rgba(20,22,26,.045);
+  --shadow-lift:0 1px 2px rgba(20,22,26,.06), 0 10px 30px rgba(20,22,26,.07);
+  --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif;
+  --serif:ui-serif,Georgia,"Iowan Old Style","Times New Roman",serif;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --bg:#0e0f11;
+    --panel:#16181b;
+    --panel-2:#1b1e22;
+    --ink:#f0eee9;
+    --muted:#a2a8b0;
+    --faint:#767c85;
+    --rule:#26292e;
+    --rule-strong:#363b42;
+    --accent:#e8875a;
+    --accent-tint:rgba(232,135,90,.12);
+    --mid:#78b8d6;
+    --mid-tint:rgba(120,184,214,.12);
+    --low:#98a0a9;
+    --low-tint:rgba(152,160,169,.12);
+    --new-ink:#5cc79c;
+    --new-tint:rgba(92,199,156,.13);
+    --warn-ink:#e9c879;
+    --warn-tint:#2a2109;
+    --warn-rule:#57451a;
+    --shadow:0 1px 2px rgba(0,0,0,.5), 0 6px 18px rgba(0,0,0,.35);
+    --shadow-lift:0 1px 2px rgba(0,0,0,.55), 0 12px 32px rgba(0,0,0,.45);
+  }
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+html,body{max-width:100%;overflow-x:hidden}
+body{
+  margin:0;
+  background:var(--bg);
+  color:var(--ink);
+  font-family:var(--sans);
+  font-size:15px;
+  line-height:1.5;
+  -webkit-font-smoothing:antialiased;
+  padding-bottom:56px;
+}
+a{color:inherit}
+button{font:inherit;color:inherit}
+.wrap{max-width:1160px;margin:0 auto;padding:0 18px}
+@media (min-width:720px){.wrap{padding:0 32px}}
+
+/* ---------- masthead ---------- */
+.masthead{border-bottom:1px solid var(--rule);padding:26px 0 20px;margin-bottom:22px}
+.kicker{
+  font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--faint);
+  display:flex;align-items:center;gap:9px;margin-bottom:12px;
+}
+.kicker::before{content:"";width:16px;height:2px;background:var(--accent);flex:0 0 auto}
+h1{
+  font-family:var(--serif);
+  font-weight:600;
+  font-size:clamp(25px,6.6vw,38px);
+  line-height:1.1;
+  letter-spacing:-.015em;
+  margin:0 0 10px;
+}
+.meta{margin:0;font-size:12.5px;color:var(--muted);font-variant-numeric:tabular-nums}
+.meta .sep{color:var(--rule-strong);padding:0 7px}
+
+/* ---------- banner ---------- */
+.banner{
+  background:var(--warn-tint);color:var(--warn-ink);
+  border:1px solid var(--warn-rule);border-radius:9px;
+  padding:11px 14px;font-size:13px;margin-bottom:22px;
+  display:flex;gap:9px;align-items:baseline;
+}
+.banner b{font-weight:650;letter-spacing:.01em}
+
+/* ---------- stats ---------- */
+.stats{
+  display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin-bottom:26px;
+}
+@media (min-width:760px){.stats{grid-template-columns:repeat(6,minmax(0,1fr));gap:10px}}
+.stat{
+  appearance:none;-webkit-appearance:none;
+  background:var(--panel);border:1px solid var(--rule);border-radius:9px;
+  padding:11px 12px 10px;min-height:66px;text-align:left;cursor:pointer;
+  display:flex;flex-direction:column;justify-content:center;gap:3px;
+  transition:border-color .12s ease, background .12s ease;
+}
+.stat[disabled]{cursor:default;background:transparent;border-style:dashed;opacity:.85}
+.stat .n{font-size:23px;font-weight:640;letter-spacing:-.02em;font-variant-numeric:tabular-nums;line-height:1}
+.stat .l{font-size:9.5px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.stat[data-k="vysoka"] .n{color:var(--accent)}
+.stat[data-k="stredni"] .n{color:var(--mid)}
+.stat[data-k="new"] .n{color:var(--new-ink)}
+.stat.on{border-color:currentColor}
+.stat.on[data-k="vse"]{background:var(--low-tint);border-color:var(--rule-strong)}
+.stat.on[data-k="vysoka"]{background:var(--accent-tint);border-color:var(--accent)}
+.stat.on[data-k="stredni"]{background:var(--mid-tint);border-color:var(--mid)}
+.stat.on[data-k="nizka"]{background:var(--low-tint);border-color:var(--rule-strong)}
+.stat.on[data-k="new"]{background:var(--new-tint);border-color:var(--new-ink)}
+
+/* ---------- controls ---------- */
+.controls{margin-bottom:30px;display:flex;flex-direction:column;gap:12px}
+.search{position:relative}
+.search input{
+  width:100%;min-height:46px;padding:12px 40px 12px 14px;
+  background:var(--panel);color:var(--ink);
+  border:1px solid var(--rule);border-radius:9px;
+  font-family:inherit;font-size:16px;
+}
+.search input::placeholder{color:var(--faint)}
+.search input:focus{outline:none;border-color:var(--rule-strong);box-shadow:0 0 0 3px var(--low-tint)}
+.search .clear{
+  position:absolute;right:5px;top:50%;transform:translateY(-50%);
+  width:36px;height:36px;border:0;background:transparent;color:var(--faint);
+  font-size:19px;line-height:1;cursor:pointer;border-radius:8px;
+}
+.chips{display:flex;flex-wrap:wrap;gap:7px}
+.chip{
+  appearance:none;-webkit-appearance:none;
+  min-height:38px;padding:8px 14px;border-radius:999px;cursor:pointer;
+  background:var(--panel);border:1px solid var(--rule);color:var(--muted);
+  font-size:13px;letter-spacing:.01em;
+  transition:border-color .12s ease, color .12s ease, background .12s ease;
+}
+.chip[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:var(--bg);font-weight:560}
+.chip.chip-alt[aria-pressed="true"]{background:var(--new-tint);border-color:var(--new-ink);color:var(--new-ink)}
+.chip.chip-quiet[aria-pressed="true"]{background:var(--low-tint);border-color:var(--rule-strong);color:var(--ink)}
+
+/* ---------- sections ---------- */
+.section{margin-bottom:38px}
+.section-head{display:flex;align-items:baseline;gap:12px;margin:0 0 14px}
+.section-head h2{
+  font-family:var(--serif);font-weight:600;font-size:19px;letter-spacing:-.01em;margin:0;
+}
+.section-head .count{
+  font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--faint);
+  font-variant-numeric:tabular-nums;white-space:nowrap;
+}
+.section-head .line{flex:1 1 auto;height:1px;background:var(--rule)}
+.section-note{font-size:12.5px;color:var(--faint);margin:-8px 0 16px}
+.grid{display:grid;grid-template-columns:1fr;gap:14px}
+@media (min-width:900px){
+  .grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+}
+
+/* ---------- card ---------- */
+.card{
+  background:var(--panel);
+  border:1px solid var(--rule);
+  border-radius:11px;
+  padding:16px;
+  box-shadow:var(--shadow);
+  overflow-wrap:anywhere;
+  display:flex;flex-direction:column;gap:12px;
+}
+.card--primary{
+  padding:19px 18px;
+  border-left:3px solid var(--accent);
+  box-shadow:var(--shadow-lift);
+}
+.card[data-status="videno"]{opacity:.72}
+.card[data-status="kontaktovano"]{border-color:var(--new-ink)}
+.card[data-status="archiv"]{opacity:.55;background:var(--panel-2)}
+.card-top{display:flex;flex-direction:column;gap:7px}
+.badges{display:flex;flex-wrap:wrap;gap:6px}
+.card h3{
+  margin:0;font-family:var(--serif);font-weight:600;letter-spacing:-.012em;line-height:1.22;
+  font-size:18px;
+}
+.card--primary h3{font-size:21px}
+.ref{font-size:12.5px;color:var(--muted);font-variant-numeric:tabular-nums}
+.ref .sep{color:var(--rule-strong);padding:0 6px}
+.factline{display:flex;flex-wrap:wrap;align-items:center;gap:8px;font-size:12.5px;color:var(--muted)}
+.factline .date{font-variant-numeric:tabular-nums;color:var(--ink);font-weight:560}
+.summary{margin:0;font-size:14px;line-height:1.55;color:var(--muted)}
+.card--primary .summary{font-size:14.5px;color:var(--ink)}
+
+/* pills & badges */
+.pill{
+  display:inline-block;font-size:10.5px;letter-spacing:.07em;text-transform:uppercase;
+  padding:3px 8px;border-radius:5px;border:1px solid var(--rule);
+  color:var(--muted);background:var(--panel-2);white-space:nowrap;font-weight:560;
+}
+.pill--new{color:var(--new-ink);background:var(--new-tint);border-color:transparent}
+.pill--warn{color:var(--warn-ink);background:var(--warn-tint);border-color:var(--warn-rule)}
+.pill--prio{border-color:transparent}
+.pill--prio[data-p="vysoka"]{color:var(--accent);background:var(--accent-tint)}
+.pill--prio[data-p="stredni"]{color:var(--mid);background:var(--mid-tint)}
+.pill--prio[data-p="nizka"]{color:var(--low);background:var(--low-tint)}
+
+/* assets */
+.assets{list-style:none;margin:0;padding:0;border-top:1px solid var(--rule)}
+.asset{
+  display:grid;grid-template-columns:auto minmax(0,1fr);gap:4px 10px;
+  padding:11px 0;border-bottom:1px solid var(--rule);align-items:start;
+}
+.asset:last-child{border-bottom:0;padding-bottom:2px}
+.asset .typ{
+  font-size:9.5px;letter-spacing:.07em;text-transform:uppercase;font-weight:600;
+  padding:3px 7px;border-radius:4px;margin-top:1px;white-space:nowrap;
+}
+.asset .typ[data-t="nemovity"]{color:var(--accent);background:var(--accent-tint)}
+.asset .typ[data-t="movity"]{color:var(--mid);background:var(--mid-tint)}
+.asset .typ[data-t="nehmotny"]{color:var(--low);background:var(--low-tint)}
+.asset .body{min-width:0;display:flex;flex-direction:column;gap:3px}
+.asset .desc{font-size:13.5px;line-height:1.45}
+.asset .price{
+  font-variant-numeric:tabular-nums;font-size:14px;font-weight:620;letter-spacing:-.01em;
+}
+.asset .price.none{font-weight:500;font-size:12.5px;color:var(--faint);font-style:italic}
+.asset .buyer{font-size:12px;color:var(--faint)}
+.asset .buyer b{font-weight:560;color:var(--muted)}
+
+/* administrator */
+.admin{
+  background:var(--panel-2);border:1px solid var(--rule);border-radius:8px;padding:11px 12px;
+  display:flex;flex-direction:column;gap:4px;
+}
+.admin .lbl{font-size:9.5px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint)}
+.admin .nm{font-size:13.5px;font-weight:600}
+.admin .rows{display:flex;flex-wrap:wrap;gap:6px 16px;margin-top:2px}
+.admin a{font-size:13px;color:var(--ink);text-decoration:none;border-bottom:1px solid var(--rule-strong);padding:2px 0;min-height:24px;display:inline-block}
+.admin .ds{font-size:12px;color:var(--faint);font-variant-numeric:tabular-nums}
+
+/* buttons */
+.btns{display:flex;flex-wrap:wrap;gap:8px}
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;
+  min-height:44px;padding:10px 15px;border-radius:8px;
+  border:1px solid var(--rule-strong);background:var(--panel);
+  font-size:13.5px;font-weight:550;text-decoration:none;color:var(--ink);
+  flex:1 1 auto;text-align:center;
+}
+.btn--primary{background:var(--ink);border-color:var(--ink);color:var(--bg)}
+@media (min-width:520px){.btn{flex:0 0 auto}}
+
+/* status segmented control */
+.status{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:6px;border-top:1px solid var(--rule);padding-top:12px}
+@media (min-width:420px){.status{grid-template-columns:repeat(4,minmax(0,1fr))}}
+.status button{
+  appearance:none;-webkit-appearance:none;
+  min-height:44px;padding:6px 4px;border-radius:7px;cursor:pointer;
+  border:1px solid var(--rule);background:var(--panel-2);color:var(--muted);
+  font-size:11.5px;letter-spacing:.02em;
+}
+.status button[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:var(--bg);font-weight:600}
+.status button[data-s="kontaktovano"][aria-pressed="true"]{background:var(--new-ink);border-color:var(--new-ink);color:var(--bg)}
+
+/* notices */
+.notice{
+  border:1px dashed var(--rule-strong);border-radius:11px;background:var(--panel-2);
+  padding:34px 22px;text-align:center;margin:12px 0 34px;
+}
+.notice h2{font-family:var(--serif);font-weight:600;font-size:18px;margin:0 0 8px}
+.notice p{margin:0;font-size:13.5px;color:var(--muted)}
+.notice .det{margin-top:10px;font-size:12px;color:var(--faint);word-break:break-word}
+
+footer{border-top:1px solid var(--rule);margin-top:10px;padding:20px 0 0}
+footer p{margin:0;font-size:11.5px;color:var(--faint);line-height:1.6}
+[hidden]{display:none !important}
+@media (prefers-reduced-motion:reduce){*{transition:none !important}}
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <div class="wrap">
+    <div class="kicker">Insolvenční rejstřík · zpeněžení mimo dražbu</div>
+    <h1>ISIR — příležitosti mimo dražbu</h1>
+    <p class="meta" id="meta">načítám…</p>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="banner" id="banner" hidden></div>
+
+  <section class="stats" id="stats" aria-label="Přehled"></section>
+
+  <section class="controls" aria-label="Filtry">
+    <div class="search">
+      <input id="q" type="search" inputmode="search" autocomplete="off" autocorrect="off" spellcheck="false"
+             placeholder="Hledat dlužníka, spisovou značku, majetek…" aria-label="Hledat">
+      <button class="clear" id="q-clear" type="button" aria-label="Vymazat hledání" hidden>&times;</button>
+    </div>
+    <div class="chips" id="chips-prio" role="group" aria-label="Priorita">
+      <button class="chip" type="button" data-p="vse" aria-pressed="true">Vše</button>
+      <button class="chip" type="button" data-p="vysoka" aria-pressed="false">Nemovitosti</button>
+      <button class="chip" type="button" data-p="stredni" aria-pressed="false">Movité</button>
+      <button class="chip" type="button" data-p="nizka" aria-pressed="false">Nehmotné</button>
+    </div>
+    <div class="chips">
+      <button class="chip chip-alt" type="button" id="t-new" aria-pressed="false">Jen nové</button>
+      <button class="chip chip-quiet" type="button" id="t-arch" aria-pressed="false">Zobrazit archiv</button>
+    </div>
+  </section>
+
+  <div id="state"></div>
+
+  <section class="section" id="sec-primary" hidden>
+    <div class="section-head">
+      <h2>Doporučené příležitosti</h2>
+      <span class="line"></span>
+      <span class="count" id="count-primary"></span>
+    </div>
+    <p class="section-note">Nemovitý majetek — pozemky, budovy, byty, haly, areály.</p>
+    <div class="grid" id="grid-primary"></div>
+  </section>
+
+  <section class="section" id="sec-secondary" hidden>
+    <div class="section-head">
+      <h2>Ostatní nálezy</h2>
+      <span class="line"></span>
+      <span class="count" id="count-secondary"></span>
+    </div>
+    <div class="grid" id="grid-secondary"></div>
+  </section>
+
+  <div id="filter-empty" hidden></div>
+
+  <footer>
+    <p id="foot"></p>
+  </footer>
+</main>
+
+<script>
+(function(){
+  "use strict";
+
+  var LS_STATUS = "isir.status.v1";
+  var LS_FILTER = "isir.filters.v1";
+  var STATUSES = ["novy","videno","kontaktovano","archiv"];
+  var STATUS_LABEL = {novy:"nový", videno:"viděno", kontaktovano:"kontaktováno", archiv:"archiv"};
+  var PRIO_LABEL = {vysoka:"vysoká", stredni:"střední", nizka:"nízká"};
+  var TYP_LABEL = {nemovity:"nemovitost", movity:"movitá věc", nehmotny:"nehmotné"};
+  var PRIO_ORDER = {vysoka:0, stredni:1, nizka:2};
+
+  /* ---------- storage (always guarded) ---------- */
+  function lsGet(key, fallback){
+    try{
+      var raw = window.localStorage.getItem(key);
+      if(!raw) return fallback;
+      var val = JSON.parse(raw);
+      return (val && typeof val === "object") ? val : fallback;
+    }catch(e){ return fallback; }
+  }
+  function lsSet(key, val){
+    try{ window.localStorage.setItem(key, JSON.stringify(val)); }catch(e){}
+  }
+
+  var statusMap = lsGet(LS_STATUS, {});
+  var saved = lsGet(LS_FILTER, {});
+  var filters = {
+    q: typeof saved.q === "string" ? saved.q : "",
+    prio: (saved.prio === "vse" || PRIO_ORDER[saved.prio] !== undefined) ? saved.prio : "vse",
+    onlyNew: saved.onlyNew === true,
+    showArchive: saved.showArchive === true
+  };
+  function saveFilters(){ lsSet(LS_FILTER, filters); }
+
+  /* ---------- helpers ---------- */
+  function el(tag, cls, text){
+    var n = document.createElement(tag);
+    if(cls) n.className = cls;
+    if(text !== undefined && text !== null && text !== "") n.textContent = String(text);
+    return n;
+  }
+  function txt(v){ return (v === undefined || v === null) ? "" : String(v); }
+  function nonEmpty(v){ return typeof v === "string" && v.trim() !== ""; }
+
+  function safeHref(u){
+    if(!nonEmpty(u)) return null;
+    try{
+      var a = document.createElement("a");
+      a.href = u.trim();
+      var p = (a.protocol || "").toLowerCase();
+      if(p === "https:" || p === "http:") return a.href;
+      return null;
+    }catch(e){ return null; }
+  }
+
+  function pad2(n){ return (n < 10 ? "0" : "") + n; }
+  function parseDay(s){
+    if(!nonEmpty(s)) return null;
+    var m = /^(\d{4})-(\d{2})-(\d{2})/.exec(s.trim());
+    if(!m) return null;
+    var d = new Date(Number(m[1]), Number(m[2]) - 1, Number(m[3]));
+    return isNaN(d.getTime()) ? null : d;
+  }
+  function fmtDay(s){
+    var d = parseDay(s);
+    if(!d) return null;
+    return d.getDate() + ". " + (d.getMonth() + 1) + ". " + d.getFullYear();
+  }
+  function fmtStamp(s){
+    if(!nonEmpty(s)) return null;
+    var d = new Date(s);
+    if(isNaN(d.getTime())) return null;
+    return d.getDate() + ". " + (d.getMonth() + 1) + ". " + d.getFullYear() + " v " + pad2(d.getHours()) + ":" + pad2(d.getMinutes());
+  }
+  function daysAgo(s){
+    var d = parseDay(s);
+    if(!d) return null;
+    var now = new Date();
+    var today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+    return Math.round((today.getTime() - d.getTime()) / 86400000);
+  }
+  function isNew(o){
+    var n = daysAgo(o && o.first_seen);
+    return n !== null && n >= 0 && n <= 7;
+  }
+  function fmtAmount(s){
+    if(!nonEmpty(s)) return null;
+    var out = String(s).trim();
+    out = out.replace(/\d{4,}/g, function(run){
+      return run.replace(/\B(?=(\d{3})+(?!\d))/g, " ");
+    });
+    out = out.replace(/\bCZK\b/g, "Kč");
+    out = out.replace(/\bvc\. DPH\b/g, "vč. DPH");
+    return out;
+  }
+  function deaccent(s){
+    var v = String(s).toLowerCase();
+    try{ v = v.normalize("NFD").replace(/[\u0300-\u036f]/g, ""); }catch(e){}
+    return v;
+  }
+
+  /* ---------- state / dom refs ---------- */
+  var dom = {
+    meta: document.getElementById("meta"),
+    banner: document.getElementById("banner"),
+    stats: document.getElementById("stats"),
+    q: document.getElementById("q"),
+    qClear: document.getElementById("q-clear"),
+    chipsPrio: document.getElementById("chips-prio"),
+    tNew: document.getElementById("t-new"),
+    tArch: document.getElementById("t-arch"),
+    state: document.getElementById("state"),
+    secPrimary: document.getElementById("sec-primary"),
+    secSecondary: document.getElementById("sec-secondary"),
+    gridPrimary: document.getElementById("grid-primary"),
+    gridSecondary: document.getElementById("grid-secondary"),
+    countPrimary: document.getElementById("count-primary"),
+    countSecondary: document.getElementById("count-secondary"),
+    filterEmpty: document.getElementById("filter-empty"),
+    foot: document.getElementById("foot")
+  };
+
+  var DATA = null;
+  var ITEMS = [];
+
+  function notice(title, body, detail){
+    var box = el("div", "notice");
+    box.appendChild(el("h2", null, title));
+    if(body) box.appendChild(el("p", null, body));
+    if(detail) box.appendChild(el("p", "det", detail));
+    return box;
+  }
+  function clear(node){ while(node.firstChild) node.removeChild(node.firstChild); }
+
+  /* ---------- card building ---------- */
+  function priorityOf(o){
+    var p = o && o.priorita;
+    return (p === "vysoka" || p === "stredni" || p === "nizka") ? p : "nizka";
+  }
+
+  function buildAssets(o, primary){
+    var list = Array.isArray(o.assets) ? o.assets : [];
+    if(!list.length) return null;
+    var ul = el("ul", "assets");
+    for(var i = 0; i < list.length; i++){
+      var a = list[i] || {};
+      var li = el("li", "asset");
+      var t = (a.typ === "nemovity" || a.typ === "movity" || a.typ === "nehmotny") ? a.typ : null;
+      var typ = el("span", "typ", t ? TYP_LABEL[t] : "majetek");
+      typ.setAttribute("data-t", t || "nehmotny");
+      li.appendChild(typ);
+
+      var body = el("div", "body");
+      if(nonEmpty(a.popis)) body.appendChild(el("span", "desc", a.popis.trim()));
+      var price = fmtAmount(a.navrhovana_cena);
+      if(price){
+        body.appendChild(el("span", "price", price));
+      }else if(primary){
+        body.appendChild(el("span", "price none", "cena neuvedena"));
+      }
+      if(nonEmpty(a.kupujici)){
+        var buyer = el("span", "buyer");
+        buyer.appendChild(el("b", null, "Kupující: "));
+        buyer.appendChild(document.createTextNode(a.kupujici.trim()));
+        body.appendChild(buyer);
+      }
+      li.appendChild(body);
+      ul.appendChild(li);
+    }
+    return ul;
+  }
+
+  function buildAdmin(o){
+    var s = (o && typeof o.spravce === "object" && o.spravce) ? o.spravce : {};
+    var hasAny = nonEmpty(s.jmeno) || nonEmpty(s.email) || nonEmpty(s.telefon) || nonEmpty(s.datova_schranka);
+    if(!hasAny) return null;
+    var box = el("div", "admin");
+    box.appendChild(el("div", "lbl", "Insolvenční správce"));
+    box.appendChild(el("div", "nm", nonEmpty(s.jmeno) ? s.jmeno.trim() : "neuveden"));
+    var rows = el("div", "rows");
+    if(nonEmpty(s.email)){
+      var m = el("a", null, s.email.trim());
+      m.href = "mailto:" + encodeURIComponent(s.email.trim()).replace(/%40/g, "@");
+      rows.appendChild(m);
+    }
+    if(nonEmpty(s.telefon)){
+      var t = el("a", null, s.telefon.trim());
+      t.href = "tel:" + s.telefon.replace(/[^\d+]/g, "");
+      rows.appendChild(t);
+    }
+    if(nonEmpty(s.datova_schranka)){
+      rows.appendChild(el("span", "ds", "DS " + s.datova_schranka.trim()));
+    }
+    if(rows.childNodes.length) box.appendChild(rows);
+    return box;
+  }
+
+  function linkBtn(url, label, primary){
+    var href = safeHref(url);
+    if(!href) return null;
+    var a = el("a", "btn" + (primary ? " btn--primary" : ""), label);
+    a.href = href;
+    a.target = "_blank";
+    a.rel = "noopener noreferrer";
+    return a;
+  }
+
+  function buildStatus(o){
+    var wrap = el("div", "status");
+    var current = statusMap[o.doc_id];
+    for(var i = 0; i < STATUSES.length; i++){
+      (function(s){
+        var b = el("button", null, STATUS_LABEL[s]);
+        b.type = "button";
+        b.setAttribute("data-s", s);
+        b.setAttribute("aria-pressed", current === s ? "true" : "false");
+        b.addEventListener("click", function(){
+          if(statusMap[o.doc_id] === s){ delete statusMap[o.doc_id]; }
+          else { statusMap[o.doc_id] = s; }
+          lsSet(LS_STATUS, statusMap);
+          render();
+        });
+        wrap.appendChild(b);
+      })(STATUSES[i]);
+    }
+    return wrap;
+  }
+
+  function buildCard(o, primary){
+    var prio = priorityOf(o);
+    var card = el("article", "card" + (primary ? " card--primary" : ""));
+    var st = statusMap[o.doc_id];
+    if(st) card.setAttribute("data-status", st);
+
+    var top = el("div", "card-top");
+    var badges = el("div", "badges");
+    var pp = el("span", "pill pill--prio", PRIO_LABEL[prio]);
+    pp.setAttribute("data-p", prio);
+    badges.appendChild(pp);
+    if(isNew(o)) badges.appendChild(el("span", "pill pill--new", "nový"));
+    if(o.classified_by === "heuristic"){
+      var w = el("span", "pill pill--warn", "auto-klasifikace");
+      w.title = "Klasifikováno bez jazykového modelu — ověřte údaje v PDF.";
+      badges.appendChild(w);
+    }
+    if(st) badges.appendChild(el("span", "pill", STATUS_LABEL[st]));
+    top.appendChild(badges);
+
+    top.appendChild(el("h3", null, nonEmpty(o.dluznik_jmeno) ? o.dluznik_jmeno.trim() : "Dlužník neuveden"));
+
+    var ref = el("div", "ref");
+    var refBits = [];
+    if(nonEmpty(o.spisova_znacka)) refBits.push(o.spisova_znacka.trim());
+    if(nonEmpty(o.soud)) refBits.push(o.soud.trim());
+    if(nonEmpty(o.ico)) refBits.push("IČO " + o.ico.trim());
+    for(var i = 0; i < refBits.length; i++){
+      if(i) ref.appendChild(el("span", "sep", "·"));
+      ref.appendChild(document.createTextNode(refBits[i]));
+    }
+    if(refBits.length) top.appendChild(ref);
+
+    var fact = el("div", "factline");
+    var d = fmtDay(o.datum_podani);
+    if(d) fact.appendChild(el("span", "date", d));
+    if(nonEmpty(o.stav_rizeni)) fact.appendChild(el("span", "pill", o.stav_rizeni.trim()));
+    if(primary && nonEmpty(o.sidlo)) fact.appendChild(el("span", null, o.sidlo.trim()));
+    if(fact.childNodes.length) top.appendChild(fact);
+    card.appendChild(top);
+
+    if(nonEmpty(o.shrnuti)) card.appendChild(el("p", "summary", o.shrnuti.trim()));
+
+    var assets = buildAssets(o, primary);
+    if(assets) card.appendChild(assets);
+
+    var admin = buildAdmin(o);
+    if(admin) card.appendChild(admin);
+
+    var btns = el("div", "btns");
+    var b1 = linkBtn(o.doc_url, "PDF návrhu", true);
+    var b2 = linkBtn(o.detail_url, "Detail v ISIR", false);
+    var b3 = linkBtn(o.or_url, "Obchodní rejstřík", false);
+    if(b1) btns.appendChild(b1);
+    if(b2) btns.appendChild(b2);
+    if(b3) btns.appendChild(b3);
+    if(btns.childNodes.length) card.appendChild(btns);
+
+    card.appendChild(buildStatus(o));
+    return card;
+  }
+
+  /* ---------- filtering ---------- */
+  function haystack(o){
+    if(o.__hay) return o.__hay;
+    var parts = [o.dluznik_jmeno, o.spisova_znacka, o.soud, o.sidlo, o.shrnuti, o.ico, o.stav_rizeni];
+    var list = Array.isArray(o.assets) ? o.assets : [];
+    for(var i = 0; i < list.length; i++){
+      var a = list[i] || {};
+      parts.push(a.popis, a.kupujici, a.navrhovana_cena);
+    }
+    var s = (o.spravce && typeof o.spravce === "object") ? o.spravce : {};
+    parts.push(s.jmeno, s.email);
+    var clean = [];
+    for(var k = 0; k < parts.length; k++){
+      var v = txt(parts[k]).trim();
+      if(v) clean.push(v);
+    }
+    o.__hay = deaccent(clean.join(" · "));
+    return o.__hay;
+  }
+
+  function passes(o){
+    var st = statusMap[o.doc_id];
+    if(st === "archiv" && !filters.showArchive) return false;
+    if(filters.prio !== "vse" && priorityOf(o) !== filters.prio) return false;
+    if(filters.onlyNew && !isNew(o)) return false;
+    var q = deaccent(filters.q).trim();
+    if(q){
+      var hay = haystack(o);
+      var toks = q.split(/\s+/);
+      for(var i = 0; i < toks.length; i++){
+        if(toks[i] && hay.indexOf(toks[i]) === -1) return false;
+      }
+    }
+    return true;
+  }
+
+  function plural(n){
+    if(n === 1) return n + " nález";
+    if(n >= 2 && n <= 4) return n + " nálezy";
+    return n + " nálezů";
+  }
+
+  function byDateDesc(a, b){
+    var da = parseDay(a.datum_podani), db = parseDay(b.datum_podani);
+    if(da && db) return db.getTime() - da.getTime();
+    if(da) return -1;
+    if(db) return 1;
+    return 0;
+  }
+  function secondarySort(a, b){
+    var pa = PRIO_ORDER[priorityOf(a)], pb = PRIO_ORDER[priorityOf(b)];
+    if(pa !== pb) return pa - pb;
+    return byDateDesc(a, b);
+  }
+
+  /* ---------- stats ---------- */
+  function computeStats(){
+    var s = (DATA && typeof DATA.stats === "object" && DATA.stats) ? DATA.stats : {};
+    var c = {total:0, vysoka:0, stredni:0, nizka:0, new_7d:0};
+    for(var i = 0; i < ITEMS.length; i++){
+      c.total++;
+      c[priorityOf(ITEMS[i])]++;
+      if(isNew(ITEMS[i])) c.new_7d++;
+    }
+    function pick(k, fb){ return (typeof s[k] === "number" && isFinite(s[k])) ? s[k] : fb; }
+    return {
+      total: pick("total", c.total),
+      vysoka: pick("vysoka", c.vysoka),
+      stredni: pick("stredni", c.stredni),
+      nizka: pick("nizka", c.nizka),
+      new_7d: pick("new_7d", c.new_7d),
+      cases: pick("cases", null)
+    };
+  }
+
+  function renderStats(){
+    var s = computeStats();
+    clear(dom.stats);
+    var tiles = [
+      {k:"vse", n:s.total, l:"celkem"},
+      {k:"vysoka", n:s.vysoka, l:"nemovité"},
+      {k:"stredni", n:s.stredni, l:"movité"},
+      {k:"nizka", n:s.nizka, l:"nehmotné"},
+      {k:"new", n:s.new_7d, l:"nové (7 dní)"},
+      {k:"cases", n:s.cases, l:"řízení"}
+    ];
+    for(var i = 0; i < tiles.length; i++){
+      (function(t){
+        if(t.n === null || t.n === undefined) return;
+        var b = el("button", "stat");
+        b.type = "button";
+        b.setAttribute("data-k", t.k);
+        b.appendChild(el("span", "n", t.n));
+        b.appendChild(el("span", "l", t.l));
+        if(t.k === "cases"){
+          b.disabled = true;
+        }else{
+          var on = (t.k === "new") ? filters.onlyNew : (filters.prio === t.k);
+          if(on) b.className = "stat on";
+          b.addEventListener("click", function(){
+            if(t.k === "new"){ filters.onlyNew = !filters.onlyNew; }
+            else { filters.prio = (filters.prio === t.k) ? "vse" : t.k; }
+            saveFilters();
+            render();
+          });
+        }
+        dom.stats.appendChild(b);
+      })(tiles[i]);
+    }
+  }
+
+  /* ---------- render ---------- */
+  function syncControls(){
+    dom.q.value = filters.q;
+    dom.qClear.hidden = !filters.q;
+    var chips = dom.chipsPrio.querySelectorAll(".chip");
+    for(var i = 0; i < chips.length; i++){
+      chips[i].setAttribute("aria-pressed", chips[i].getAttribute("data-p") === filters.prio ? "true" : "false");
+    }
+    dom.tNew.setAttribute("aria-pressed", filters.onlyNew ? "true" : "false");
+    dom.tArch.setAttribute("aria-pressed", filters.showArchive ? "true" : "false");
+  }
+
+  function render(){
+    renderStats();
+    syncControls();
+    clear(dom.gridPrimary);
+    clear(dom.gridSecondary);
+    clear(dom.filterEmpty);
+    dom.filterEmpty.hidden = true;
+
+    var primary = [], secondary = [];
+    for(var i = 0; i < ITEMS.length; i++){
+      var o = ITEMS[i];
+      if(!passes(o)) continue;
+      if(priorityOf(o) === "vysoka") primary.push(o); else secondary.push(o);
+    }
+    primary.sort(byDateDesc);
+    secondary.sort(secondarySort);
+
+    for(var a = 0; a < primary.length; a++) dom.gridPrimary.appendChild(buildCard(primary[a], true));
+    for(var b = 0; b < secondary.length; b++) dom.gridSecondary.appendChild(buildCard(secondary[b], false));
+
+    dom.secPrimary.hidden = primary.length === 0;
+    dom.secSecondary.hidden = secondary.length === 0;
+    dom.countPrimary.textContent = plural(primary.length);
+    dom.countSecondary.textContent = plural(secondary.length);
+
+    if(!primary.length && !secondary.length){
+      var archived = 0;
+      for(var k = 0; k < ITEMS.length; k++){ if(statusMap[ITEMS[k].doc_id] === "archiv") archived++; }
+      var box;
+      if(!ITEMS.length){
+        box = notice("Zatím žádné nálezy", "V sledovaném období nebyl nalezen žádný návrh na zpeněžení mimo dražbu.");
+      }else{
+        box = notice("Nic neodpovídá filtru",
+          "Zkuste vymazat hledaný text nebo přepnout prioritu na „Vše“.",
+          archived && !filters.showArchive ? ("V archivu je skryto " + archived + " položek.") : null);
+      }
+      dom.filterEmpty.appendChild(box);
+      dom.filterEmpty.hidden = false;
+    }
+  }
+
+  function renderHeader(){
+    var bits = [];
+    var stamp = fmtStamp(DATA && DATA.generated_at);
+    bits.push(stamp ? ("aktualizováno " + stamp) : "čas aktualizace neznámý");
+    var w = (DATA && typeof DATA.window === "object" && DATA.window) ? DATA.window : null;
+    if(w){
+      var from = fmtDay(w.from), to = fmtDay(w.to);
+      if(from && to) bits.push("období " + from + " – " + to);
+    }
+    clear(dom.meta);
+    for(var i = 0; i < bits.length; i++){
+      if(i) dom.meta.appendChild(el("span", "sep", "·"));
+      dom.meta.appendChild(document.createTextNode(bits[i]));
+    }
+    if(DATA && DATA.placeholder === true){
+      clear(dom.banner);
+      dom.banner.appendChild(el("b", null, "Ukázková data"));
+      dom.banner.appendChild(document.createTextNode("Zobrazený obsah je vzorový, nikoli výsledek reálného sběru z ISIR."));
+      dom.banner.hidden = false;
+    }else{
+      dom.banner.hidden = true;
+    }
+    clear(dom.foot);
+    dom.foot.appendChild(document.createTextNode("Zdroj: Insolvenční rejstřík (ISIR), Ministerstvo spravedlnosti ČR — událost I_347, návrh na vydání souhlasu se zpeněžením majetkové podstaty mimo dražbu. Přehled je orientační, rozhodující je vždy obsah listiny ve spisu. Stavy položek se ukládají jen v tomto prohlížeči."));
+  }
+
+  /* ---------- events ---------- */
+  var typeTimer = null;
+  dom.q.addEventListener("input", function(){
+    filters.q = dom.q.value || "";
+    dom.qClear.hidden = !filters.q;
+    if(typeTimer) clearTimeout(typeTimer);
+    typeTimer = setTimeout(function(){ saveFilters(); render(); }, 110);
+  });
+  dom.qClear.addEventListener("click", function(){
+    filters.q = "";
+    dom.q.value = "";
+    saveFilters();
+    render();
+    dom.q.focus();
+  });
+  dom.chipsPrio.addEventListener("click", function(ev){
+    var t = ev.target;
+    while(t && t !== dom.chipsPrio && !t.getAttribute) t = t.parentNode;
+    if(!t || !t.getAttribute || !t.getAttribute("data-p")) return;
+    filters.prio = t.getAttribute("data-p");
+    saveFilters();
+    render();
+  });
+  dom.tNew.addEventListener("click", function(){
+    filters.onlyNew = !filters.onlyNew;
+    saveFilters();
+    render();
+  });
+  dom.tArch.addEventListener("click", function(){
+    filters.showArchive = !filters.showArchive;
+    saveFilters();
+    render();
+  });
+
+  /* ---------- boot ---------- */
+  function fail(title, body, detail){
+    clear(dom.state);
+    dom.state.appendChild(notice(title, body, detail));
+    dom.secPrimary.hidden = true;
+    dom.secSecondary.hidden = true;
+    dom.meta.textContent = "data se nepodařilo načíst";
+  }
+
+  clear(dom.state);
+  dom.state.appendChild(notice("Načítám data…", "Stahuji přehled příležitostí."));
+
+  fetch("./data.json", {cache: "no-store"})
+    .then(function(res){
+      if(!res.ok) throw new Error("Server odpověděl " + res.status + " " + (res.statusText || ""));
+      return res.text();
+    })
+    .then(function(body){
+      var parsed;
+      try{ parsed = JSON.parse(body); }
+      catch(e){ throw new Error("Soubor data.json není platný JSON."); }
+      DATA = (parsed && typeof parsed === "object") ? parsed : {};
+      ITEMS = Array.isArray(DATA.opportunities) ? DATA.opportunities.filter(function(o){
+        return o && typeof o === "object" && nonEmpty(o.doc_id);
+      }) : [];
+      clear(dom.state);
+      renderHeader();
+      render();
+    })
+    .catch(function(err){
+      fail("Data se nepodařilo načíst",
+           "Soubor data.json chybí nebo se nepodařilo stáhnout. Zkuste stránku načíst znovu, případně počkejte na ranní aktualizaci.",
+           err && err.message ? String(err.message) : null);
+    });
+})();
+</script>
+</body>
+</html>
