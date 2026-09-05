@@ -7,21 +7,17 @@ Měřeno 2026-09-05 nad 33 skutečnými PDF v `data/pdf/`. **Bez jediného volá
 
 ---
 
-## 1. Nesrovnalost, kterou je nutné zmínit hned na začátku
-
-Zadání mluví o 103 příležitostech, z toho 76 heuristických a 27 klasifikovaných LLM.
-**V repozitáři to tak není.** Skutečný stav:
+## 1. Stav databáze, ze kterého se počítá
 
 | Zdroj | Počet záznamů | `classified_by='llm'` | `classified_by='heuristic'` |
 |---|---:|---:|---:|
-| `data/isir.sqlite3`, tabulka `opportunities` | 74 | **0** | 74 |
-| `docs/data.json` (okno 2026-08-06 – 2026-09-04) | 74 | **0** | 74 |
+| `data/isir.sqlite3`, tabulka `opportunities` | 103 | **27** | **76** |
+| `docs/data.json` (okno 2026-07-22 – 2026-09-04) | 103 | 27 | 76 |
 | `docs/data.sample.json` (ukázková data v repu) | 4 | 3 | 1 |
 
-V databázi ani v exportu **není jediný záznam klasifikovaný LLM**. Běh 27 dokumentů
-proto nelze změřit ze skutečných dat — po žádném takovém běhu tu nezůstala stopa.
-Číslo pro 27 a 76 dokumentů níže uvádím tak, jak bylo zadáno (jako násobek ceny za
-jeden dokument), a vedle toho i číslo pro **74 dokumentů, což je skutečný obsah DB**.
+Sedí to se zadáním: 103 příležitostí, z toho 76 heuristických (ty čekají na
+překlasifikaci) a 27 už klasifikovaných LLM. Ceny níže proto počítám pro 76, 27
+a 103 dokumentů.
 
 ---
 
@@ -49,16 +45,23 @@ Vstupní tokeny na jeden dokument (fixní režie + zpráva), odhad pro Claude:
 | průměr (včetně dlouhých) | 6 258 | **7 200 – 8 400** |
 | maximum (oříznutý dokument) | 14 096 | 16 200 – 19 000 |
 
-**Fixní režie (system + tool schema) je 27 % průměrného vstupu** (medián 28 %, u
+**Fixní režie (system + tool schema) je 22 % průměrného vstupu** (medián 28 %, u
 nejkratších dokumentů až 90 %). To je jediná položka, kterou by mělo smysl cachovat
 nebo zkrátit, kdyby objem výrazně narostl — viz sekce 5.
 
 Výstup: model vrací jeden blok `tool_use` (assets + spravce + shrnuti). Změřeno na
-skutečných uložených výsledcích serializovaných do stejného JSONu, jaký by model
-odeslal: 3 ukázkové LLM řádky 216–358 tokenů (cl100k), 74 heuristických řádků
-136–586 tokenů. Odhad pro Claude: **250 – 370 tokenů**. Strop `MAX_TOKENS = 2000` se
-ani zdaleka nevyužije. Kód posílá `thinking: {"type": "disabled"}`, které Sonnet 5
-přijímá, takže se neplatí žádné thinking tokeny.
+všech **27 skutečných LLM výsledcích** v databázi, serializovaných do stejného JSONu,
+jaký model odeslal: 349–3 076 znaků (medián 658, průměr 945), tedy při naměřených
+2,30 znaku na token zhruba 152–1 337 tokenů cl100k (medián 286, průměr 411). Odhad
+pro Claude: **330 – 390 tokenů u mediánového dokumentu, 470 – 555 u průměrného** —
+průměr nahoru táhnou dlouhé návrhy s mnoha položkami. Strop `MAX_TOKENS = 2000` zatím
+nepadl, ale rezerva je jen ~10 %: nejdelší z těch 27 odpovědí vychází na horní
+hranici odhadu na ~1 800 tokenů. Kdyby ho návrh s opravdu dlouhým soupisem
+překročil, blok `tool_use` se ořízne, `classify_document()` chybu spolkne a tiše
+spadne zpátky na heuristiku — stálo by to peníze a vrátilo horší výsledek.
+
+Kód posílá `thinking: {"type": "disabled"}`, které Sonnet 5 přijímá, takže se
+neplatí žádné thinking tokeny.
 
 ---
 
@@ -66,22 +69,22 @@ přijímá, takže se neplatí žádné thinking tokeny.
 
 | Položka | USD | CZK (à 21) |
 |---|---:|---:|
-| **Typický (mediánový) dokument** | **$0,014 – $0,017** | **0,30 – 0,36 Kč** |
-| **Průměrný dokument** (včetně dlouhých) | **$0,017 – $0,021** | **0,36 – 0,43 Kč** |
-| Nejdražší možný dokument (oříznutý na 24k) |  $0,035 – $0,042 | 0,74 – 0,88 Kč |
-| Běh 27 dokumentů | $0,47 – $0,56 | 10 – 12 Kč |
-| Překlasifikace 76 dokumentů | $1,31 – $1,56 | 27 – 33 Kč |
-| Překlasifikace 74 dokumentů *(skutečný stav DB)* | $1,27 – $1,52 | 27 – 32 Kč |
-| Vše dohromady (103 dokumentů) | $1,77 – $2,12 | 37 – 44 Kč |
-| **Ustálený provoz, 3 podání/den** | **$0,052 – $0,062 / den** | **1,1 – 1,3 Kč / den** |
-| **Ustálený provoz, měsíčně (~91 dokumentů)** | **$1,57 – $1,88** | **33 – 39 Kč** |
-| Ustálený provoz, ročně (~1 095 dokumentů) | $19 – $23 | 400 – 470 Kč |
+| **Typický (mediánový) dokument** | **$0,015 – $0,017** | **0,31 – 0,36 Kč** |
+| **Průměrný dokument** (včetně dlouhých) | **$0,019 – $0,022** | **0,40 – 0,47 Kč** |
+| Nejdražší možná kombinace (vstup oříznutý na 24k + nejdelší viděný výstup) | $0,048 – $0,056 | 1,0 – 1,2 Kč |
+| Běh 27 dokumentů *(ty už LLM klasifikoval)* | $0,52 – $0,60 | 11 – 13 Kč |
+| **Překlasifikace 76 heuristických dokumentů** | **$1,45 – $1,70** | **30 – 36 Kč** |
+| Vše dohromady (103 dokumentů) | $1,97 – $2,30 | 41 – 48 Kč |
+| **Ustálený provoz, 3 podání/den** | **$0,057 – $0,067 / den** | **1,2 – 1,4 Kč / den** |
+| **Ustálený provoz, měsíčně (~91 dokumentů)** | **$1,74 – $2,03** | **36 – 43 Kč** |
+| Ustálený provoz, ročně (~1 095 dokumentů) | $21 – $24 | 440 – 515 Kč |
 
-Pro rychlý odhad: **zhruba 2 US centy, tedy ~0,40 Kč za dokument.**
+Pro rychlý odhad: **zhruba 2 US centy, tedy ~0,45 Kč za dokument.**
 
-Malá korekce směrem dolů: 2 z 33 PDF nevydají žádný text, `classify_document()` je
-pošle rovnou do heuristiky a **nestojí nic**. Na dávku dokumentů tedy platíte zhruba
-94 % výše uvedeného.
+Žádnou slevu za dokumenty bez textu tu nepočítám: 2 z 33 PDF sice lokálně nevydala
+žádný text (`classify_document()` je pošle rovnou do heuristiky a nestojí nic), ale
+jen proto, že tady chybí `tesseract`. V CI se OCR nainstaluje a proběhne, takže tyhle
+dokumenty reálné peníze stát budou — viz sekce 6.
 
 ---
 
@@ -109,10 +112,14 @@ každý dokument je samostatné jednorázové volání s jinou uživatelskou zpr
 
 Doplnění oproti zadání: minimální cachovatelný prefix je u Sonnetu 5 **1024 tokenů** a
 naše fixní část (system + tool schema) má odhadem 1 600–1 900 tokenů, takže na hranici
-technicky **dosáhne** — cachovat by šlo. Ekonomicky to ale zatím nemá smysl: ušetřilo
-by to zhruba **16 % ceny jednoho volání**, což je při 3 dokumentech denně asi
-**6 Kč měsíčně**. Za tu úsporu nestojí zásah do kódu. Kdyby objem vzrostl o řád, je to
-první věc, kterou udělat (fixní režie je 27 % vstupu).
+technicky **dosáhne** — cachovat by šlo. Ekonomicky to ale zatím nemá smysl, a to i po
+započtení toho, co se často zapomíná: **zápis do cache stojí 1,25× cenu vstupu, čtení
+0,1×, a výchozí životnost záznamu je 5 minut.** Kdyby se z cache četlo pokaždé, byl by
+strop úspory ~15 % ceny volání. Při 3 dokumentech denně (jeden denní běh je zpracuje
+hned za sebou, do 5 minut) ale jedno volání cache zapisuje a jen dvě z ní čtou, takže
+reálná úspora vychází na **~9 %**, tj. asi **3 – 4 Kč měsíčně**. Za to nestojí zásah do
+kódu. Kdyby objem vzrostl o řád, je to první věc, kterou udělat (fixní režie je 22 %
+vstupu).
 
 ---
 
@@ -127,10 +134,16 @@ první věc, kterou udělat (fixní režie je 27 % vstupu).
 
 **Odhadované (může se lišit, u vstupu odhaduji chybu do ±20 %):**
 - Převod znaků na tokeny. Tokenizér Claude je jiný než tiktoken a nemám ho lokálně.
-- Velikost výstupu skutečného modelu. Odvozena z uložených výsledků a 3 ukázkových
-  LLM řádků, ne z reálných hlaviček `usage` z API.
-- Předpoklad 3 nových podání denně — vzatý ze zadání, ne z dat. Za posledních 30 dní
-  přibylo 74 příležitostí, tj. **~2,5 denně**, což ten předpoklad zhruba potvrzuje.
+- **Vstup a výstup jsou měřené na dvou různých skupinách dokumentů.** Z PDF ležících
+  v `data/pdf/` nepatří ani jedno k některému z 27 LLM řádků — ty klasifikovalo CI a
+  jejich PDF se sem nikdy nestáhla (`data/pdf/` je v `.gitignore`). Průnik je nulový,
+  takže žádný řádek v sekci 3 není cena jednoho konkrétního doběhlého volání: je to
+  průměrný vstup jedné skupiny dokumentů spárovaný s průměrným výstupem druhé.
+- Velikost výstupu skutečného modelu. Odvozena z 27 uložených LLM výsledků, ne
+  z reálných hlaviček `usage` z API.
+- Předpoklad 3 nových podání denně — vzatý ze zadání, ne z dat. Databáze pokrývá
+  2026-07-22 – 2026-09-04, tedy 45 dní a 103 příležitostí = **~2,3 denně**; řádky
+  „ustálený provoz" jsou proto spíš horní odhad.
 
 **Známé zkreslení směrem dolů:** lokálně chybí `tesseract`, takže dvě naskenovaná PDF
 tady nevydala text. V CI (`.github/workflows/*.yml`) se instaluje

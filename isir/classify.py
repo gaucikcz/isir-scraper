@@ -40,7 +40,11 @@ LOG = logging.getLogger(__name__)
 
 DEFAULT_MODEL = "claude-sonnet-5"
 MAX_INPUT_CHARS = 24000          # posilame HEAD dokumentu (hlavicka + popis majetku)
-MAX_TOKENS = 2000
+# Strop na delku odpovedi. Nejdelsi realne pozorovany vystup ma ~1 230 tokenu,
+# ale spis s desitkami polozek muze byt vyrazne delsi. Uriznuty blok tool_use
+# spadne na heuristiku - zaplatis volani a dostanes horsi vysledek - a protoze
+# se plati jen za skutecne vygenerovane tokeny, vyssi strop nic nestoji.
+MAX_TOKENS = 4000
 RETRY_SLEEP_SECONDS = 5.0
 TOOL_NAME = "zapis_prilezitosti"
 

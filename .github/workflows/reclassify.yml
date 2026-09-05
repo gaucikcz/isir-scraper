@@ -134,7 +134,10 @@ jobs:
           try:
               log = pathlib.Path("run.log").read_text(encoding="utf-8", errors="replace")
               upgraded = len(re.findall(r"PREKLASIFIKOVANO:", log))
-              tail = [l for l in log.splitlines() if l.strip().startswith("{")]
+              # Posledni "{...}" radek v logu patri kroku export - statistiku
+              # preklasifikace pozname podle klice 'candidates'.
+              tail = [l for l in log.splitlines()
+                      if l.strip().startswith("{") and "'candidates'" in l]
               stats_line = tail[-1] if tail else ""
           except Exception:
               stats_line = ""
