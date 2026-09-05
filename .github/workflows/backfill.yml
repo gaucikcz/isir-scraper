@@ -69,12 +69,17 @@ jobs:
             python cli.py backfill --from "${DATE_FROM}" 2>&1 | tee run.log
           fi
 
+      # KLICOVE pro backfill: pri timeout-minutes: 350 job GitHub zrusi a bez
+      # always() by se necommitla ani databaze, ani data/backfill_state.json,
+      # takze dalsi spusteni by zacalo od nuly a hodiny stahovani by se ztratily.
       - name: Export docs/data.json
+        if: always()
         shell: bash
         run: |
           python cli.py export 2>&1 | tee -a run.log
 
       - name: Commit vysledku
+        if: always()
         shell: bash
         env:
           DATE_FROM: ${{ inputs.date_from }}

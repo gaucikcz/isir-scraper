@@ -7,6 +7,12 @@ venv/
 # Stazene PDF jsou jen cache, ne zdroj pravdy (zdroj je SQLite + docs/data.json)
 data/pdf/
 
+# Docasne SQLite soubory (WAL rezim). Workflow dela "git add data", takze bez
+# tohoto by se pri tvrdem ukonceni behu commitl i rozpracovany -wal/-shm.
+data/*.sqlite3-wal
+data/*.sqlite3-shm
+data/*.sqlite3-journal
+
 # Logy a lokalni konfigurace
 *.log
 .env

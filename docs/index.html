@@ -177,22 +177,23 @@ h1{
 
 /* ---------- card ---------- */
 .card{
-  background:var(--panel);
+  background:var(--panel-2);
   border:1px solid var(--rule);
   border-radius:11px;
   padding:16px;
-  box-shadow:var(--shadow);
   overflow-wrap:anywhere;
   display:flex;flex-direction:column;gap:12px;
 }
 .card--primary{
+  background:var(--panel);
   padding:19px 18px;
   border-left:3px solid var(--accent);
   box-shadow:var(--shadow-lift);
 }
+.card--primary .admin{background:var(--panel-2)}
 .card[data-status="videno"]{opacity:.72}
 .card[data-status="kontaktovano"]{border-color:var(--new-ink)}
-.card[data-status="archiv"]{opacity:.55;background:var(--panel-2)}
+.card[data-status="archiv"]{opacity:.5}
 .card-top{display:flex;flex-direction:column;gap:7px}
 .badges{display:flex;flex-wrap:wrap;gap:6px}
 .card h3{
@@ -245,7 +246,7 @@ h1{
 
 /* administrator */
 .admin{
-  background:var(--panel-2);border:1px solid var(--rule);border-radius:8px;padding:11px 12px;
+  background:var(--panel);border:1px solid var(--rule);border-radius:8px;padding:11px 12px;
   display:flex;flex-direction:column;gap:4px;
 }
 .admin .lbl{font-size:9.5px;letter-spacing:.11em;text-transform:uppercase;color:var(--faint)}
@@ -297,7 +298,7 @@ footer p{margin:0;font-size:11.5px;color:var(--faint);line-height:1.6}
 
 <header class="masthead">
   <div class="wrap">
-    <div class="kicker">Insolvenční rejstřík · zpeněžení mimo dražbu</div>
+    <div class="kicker">Insolvenční rejstřík · událost I_347</div>
     <h1>ISIR — příležitosti mimo dražbu</h1>
     <p class="meta" id="meta">načítám…</p>
   </div>
@@ -444,7 +445,7 @@ footer p{margin:0;font-size:11.5px;color:var(--faint);line-height:1.6}
     if(!nonEmpty(s)) return null;
     var out = String(s).trim();
     out = out.replace(/\d{4,}/g, function(run){
-      return run.replace(/\B(?=(\d{3})+(?!\d))/g, " ");
+      return run.replace(/\B(?=(\d{3})+(?!\d))/g, "\u00a0");
     });
     out = out.replace(/\bCZK\b/g, "Kč");
     out = out.replace(/\bvc\. DPH\b/g, "vč. DPH");
@@ -798,7 +799,7 @@ footer p{margin:0;font-size:11.5px;color:var(--faint);line-height:1.6}
       for(var k = 0; k < ITEMS.length; k++){ if(statusMap[ITEMS[k].doc_id] === "archiv") archived++; }
       var box;
       if(!ITEMS.length){
-        box = notice("Zatím žádné nálezy", "V sledovaném období nebyl nalezen žádný návrh na zpeněžení mimo dražbu.");
+        box = notice("Zatím žádné nálezy", "Ve sledovaném období nebyl nalezen žádný návrh na zpeněžení mimo dražbu.");
       }else{
         box = notice("Nic neodpovídá filtru",
           "Zkuste vymazat hledaný text nebo přepnout prioritu na „Vše“.",

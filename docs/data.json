@@ -1,166 +1,903 @@
 {
-  "placeholder": true,
-  "generated_at": "2026-09-05T06:12:00Z",
-  "window": { "from": "2026-08-06", "to": "2026-09-05" },
-  "stats": { "total": 4, "vysoka": 2, "stredni": 1, "nizka": 1, "new_7d": 2, "cases": 4 },
-  "opportunities": [
+ "generated_at": "2026-09-05T10:10:58+00:00",
+ "window": {
+  "from": "2026-08-25",
+  "to": "2026-09-04"
+ },
+ "stats": {
+  "total": 29,
+  "vysoka": 10,
+  "stredni": 6,
+  "nizka": 13,
+  "new_7d": 29,
+  "cases": 26
+ },
+ "opportunities": [
+  {
+   "doc_id": "70719380",
+   "spisova_znacka": "KSUL 79 INS 3716/2026",
+   "soud": "Krajského soudu v Ústí nad Labem",
+   "dluznik_jmeno": "HP fast s.r.o.",
+   "ico": "27354083",
+   "sidlo": "Ústí nad Labem, Kořenského 905/4, PSČ 400 03",
+   "stav_rizeni": "Prohlášený konkurs",
+   "datum_podani": "2026-09-04",
+   "priorita": "nizka",
+   "assets": [],
+   "spravce": {
+    "jmeno": null,
+    "email": null,
+    "telefon": null,
+    "datova_schranka": null
+   },
+   "shrnuti": "Dokument se nepodarilo automaticky rozklicovat - otevri PDF navrhu a posud rucne.",
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70719380",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=4B77D8EECD4AE229E06333F21FAC1C6A&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=27354083&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "heuristic",
+   "first_seen": "2026-09-05"
+  },
+  {
+   "doc_id": "70716981",
+   "spisova_znacka": "KSPH 80 INS 759/2026",
+   "soud": "Krajského soudu v Praze",
+   "dluznik_jmeno": "Thein Digital s.r.o.",
+   "ico": "60779420",
+   "sidlo": "Ostrava - Mariánské Hory, Novoveská 2056/5i, PSČ 709 00, Okres Ostrava-město",
+   "stav_rizeni": "Prohlášený konkurs",
+   "datum_podani": "2026-09-04",
+   "priorita": "stredni",
+   "assets": [
     {
-      "doc_id": "70548460",
-      "spisova_znacka": "KSOS 37 INS 16018/2019",
-      "soud": "Krajský soud v Ostravě",
-      "dluznik_jmeno": "STEELCUT servis s.r.o.",
-      "ico": "29454999",
-      "sidlo": "Ostrava, Nádražní 100, PSČ 702 00",
-      "stav_rizeni": "Prohlášený konkurs",
-      "datum_podani": "2026-09-03",
-      "priorita": "vysoka",
-      "assets": [
-        {
-          "typ": "nemovity",
-          "popis": "Výrobní hala č.p. 1184 na pozemku parc. č. 2317/4, k.ú. Přívoz, výměra 1 940 m2",
-          "navrhovana_cena": "18400000 CZK vc. DPH",
-          "kupujici": "NEVEX REALITY a.s."
-        },
-        {
-          "typ": "nemovity",
-          "popis": "Pozemek parc. č. 2317/9, ostatní plocha, 3 118 m2, k.ú. Přívoz",
-          "navrhovana_cena": "2985400 CZK vc. DPH",
-          "kupujici": "NEVEX REALITY a.s."
-        },
-        {
-          "typ": "movity",
-          "popis": "Mostový jeřáb ABUS 8t včetně dráhy, rok výroby 2011",
-          "navrhovana_cena": "410000 CZK bez DPH",
-          "kupujici": null
-        }
-      ],
-      "spravce": {
-        "jmeno": "AMBINS v.o.s.",
-        "email": "podatelna@ambins.cz",
-        "telefon": "602 116 606",
-        "datova_schranka": "n4mu9ks"
-      },
-      "shrnuti": "Správce navrhuje prodej výrobního areálu v Ostravě-Přívoze mimo dražbu jedinému zájemci. Součástí je hala, přilehlý pozemek a jeřábová technologie.",
-      "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70548460",
-      "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=2f1c7b4e-8a30-4d21-9b77-1c0a5e3d9a11&actSheet=B&pageB=all",
-      "or_url": "https://or.justice.cz/ias/ui/rejstrik-firma.vysledky?subjektId=712345",
-      "text_source": "pdftotext",
-      "classified_by": "llm",
-      "first_seen": "2026-09-04"
-    },
-    {
-      "doc_id": "70551902",
-      "spisova_znacka": "KSBR 28 INS 4471/2024",
-      "soud": "Krajský soud v Brně",
-      "dluznik_jmeno": "Marek Vondráček",
-      "ico": null,
-      "sidlo": "Brno, Kounicova 42, PSČ 602 00",
-      "stav_rizeni": "Oddlužení plněním splátkového kalendáře",
-      "datum_podani": "2026-08-27",
-      "priorita": "vysoka",
-      "assets": [
-        {
-          "typ": "nemovity",
-          "popis": "Bytová jednotka č. 1274/9, 2+kk, 58 m2, Brno-Žabovřesky, vč. podílu na společných částech",
-          "navrhovana_cena": null,
-          "kupujici": null
-        }
-      ],
-      "spravce": {
-        "jmeno": "Mgr. Ivana Kořínková",
-        "email": "korinkova@spravce-brno.cz",
-        "telefon": "541 212 908",
-        "datova_schranka": null
-      },
-      "shrnuti": "Návrh na zpeněžení bytu v Žabovřeskách mimo dražbu. Kupní cena ani zájemce nejsou v návrhu uvedeni, správce žádá o souhlas s prodejem za nejvyšší nabídku.",
-      "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70551902",
-      "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=8b41d0aa-1f52-49c7-8e3d-77a2b6c04e58&actSheet=B&pageB=all",
-      "or_url": null,
-      "text_source": "ocr",
-      "classified_by": "llm",
-      "first_seen": "2026-08-28"
-    },
-    {
-      "doc_id": "70549771",
-      "spisova_znacka": "KSPH 66 INS 9902/2025",
-      "soud": "Krajský soud v Praze",
-      "dluznik_jmeno": "TRIMEX Tools s.r.o.",
-      "ico": "28471533",
-      "sidlo": "Kladno, Průmyslová 1233, PSČ 272 01",
-      "stav_rizeni": "Prohlášený konkurs",
-      "datum_podani": "2026-09-01",
-      "priorita": "stredni",
-      "assets": [
-        {
-          "typ": "movity",
-          "popis": "CNC obráběcí centrum DMG MORI NLX 2500, rok 2016",
-          "navrhovana_cena": "1985400 CZK vc. DPH",
-          "kupujici": "KOVOSTROJ Beroun s.r.o."
-        },
-        {
-          "typ": "movity",
-          "popis": "Skladová zásoba řezných nástrojů a příslušenství dle soupisu pol. 41–188",
-          "navrhovana_cena": "640000 CZK bez DPH",
-          "kupujici": "KOVOSTROJ Beroun s.r.o."
-        },
-        {
-          "typ": "movity",
-          "popis": "Vysokozdvižný vozík Linde H25T, 2014, nájezd 6 100 mth",
-          "navrhovana_cena": "215000 CZK vc. DPH",
-          "kupujici": null
-        }
-      ],
-      "spravce": {
-        "jmeno": "Insolvency Project v.o.s.",
-        "email": "kancelar@insolvencyproject.cz",
-        "telefon": "495 220 636",
-        "datova_schranka": "cx4yfun"
-      },
-      "shrnuti": "Zpeněžení strojního vybavení nástrojárny mimo dražbu jednomu zájemci. Klasifikováno automaticky, u položek doporučeno ověřit soupis v PDF.",
-      "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70549771",
-      "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=c07e9a15-6d84-4b0a-9a1f-3e5f8d2b7c60&actSheet=B&pageB=all",
-      "or_url": "https://or.justice.cz/ias/ui/rejstrik-firma.vysledky?subjektId=598211",
-      "text_source": "pdftotext",
-      "classified_by": "heuristic",
-      "first_seen": "2026-09-02"
-    },
-    {
-      "doc_id": "70536118",
-      "spisova_znacka": "MSPH 91 INS 2288/2023",
-      "soud": "Městský soud v Praze",
-      "dluznik_jmeno": "Bohemia Media Group a.s.",
-      "ico": "24761532",
-      "sidlo": "Praha 8, Sokolovská 651/136a, PSČ 186 00",
-      "stav_rizeni": "Prohlášený konkurs",
-      "datum_podani": "2026-08-11",
-      "priorita": "nizka",
-      "assets": [
-        {
-          "typ": "nehmotny",
-          "popis": "Soubor pohledávek za 34 dlužníky v nominální hodnotě 12 480 000 Kč",
-          "navrhovana_cena": "890000 CZK bez DPH",
-          "kupujici": "Credit Recovery Partners s.r.o."
-        },
-        {
-          "typ": "nehmotny",
-          "popis": "Ochranná známka č. 385211 „BOHEMIA MEDIA“ vč. doménových jmen",
-          "navrhovana_cena": "120000 CZK bez DPH",
-          "kupujici": null
-        }
-      ],
-      "spravce": {
-        "jmeno": "JUDr. Petr Sedláček",
-        "email": null,
-        "telefon": "222 314 077",
-        "datova_schranka": "s9j3xhb"
-      },
-      "shrnuti": "Návrh na prodej balíku pohledávek a ochranné známky mimo dražbu. Nemovitý ani movitý majetek se nezpeněžuje.",
-      "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70536118",
-      "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=45aa1e02-9c73-4f18-8d55-2b6e1a0c93df&actSheet=B&pageB=all",
-      "or_url": "https://or.justice.cz/ias/ui/rejstrik-firma.vysledky?subjektId=884120",
-      "text_source": "pdftotext",
-      "classified_by": "llm",
-      "first_seen": "2026-08-12"
+     "typ": "movity",
+     "popis": "– osobní automobil Škoda Superb, RZ VIN: , barva: černá – metal",
+     "navrhovana_cena": null,
+     "kupujici": null
     }
-  ]
+   ],
+   "spravce": {
+    "jmeno": null,
+    "email": null,
+    "telefon": null,
+    "datova_schranka": null
+   },
+   "shrnuti": "Spravce podal navrh na zpenezeni mimo drazbu: movity majetek. Klasifikovano heuristicky - overit v dokumentu.",
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70716981",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=487D9CC80485B038E06333F21FAC3FAA&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=60779420&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "heuristic",
+   "first_seen": "2026-09-05"
+  },
+  {
+   "doc_id": "70723653",
+   "spisova_znacka": "KSOS 39 INS 4208/2025",
+   "soud": "Krajského soudu v Ostravě",
+   "dluznik_jmeno": "Michal Groborz",
+   "ico": null,
+   "sidlo": "Karviná, Fryštátská 72/1, PSČ 733 01, Okres Karviná",
+   "stav_rizeni": "Povoleno oddlužení",
+   "datum_podani": "2026-09-04",
+   "priorita": "vysoka",
+   "assets": [
+    {
+     "typ": "nemovity",
+     "popis": "Insolvenční správce navrhuje zpeněžení nemovitosti na základě § 286 odst. 1 písm. c) insolvenčního",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "movity",
+     "popis": "Groborz Michal (dále jen „dlužník“)",
+     "navrhovana_cena": null,
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "AS ZIZLAVSKY v.o.s.",
+    "email": "oddluzeni@zizlavsky.cz",
+    "telefon": "224 947 055",
+    "datova_schranka": null
+   },
+   "shrnuti": "Spravce podal navrh na zpenezeni mimo drazbu: nemovity majetek, movity majetek. Klasifikovano heuristicky - overit v dokumentu.",
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70723653",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=2E8CBA9B8F49F223E06333F21FAC6E6E&actSheet=B&pageB=all",
+   "or_url": null,
+   "text_source": "pdftotext",
+   "classified_by": "heuristic",
+   "first_seen": "2026-09-05"
+  },
+  {
+   "doc_id": "70720216",
+   "spisova_znacka": "MSPH 92 INS 6014/2024",
+   "soud": "Městského soudu v Praze",
+   "dluznik_jmeno": "Ing. Stanislav Kužela",
+   "ico": "47505052",
+   "sidlo": "Praha 2, Moravská 924/6, PSČ 120 00, Okres Hlavní město Praha",
+   "stav_rizeni": "Prohlášený konkurs",
+   "datum_podani": "2026-09-04",
+   "priorita": "vysoka",
+   "assets": [
+    {
+     "typ": "nemovity",
+     "popis": "Nemovitosti, zahrnuté do majetkové podstaty dlužníka pod č. 1:",
+     "navrhovana_cena": "18000000 CZK",
+     "kupujici": null
+    },
+    {
+     "typ": "nehmotny",
+     "popis": "Právního zástupce věřitelů, kteří přihlásili své pohledávky jako zajištěné výše uvedeným majetkem,",
+     "navrhovana_cena": null,
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "insolvenční správce a likvidátor",
+    "email": "knypl@sterlingsro.cz",
+    "telefon": "602 665 047",
+    "datova_schranka": null
+   },
+   "shrnuti": "Spravce podal navrh na zpenezeni mimo drazbu: nemovity majetek, nehmotny majetek. Navrhovana cena 18000000 CZK. Klasifikovano heuristicky - overit v dokumentu.",
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70720216",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=13EA15E35055AEC6E06333F21FAC5869&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=47505052&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "heuristic",
+   "first_seen": "2026-09-05"
+  },
+  {
+   "doc_id": "70703281",
+   "spisova_znacka": "KSPH 84 INS 4381/2026",
+   "soud": "Krajského soudu v Praze",
+   "dluznik_jmeno": "Františka Pirklová",
+   "ico": "14379031",
+   "sidlo": "Zdice, Husova 53, PSČ 267 51, Okres Beroun",
+   "stav_rizeni": "Povoleno oddlužení",
+   "datum_podani": "2026-09-03",
+   "priorita": "vysoka",
+   "assets": [
+    {
+     "typ": "nemovity",
+     "popis": "- pozemek parc. č. st. 40 - zastavěná plocha a nádvoří (zbořeniště) a pozemek parc. č. 122 -",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "movity",
+     "popis": "souhlasu k prodeji movitého majetku nacházejícího se v majetkové podstatě dlužníka přímým",
+     "navrhovana_cena": null,
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "AKKRM insolvence, v.o.s.",
+    "email": "insolvence@akkrm.cz",
+    "telefon": null,
+    "datova_schranka": "zgaj8mz"
+   },
+   "shrnuti": "Spravce podal navrh na zpenezeni mimo drazbu: nemovity majetek, movity majetek. Klasifikovano heuristicky - overit v dokumentu.",
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70703281",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=4C2CDE823BB85B46E06333F21FAC7A14&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=14379031&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "heuristic",
+   "first_seen": "2026-09-05"
+  },
+  {
+   "doc_id": "70709102",
+   "spisova_znacka": "KSCB 44 INS 304/2024",
+   "soud": "Krajského soudu v Českých Budějovicích",
+   "dluznik_jmeno": "Milan Hána",
+   "ico": "00919403",
+   "sidlo": "České Budějovice, Sokolovská 1349/5, PSČ 370 06",
+   "stav_rizeni": "Povoleno oddlužení",
+   "datum_podani": "2026-09-03",
+   "priorita": "nizka",
+   "assets": [],
+   "spravce": {
+    "jmeno": null,
+    "email": null,
+    "telefon": null,
+    "datova_schranka": null
+   },
+   "shrnuti": "Dokument se nepodarilo automaticky rozklicovat - otevri PDF navrhu a posud rucne.",
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70709102",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=0C727DD110A0F583E06333F21FACBE7E&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=00919403&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "heuristic",
+   "first_seen": "2026-09-05"
+  },
+  {
+   "doc_id": "70711058",
+   "spisova_znacka": "MSPH 93 INS 5988/2021",
+   "soud": "Městského soudu v Praze",
+   "dluznik_jmeno": "Tomáš Baumgartner",
+   "ico": null,
+   "sidlo": "Praha 3, Havlíčkovo náměstí 700/9, PSČ 130 00",
+   "stav_rizeni": "Povoleno oddlužení",
+   "datum_podani": "2026-09-03",
+   "priorita": "stredni",
+   "assets": [
+    {
+     "typ": "movity",
+     "popis": "x\u0003 Osobní automobil Škoda Octavia, registrační značka 2SI 2864, VIN TMBBS61Z982207246, datum",
+     "navrhovana_cena": null,
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "Správce uskuteční prodej za následujících podmínek:",
+    "email": null,
+    "telefon": "982 207 246",
+    "datova_schranka": null
+   },
+   "shrnuti": "Spravce podal navrh na zpenezeni mimo drazbu: movity majetek. Klasifikovano heuristicky - overit v dokumentu.",
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70711058",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=BD502DFDE4102256E05333F21FACE4E5&actSheet=B&pageB=all",
+   "or_url": null,
+   "text_source": "pdftotext",
+   "classified_by": "heuristic",
+   "first_seen": "2026-09-05"
+  },
+  {
+   "doc_id": "70691177",
+   "spisova_znacka": "KSOS 14 INS 22006/2025",
+   "soud": "Krajského soudu v Ostravě",
+   "dluznik_jmeno": "Jana Gocieková",
+   "ico": null,
+   "sidlo": "Třanovice, Třanovice 174, PSČ 739 53, Okres Frýdek-Místek",
+   "stav_rizeni": "Povoleno oddlužení",
+   "datum_podani": "2026-09-02",
+   "priorita": "nizka",
+   "assets": [],
+   "spravce": {
+    "jmeno": null,
+    "email": null,
+    "telefon": null,
+    "datova_schranka": null
+   },
+   "shrnuti": "Dokument se nepodarilo automaticky rozklicovat - otevri PDF navrhu a posud rucne.",
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70691177",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=3F0D551E1230E9BDE06333F21FACD6F7&actSheet=B&pageB=all",
+   "or_url": null,
+   "text_source": "pdftotext",
+   "classified_by": "heuristic",
+   "first_seen": "2026-09-05"
+  },
+  {
+   "doc_id": "70685604",
+   "spisova_znacka": "KSCB 28 INS 20274/2025",
+   "soud": "Krajského soudu v Českých Budějovicích",
+   "dluznik_jmeno": "Ladislav Městka",
+   "ico": "22573542",
+   "sidlo": "Dvory, Dvory 31, PSČ 383 01",
+   "stav_rizeni": "Prohlášený konkurs",
+   "datum_podani": "2026-09-02",
+   "priorita": "vysoka",
+   "assets": [
+    {
+     "typ": "nemovity",
+     "popis": "b) Nepřetržitá fyzická ostraha uzavřeného areálu, v němž se nachází parkovací plocha,",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "movity",
+     "popis": "číslo karoserie (VIN): LCELDSZN7M6000365",
+     "navrhovana_cena": null,
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "Ing. Jakub Harvan",
+    "email": "harvan@insolvenceharvan.cz",
+    "telefon": null,
+    "datova_schranka": null
+   },
+   "shrnuti": "Spravce podal navrh na zpenezeni mimo drazbu: nemovity majetek, movity majetek. Klasifikovano heuristicky - overit v dokumentu.",
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70685604",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=3F0C94E4C46EE9D0E06333F21FAC62F2&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=22573542&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "heuristic",
+   "first_seen": "2026-09-05"
+  },
+  {
+   "doc_id": "70681657",
+   "spisova_znacka": "KSPH 61 INS 15829/2025",
+   "soud": "Krajského soudu v Praze",
+   "dluznik_jmeno": "Veronika Jakubec",
+   "ico": null,
+   "sidlo": "Pardubice, Perštýnské nám. 1, PSČ 530 02, Okres Pardubice",
+   "stav_rizeni": "Povoleno oddlužení",
+   "datum_podani": "2026-09-02",
+   "priorita": "stredni",
+   "assets": [
+    {
+     "typ": "movity",
+     "popis": "AUDI A4, VIN: , RZ: , první registrace",
+     "navrhovana_cena": null,
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "Funkci věřitelského orgánu vykonává ve smyslu § 61 odst. 2 insolvenční soud",
+    "email": "info@aiccs.cz",
+    "telefon": "222 755 661",
+    "datova_schranka": null
+   },
+   "shrnuti": "Spravce podal navrh na zpenezeni mimo drazbu: movity majetek. Klasifikovano heuristicky - overit v dokumentu.",
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70681657",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=58FAE8E0D017D672E06333F21FAC508B&actSheet=B&pageB=all",
+   "or_url": null,
+   "text_source": "pdftotext",
+   "classified_by": "heuristic",
+   "first_seen": "2026-09-05"
+  },
+  {
+   "doc_id": "70691032",
+   "spisova_znacka": "KSUL 74 INS 17988/2024",
+   "soud": "Krajského soudu v Ústí nad Labem",
+   "dluznik_jmeno": "Alena Horálková",
+   "ico": "62783033",
+   "sidlo": "Děčín, Lipová 678/8, PSČ 405 02",
+   "stav_rizeni": "Povoleno oddlužení",
+   "datum_podani": "2026-09-02",
+   "priorita": "nizka",
+   "assets": [],
+   "spravce": {
+    "jmeno": null,
+    "email": null,
+    "telefon": null,
+    "datova_schranka": null
+   },
+   "shrnuti": "Dokument se nepodarilo automaticky rozklicovat - otevri PDF navrhu a posud rucne.",
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70691032",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=250F33A86907D0FEE06333F21FAC07E9&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=62783033&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "heuristic",
+   "first_seen": "2026-09-05"
+  },
+  {
+   "doc_id": "70689261",
+   "spisova_znacka": "KSHK 70 INS 3842/2024",
+   "soud": "Krajského soudu v Hradci Králové",
+   "dluznik_jmeno": "Gabriela Pajurková",
+   "ico": "88539857",
+   "sidlo": "Hradec Králové, Karla Tomana 42, PSČ 500 03, Okres Hradec Králové",
+   "stav_rizeni": "Povoleno oddlužení",
+   "datum_podani": "2026-09-02",
+   "priorita": "stredni",
+   "assets": [
+    {
+     "typ": "movity",
+     "popis": "kuchyňského koutu spolu s vybavením rodinné domácnosti v obvyklé ceně ve výši",
+     "navrhovana_cena": null,
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "AS ZIZLAVSKY v.o.s.",
+    "email": "oddluzeni@zizlavsky.cz",
+    "telefon": "224 947 055",
+    "datova_schranka": null
+   },
+   "shrnuti": "Spravce podal navrh na zpenezeni mimo drazbu: movity majetek. Klasifikovano heuristicky - overit v dokumentu.",
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70689261",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=0D13B163E7A58DDBE06333F21FAC86C6&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=88539857&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "heuristic",
+   "first_seen": "2026-09-05"
+  },
+  {
+   "doc_id": "70660067",
+   "spisova_znacka": "MSPH 90 INS 20504/2025",
+   "soud": "Městského soudu v Praze",
+   "dluznik_jmeno": "ILUVATAR Consulting s.r.o.",
+   "ico": "28498526",
+   "sidlo": "Praha 5, náměstí 14.října 642/17, PSČ 150 00",
+   "stav_rizeni": "Prohlášený konkurs",
+   "datum_podani": "2026-08-31",
+   "priorita": "nizka",
+   "assets": [],
+   "spravce": {
+    "jmeno": null,
+    "email": null,
+    "telefon": null,
+    "datova_schranka": null
+   },
+   "shrnuti": "Dokument se nepodarilo automaticky rozklicovat - otevri PDF navrhu a posud rucne.",
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70660067",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=41A8C8CAB140E9ADE06333F21FACE3B0&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=28498526&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "heuristic",
+   "first_seen": "2026-09-05"
+  },
+  {
+   "doc_id": "70660222",
+   "spisova_znacka": "KSOL 41 INS 20251/2021",
+   "soud": "Krajského soudu v Ostravě - pobočka v Olomouci",
+   "dluznik_jmeno": "Lucie Hrušková",
+   "ico": "87795124",
+   "sidlo": "Hranice, Na Hrázi 1731, PSČ 753 01, Okres Přerov",
+   "stav_rizeni": "Prohlášený konkurs",
+   "datum_podani": "2026-08-31",
+   "priorita": "vysoka",
+   "assets": [
+    {
+     "typ": "nemovity",
+     "popis": "o pozemek parc. č. 45, 122 m2 - zastavěná plocha a nádvoří;",
+     "navrhovana_cena": null,
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "Praha 1 (dále jen „insolvenční správce“)",
+    "email": null,
+    "telefon": null,
+    "datova_schranka": null
+   },
+   "shrnuti": "Spravce podal navrh na zpenezeni mimo drazbu: nemovity majetek. Klasifikovano heuristicky - overit v dokumentu.",
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70660222",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=CFDBEEE343BE201BE05333F21FACC0FE&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=87795124&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "heuristic",
+   "first_seen": "2026-09-05"
+  },
+  {
+   "doc_id": "70649313",
+   "spisova_znacka": "KSPH 72 INS 6318/2026",
+   "soud": "Krajského soudu v Praze",
+   "dluznik_jmeno": "Mastodont Baits s.r.o.",
+   "ico": "04651758",
+   "sidlo": "Kostomlátky, 5. května 41, PSČ 289 21, Okres Nymburk",
+   "stav_rizeni": "Prohlášený konkurs",
+   "datum_podani": "2026-08-28",
+   "priorita": "nizka",
+   "assets": [],
+   "spravce": {
+    "jmeno": null,
+    "email": null,
+    "telefon": null,
+    "datova_schranka": null
+   },
+   "shrnuti": "Dokument se nepodarilo automaticky rozklicovat - otevri PDF navrhu a posud rucne.",
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70649313",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=4DFF53DCD8B2AB66E06333F21FACFDF2&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=04651758&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "heuristic",
+   "first_seen": "2026-09-05"
+  },
+  {
+   "doc_id": "70645772",
+   "spisova_znacka": "KSLB 86 INS 1613/2023",
+   "soud": "Krajského soudu v Ústí nad Labem - pobočka v Liberci",
+   "dluznik_jmeno": "Kristýna Černá",
+   "ico": null,
+   "sidlo": "Svor, Svor 88, PSČ 471 51",
+   "stav_rizeni": "Povoleno oddlužení",
+   "datum_podani": "2026-08-28",
+   "priorita": "nizka",
+   "assets": [],
+   "spravce": {
+    "jmeno": null,
+    "email": null,
+    "telefon": null,
+    "datova_schranka": null
+   },
+   "shrnuti": "Dokument se nepodarilo automaticky rozklicovat - otevri PDF navrhu a posud rucne.",
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70645772",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=F21F6BB7348FDE06E05333F21FAC66C4&actSheet=B&pageB=all",
+   "or_url": null,
+   "text_source": "pdftotext",
+   "classified_by": "heuristic",
+   "first_seen": "2026-09-05"
+  },
+  {
+   "doc_id": "70644832",
+   "spisova_znacka": "KSOS 40 INS 20333/2021",
+   "soud": "Krajského soudu v Ostravě",
+   "dluznik_jmeno": "Bronislava Faranová",
+   "ico": null,
+   "sidlo": "Košařiska, Košařiska 56, PSČ 739 81, Okres Frýdek-Místek",
+   "stav_rizeni": "Povoleno oddlužení",
+   "datum_podani": "2026-08-28",
+   "priorita": "vysoka",
+   "assets": [
+    {
+     "typ": "nemovity",
+     "popis": "- ideální podíl ve výši 96/1584 na pozemkové parcele č. 778/1 (lesní pozemek), vše zapsáno na",
+     "navrhovana_cena": "250000 CZK",
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "Za VPI CZ v.o.s.",
+    "email": null,
+    "telefon": null,
+    "datova_schranka": null
+   },
+   "shrnuti": "Spravce podal navrh na zpenezeni mimo drazbu: nemovity majetek. Navrhovana cena 250000 CZK. Klasifikovano heuristicky - overit v dokumentu.",
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70644832",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=CFDC8B5B5BB9206FE05333F21FAC09E2&actSheet=B&pageB=all",
+   "or_url": null,
+   "text_source": "pdftotext",
+   "classified_by": "heuristic",
+   "first_seen": "2026-09-05"
+  },
+  {
+   "doc_id": "70644770",
+   "spisova_znacka": "KSOS 40 INS 20333/2021",
+   "soud": "Krajského soudu v Ostravě",
+   "dluznik_jmeno": "Bronislava Faranová",
+   "ico": null,
+   "sidlo": "Košařiska, Košařiska 56, PSČ 739 81, Okres Frýdek-Místek",
+   "stav_rizeni": "Povoleno oddlužení",
+   "datum_podani": "2026-08-28",
+   "priorita": "vysoka",
+   "assets": [
+    {
+     "typ": "nemovity",
+     "popis": "- pozemkové parcely č. 23/2, č. 25/1 a č.1652/2 , vše zapsáno na LV č. 97, k.ú.",
+     "navrhovana_cena": "185000 CZK",
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "Za VPI CZ v.o.s.",
+    "email": null,
+    "telefon": null,
+    "datova_schranka": null
+   },
+   "shrnuti": "Spravce podal navrh na zpenezeni mimo drazbu: nemovity majetek. Navrhovana cena 185000 CZK. Klasifikovano heuristicky - overit v dokumentu.",
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70644770",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=CFDC8B5B5BB9206FE05333F21FAC09E2&actSheet=B&pageB=all",
+   "or_url": null,
+   "text_source": "pdftotext",
+   "classified_by": "heuristic",
+   "first_seen": "2026-09-05"
+  },
+  {
+   "doc_id": "70638323",
+   "spisova_znacka": "KSHK 35 INS 6416/2026",
+   "soud": "Krajského soudu v Hradci Králové",
+   "dluznik_jmeno": "NATECH Truck s.r.o.",
+   "ico": "27547701",
+   "sidlo": "Nový Bydžov, Dr. J. Ezopa 1667, PSČ 504 01, Okres Hradec Králové",
+   "stav_rizeni": "Prohlášený konkurs",
+   "datum_podani": "2026-08-27",
+   "priorita": "nizka",
+   "assets": [],
+   "spravce": {
+    "jmeno": null,
+    "email": null,
+    "telefon": null,
+    "datova_schranka": null
+   },
+   "shrnuti": "Dokument se nepodarilo automaticky rozklicovat - otevri PDF navrhu a posud rucne.",
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70638323",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=4CE1B451F10727B5E06333F21FACD116&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=27547701&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "none",
+   "classified_by": "heuristic",
+   "first_seen": "2026-09-05"
+  },
+  {
+   "doc_id": "70630073",
+   "spisova_znacka": "KSUL 70 INS 22711/2025",
+   "soud": "Krajského soudu v Ústí nad Labem",
+   "dluznik_jmeno": "Bc. Sára Hájková",
+   "ico": "22473793",
+   "sidlo": "Mariánské Radčice, V zahradách 129, PSČ 435 32",
+   "stav_rizeni": "Povoleno oddlužení",
+   "datum_podani": "2026-08-27",
+   "priorita": "nizka",
+   "assets": [],
+   "spravce": {
+    "jmeno": null,
+    "email": null,
+    "telefon": null,
+    "datova_schranka": null
+   },
+   "shrnuti": "Dokument se nepodarilo automaticky rozklicovat - otevri PDF navrhu a posud rucne.",
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70630073",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=44E2945725F6D38AE06333F21FACC3F6&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=22473793&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "heuristic",
+   "first_seen": "2026-09-05"
+  },
+  {
+   "doc_id": "70628301",
+   "spisova_znacka": "KSPH 61 INS 13341/2024",
+   "soud": "Krajského soudu v Praze",
+   "dluznik_jmeno": "Ing. Jaroslav Veverka MBA",
+   "ico": null,
+   "sidlo": "Roztoky, Nad Vltavou 2167, PSČ 252 63, Okres Praha-západ",
+   "stav_rizeni": "Prohlášený konkurs",
+   "datum_podani": "2026-08-27",
+   "priorita": "nizka",
+   "assets": [
+    {
+     "typ": "nehmotny",
+     "popis": "x akcie TRINITY BANK a.s. v počtu 21 ks, NAV na ks 1.390,- Kč, zaknihované a veřejně",
+     "navrhovana_cena": "29190 CZK",
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "Mgr. Jan Drozd <drozd@dkak.cz>",
+    "email": "drozd@dkak.cz",
+    "telefon": null,
+    "datova_schranka": null
+   },
+   "shrnuti": "Spravce podal navrh na zpenezeni mimo drazbu: nehmotny majetek. Navrhovana cena 29190 CZK. Klasifikovano heuristicky - overit v dokumentu.",
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70628301",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=2149E9046063D036E06333F21FACB471&actSheet=B&pageB=all",
+   "or_url": null,
+   "text_source": "pdftotext",
+   "classified_by": "heuristic",
+   "first_seen": "2026-09-05"
+  },
+  {
+   "doc_id": "70635929",
+   "spisova_znacka": "KSOS 40 INS 20333/2021",
+   "soud": "Krajského soudu v Ostravě",
+   "dluznik_jmeno": "Bronislava Faranová",
+   "ico": null,
+   "sidlo": "Košařiska, Košařiska 56, PSČ 739 81, Okres Frýdek-Místek",
+   "stav_rizeni": "Povoleno oddlužení",
+   "datum_podani": "2026-08-27",
+   "priorita": "vysoka",
+   "assets": [
+    {
+     "typ": "nemovity",
+     "popis": "- pozemkové parcely č. 23/2, č. 25/1 a č.1652/2 , vše zapsáno na LV č. 97, k.ú.",
+     "navrhovana_cena": "185000 CZK",
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "Za VPI CZ v.o.s.",
+    "email": null,
+    "telefon": null,
+    "datova_schranka": null
+   },
+   "shrnuti": "Spravce podal navrh na zpenezeni mimo drazbu: nemovity majetek. Navrhovana cena 185000 CZK. Klasifikovano heuristicky - overit v dokumentu.",
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70635929",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=CFDC8B5B5BB9206FE05333F21FAC09E2&actSheet=B&pageB=all",
+   "or_url": null,
+   "text_source": "pdftotext",
+   "classified_by": "heuristic",
+   "first_seen": "2026-09-05"
+  },
+  {
+   "doc_id": "70621585",
+   "spisova_znacka": "KSUL 71 INS 4047/2026",
+   "soud": "Krajského soudu v Ústí nad Labem",
+   "dluznik_jmeno": "SEVEROČESKÁ PAPÍRNA, s.r.o.",
+   "ico": "27132277",
+   "sidlo": "Novosedlice, Bystřická 29, PSČ 417 31",
+   "stav_rizeni": "Prohlášený konkurs",
+   "datum_podani": "2026-08-26",
+   "priorita": "vysoka",
+   "assets": [
+    {
+     "typ": "nemovity",
+     "popis": "insolvenčního správce, dlužníka a zástupce vlastníka areálu, v němž se majetek nachází.",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "movity",
+     "popis": "56 Nářadí (vrtáky, vruty, kladiva, nože, přísl. soustruhů) 10 000 Kč 5 000 Kč 2 500 Kč",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "nehmotny",
+     "popis": "76, která tvoří předmět zajištění pohledávky zajištěného věřitele č. 74, Jenica Corporation a.s.",
+     "navrhovana_cena": null,
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": null,
+    "email": "info@abilora.cz",
+    "telefon": null,
+    "datova_schranka": null
+   },
+   "shrnuti": "Spravce podal navrh na zpenezeni mimo drazbu: nemovity majetek, movity majetek, nehmotny majetek. Klasifikovano heuristicky - overit v dokumentu.",
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70621585",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=4C2CDE8238F05B46E06333F21FAC7A14&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=27132277&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "heuristic",
+   "first_seen": "2026-09-05"
+  },
+  {
+   "doc_id": "70623690",
+   "spisova_znacka": "KSHK 35 INS 1344/2026",
+   "soud": "Krajského soudu v Hradci Králové",
+   "dluznik_jmeno": "Jan Blahut",
+   "ico": "17794161",
+   "sidlo": "Vinary, Smidarská Lhota 20, PSČ 503 53, Okres Hradec Králové",
+   "stav_rizeni": "Prohlášený konkurs",
+   "datum_podani": "2026-08-26",
+   "priorita": "nizka",
+   "assets": [],
+   "spravce": {
+    "jmeno": null,
+    "email": null,
+    "telefon": null,
+    "datova_schranka": null
+   },
+   "shrnuti": "Dokument se nepodarilo automaticky rozklicovat - otevri PDF navrhu a posud rucne.",
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70623690",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=483F25F0116C0023E06333F21FAC8DD0&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=17794161&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "heuristic",
+   "first_seen": "2026-09-05"
+  },
+  {
+   "doc_id": "70623607",
+   "spisova_znacka": "KSHK 35 INS 1344/2026",
+   "soud": "Krajského soudu v Hradci Králové",
+   "dluznik_jmeno": "Jan Blahut",
+   "ico": "17794161",
+   "sidlo": "Vinary, Smidarská Lhota 20, PSČ 503 53, Okres Hradec Králové",
+   "stav_rizeni": "Prohlášený konkurs",
+   "datum_podani": "2026-08-26",
+   "priorita": "nizka",
+   "assets": [],
+   "spravce": {
+    "jmeno": null,
+    "email": null,
+    "telefon": null,
+    "datova_schranka": null
+   },
+   "shrnuti": "Dokument se nepodarilo automaticky rozklicovat - otevri PDF navrhu a posud rucne.",
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70623607",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=483F25F0116C0023E06333F21FAC8DD0&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=17794161&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "heuristic",
+   "first_seen": "2026-09-05"
+  },
+  {
+   "doc_id": "70618576",
+   "spisova_znacka": "KSPH 74 INS 3568/2025",
+   "soud": "Krajského soudu v Praze",
+   "dluznik_jmeno": "Jakub Růžička",
+   "ico": null,
+   "sidlo": "Herink, Ve Stráni 381, PSČ 251 70, Okres Praha-východ",
+   "stav_rizeni": "Prohlášený konkurs",
+   "datum_podani": "2026-08-26",
+   "priorita": "stredni",
+   "assets": [
+    {
+     "typ": "movity",
+     "popis": "Insolvenční správce k dnešnímu dni sepsal do majetkové podstaty dlužníka další movité věci,",
+     "navrhovana_cena": null,
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "Insolvenční správce:",
+    "email": null,
+    "telefon": null,
+    "datova_schranka": null
+   },
+   "shrnuti": "Spravce podal navrh na zpenezeni mimo drazbu: movity majetek. Klasifikovano heuristicky - overit v dokumentu.",
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70618576",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=2E8D1E30BEBFF1BCE06333F21FAC9734&actSheet=B&pageB=all",
+   "or_url": null,
+   "text_source": "pdftotext",
+   "classified_by": "heuristic",
+   "first_seen": "2026-09-05"
+  },
+  {
+   "doc_id": "70620244",
+   "spisova_znacka": "KSUL 63 INS 16103/2024",
+   "soud": "Krajského soudu v Ústí nad Labem",
+   "dluznik_jmeno": "STEBAL Spedition, s.r.o.",
+   "ico": "25036114",
+   "sidlo": "Dubí, Horská 302, PSČ 417 02",
+   "stav_rizeni": "Prohlášený konkurs",
+   "datum_podani": "2026-08-26",
+   "priorita": "nizka",
+   "assets": [],
+   "spravce": {
+    "jmeno": null,
+    "email": null,
+    "telefon": null,
+    "datova_schranka": null
+   },
+   "shrnuti": "Dokument se nepodarilo automaticky rozklicovat - otevri PDF navrhu a posud rucne.",
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70620244",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=2272B601662A3AA8E06333F21FAC5121&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=25036114&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "heuristic",
+   "first_seen": "2026-09-05"
+  },
+  {
+   "doc_id": "70616374",
+   "spisova_znacka": "KSOL 10 INS 5607/2024",
+   "soud": "Krajského soudu v Ostravě - pobočka v Olomouci",
+   "dluznik_jmeno": "Jiří Klimeš",
+   "ico": null,
+   "sidlo": "Šlapanice, Hybešova 1203/2, PSČ 664 51, Okres Brno-venkov",
+   "stav_rizeni": "Povoleno oddlužení",
+   "datum_podani": "2026-08-26",
+   "priorita": "vysoka",
+   "assets": [
+    {
+     "typ": "nemovity",
+     "popis": "x pozemek parc. č. 1032 – zastavěná plocha a nádvoří o výměře 314 m², přičemž",
+     "navrhovana_cena": "6500000 CZK",
+     "kupujici": null
+    },
+    {
+     "typ": "movity",
+     "popis": "skutečnost, že pozemek leží v rovině.",
+     "navrhovana_cena": null,
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "Mgr. Vladimír Nožka",
+    "email": "nozkaspravce@seznam.cz",
+    "telefon": "465 391 403",
+    "datova_schranka": null
+   },
+   "shrnuti": "Spravce podal navrh na zpenezeni mimo drazbu: nemovity majetek, movity majetek. Navrhovana cena 6500000 CZK. Klasifikovano heuristicky - overit v dokumentu.",
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70616374",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=13E9C9F5C20CAE4DE06333F21FACB2EC&actSheet=B&pageB=all",
+   "or_url": null,
+   "text_source": "pdftotext",
+   "classified_by": "heuristic",
+   "first_seen": "2026-09-05"
+  },
+  {
+   "doc_id": "70606340",
+   "spisova_znacka": "MSPH 92 INS 3986/2026",
+   "soud": "Městského soudu v Praze",
+   "dluznik_jmeno": "E.Mi - International s.r.o.",
+   "ico": "24214647",
+   "sidlo": "Praha 3, U božích bojovníků 89/1, PSČ 130 00, Okres Hlavní město Praha",
+   "stav_rizeni": "Prohlášený konkurs",
+   "datum_podani": "2026-08-25",
+   "priorita": "stredni",
+   "assets": [
+    {
+     "typ": "movity",
+     "popis": "osobní automobil Volkswagen Kombi, bílá barva, RZ 3AX9486, VIN .",
+     "navrhovana_cena": "92600 CZK",
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "E.Mi - International s.r.o.",
+    "email": "filip.punda@centrum.cz",
+    "telefon": "384 391 776",
+    "datova_schranka": null
+   },
+   "shrnuti": "Spravce podal navrh na zpenezeni mimo drazbu: movity majetek. Navrhovana cena 92600 CZK. Klasifikovano heuristicky - overit v dokumentu.",
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70606340",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=4C2CEE8C6FC95B4CE06333F21FACA8BD&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=24214647&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "heuristic",
+   "first_seen": "2026-09-05"
+  }
+ ]
 }

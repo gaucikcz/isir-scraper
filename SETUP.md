@@ -1,6 +1,6 @@
 # Nastaveni repozitare (jednorazove, ~10 minut)
 
-Kroky delej v tomto poradi. Body 1, 2 a 4 jsou povinne, bez nich to nepobezi.
+Kroky delej v tomto poradi. Body 1 a 2 jsou povinne, bez nich to nepobezi.
 
 ---
 
@@ -69,10 +69,13 @@ Klic muzes doplnit kdykoli pozdeji, dalsi beh uz pojede s LLM.
 
 ---
 
-## 4. Prava pro zapis (POVINNE)
+## 4. Prava pro zapis (jen kdyz push spadne)
 
-Workflow commituje databazi a `docs/data.json` zpet do repozitare. Bez tohoto nastaveni
-kazdy denni beh spadne na chybe pri `git push`.
+Workflow commituje databazi a `docs/data.json` zpet do repozitare a pravo k zapisu si
+vyzada primo v sobe (`permissions: contents: write` v obou .yml souborech), takze ve
+vetsine repozitaru neni potreba nastavovat nic. Jen kdyz beh spadne na kroku
+**Commit vysledku** s chybou `403` / `permission to ... denied`, ma repozitar (nebo
+organizace) zapis z Actions zakazany - pak:
 
 **Settings** -> v levem menu **Actions** -> **General** -> sekce **Workflow permissions**:
 

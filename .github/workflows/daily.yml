@@ -71,12 +71,18 @@ jobs:
           fi
           python cli.py daily --days "${DAYS}" 2>&1 | tee run.log
 
+      # always(): kdyz sber spadne (nebo dojde timeout-minutes) uprostred behu,
+      # v SQLite uz jsou zpracovane dokumenty commitnute po jednom - musime je
+      # ulozit do repa, jinak se pri dalsim behu stahuji a klasifikuji znovu.
+      # Export je idempotentni: kdyz se nic nezmenilo, git nic nescommituje.
       - name: Export docs/data.json
+        if: always()
         shell: bash
         run: |
           python cli.py export 2>&1 | tee -a run.log
 
       - name: Commit vysledku
+        if: always()
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
