@@ -72,14 +72,25 @@ body{
   line-height:1.5;
   -webkit-font-smoothing:antialiased;
   padding-bottom:56px;
+  /* viewport-fit=cover pousti obsah pod notch a home indicator - v rezimu
+     "Pridat na plochu" (SETUP.md, bod 6) se stranka kresli pres cely displej. */
+  padding-bottom:calc(56px + env(safe-area-inset-bottom));
 }
 a{color:inherit}
 button{font:inherit;color:inherit}
-.wrap{max-width:1160px;margin:0 auto;padding:0 18px}
-@media (min-width:720px){.wrap{padding:0 32px}}
+.wrap{max-width:1160px;margin:0 auto;padding:0 18px;
+  padding-left:calc(18px + env(safe-area-inset-left));
+  padding-right:calc(18px + env(safe-area-inset-right));
+}
+@media (min-width:720px){.wrap{padding:0 32px;
+  padding-left:calc(32px + env(safe-area-inset-left));
+  padding-right:calc(32px + env(safe-area-inset-right));
+}}
 
 /* ---------- masthead ---------- */
-.masthead{border-bottom:1px solid var(--rule);padding:26px 0 20px;margin-bottom:22px}
+.masthead{border-bottom:1px solid var(--rule);padding:26px 0 20px;margin-bottom:22px;
+  padding-top:calc(26px + env(safe-area-inset-top));
+}
 .kicker{
   font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--faint);
   display:flex;align-items:center;gap:9px;margin-bottom:12px;
@@ -687,6 +698,11 @@ footer p{margin:0;font-size:11.5px;color:var(--faint);line-height:1.6}
     if(n >= 2 && n <= 4) return n + " nálezy";
     return n + " nálezů";
   }
+  function archivedNote(n){
+    if(n === 1) return "V archivu je skryta 1 položka.";
+    if(n >= 2 && n <= 4) return "V archivu jsou skryty " + n + " položky.";
+    return "V archivu je skryto " + n + " položek.";
+  }
 
   function byDateDesc(a, b){
     var da = parseDay(a.datum_podani), db = parseDay(b.datum_podani);
@@ -803,7 +819,7 @@ footer p{margin:0;font-size:11.5px;color:var(--faint);line-height:1.6}
       }else{
         box = notice("Nic neodpovídá filtru",
           "Zkuste vymazat hledaný text nebo přepnout prioritu na „Vše“.",
-          archived && !filters.showArchive ? ("V archivu je skryto " + archived + " položek.") : null);
+          archived && !filters.showArchive ? archivedNote(archived) : null);
       }
       dom.filterEmpty.appendChild(box);
       dom.filterEmpty.hidden = false;

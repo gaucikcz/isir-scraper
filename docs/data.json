@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-05T10:23:42+00:00",
+ "generated_at": "2026-09-05T10:31:17+00:00",
  "window": {
   "from": "2026-08-25",
   "to": "2026-09-04"
@@ -216,7 +216,7 @@
    "assets": [
     {
      "typ": "movity",
-     "popis": "x\u0003 Osobní automobil Škoda Octavia, registrační značka 2SI 2864, VIN TMBBS61Z982207246, datum první registrace v roce 2008",
+     "popis": "x Osobní automobil Škoda Octavia, registrační značka 2SI 2864, VIN TMBBS61Z982207246, datum první registrace v roce 2008",
      "navrhovana_cena": null,
      "kupujici": null
     }
@@ -614,7 +614,7 @@
    "assets": [
     {
      "typ": "movity",
-     "popis": "D\u0011V\u0011 ]D þiVWNX \u0015 \u0011\u0014 \u0013\u000f\u0010 .þ Y\\MiGĜLO GQH \u0015\u0018\u0011\u0013\u001b\u0011\u0015\u0013\u0015\u0019 VRXKODV ]iVWXSFH YČĜLWHOĤ\u000f VSROHþQRVW 'RZQWRZQ ,QYHVW V\u0011U\u0011R\u0011\u000f ]DVWRXSHQi 0JU\u0011 -DQHP 'UR]GHP\u0011",
+     "popis": "DV ]D þiVWNX .þ Y\\MiGĜLO GQH VRXKODV ]iVWXSFH YČĜLWHOĤ VSROHþQRVW 'RZQWRZQ ,QYHVW VUR ]DVWRXSHQi 0JU -DQHP 'UR]GHP",
      "navrhovana_cena": null,
      "kupujici": null
     },
@@ -686,7 +686,7 @@
      "typ": "nemovity",
      "popis": "mět zajištění pohledávky zajištěného věřitele č. 74, Jenica Corporation a.s. Insolvenční správce konzultoval způsob zpeněžení se společností PROKONZULTA, a.s., IČ: 26307367, jejíž pracovník provedl osobní prohlídku…",
      "navrhovana_cena": null,
-     "kupujici": "Abilora insolvence v.o.s."
+     "kupujici": null
     },
     {
      "typ": "movity",
@@ -707,7 +707,7 @@
     "telefon": "+420 775 563 000",
     "datova_schranka": "rp36bbc"
    },
-   "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: SEVEROČESKÁ PAPÍRNA, s.r.o.): nemovitý majetek, movitý majetek, nehmotný majetek (3 položky). Navrhovaná cena 50000 CZK. Kupující: Abilora insolvence v.o.s. Klasifikováno heuristicky – ověřit v dokumentu.",
+   "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: SEVEROČESKÁ PAPÍRNA, s.r.o.): nemovitý majetek, movitý majetek, nehmotný majetek (3 položky). Navrhovaná cena 50000 CZK. Klasifikováno heuristicky – ověřit v dokumentu.",
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70621585",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=4C2CDE8238F05B46E06333F21FAC7A14&actSheet=B&pageB=all",
    "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=27132277&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
@@ -780,16 +780,16 @@
      "typ": "movity",
      "popis": "Insolvenční správce k dnešnímu dni sepsal do majetkové podstaty dlužníka další movité věci, které jsou uvedeny pod položkami 17 – 22 soupisu majetkové podstaty ze dne 25. 8. 2026. Přehled věcí včetně fotodokumentace…",
      "navrhovana_cena": null,
-     "kupujici": "Archa Insolvence v.o.s."
+     "kupujici": null
     }
    ],
    "spravce": {
     "jmeno": "Mgr. Tomáš Bartůněk",
     "email": null,
     "telefon": null,
-    "datova_schranka": "krajsky"
+    "datova_schranka": null
    },
-   "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: Jakub Růžička): movitý majetek (1 položka). Kupující: Archa Insolvence v.o.s. Podrobnosti jsou v soupisu majetkové podstaty. Klasifikováno heuristicky – ověřit v dokumentu.",
+   "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: Jakub Růžička): movitý majetek (1 položka). Podrobnosti jsou v soupisu majetkové podstaty. Klasifikováno heuristicky – ověřit v dokumentu.",
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70618576",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=2E8D1E30BEBFF1BCE06333F21FAC9734&actSheet=B&pageB=all",
    "or_url": null,
@@ -874,7 +874,7 @@
     {
      "typ": "movity",
      "popis": "Tímto navrhuji, aby soud schválil prodej automobilu mimo dražbu za minimální kupní cenu 92.600,- Kč + DPH s tím, že úhrada kupní ceny bude provedena před podpisem kupní smlouvy.",
-     "navrhovana_cena": "92600 CZK vč. DPH",
+     "navrhovana_cena": "92600 CZK bez DPH",
      "kupujici": null
     }
    ],
@@ -884,7 +884,7 @@
     "telefon": "384 391 776",
     "datova_schranka": null
    },
-   "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: E.Mi - International s.r.o.): movitý majetek (1 položka). Navrhovaná cena 92600 CZK vč. DPH. Klasifikováno heuristicky – ověřit v dokumentu.",
+   "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: E.Mi - International s.r.o.): movitý majetek (1 položka). Navrhovaná cena 92600 CZK bez DPH. Klasifikováno heuristicky – ověřit v dokumentu.",
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70606340",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=4C2CEE8C6FC95B4CE06333F21FACA8BD&actSheet=B&pageB=all",
    "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=24214647&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",

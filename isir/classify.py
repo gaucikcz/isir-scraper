@@ -237,8 +237,12 @@ _PRICE_LOOKAHEAD = 30
 _MIN_PLAUSIBLE = 1000
 _MAX_PLAUSIBLE = 100000000000
 
-_VAT_INCL_RE = re.compile(r"vc\.\s*dph|vcetne\s*dph|s\s*dph|\+\s*dph|s\s*dani")
-_VAT_EXCL_RE = re.compile(r"bez\s*dph|bez\s*dane")
+_VAT_INCL_RE = re.compile(r"vc\.\s*dph|vcetne\s*dph|s\s*dph|s\s*dani")
+# Pozor: "cena 92.600,- Kc + DPH" znamena cenu BEZ DPH (DPH se teprve pripocte).
+_VAT_EXCL_RE = re.compile(
+    r"bez\s*dph|bez\s*dane|\+\s*dph|plus\s*dph|(?:na)?vysen\w*\s*o\s*dph"
+    r"|k\s*cene\s*bude\s*pripoctena\s*dph|pripocte\w*\s*dph"
+)
 
 # ---------------------------------------------------------------------------
 # Kontakty spravce
@@ -253,6 +257,11 @@ _DS_KEYWORD_RE = re.compile(
     r"datov\w*\s*schrank\w*|\bid\s*ds\b|\bidds\b|\bds\s*:|schrank\w*\s*id"
 )
 _DS_TOKEN_RE = re.compile(r"\b([a-z0-9]{7})\b")
+# Mezi klicovym slovem a ID smi stat jen oddelovac ("schranky: xyz", "schranka c. xyz",
+# "ID DS - xyz"). Bez takoveho oddelovace (a bez cislice v tokenu) nelze odlisit ID
+# od nasledujiciho ceskeho slova - "DATOVOU SCHRANKOU\n\nKrajsky soud" jinak vraci
+# "krajsky" jako ID datove schranky.
+_DS_MARKER_RE = re.compile(r"[:#]|\bc\.|\bid\b|\bcislo\b")
 
 _TITLE_NAME_RE = re.compile(
     u"\\b(?:JUDr|Mgr|Ing|MgA|Bc|PhDr|RNDr|MUDr|MVDr|doc|prof)\\.\\s*"
@@ -285,6 +294,10 @@ _ABBREV = frozenset([
 _SNIPPET_WINDOW = 300
 _SNIPPET_MAX = 220
 
+# pdftotext vraci u nekterych PDF ridici znaky misto odrazek (\x03, \x0b, ...).
+# Nejsou to whitespace, takze by se jinak dostaly do popisu i do docs/data.json.
+_CTRL_RE = re.compile(u"[\x00-\x08\x0b\x0c\x0e-\x1f\x7f-\x9f]")
+
 
 # ---------------------------------------------------------------------------
 # Pomocne funkce
@@ -304,7 +317,7 @@ def _sentence_breaks(segment):
 
 def _clean_snippet(raw, max_len=_SNIPPET_MAX):
     # type: (str, int) -> str
-    text = re.sub(r"\s+", " ", raw or "").strip(u" \t-•·—–|:;,")
+    text = re.sub(r"\s+", " ", _CTRL_RE.sub("", raw or "")).strip(u" \t-•·—–|:;,")
     if len(text) > max_len:
         cut = text.rfind(" ", 0, max_len)
         if cut < int(max_len * 0.6):
@@ -380,7 +393,7 @@ def _as_optional_str(value, max_len=300):
             value = str(value)
         except Exception:
             return None
-    value = re.sub(r"\s+", " ", value).strip()
+    value = re.sub(r"\s+", " ", _CTRL_RE.sub("", value)).strip()
     if not value or _fold(value) in ("null", "none", "n/a", "neuvedeno", "-", "neni uvedeno"):
         return None
     return value[:max_len]
@@ -467,18 +480,25 @@ def _find_phone(text, folded):
     return None
 
 
-def _find_datova_schranka(folded):
-    # type: (str) -> Optional[str]
+def _find_datova_schranka(text, folded):
+    # type: (str, str) -> Optional[str]
     for keyword in _DS_KEYWORD_RE.finditer(folded):
         window = folded[keyword.end():keyword.end() + 70]
+        marker = bool(_DS_MARKER_RE.search(keyword.group(0)))
         letters_only = None
         for token in _DS_TOKEN_RE.finditer(window):
             value = token.group(1)
-            if value in ("schrank", "datovka", "spravce"):
+            if value in ("schrank", "datovka", "spravce", "telefon", "advokat"):
+                continue
+            # ID datove schranky se tiskne malymi pismeny; velke pocatecni pismeno
+            # znaci bezne slovo ("Krajsky soud"), ne identifikator.
+            raw = text[keyword.end() + token.start():keyword.end() + token.end()]
+            if raw != raw.lower():
                 continue
             if any(char.isdigit() for char in value):
                 return value
-            if letters_only is None:
+            gap = window[:token.start()]
+            if letters_only is None and (marker or _DS_MARKER_RE.search(gap)):
                 letters_only = value
         if letters_only:
             return letters_only
@@ -501,6 +521,26 @@ def _find_spravce_jmeno(text, folded):
     return None
 
 
+def _is_admin_company(candidate, folded):
+    # type: (str, str) -> bool
+    """True, kdyz firma stoji nekde v dokumentu vedle "insolvencni spravce".
+
+    Podpisovy blok navrhu je od klicoveho slova "kupujici"/"zajemce" casto jen
+    par desitek znaku, takze bez teto pojistky se jako kupujici vraci v.o.s.
+    samotneho insolvencniho spravce.
+    """
+    needle = _fold(candidate)
+    if not needle:
+        return False
+    pos = folded.find(needle)
+    while pos != -1:
+        window = folded[max(0, pos - 60):pos + len(needle) + 60]
+        if _ADMIN_KEYWORD_RE.search(window):
+            return True
+        pos = folded.find(needle, pos + 1)
+    return False
+
+
 def _find_buyer(text, folded, admin_name):
     # type: (str, str, Optional[str]) -> Optional[str]
     for keyword in _BUYER_KEYWORD_RE.finditer(folded):
@@ -513,6 +553,8 @@ def _find_buyer(text, folded, admin_name):
             continue
         if admin_name and _fold(candidate) in _fold(admin_name):
             continue
+        if _is_admin_company(candidate, folded):
+            continue
         return candidate
     return None
 
@@ -523,7 +565,7 @@ def _find_contacts(text, folded):
         "jmeno": _find_spravce_jmeno(text, folded),
         "email": _find_email(text),
         "telefon": _find_phone(text, folded),
-        "datova_schranka": _find_datova_schranka(folded),
+        "datova_schranka": _find_datova_schranka(text or "", folded),
     }
 
 
