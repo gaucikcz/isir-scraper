@@ -202,6 +202,205 @@ def run_backfill(date_from: date, date_to: Optional[date] = None, resume: bool =
     return total
 
 
+# ---------------------------------------------------------------------------
+# Preklasifikace ulozenych prilezitosti (heuristic -> llm)
+# ---------------------------------------------------------------------------
+
+RECLASSIFY_SQL = """
+SELECT o.id, o.doc_id, o.priorita, o.assets_json, o.shrnuti, o.classified_by, o.status,
+       e.event_date, e.crossref_doc_id, e.spisova_znacka,
+       c.soud, c.dluznik_jmeno, c.ico
+FROM opportunities o
+JOIN events e ON e.doc_id = o.doc_id
+LEFT JOIN cases c ON c.spisova_znacka = e.spisova_znacka
+%s
+ORDER BY e.event_date DESC, o.id DESC
+%s
+"""
+
+
+def _reclassify_candidates(conn, only_heuristic: bool = True, force: bool = False,
+                           limit: Optional[int] = None) -> list:
+    """Radky ke zpracovani, nejnovejsi udalosti prvni (cerstve podani je cennejsi).
+
+    cases pripojujeme pres LEFT JOIN stejne jako db.all_opportunities - kdyz by
+    radek v cases chybel, prilezitost nesmi z vyberu vypadnout.
+    """
+    where = ""
+    if not force and only_heuristic:
+        where = "WHERE o.classified_by IS NULL OR o.classified_by = 'heuristic'"
+    tail = ""
+    params = ()
+    if limit is not None and limit > 0:
+        tail = "LIMIT ?"
+        params = (int(limit),)
+    rows = conn.execute(RECLASSIFY_SQL % (where, tail), params).fetchall()
+    return [dict(r) for r in rows]
+
+
+def _reclassify_text(row: dict) -> str:
+    """Slozi vstup pro klasifikator presne jako _process_document (vcetne soupisu)."""
+    text, _source = extract.extract_text(_load_pdf(row["doc_id"]))
+    if not text.strip():
+        return ""
+
+    crossref = row.get("crossref_doc_id")
+    if crossref:
+        try:
+            extra_text, _ = extract.extract_text(_load_pdf(crossref))
+            if extra_text.strip():
+                text = text + "\n\n=== SOUPIS MAJETKOVE PODSTATY ===\n" + extra_text
+        except Exception as exc:
+            log.warning("Soupis %s k dokumentu %s se nepodarilo nacist: %s",
+                        crossref, row["doc_id"], exc)
+    elif classify.needs_soupis_crossref(text):
+        # Detailni stranku uz zpetne neotevirame - jen zaznamename, ze by
+        # dokumentu soupis prospel (doplni se pri pripadnem novem sberu).
+        log.info("Dokument %s odkazuje na soupis, ale crossref chybi - "
+                 "klasifikuji bez nej", row["doc_id"])
+    return text
+
+
+def _same_result(row: dict, result: dict) -> bool:
+    """Nova klasifikace se od ulozeneho radku nicim nelisi (vcetne puvodu)."""
+    if (row.get("classified_by") or "") != result.get("classified_by"):
+        return False
+    if (row.get("priorita") or "") != (result.get("priorita") or "nizka"):
+        return False
+    if (row.get("shrnuti") or "") != (result.get("shrnuti") or ""):
+        return False
+    old_assets = row.get("assets_json") or "[]"
+    new_assets = json.dumps(result.get("assets") or [], ensure_ascii=False)
+    return old_assets == new_assets
+
+
+def _write_reclassified(conn, row: dict, result: dict, now: str) -> None:
+    """Zapis vysledku tak, aby prezil rucne nastaveny 'status'.
+
+    db.insert_opportunity() ve vetvi ON CONFLICT DO UPDATE sloupec 'status'
+    (ani 'created_at') nepresepisuje, takze rucni oznaceni z dashboardu zustava.
+    Presto si puvodni hodnotu drzime a po zapisu ji zkontrolujeme - kdyby se
+    UPSERT v db.py nekdy zmenil, preklasifikace uzivateli jeho stav nesmaze.
+    """
+    previous_status = row.get("status")
+    db.insert_opportunity(conn, row["doc_id"], result, now)
+    current = conn.execute(
+        "SELECT status FROM opportunities WHERE doc_id=?", (row["doc_id"],)
+    ).fetchone()
+    if previous_status is not None and current is not None \
+            and current["status"] != previous_status:
+        conn.execute("UPDATE opportunities SET status=? WHERE doc_id=?",
+                     (previous_status, row["doc_id"]))
+        log.warning("Status dokumentu %s byl pri zapisu prepsan - obnoven na %r",
+                    row["doc_id"], previous_status)
+
+
+def run_reclassify(limit: Optional[int] = None, only_heuristic: bool = True,
+                   force: bool = False, dry_run: bool = False) -> dict:
+    """Preklasifikuje jiz ulozene prilezitosti pomoci LLM.
+
+    Denni beh dedupuje na doc_id, takze radky posbirane bez funkcniho API klice
+    by uz nikdy nebyly klasifikovany lepe. Tenhle beh je vezme znovu.
+
+    Zapisujeme JEN kdyz klasifikator vratil classified_by == "llm" - vypadek API
+    by jinak tise prepsal dobre radky horsi heuristikou.
+
+    dry_run nesaha na sit, na API ani do databaze: pouze spocita kandidaty.
+    """
+    stats = {"candidates": 0, "reclassified": 0, "unchanged": 0,
+             "no_text": 0, "failed": 0, "aborted": False}
+
+    conn = db.connect()
+    db.init_schema(conn)
+    try:
+        rows = _reclassify_candidates(conn, only_heuristic=only_heuristic,
+                                      force=force, limit=limit)
+        stats["candidates"] = len(rows)
+
+        if dry_run:
+            cached = sum(1 for r in rows
+                         if (config.PDF_DIR / ("%s.pdf" % r["doc_id"])).exists())
+            log.info("DRY RUN: ke zpracovani %d prilezitosti "
+                     "(%d PDF v cache, %d by se stahovalo), zadne volani API",
+                     len(rows), cached, len(rows) - cached)
+            for r in rows[:10]:
+                log.info("  by se preklasifikovalo: %s | %s | %s | %s",
+                         r.get("dluznik_jmeno"), r.get("event_date"),
+                         r.get("classified_by"), r.get("priorita"))
+            if len(rows) > 10:
+                log.info("  ... a dalsich %d", len(rows) - 10)
+            if not classify._have_credentials():
+                log.warning("Pozor: bez ANTHROPIC_API_KEY by ostry beh skoncil "
+                            "hned na zacatku (nebylo by cim klasifikovat).")
+            return stats
+
+        if not classify._have_credentials():
+            log.error("PRERUSENO: neni k dispozici ANTHROPIC_API_KEY (ani workload "
+                      "identity federation). Preklasifikace bez LLM by jen prepsala "
+                      "heuristiku heuristikou - beh nema smysl. Nastavte klic a "
+                      "spustte znovu.")
+            stats["aborted"] = True
+            return stats
+
+        log.info("=== PREKLASIFIKACE: %d kandidatu (force=%s) ===", len(rows), force)
+        now = _now_iso()
+        for i, row in enumerate(rows, 1):
+            doc_id = row["doc_id"]
+            log.info("[%d/%d] %s | %s | %s", i, len(rows), doc_id,
+                     row.get("dluznik_jmeno"), row.get("event_date"))
+            try:
+                text = _reclassify_text(row)
+            except Exception as exc:
+                log.error("Dokument %s: nacteni/extrakce selhala: %s", doc_id, exc)
+                stats["failed"] += 1
+                continue
+
+            if not text.strip():
+                log.warning("Dokument %s: prazdny text - neni co klasifikovat", doc_id)
+                stats["no_text"] += 1
+                continue
+
+            case_meta = {
+                "spisova_znacka": row.get("spisova_znacka"),
+                "soud": row.get("soud"),
+                "dluznik_jmeno": row.get("dluznik_jmeno"),
+                "ico": row.get("ico"),
+                "datum_podani": row.get("event_date"),
+            }
+            try:
+                result = classify.classify_document(text, case_meta)
+            except Exception as exc:
+                log.error("Dokument %s: klasifikace selhala: %s", doc_id, exc)
+                stats["failed"] += 1
+                continue
+
+            if result.get("classified_by") != "llm":
+                # Rate limit / chyba API -> classify_document degradoval na
+                # heuristiku. Puvodni radek je minimalne stejne dobry, nechavame ho.
+                log.warning("Dokument %s: LLM nedostupny (vratil %r) - ponechavam "
+                            "puvodni zaznam", doc_id, result.get("classified_by"))
+                stats["failed"] += 1
+                continue
+
+            if _same_result(row, result):
+                stats["unchanged"] += 1
+                log.info("BEZE ZMENY: %s | %s", row.get("dluznik_jmeno"), doc_id)
+                continue
+
+            _write_reclassified(conn, row, result, now)
+            conn.commit()  # po kazdem radku - timeout nesmi zahodit hotovou praci
+            stats["reclassified"] += 1
+            log.info("PREKLASIFIKOVANO: %s | %s | %s -> llm | %s",
+                     row.get("dluznik_jmeno"), row.get("event_date"),
+                     row.get("classified_by") or "neznamy", result.get("priorita"))
+    finally:
+        conn.commit()
+        conn.close()
+
+    log.info("=== PREKLASIFIKACE HOTOVO: %s ===", stats)
+    return stats
+
+
 def export_json(path=None) -> dict:
     """Vygeneruje docs/data.json pro dashboard."""
     path = path or config.DATA_JSON

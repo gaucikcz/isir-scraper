@@ -1,0 +1,167 @@
+name: ISIR preklasifikace
+
+# Jen rucne. Beh utraci LLM tokeny za dokumenty, ktere uz v databazi jsou -
+# nema smysl ho planovat cronem.
+on:
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "Kolik prilezitosti nejvyse preklasifikovat (vychozi 25)"
+        required: false
+        default: "25"
+      dry_run:
+        description: "Jen spocitat kandidaty, nic nestahovat ani nezapisovat"
+        required: false
+        type: choice
+        options:
+          - "false"
+          - "true"
+        default: "false"
+
+# Workflow commituje SQLite databazi a docs/data.json zpet do repozitare.
+permissions:
+  contents: write
+
+# Preklasifikace nesmi commitovat zaroven s dennim sberem.
+concurrency:
+  group: isir-data-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  preklasifikace:
+    runs-on: ubuntu-latest
+    # 100 dokumentu: stahovani ~1 req/s (a casto jen cache) + LLM latence
+    # radove jednotky sekund na dokument, plus OCR u skenu.
+    timeout-minutes: 90
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: requirements.txt
+
+      - name: Systemove zavislosti (pdftotext + cesky OCR)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y poppler-utils tesseract-ocr tesseract-ocr-ces
+
+      - name: Python zavislosti
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Preklasifikace (heuristic -> llm)
+        shell: bash
+        env:
+          # Na rozdil od denniho sberu je tady klic POVINNY - bez nej by beh
+          # jen prepsal heuristiku heuristikou, takze cli.py skonci chybou.
+          ANTHROPIC_API_KEY_SECRET: ${{ secrets.ANTHROPIC_API_KEY }}
+          # Volitelne: nutne jen kdyz klic neni pripnuty k workspace.
+          ANTHROPIC_WORKSPACE_ID: ${{ secrets.ANTHROPIC_WORKSPACE_ID }}
+          LIMIT: ${{ inputs.limit || '25' }}
+          DRY_RUN: ${{ inputs.dry_run || 'false' }}
+        run: |
+          # Prazdny ANTHROPIC_API_KEY ma v SDK prednost pred workload identity
+          # federation - proto ho exportujeme jen kdyz secret opravdu existuje.
+          if [ -n "${ANTHROPIC_API_KEY_SECRET}" ]; then
+            export ANTHROPIC_API_KEY="${ANTHROPIC_API_KEY_SECRET}"
+          fi
+          if [ -z "${ANTHROPIC_API_KEY_SECRET}" ]; then
+            echo "::warning title=Bez LLM::ANTHROPIC_API_KEY neni nastaven - preklasifikace se prerusi."
+          fi
+          ARGS="--limit ${LIMIT}"
+          if [ "${DRY_RUN}" = "true" ]; then
+            ARGS="${ARGS} --dry-run"
+          fi
+          python cli.py reclassify ${ARGS} 2>&1 | tee run.log
+
+      # always(): kdyz beh spadne (nebo dojde timeout-minutes) uprostred prace,
+      # v SQLite uz jsou preklasifikovane radky commitnute po jednom - musime je
+      # ulozit do repa, jinak se prace zahodi.
+      - name: Export docs/data.json
+        if: always()
+        shell: bash
+        run: |
+          python cli.py export 2>&1 | tee -a run.log
+
+      - name: Commit vysledku
+        if: always()
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          mkdir -p data
+          git add data
+          if [ -f docs/data.json ]; then
+            git add docs/data.json
+          fi
+          # Commit jen kdyz se neco opravdu zmenilo.
+          git diff --staged --quiet || git commit -m "ISIR: preklasifikace $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push || (git pull --rebase --autostash && git push)
+
+      - name: Souhrn do GitHub Actions (viditelny v mobilni appce)
+        if: always()
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import json, os, pathlib, re
+
+          try:
+              data = json.loads(pathlib.Path("docs/data.json").read_text(encoding="utf-8"))
+          except Exception:
+              data = {}
+          items = data.get("opportunities") if isinstance(data, dict) else None
+          if not isinstance(items, list):
+              items = []
+
+          def by(source):
+              return [i for i in items if isinstance(i, dict)
+                      and (i.get("classified_by") or "heuristic") == source]
+
+          llm = by("llm")
+          heur = [i for i in items if isinstance(i, dict)
+                  and (i.get("classified_by") or "heuristic") != "llm"]
+
+          upgraded = None
+          try:
+              log = pathlib.Path("run.log").read_text(encoding="utf-8", errors="replace")
+              upgraded = len(re.findall(r"PREKLASIFIKOVANO:", log))
+              tail = [l for l in log.splitlines() if l.strip().startswith("{")]
+              stats_line = tail[-1] if tail else ""
+          except Exception:
+              stats_line = ""
+
+          lines = [
+              "## ISIR preklasifikace",
+              "",
+              "- Preklasifikovano v tomto behu: **{}**".format(
+                  "?" if upgraded is None else upgraded),
+              "- Klasifikovano LLM celkem: **{}** z **{}**".format(len(llm), len(items)),
+              "- Zbyva heuristickych: **{}**".format(len(heur)),
+          ]
+          if stats_line:
+              lines += ["", "```", stats_line, "```"]
+
+          summary = os.environ.get("GITHUB_STEP_SUMMARY")
+          if summary:
+              with open(summary, "a", encoding="utf-8") as fh:
+                  fh.write("\n".join(lines) + "\n")
+          print("\n".join(lines))
+          PY
+
+      - name: Log pri selhani
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: isir-reclassify-log
+          path: |
+            run.log
+            *.log
+            data/*.log
+          if-no-files-found: ignore
+          retention-days: 14

@@ -1,0 +1,85 @@
+name: ISIR A/B porovnani modelu
+
+# Jen rucne. Klasifikuje stejny vzorek dokumentu vice modely a vypise rozdily.
+# Nesaha na databazi - slouzi jen k rozhodnuti, ktery model je potreba.
+on:
+  workflow_dispatch:
+    inputs:
+      models:
+        description: "Modely oddelene carkou"
+        required: false
+        default: "claude-sonnet-5,claude-haiku-4-5"
+      limit:
+        description: "Kolik dokumentu porovnat (vychozi 8)"
+        required: false
+        default: "8"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: isir-data-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  porovnani:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: requirements.txt
+
+      - name: Systemove zavislosti (pdftotext + cesky OCR)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y poppler-utils tesseract-ocr tesseract-ocr-ces
+
+      - name: Python zavislosti
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: A/B porovnani
+        shell: bash
+        env:
+          ANTHROPIC_API_KEY_SECRET: ${{ secrets.ANTHROPIC_API_KEY }}
+          ANTHROPIC_WORKSPACE_ID: ${{ secrets.ANTHROPIC_WORKSPACE_ID }}
+          MODELS: ${{ inputs.models }}
+          LIMIT: ${{ inputs.limit }}
+        run: |
+          # Prazdny ANTHROPIC_API_KEY ma v SDK prednost pred workload identity
+          # federation - exportujeme ho jen kdyz secret opravdu existuje.
+          if [ -n "${ANTHROPIC_API_KEY_SECRET}" ]; then
+            export ANTHROPIC_API_KEY="${ANTHROPIC_API_KEY_SECRET}"
+          fi
+          python tools/ab_model.py --models "${MODELS}" --limit "${LIMIT}" 2>&1 | tee ab.log
+
+      - name: Report do souhrnu behu
+        if: always()
+        shell: bash
+        run: |
+          if [ -f docs/ab_model_report.md ]; then
+            cat docs/ab_model_report.md >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "Report nevznikl - viz log kroku." >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: Commit reportu
+        if: always()
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ -f docs/ab_model_report.md ]; then
+            git add docs/ab_model_report.md
+            git diff --staged --quiet || git commit -m "A/B porovnani modelu $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git push || (git pull --rebase --autostash && git push)
+          fi

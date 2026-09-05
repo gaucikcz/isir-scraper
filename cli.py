@@ -4,6 +4,7 @@
   python cli.py daily [--days 10]
   python cli.py backfill --from 2024-01-01 [--to 2024-12-31] [--no-resume]
   python cli.py export
+  python cli.py reclassify [--limit 25] [--all] [--dry-run]
   python cli.py search --from 2026-08-10 --to 2026-09-05   (jen vypis, nic neuklada)
 """
 import argparse
@@ -38,6 +39,16 @@ def main(argv=None) -> int:
 
     sub.add_parser("export", help="regenerovat docs/data.json z databaze")
 
+    p_recl = sub.add_parser(
+        "reclassify",
+        help="preklasifikovat ulozene prilezitosti pomoci LLM (heuristic -> llm)")
+    p_recl.add_argument("--limit", type=int, default=None,
+                        help="zpracovat nejvyse N prilezitosti (default: vsechny)")
+    p_recl.add_argument("--all", dest="force", action="store_true",
+                        help="vzit i radky, ktere uz klasifikoval LLM")
+    p_recl.add_argument("--dry-run", dest="dry_run", action="store_true",
+                        help="jen spocitat kandidaty, nic nestahovat ani nezapisovat")
+
     p_search = sub.add_parser("search", help="jen vypsat nalezene dluzniky (bez stahovani)")
     p_search.add_argument("--from", dest="date_from", type=_date,
                           default=date.today() - timedelta(days=10))
@@ -63,6 +74,14 @@ def main(argv=None) -> int:
         print(stats)
     elif args.command == "export":
         print(pipeline.export_json())
+    elif args.command == "reclassify":
+        stats = pipeline.run_reclassify(limit=args.limit, force=args.force,
+                                        dry_run=args.dry_run)
+        if not args.dry_run and not stats.get("aborted"):
+            pipeline.export_json()
+        print(stats)
+        if stats.get("aborted"):
+            return 1
     elif args.command == "search":
         records = search.search_window(args.date_from, args.date_to)
         for r in records:
