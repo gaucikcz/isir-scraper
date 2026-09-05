@@ -1,0 +1,217 @@
+{
+ "generated_at": "2026-09-05T15:00:00+00:00",
+ "window": {
+  "from": "2026-08-16",
+  "to": "2026-08-30"
+ },
+ "stats": {
+  "total": 6,
+  "vysoka": 3,
+  "stredni": 1,
+  "nizka": 2,
+  "new_7d": 1,
+  "cases": 6
+ },
+ "opportunities": [
+  {
+   "doc_id": "1",
+   "spisova_znacka": "KSPH 72 INS 6318/2026",
+   "soud": "Krajský soud v Praze",
+   "dluznik_jmeno": "<img src=x onerror=\"document.title='XSS-NAME'\">Ž luťoučký & kůň",
+   "ico": "123",
+   "sidlo": "Přílepská 1/2, Praha",
+   "stav_rizeni": "úpadek",
+   "datum_podani": "2026-08-30",
+   "priorita": "vysoka",
+   "assets": [
+    {
+     "typ": "nemovity",
+     "popis": "<script>document.title='XSS-ASSET'</script>",
+     "navrhovana_cena": "1 000 000 Kc",
+     "kupujici": "<b>x</b>"
+    }
+   ],
+   "spravce": {
+    "jmeno": "<i>Spravce</i>",
+    "email": "a@b.cz",
+    "telefon": null,
+    "datova_schranka": null
+   },
+   "shrnuti": "<img src=x onerror=\"document.title='XSS-SHRNUTI'\"> shrnutí",
+   "soupis": {
+    "url": "javascript:document.title='XSS-SOUPIS'",
+    "datum": "2026-01-01",
+    "popis": "Soupis"
+   },
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "kategorie": "navrh",
+     "datum": "2026-08-30",
+     "popis": "<img src=x onerror=\"document.title='XSS-DOC'\">",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=80309"
+    },
+    {
+     "kod": "I_535",
+     "kategorie": "prodej",
+     "datum": "2026-07-01",
+     "popis": "Usnesení o prodeji mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=49682"
+    },
+    {
+     "kod": "I_334",
+     "kategorie": "soupis",
+     "datum": "2026-06-01",
+     "popis": "Soupis majetkové podstaty",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=84778"
+    },
+    {
+     "kod": "I_1",
+     "kategorie": "katastr",
+     "datum": "2026-05-01",
+     "popis": "bad proto",
+     "url": "javascript:document.title='XSS-DOCURL'"
+    },
+    {
+     "kod": "I_2",
+     "kategorie": "zprava",
+     "datum": null,
+     "popis": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=777"
+    },
+    {
+     "kod": "I_3",
+     "kategorie": "neznama",
+     "datum": "2026-04-01",
+     "popis": "Neznámá kategorie",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=778"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=1",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=1",
+   "or_url": null,
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-09-01",
+   "dossier_url": "dossier/ksph-72-ins-6318-2026.md"
+  },
+  {
+   "doc_id": "2",
+   "spisova_znacka": "MSPH 96 INS 1/2026",
+   "soud": "Městský soud",
+   "dluznik_jmeno": "Bez dokumentů s.r.o.",
+   "ico": "2",
+   "sidlo": null,
+   "stav_rizeni": null,
+   "datum_podani": "2026-08-20",
+   "priorita": "stredni",
+   "assets": [],
+   "spravce": {},
+   "shrnuti": null,
+   "soupis": null,
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=2",
+   "detail_url": null,
+   "or_url": null,
+   "text_source": null,
+   "classified_by": "heuristic",
+   "first_seen": "2026-08-20"
+  },
+  {
+   "doc_id": "3",
+   "spisova_znacka": "KSBR 1 INS 2/2026",
+   "soud": "KS Brno",
+   "dluznik_jmeno": "Null docs",
+   "ico": null,
+   "sidlo": null,
+   "stav_rizeni": null,
+   "datum_podani": "2026-08-19",
+   "priorita": "nizka",
+   "assets": [],
+   "spravce": {},
+   "shrnuti": null,
+   "soupis": null,
+   "dokumenty": null,
+   "doc_url": null,
+   "detail_url": null,
+   "or_url": null,
+   "text_source": null,
+   "classified_by": null,
+   "first_seen": "2026-08-19"
+  },
+  {
+   "doc_id": "4",
+   "spisova_znacka": null,
+   "soud": null,
+   "dluznik_jmeno": "Řetězec místo pole",
+   "ico": null,
+   "sidlo": null,
+   "stav_rizeni": null,
+   "datum_podani": "2026-08-18",
+   "priorita": "nizka",
+   "assets": [],
+   "spravce": {},
+   "shrnuti": null,
+   "soupis": null,
+   "dokumenty": "[]",
+   "doc_url": null,
+   "detail_url": null,
+   "or_url": null,
+   "text_source": null,
+   "classified_by": null,
+   "first_seen": "2026-08-18"
+  },
+  {
+   "doc_id": "5",
+   "spisova_znacka": "KSOS 37 INS 16018/2019",
+   "soud": "KS Ostrava",
+   "dluznik_jmeno": "Prázdný seznam",
+   "ico": null,
+   "sidlo": null,
+   "stav_rizeni": null,
+   "datum_podani": "2026-08-17",
+   "priorita": "vysoka",
+   "assets": [],
+   "spravce": {},
+   "shrnuti": null,
+   "soupis": null,
+   "dokumenty": [],
+   "doc_url": null,
+   "detail_url": null,
+   "or_url": null,
+   "text_source": null,
+   "classified_by": null,
+   "first_seen": "2026-08-17"
+  },
+  {
+   "doc_id": "6",
+   "spisova_znacka": "KSCB 44 INS 999/2026",
+   "soud": "KS České Budějovice",
+   "dluznik_jmeno": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+   "ico": null,
+   "sidlo": null,
+   "stav_rizeni": null,
+   "datum_podani": "2026-08-16",
+   "priorita": "vysoka",
+   "assets": [],
+   "spravce": {},
+   "shrnuti": null,
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_334",
+     "kategorie": "soupis",
+     "datum": "2026-08-01",
+     "popis": "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=89850"
+    }
+   ],
+   "doc_url": null,
+   "detail_url": null,
+   "or_url": null,
+   "text_source": null,
+   "classified_by": null,
+   "first_seen": "2026-08-16",
+   "dossier_url": "javascript:document.title='XSS-DOSSIER'"
+  }
+ ]
+}

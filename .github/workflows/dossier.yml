@@ -1,0 +1,257 @@
+name: ISIR dossier k jedne veci
+
+# Tohle je "tlacitko z mobilu": v GitHub appce zaloz issue s nazvem
+#   Dossier: KSOS 37 INS 16018/2019
+# a das mu stitek "dossier". Workflow slozi podklad (syrovy text vsech
+# relevantnich dokumentu veci), commitne ho do docs/dossier/, odpovi do issue
+# odkazem a issue zavre. Cely markdown navic da do souhrnu behu, takze se da
+# precist primo v mobilni appce v zalozce Actions.
+on:
+  workflow_dispatch:
+    inputs:
+      znacka:
+        description: "Spisova znacka, napr. KSOS 37 INS 16018/2019"
+        required: true
+  issues:
+    types: [opened, labeled]
+
+permissions:
+  contents: write   # commit docs/dossier/*.md, docs/data.json a databaze
+  issues: write     # komentar do issue + zavreni
+
+# Nesmi commitovat do stejne vetve zaroven s dennim sberem ani se soupisy.
+concurrency:
+  group: isir-data-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  dossier:
+    # Issue spousti beh jen se stitkem "dossier". Je to zaroven autorizace:
+    # repo je verejne a issue muze zalozit kdokoliv, ale stitek prideli jen
+    # clovek s pravem write/triage - tedy majitel repa.
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      contains(github.event.issue.labels.*.name, 'dossier')
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+
+    steps:
+      # Prvni krok schvalne bezi PRED checkoutem a instalaci zavislosti:
+      # nesmyslne issue tak nespali dve minuty na apt-get.
+      - name: Vytazeni spisove znacky (obsah issue je NEDUVERYHODNY VSTUP)
+        id: znacka
+        shell: bash
+        # Hodnoty z github.event se NIKDY nesmi vlepit primo do 'run:' -
+        # na verejnem repu je to shell injection (nazev issue si urcuje cizi
+        # clovek). Jdou proto pres env promenne a cte je az Python z os.environ.
+        env:
+          RAW_DISPATCH: ${{ inputs.znacka }}
+          RAW_TITLE: ${{ github.event.issue.title }}
+          RAW_BODY: ${{ github.event.issue.body }}
+        run: |
+          python3 - <<'PY'
+          import os
+          import re
+
+          # Prisny tvar spisove znacky: 'KSOS 37 INS 16018/2019'. Cokoliv
+          # jineho z issue (odkazy, prikazy, HTML) se sem nedostane.
+          PATTERN = re.compile(
+              r"(?<![A-Za-z0-9])([A-Z]{2,4})\s*(\d{1,4})\s*INS\s*(\d{1,6})\s*/\s*(\d{4})(?![0-9])"
+          )
+
+          def first_match(*texts):
+              for text in texts:
+                  # Hleda se ve VELKYCH pismenech (z mobilu se to bezne pise
+                  # malymi), vysledek se ale sklada zpatky do kanonickeho tvaru.
+                  m = PATTERN.search((text or "").upper())
+                  if m:
+                      return "%s %s INS %s/%s" % m.groups()
+              return None
+
+          znacka = first_match(
+              os.environ.get("RAW_DISPATCH"),
+              os.environ.get("RAW_TITLE"),
+              os.environ.get("RAW_BODY"),
+          )
+
+          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as fh:
+              # Hodnota prosla regexem vyse - jsou v ni jen [A-Z0-9 /],
+              # takze do GITHUB_OUTPUT nepropasuje novy radek ani nic dalsiho.
+              fh.write("ok=%s\n" % ("true" if znacka else "false"))
+              fh.write("znacka=%s\n" % (znacka or ""))
+          print("Spisova znacka: %s" % (znacka or "NENALEZENA"))
+          PY
+
+      - name: Bez platne znacky jen odpovedet do issue a skoncit
+        if: steps.znacka.outputs.ok != 'true' && github.event_name == 'issues'
+        shell: bash
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ISSUE: ${{ github.event.issue.number }}
+          REPO: ${{ github.repository }}
+        run: |
+          gh issue comment "${ISSUE}" --repo "${REPO}" --body \
+            "Nenasel jsem v nazvu ani v textu issue platnou spisovou znacku. Ocekavam tvar \`KSOS 37 INS 16018/2019\` - nejlepe rovnou v nazvu jako \`Dossier: KSOS 37 INS 16018/2019\`. Uprav issue a znovu mu dej stitek \`dossier\`."
+
+      - name: Bez platne znacky pri rucnim spusteni skoncit chybou
+        if: steps.znacka.outputs.ok != 'true' && github.event_name == 'workflow_dispatch'
+        run: |
+          echo "::error title=Neplatna znacka::Ocekavam tvar 'KSOS 37 INS 16018/2019'."
+          exit 1
+
+      - name: Checkout
+        if: steps.znacka.outputs.ok == 'true'
+        uses: actions/checkout@v4
+
+      - name: Python 3.11
+        if: steps.znacka.outputs.ok == 'true'
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: requirements.txt
+
+      - name: Systemove zavislosti (pdftotext + cesky OCR)
+        if: steps.znacka.outputs.ok == 'true'
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y poppler-utils tesseract-ocr tesseract-ocr-ces
+
+      - name: Python zavislosti
+        if: steps.znacka.outputs.ok == 'true'
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Slug dossieru
+        id: slug
+        if: steps.znacka.outputs.ok == 'true'
+        shell: bash
+        env:
+          ZNACKA: ${{ steps.znacka.outputs.znacka }}
+        run: |
+          # Slug pocita primo isir/dossier.py, aby se nazev souboru nikdy
+          # nerozesel s tim, co skript opravdu zapise.
+          python3 - <<'PY'
+          import os
+
+          from isir.dossier import slugify
+
+          slug = slugify(os.environ["ZNACKA"])
+          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as fh:
+              fh.write("slug=%s\n" % slug)
+          print("Slug: %s" % slug)
+          PY
+
+      - name: Sestaveni dossieru
+        id: beh
+        if: steps.znacka.outputs.ok == 'true'
+        continue-on-error: true   # i po selhani chceme odpovedet do issue
+        shell: bash
+        # ZADNE ANTHROPIC_API_KEY / ANTHROPIC_WORKSPACE_ID zamerne nejsou:
+        # dossier je jen stazeni PDF a pdftotext/OCR, zadny LLM se nevola
+        # (viz docstring isir/dossier.py). Beh proto nestoji ani token.
+        env:
+          ZNACKA: ${{ steps.znacka.outputs.znacka }}
+        run: |
+          # Znacka jde do skriptu jako ARGUMENT z env promenne, ne interpolaci.
+          python cli.py dossier "${ZNACKA}" 2>&1 | tee run.log
+
+      # always(): kdyz beh spadne az u posledniho dokumentu, stazena PDF i
+      # zapsany shortlist dokumentu v databazi maji cenu - at prace neprijde vnivec.
+      - name: Export docs/data.json
+        if: always() && steps.znacka.outputs.ok == 'true'
+        shell: bash
+        run: |
+          python cli.py export 2>&1 | tee -a run.log
+
+      - name: Commit vysledku
+        if: always() && steps.znacka.outputs.ok == 'true'
+        shell: bash
+        # I overena znacka jde do 'run:' pres env promennou - pravidlo "nic
+        # z eventu neinterpolovat primo do shellu" nema mit vyjimky.
+        env:
+          ZNACKA: ${{ steps.znacka.outputs.znacka }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          mkdir -p data docs/dossier
+          git add data docs/dossier
+          if [ -f docs/data.json ]; then
+            git add docs/data.json
+          fi
+          # Commit jen kdyz se neco opravdu zmenilo.
+          git diff --staged --quiet || git commit -m "ISIR: dossier ${ZNACKA}"
+          git push || (git pull --rebase --autostash && git push)
+
+      - name: Cely dossier do souhrnu behu (cteni v mobilni appce)
+        if: always() && steps.znacka.outputs.ok == 'true'
+        shell: bash
+        env:
+          SLUG: ${{ steps.slug.outputs.slug }}
+          ZNACKA: ${{ steps.znacka.outputs.znacka }}
+        run: |
+          python3 - <<'PY'
+          import os
+          import pathlib
+
+          # Souhrn behu ma na GitHubu strop 1 MiB, dossier az ~350 000 znaku
+          # textu (klidne 700 kB v UTF-8) - radeji rezeme s rezervou.
+          LIMIT = 700000
+
+          slug = os.environ["SLUG"]
+          znacka = os.environ["ZNACKA"]
+          path = pathlib.Path("docs/dossier/%s.md" % slug)
+
+          if path.exists():
+              text = path.read_text(encoding="utf-8")
+              if len(text) > LIMIT:
+                  text = text[:LIMIT] + (
+                      "\n\n[... souhrn behu zkracen na %d znaku, cely soubor je "
+                      "v repozitari: docs/dossier/%s.md ...]" % (LIMIT, slug))
+          else:
+              text = ("## Dossier %s se nepodarilo sestavit\n\nPodrobnosti jsou "
+                      "v logu kroku 'Sestaveni dossieru'." % znacka)
+
+          summary = os.environ.get("GITHUB_STEP_SUMMARY")
+          if summary:
+              with open(summary, "a", encoding="utf-8") as fh:
+                  fh.write(text + "\n")
+          PY
+
+      - name: Odpoved do issue a zavreni
+        if: always() && steps.znacka.outputs.ok == 'true' && github.event_name == 'issues'
+        shell: bash
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ISSUE: ${{ github.event.issue.number }}
+          REPO: ${{ github.repository }}
+          SLUG: ${{ steps.slug.outputs.slug }}
+          ZNACKA: ${{ steps.znacka.outputs.znacka }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          FILE="docs/dossier/${SLUG}.md"
+          if [ -f "${FILE}" ]; then
+            LINK="https://github.com/${REPO}/blob/main/${FILE}"
+            gh issue comment "${ISSUE}" --repo "${REPO}" --body \
+              "Dossier k veci **${ZNACKA}** je hotovy: ${LINK}
+
+          Cely text je i v souhrnu behu (da se cist v mobilni appce): ${RUN_URL}"
+            gh issue close "${ISSUE}" --repo "${REPO}"
+          else
+            gh issue comment "${ISSUE}" --repo "${REPO}" --body \
+              "Dossier k veci **${ZNACKA}** se nepodarilo sestavit. Log behu: ${RUN_URL}"
+          fi
+
+      # 'Sestaveni dossieru' ma continue-on-error, takze job po jeho padu neni
+      # ve stavu failure() - log se proto veze na vysledku toho kroku.
+      - name: Log pri selhani
+        if: always() && steps.beh.outcome == 'failure'
+        uses: actions/upload-artifact@v4
+        with:
+          name: isir-dossier-log
+          path: |
+            run.log
+            *.log
+          if-no-files-found: ignore
+          retention-days: 14

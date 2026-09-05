@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-05T12:26:53+00:00",
+ "generated_at": "2026-09-05T13:18:16+00:00",
  "window": {
   "from": "2026-07-22",
   "to": "2026-09-04"
@@ -38,6 +38,7 @@
     "datova_schranka": "tteusut"
    },
    "shrnuti": "Insolvenční správce žádá soud o souhlas s prodejem mimo dražbu souboru movitých věcí dlužníka HP fast s.r.o. (zouvačka, diagnostika, vyvažovačka, kompresor, mycí stroj, nádrž na PHM) jako jednoho celku, formou inzerce a prodeje nejvyšší nabídce; konkrétní cena ani kupující zatím nejsou stanoveny.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70719380",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=4B77D8EECD4AE229E06333F21FAC1C6A&actSheet=B&pageB=all",
    "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=27354083&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
@@ -70,6 +71,7 @@
     "datova_schranka": null
    },
    "shrnuti": "Insolvenční správkyně žádá soud o souhlas se zpeněžením osobního automobilu Škoda Superb z majetkové podstaty dlužníka mimo dražbu, přímým prodejem prostřednictvím společnosti KLÁN, spol. s r.o. zájemci s ekonomicky nejvýhodnější nabídkou; konkrétní kupní cena zatím nebyla stanovena.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70716981",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=487D9CC80485B038E06333F21FAC3FAA&actSheet=B&pageB=all",
    "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=60779420&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
@@ -102,6 +104,7 @@
     "datova_schranka": null
    },
    "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: Michal Groborz): nemovitý majetek (1 položka). Podrobnosti jsou v soupisu majetkové podstaty. Klasifikováno heuristicky – ověřit v dokumentu.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70723653",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=2E8CBA9B8F49F223E06333F21FAC6E6E&actSheet=B&pageB=all",
    "or_url": null,
@@ -134,6 +137,7 @@
     "datova_schranka": "ejpx52g"
    },
    "shrnuti": "Insolvenční správce žádá soud o souhlas se zpeněžením souboru nemovitostí (pozemky a stavby v k.ú. Brozany nad Labem) mimo dražbu formou dvoukolového výběrového řízení; minimální cena v prvním kole 18 000 000 Kč, možnost snížení na 14 900 000 Kč v opakovaném kole.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70720216",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=13EA15E35055AEC6E06333F21FAC5869&actSheet=B&pageB=all",
    "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=47505052&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
@@ -166,6 +170,7 @@
     "datova_schranka": "zgaj8mz"
    },
    "shrnuti": "Insolvenční správce žádá soud o souhlas s prodejem pozemků parc. č. st. 40 a parc. č. 122 v k.ú. Radišov mimo dražbu formou přímého prodeje zájemci s nejvyšší nabídkovou cenou; konkrétní cena ani kupující v dokumentu uvedeni nejsou.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70703281",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=4C2CDE823BB85B46E06333F21FAC7A14&actSheet=B&pageB=all",
    "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=14379031&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
@@ -191,6 +196,7 @@
     "datova_schranka": null
    },
    "shrnuti": "Text dokumentu se nepodařilo načíst (obsahuje pouze technickou poznámku o PDF portfoliu bez obsahu), proto nelze identifikovat žádné konkrétní položky majetku ani navrhované ceny.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70709102",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=0C727DD110A0F583E06333F21FACBE7E&actSheet=B&pageB=all",
    "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=00919403&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
@@ -223,6 +229,7 @@
     "datova_schranka": null
    },
    "shrnuti": "Insolvenční správce žádá soud o souhlas s prodejem osobního automobilu Škoda Octavia mimo dražbu formou veřejného výběrového řízení; kupní cena nebyla v textu uvedena.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70711058",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=BD502DFDE4102256E05333F21FACE4E5&actSheet=B&pageB=all",
    "or_url": null,
@@ -248,6 +255,7 @@
     "datova_schranka": "yc86sxw"
    },
    "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: Jana Gocieková). Konkrétní položky majetku se z textu nepodařilo automaticky rozpoznat. Klasifikováno heuristicky – nutná ruční kontrola dokumentu.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70691177",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=3F0D551E1230E9BDE06333F21FACD6F7&actSheet=B&pageB=all",
    "or_url": null,
@@ -280,6 +288,7 @@
     "datova_schranka": "tkh7qy8"
    },
    "shrnuti": "Insolvenční správce žádá soud o souhlas s prodejem čtyřkolky CFMOTO CFORCE 450S mimo dražbu formou elektronické soutěže prostřednictvím komisionáře Car Aukce, spol. s r.o., konkrétní kupní cena zatím není stanovena.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70685604",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=3F0C94E4C46EE9D0E06333F21FAC62F2&actSheet=B&pageB=all",
    "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=22573542&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
@@ -312,6 +321,7 @@
     "datova_schranka": null
    },
    "shrnuti": "Insolvenční správce žádá soud o souhlas s prodejem osobního automobilu AUDI A4 z majetkové podstaty dlužnice mimo veřejnou dražbu, formou inzerce na portálech burzaspravcu.cz a bazos.cz s prodejem předkladateli nejvyšší nabídky. Kupní cena ani konkrétní kupující nejsou v návrhu uvedeny.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70681657",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=58FAE8E0D017D672E06333F21FAC508B&actSheet=B&pageB=all",
    "or_url": null,
@@ -350,6 +360,7 @@
     "datova_schranka": "w5wrt47"
    },
    "shrnuti": "Insolvenční správce navrhuje prodej mimo dražbu spoluvlastnických podílů dlužnice na bytové jednotce č. 1077/6 a souvisejících podílů na budově a pozemku v k.ú. Strakonice zájemci Václavu Pekařovi za celkovou kupní cenu 151 000 Kč.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70691032",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=250F33A86907D0FEE06333F21FAC07E9&actSheet=B&pageB=all",
    "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=62783033&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
@@ -382,6 +393,7 @@
     "datova_schranka": null
    },
    "shrnuti": "Insolvenční správce žádá soud o souhlas s prodejem mimo dražbu spoluvlastnického podílu 1/2 na bytovém zařízení (vybavení domácnosti) dlužníka formou přímého prodeje nejvyšší nabídce; konkrétní kupní cena ani kupující nejsou v návrhu uvedeny.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70689261",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=0D13B163E7A58DDBE06333F21FAC86C6&actSheet=B&pageB=all",
    "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=88539857&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
@@ -414,6 +426,7 @@
     "datova_schranka": null
    },
    "shrnuti": "Insolvenční správce žádá soud o souhlas s prodejem osobního automobilu VW Transporter mimo dražbu přímému zájemci za nejvyšší nabízenou cenu, aktuálně evidovanou v řádu statisíců Kč (přesná částka v textu nečitelná kvůli OCR).",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70660067",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=41A8C8CAB140E9ADE06333F21FACE3B0&actSheet=B&pageB=all",
    "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=28498526&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
@@ -452,6 +465,7 @@
     "datova_schranka": null
    },
    "shrnuti": "Insolvenční správce navrhuje prodej spoluvlastnických podílů dlužnice (1/4 a 1/2) na pozemcích a rodinném domě v k.ú. Olšovec mimo veřejnou dražbu formou nabídkového řízení prostřednictvím společnosti PROKONZULTA, a.s.; konečná cena podléhá souhlasu soudu, konkrétní kupní cena ani kupující nejsou v návrhu uvedeni.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70660222",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=CFDBEEE343BE201BE05333F21FACC0FE&actSheet=B&pageB=all",
    "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=87795124&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
@@ -526,6 +540,11 @@
     "datova_schranka": "mtuxtq5"
    },
    "shrnuti": "Insolvenční správce žádá soud o souhlas s prodejem drobného movitého majetku (a ochranné známky) sepsaného v soupisu majetkové podstaty dlužníka Mastodont Baits s.r.o. mimo dražbu, nejvyšší nabídce; konkrétní kupní ceny ani zájemci nejsou v dokumentu uvedeny.",
+   "soupis": {
+    "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70490199",
+    "datum": "2026-08-14",
+    "popis": "Soupis majetkové podstaty"
+   },
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70649313",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=4DFF53DCD8B2AB66E06333F21FACFDF2&actSheet=B&pageB=all",
    "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=04651758&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
@@ -558,6 +577,7 @@
     "datova_schranka": null
    },
    "shrnuti": "Insolvenční správkyně žádá soud o souhlas se zpeněžením spoluvlastnického podílu 1/2 na pozemcích (zahrada a ostatní plocha) v k.ú. Skalice u České Lípy mimo dražbu, přímým prodejem třetí osobě prostřednictvím internetových portálů www.burzaspravcu.cz a www.portaldrazeb.cz. Konkrétní kupní cena ani kupující nejsou v textu uvedeny.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70645772",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=F21F6BB7348FDE06E05333F21FAC66C4&actSheet=B&pageB=all",
    "or_url": null,
@@ -590,6 +610,7 @@
     "datova_schranka": null
    },
    "shrnuti": "Insolvenční správce žádá soud o souhlas s prodejem ideálního podílu 96/1584 na lesním pozemku parc. č. 778/1 (LV 48, k.ú. Košařiska) mimo dražbu za nabídnutou cenu 250 000 Kč zájemkyni paní Liberdové, přestože znalecký posudek stanovil cenu 780 000 Kč.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70644832",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=CFDC8B5B5BB9206FE05333F21FAC09E2&actSheet=B&pageB=all",
    "or_url": null,
@@ -622,6 +643,7 @@
     "datova_schranka": null
    },
    "shrnuti": "Insolvenční správce žádá soud o souhlas s prodejem pozemkových parcel č. 23/2, 25/1 a 1652/2 (k.ú. Milíkov u Jablunkova) mimo dražbu zájemci Ing. Miroslavu Sikorovi za nabídnutou cenu 150.000 Kč, přičemž znalecký posudek stanovil cenu 185.000 Kč.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70644770",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=CFDC8B5B5BB9206FE05333F21FAC09E2&actSheet=B&pageB=all",
    "or_url": null,
@@ -654,6 +676,7 @@
     "datova_schranka": "gir33gv"
    },
    "shrnuti": "Insolvenční správce žádá soud o souhlas s prodejem webové domény www.nakladnitechnika.cz mimo dražbu formou nabídky na bezplatných portálech po dobu 30 dnů; cena bude určena nejvyšší nabídkou zájemce, konkrétní kupující ani cena zatím nejsou stanoveny.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70638323",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=4CE1B451F10727B5E06333F21FACD116&actSheet=B&pageB=all",
    "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=27547701&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
@@ -686,6 +709,7 @@
     "datova_schranka": "ifead4"
    },
    "shrnuti": "Insolvenční správce žádá soud o souhlas se zpeněžením nemovitosti (pozemek s garáží v k.ú. Mariánské Radčice, LV 619) mimo dražbu, cena ani kupující nejsou v návrhu uvedeny.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70630073",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=44E2945725F6D38AE06333F21FACC3F6&actSheet=B&pageB=all",
    "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=22473793&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
@@ -724,6 +748,7 @@
     "datova_schranka": null
    },
    "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: Ing. Jaroslav Veverka MBA): movitý majetek, nehmotný majetek (2 položky). Navrhovaná cena 29190 CZK. Klasifikováno heuristicky – ověřit v dokumentu.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70628301",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=2149E9046063D036E06333F21FACB471&actSheet=B&pageB=all",
    "or_url": null,
@@ -756,6 +781,7 @@
     "datova_schranka": null
    },
    "shrnuti": "Insolvenční správce žádá soud o souhlas s prodejem tří pozemkových parcel (LV č. 97, k.ú. Milíkov u Jablunkova) mimo dražbu zájemci Ing. Miroslavu Sikorovi za nabídnutou kupní cenu 150 000 Kč, přičemž znalecký posudek stanovil cenu 185 000 Kč.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70635929",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=CFDC8B5B5BB9206FE05333F21FAC09E2&actSheet=B&pageB=all",
    "or_url": null,
@@ -812,6 +838,11 @@
     "datova_schranka": "rp36bbc"
    },
    "shrnuti": "Insolvenční správce žádá soud o souhlas se zpeněžením movitého majetku dlužníka SEVEROČESKÁ PAPÍRNA, s.r.o. (položky č. 1–71, 80, 81 a zajištěná položka č. 76) mimo dražbu formou elektronického výběrového řízení ve třech kolech; celková hodnota ocenění majetku činí 848 500 Kč.",
+   "soupis": {
+    "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70563400",
+    "datum": "2026-08-21",
+    "popis": "Soupis majetkové podstaty - doplnění"
+   },
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70621585",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=4C2CDE8238F05B46E06333F21FAC7A14&actSheet=B&pageB=all",
    "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=27132277&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
@@ -844,6 +875,7 @@
     "datova_schranka": "tankvp"
    },
    "shrnuti": "Insolvenční správce žádá soud o souhlas s prodejem přípojného vozidla (přívěsu) značky Agados mimo dražbu formou přímého prodeje zájemci s nejvyšší nabídkou; minimální kupní cena nesmí být nižší než cena stanovená znaleckým posudkem.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70623690",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=483F25F0116C0023E06333F21FAC8DD0&actSheet=B&pageB=all",
    "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=17794161&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
@@ -876,6 +908,7 @@
     "datova_schranka": "tankvys"
    },
    "shrnuti": "Insolvenční správce žádá soud o souhlas s prodejem nákladního vozidla Mercedes-Benz Vito 114 CDI mimo dražbu, cena bude stanovena znaleckým posudkem a prodej proběhne formou přímého prodeje zájemci s nejvyšší nabídkou, minimálně za cenu dle znaleckého posudku.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70623607",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=483F25F0116C0023E06333F21FAC8DD0&actSheet=B&pageB=all",
    "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=17794161&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
@@ -908,6 +941,7 @@
     "datova_schranka": null
    },
    "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: Jakub Růžička): movitý majetek (1 položka). Podrobnosti jsou v soupisu majetkové podstaty. Klasifikováno heuristicky – ověřit v dokumentu.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70618576",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=2E8D1E30BEBFF1BCE06333F21FAC9734&actSheet=B&pageB=all",
    "or_url": null,
@@ -940,6 +974,7 @@
     "datova_schranka": null
    },
    "shrnuti": "Insolvenční správce žádá soud o souhlas s prodejem souboru náhradních dílů (28 ks kol, řetězy, popruhy, řezivo) z majetkové podstaty dlužníka STEBAL Spedition, s.r.o. mimo veřejnou dražbu, prostřednictvím portálů burzaspravcu.cz a portaldrazeb.cz, zájemci s nejvyšší nabídkou. Cena nebyla v textu konkrétně uvedena.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70620244",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=2272B601662A3AA8E06333F21FAC5121&actSheet=B&pageB=all",
    "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=25036114&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
@@ -978,6 +1013,7 @@
     "datova_schranka": null
    },
    "shrnuti": "Insolvenční správce žádá soud o souhlas s prodejem spoluvlastnického podílu (id. 1/6) dlužnice Jiřiny Klimešové na zděděných nemovitostech v k.ú. Rychlov u Bystřice pod Hostýnem mimo dražbu, nejméně za ceny stanovené znaleckými posudky (1.083.333 Kč a 46.666 Kč).",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70616374",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=13E9C9F5C20CAE4DE06333F21FACB2EC&actSheet=B&pageB=all",
    "or_url": null,
@@ -1010,6 +1046,7 @@
     "datova_schranka": null
    },
    "shrnuti": "Insolvenční správce žádá soud o souhlas s prodejem osobního automobilu Volkswagen Kombi mimo dražbu za minimální kupní cenu 92 600 Kč + DPH, na základě nejvyšší nabídky z 16 zájemců.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70606340",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=4C2CEE8C6FC95B4CE06333F21FACA8BD&actSheet=B&pageB=all",
    "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=24214647&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
@@ -1048,6 +1085,7 @@
     "datova_schranka": null
    },
    "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: E.Mi - International s.r.o.): movitý majetek, nehmotný majetek (2 položky). Navrhovaná cena 550000 CZK bez DPH. Klasifikováno heuristicky – ověřit v dokumentu.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70572003",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=4C2CEE8C6FC95B4CE06333F21FACA8BD&actSheet=B&pageB=all",
    "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=24214647&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
@@ -1128,6 +1166,7 @@
     "datova_schranka": null
    },
    "shrnuti": "Insolvenční správce navrhuje prodej mimo dražbu nezajištěného movitého majetku - senzorů a souvisejících komponent (kabely, destičky, šrouby, kryty, držáky) v různých počtech kusů. Prodej se uskuteční nejvyšší nabídce, konkrétní kupní ceny ani zájemce nejsou v textu uvedeny.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70587267",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=497019B67DC79593E06333F21FAC0E6F&actSheet=B&pageB=all",
    "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=61063380&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
@@ -1160,6 +1199,7 @@
     "datova_schranka": "hvbabbq"
    },
    "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: Tomáš Cibuzar): movitý majetek (1 položka). Navrhovaná cena 100000 CZK. Klasifikováno heuristicky – ověřit v dokumentu.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70580921",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=45C1327928E5A99FE06333F21FAC75EC&actSheet=B&pageB=all",
    "or_url": null,
@@ -1192,6 +1232,7 @@
     "datova_schranka": "wgbybe3"
    },
    "shrnuti": "Insolvenční správkyně žádá soud o souhlas s prodejem osobního automobilu Citroén Berlingo mimo dražbu prostřednictvím portálu www.portaldrazeb.cz nejvyšší nabídce; odhadovaná tržní hodnota cca 110 000 Kč, konkrétní kupní cena ani kupující zatím nejsou určeni.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70587818",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=3C6079951AF65AFAE06333F21FACA11D&actSheet=B&pageB=all",
    "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=24749338&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
@@ -1296,6 +1337,7 @@
     "datova_schranka": null
    },
    "shrnuti": "Insolvenční správce žádá o souhlas s prodejem souboru movitého majetku dlužníka Freibau s.r.o. (nákladní a pracovní stroje, vozidla, zahradní traktory, svářecí poloautomat) mimo dražbu; nejvýhodnější souhrnná nabídka za celý soubor činí 401.000 Kč bez DPH.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70586948",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=322989793181EED0E06333F21FAC4CE5&actSheet=B&pageB=all",
    "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=02094240&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
@@ -1321,6 +1363,7 @@
     "datova_schranka": null
    },
    "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: Ing. Jiří Vlk). Konkrétní položky majetku se z textu nepodařilo automaticky rozpoznat. Klasifikováno heuristicky – nutná ruční kontrola dokumentu.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70581028",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=319CC5FF0FB37FC9E06333F21FAC0821&actSheet=B&pageB=all",
    "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=18768857&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
@@ -1359,6 +1402,7 @@
     "datova_schranka": "8iedd6n"
    },
    "shrnuti": "Insolvenční správkyně navrhuje soudu schválení prodeje dvou osobních automobilů (Ford Mondeo Hybrid a Ford S-MAX) z majetkové podstaty mimo dražbu, a to nejvyšší nabídce. Konkrétní kupní cena ani zájemce nejsou v dokumentu uvedeny.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70560148",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=45BBCD2536888839E06333F21FAC7757&actSheet=B&pageB=all",
    "or_url": null,
@@ -1391,6 +1435,7 @@
     "datova_schranka": "tiqpp"
    },
    "shrnuti": "Insolvenční správce žádá soud o souhlas s prodejem vozidla Volkswagen Golf z majetkové podstaty dlužnice mimo dražbu, kupní cena nebyla v textu uvedena.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70564443",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=38DBE5AD7D2675E2E06333F21FAC4FC8&actSheet=B&pageB=all",
    "or_url": null,
@@ -1423,6 +1468,7 @@
     "datova_schranka": "gir33av"
    },
    "shrnuti": "Insolvenční správce žádá soud o souhlas s přímým prodejem mimo dražbu souboru skladových zásob (položka č. 62 soupisu) dlužníka BK Instal s.r.o., které budou nabízeny na portálech burzaspravcu.cz a bazos.cz po dobu min. 30 dnů a prodány nejvyšší nabídce; konkrétní kupní cena ani kupující zatím nejsou určeni.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70550656",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=4C2CEE8C727B5B4CE06333F21FACA8BD&actSheet=B&pageB=all",
    "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=11826584&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
@@ -1461,6 +1507,7 @@
     "datova_schranka": "ebrqtey"
    },
    "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: Alena Čáslavková): nemovitý majetek, movitý majetek (2 položky). Klasifikováno heuristicky – ověřit v dokumentu.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70549926",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=4B7881DBFA91E21CE06333F21FAC24B7&actSheet=B&pageB=all",
    "or_url": null,
@@ -1493,6 +1540,7 @@
     "datova_schranka": null
    },
    "shrnuti": "Insolvenční správkyně navrhuje soudu vydat souhlas s prodejem spoluvlastnického podílu 3/20 na zahradě parc. č. 718/1 (LV 1229, k.ú. Dvůr Králové nad Labem) mimo dražbu na realitním trhu nejvyšší nabídce; cena ani konkrétní zájemce nejsou v textu uvedeny.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70552496",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=1F4F77846B9B09A7E06333F21FAC637F&actSheet=B&pageB=all",
    "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=21820571&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
@@ -1525,6 +1573,7 @@
     "datova_schranka": null
    },
    "shrnuti": "Dokument je silně poškozený (OCR/zalomení), obsahuje formulářovou hlavičku k návrhu na souhlas se zpeněžením majetku mimo dražbu, avšak konkrétní popis prodávaného majetku, cena ani kupující nejsou z textu čitelné.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70553460",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=0A903930B5ACF154E06333F21FACE100&actSheet=B&pageB=all",
    "or_url": null,
@@ -1557,6 +1606,7 @@
     "datova_schranka": "gir33qv"
    },
    "shrnuti": "Insolvenční správce žádá o souhlas s přímým prodejem obchodního podílu dlužníka ve slovenské společnosti BK Instal s.r.o. mimo dražbu za minimální kupní cenu 2.426 Kč (odpovídá 100 EUR), s nabídkou od zájemce PhDr. Martina Havlíka, za podmínky zveřejnění nabídky a přednosti nejvyšší nabídce.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70531153",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=4C2CEE8C727B5B4CE06333F21FACA8BD&actSheet=B&pageB=all",
    "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=11826584&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
@@ -1589,6 +1639,7 @@
     "datova_schranka": "zgaj8mz"
    },
    "shrnuti": "Insolvenční správce žádá soud o souhlas s prodejem osobního automobilu Škoda Octavia III mimo dražbu formou přímého prodeje zájemci s nejvyšší nabídkou; konkrétní kupní cena ani kupující nejsou v návrhu uvedeny.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70535597",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=483832BCFCC288F4E06333F21FAC5458&actSheet=B&pageB=all",
    "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=88853250&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
@@ -1621,6 +1672,7 @@
     "datova_schranka": "uqsje8r"
    },
    "shrnuti": "Insolvenční správce žádá soud o souhlas s přímým prodejem nákladního automobilu Volvo FH13 460 mimo dražbu společnosti Primatruck s.r.o. za 110 000 Kč bez DPH, čímž mají zaniknout pohledávky za majetkovou podstatou z titulu parkovného.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70541387",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=26B87AB6EED08250E06333F21FAC19A2&actSheet=B&pageB=all",
    "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=03657337&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
@@ -1653,6 +1705,7 @@
     "datova_schranka": null
    },
    "shrnuti": "Insolvenční správce žádá soud o souhlas s prodejem nemovitosti (položka č. 2 majetkové podstaty, LV 391, k.ú. Kamenický Šenov) mimo veřejnou dražbu formou inzerce na portálech burzaspravcu.cz a bazos.cz zájemci s nejvyšší nabídkou. Konkrétní cena nabídnuta nebyla, prodej proběhne formou min. 30denní inzerce.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70537968",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=147694801B187743E06333F21FAC3907&actSheet=B&pageB=all",
    "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=72714611&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
@@ -1685,6 +1738,7 @@
     "datova_schranka": "8iedd6n"
    },
    "shrnuti": "Insolvenční správkyně navrhuje soudu vydat souhlas s prodejem nemovitosti z majetkové podstaty dlužnice mimo dražbu, formou prodeje na realitním trhu nejvyšší nabídce. Konkrétní specifikace nemovitosti ani navrhovaná cena nejsou v dostupném textu uvedeny (výpis z katastru je patrně obsažen v nekonvertované příloze).",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70523131",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=483F25F0140A0023E06333F21FAC8DD0&actSheet=B&pageB=all",
    "or_url": null,
@@ -1717,6 +1771,7 @@
     "datova_schranka": null
    },
    "shrnuti": "Insolvenční správce žádá o souhlas se zpeněžením 1/4 spoluvlastnického podílu dlužníka na rodinném domě a pozemcích v k.ú. Rokytnice u Slavičína (LV 195) mimo dražbu; nemovitost bude prodána jako celek za sjednanou kupní cenu 2 900 000 Kč prostřednictvím realitního zprostředkovatele Good move reality s.r.o.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70516329",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=28D091F975EE9C1CE06333F21FAC98E4&actSheet=B&pageB=all",
    "or_url": null,
@@ -1749,6 +1804,7 @@
     "datova_schranka": "yb3yuei"
    },
    "shrnuti": "Insolvenční správkyně žádá soud o souhlas se zpeněžením 1/2 spoluvlastnického podílu na pozemku p.č. 1172/7 v k.ú. Jaronín (obec Brloh) mimo dražbu; doporučuje přijmout nabídku XPP Group s.r.o. ve výši 60 000 Kč, která převyšuje dřívější nabídku PREXIMA nemovitosti s.r.o. (20 000 Kč za celý pozemek, tj. 10 000 Kč za zpeněžovaný podíl).",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70515749",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=C60E2F085C6C381CE05333F21FAC3BAD&actSheet=B&pageB=all",
    "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=65987632&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
@@ -1781,6 +1837,7 @@
     "datova_schranka": null
    },
    "shrnuti": "Text dokumentu je po OCR extrakci nečitelný a nestrukturovaný, neobsahuje rozpoznatelné konkrétní položky majetku, ceny ani identifikaci kupujícího.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70510034",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=3B1068D648F4A3A9E06333F21FAC39BA&actSheet=B&pageB=all",
    "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=05418399&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
@@ -1806,6 +1863,7 @@
     "datova_schranka": null
    },
    "shrnuti": "Text dokumentu je poškozený/nečitelný (OCR z formuláře), neobsahuje identifikovatelné konkrétní položky majetku, ceny ani kupující - jde patrně o strukturovaný formulář ISIR bez čitelného obsahu návrhu.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70509974",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=3B1068D648F4A3A9E06333F21FAC39BA&actSheet=B&pageB=all",
    "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=05418399&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
@@ -1838,6 +1896,7 @@
     "datova_schranka": null
    },
    "shrnuti": "Dokument je znehodnocen chybným OCR/extrakcí textu a neobsahuje čitelné informace o konkrétním nabízeném majetku, ceně ani kupujícím.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70509892",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=3B1068D648F4A3A9E06333F21FAC39BA&actSheet=B&pageB=all",
    "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=05418399&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
@@ -1870,6 +1929,7 @@
     "datova_schranka": "fkpympi"
    },
    "shrnuti": "Insolvenční správkyně žádá soud o souhlas s prodejem pohledávky dlužníka ALFA KOMPLEX a.s. za společností Bobstruction s.r.o. ve výši 33 746 Kč mimo dražbu formou inzerované nabídky nejvyšší nabídce po dobu 30 dní; konkrétní kupní cena ani kupující nejsou v textu uvedeni.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70504672",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=335759317D038533E06333F21FAC7416&actSheet=B&pageB=all",
    "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=28218451&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
@@ -1902,6 +1962,7 @@
     "datova_schranka": null
    },
    "shrnuti": "Insolvenční správce navrhuje soudu vyslovit souhlas s prodejem spoluvlastnického podílu 1/15 na bytové jednotce č. 340/10 v k.ú. Žižkov mimo veřejnou dražbu, formou inzerce na portálech burzaspravcu.cz a bazos.cz zájemci s nejvyšší nabídkou. Kupní cena ani konkrétní kupující nejsou v textu uvedeny.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70509691",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=369016B349B11D14E06333F21FAC4EF1&actSheet=B&pageB=all",
    "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=03781917&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
@@ -1927,6 +1988,7 @@
     "datova_schranka": null
    },
    "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: Jiří Čedík). Konkrétní položky majetku se z textu nepodařilo automaticky rozpoznat. Klasifikováno heuristicky – nutná ruční kontrola dokumentu.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70497075",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=483832BD061888F4E06333F21FAC5458&actSheet=B&pageB=all",
    "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=03062023&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
@@ -1989,6 +2051,7 @@
     "datova_schranka": "pvmjpvs"
    },
    "shrnuti": "Insolvenční správce žádá soud o souhlas s přímým prodejem mimo dražbu movitého majetku dlužníka - šesti kusů střelných zbraní (pistole, brokovnice, malorážky) sepsaných v soupisu majetkové podstaty. Prodej proběhne nejvyšší/nejvýhodnější nabídce, konkrétní kupní ceny ani zájemci nejsou v textu uvedeni.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70496370",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=369035FDA2B91D18E06333F21FAC7984&actSheet=B&pageB=all",
    "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=70272131&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
@@ -2014,6 +2077,7 @@
     "datova_schranka": null
    },
    "shrnuti": "Dokument je nečitelný/poškozený výstup OCR (jedná se zjevně o jiný typ formuláře, patrně přihlášku pohledávky, nikoli návrh na zpeněžení majetku mimo dražbu) a neobsahuje žádné identifikovatelné položky majetku nabízené k prodeji.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70474405",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=2E6A2608F6674CDEE06333F21FACCA52&actSheet=B&pageB=all",
    "or_url": null,
@@ -2039,6 +2103,7 @@
     "datova_schranka": null
    },
    "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: Natálie Jabornická). Konkrétní položky majetku se z textu nepodařilo automaticky rozpoznat. Klasifikováno heuristicky – nutná ruční kontrola dokumentu.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70481404",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=214C1EDED8060B22E06333F21FACC8A0&actSheet=B&pageB=all",
    "or_url": null,
@@ -2071,6 +2136,7 @@
     "datova_schranka": "jx6yac9"
    },
    "shrnuti": "Insolvenční správkyně žádá soud o souhlas s prodejem zajišťovací směnky (KA1808262) vystavené OnSite Power 3 s.r.o. mimo dražbu společnosti DIBITI Business Development, s.r.o. za kupní cenu 33.333.000 Kč.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70478149",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=E45E37BF17DBE631E05333F21FAC736E&actSheet=B&pageB=all",
    "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=25083325&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
@@ -2109,6 +2175,7 @@
     "datova_schranka": null
    },
    "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: LESS a.s.): nemovitý majetek, nehmotný majetek (2 položky). Navrhovaná cena 4320000 CZK. Klasifikováno heuristicky – ověřit v dokumentu.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70474336",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=f4c16c2d-ebf5-4c31-8d5b-3d6e84cd0325&actSheet=B&pageB=all",
    "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=26115271&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
@@ -2141,6 +2208,7 @@
     "datova_schranka": null
    },
    "shrnuti": "Insolvenční správce žádá soud o souhlas k prodeji pohledávky dlužníka za Veronikou Venclíkovou (z titulu smlouvy o zápůjčce ve výši 230000 Kč) mimo dražbu, s navrženou minimální kupní cenou za postoupení pohledávky 24200 Kč.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70469143",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=385EC6BB75A9127AE06333F21FAC5DCB&actSheet=B&pageB=all",
    "or_url": null,
@@ -2166,6 +2234,7 @@
     "datova_schranka": null
    },
    "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: Eva Kollarčíková). Konkrétní položky majetku se z textu nepodařilo automaticky rozpoznat. Klasifikováno heuristicky – nutná ruční kontrola dokumentu.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70457162",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=FD9B42DBA8E9A1B6E05333F21FACF2E2&actSheet=B&pageB=all",
    "or_url": null,
@@ -2216,6 +2285,7 @@
     "datova_schranka": null
    },
    "shrnuti": "Insolvenční správce žádá soud o souhlas s prodejem čtyř movitých věcí dlužníka Asatix s.r.o. (VZV, přívěsný vozík, Mercedes Benz, Jeep Patriot) mimo dražbu, formou výběrového řízení, zájemcům s nejvyšší nabídkou.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70441870",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=45C132792937A99FE06333F21FAC75EC&actSheet=B&pageB=all",
    "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=29144868&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
@@ -2254,6 +2324,7 @@
     "datova_schranka": "thmxt95"
    },
    "shrnuti": "Insolvenční správce žádá soud o souhlas s prodejem mimo dražbu 2 kg investičního stříbra (min. 38 188 Kč, zpětný odběr dodavatele) a 3x 50 g zlata (min. 450 000 Kč, tj. 150 000 Kč za slitek), obě za aktuální tržní cenu kovů.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70446077",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=3DFB0A707DB80CF0E06333F21FACDD94&actSheet=B&pageB=all",
    "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=28770897&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
@@ -2286,6 +2357,7 @@
     "datova_schranka": "kruvmd"
    },
    "shrnuti": "Insolvenční správce žádá soud o souhlas se zpeněžením pohledávky dlužníka S-Power Energies, s.r.o. za společností Solaros.cz s.r.o. (jistina 1,5 mil. Kč) formou postoupení Ing. Danielu Duranovi za úplatu 75 000 Kč, mimo dražbu.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70441154",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=39A07D3B0530BFF2E06333F21FAC3767&actSheet=B&pageB=all",
    "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=05192242&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
@@ -2318,6 +2390,7 @@
     "datova_schranka": "ftaerv"
    },
    "shrnuti": "Insolvenční správce žádá soud o souhlas se zpeněžením mimo dražbu nákladního automobilu Volvo FH (vyřazeného z provozu, nepojízdného) formou prodeje za nejvýše učiněnou nabídku; konkrétní kupní cena ani kupující v textu nejsou uvedeni.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70439971",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=1B29FC1FDFCA0C06E06333F21FAC37F2&actSheet=B&pageB=all",
    "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=27969797&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
@@ -2350,6 +2423,7 @@
     "datova_schranka": "a4vzr87"
    },
    "shrnuti": "Insolvenční správce žádá soud o změnu podmínek prodeje mimo dražbu tak, aby dosud nezpeněžené položky č. 15–18 a 20–23 soupisu majetkové podstaty (umístěné v havarijní výrobní hale ve vlastnictví třetí osoby) mohly být prodány za nejvyšší nabídku, konkrétně majiteli haly za cenu odpovídající ceně šrotu, bez stanovení minimální ceny dle soupisu.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70432522",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=1CD0AADC6342FA96E06333F21FAC22BC&actSheet=B&pageB=all",
    "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=07398778&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
@@ -2382,6 +2456,7 @@
     "datova_schranka": null
    },
    "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: Polacanter Transport s.r.o.): movitý majetek (1 položka). Navrhovaná cena 75000 CZK. Klasifikováno heuristicky – ověřit v dokumentu.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70426221",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=0C727DD1055AF583E06333F21FACBE7E&actSheet=B&pageB=all",
    "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=28655346&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
@@ -2420,6 +2495,7 @@
     "datova_schranka": null
    },
    "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: Green Energy Trading s.r.o.): movitý majetek, nehmotný majetek (2 položky). Navrhovaná cena 197535 CZK vč. DPH. Klasifikováno heuristicky – ověřit v dokumentu.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70419425",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=3A343055F57B5952E06333F21FAC58BE&actSheet=B&pageB=all",
    "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=26964422&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
@@ -2452,6 +2528,7 @@
     "datova_schranka": null
    },
    "shrnuti": "Insolvenční správce žádá soud o souhlas se zpeněžením pohledávky z neuhrazené faktury vůči společnosti ATIKING s.r.o. mimo dražbu, přímému zájemci za nejvyšší učiněnou nabídku; konkrétní cena ani kupující nejsou v textu uvedeni.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70415483",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=0D13B163D6938DDBE06333F21FAC86C6&actSheet=B&pageB=all",
    "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=28811208&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
@@ -2477,6 +2554,7 @@
     "datova_schranka": null
    },
    "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: Martina Surmajová). Konkrétní položky majetku se z textu nepodařilo automaticky rozpoznat. Klasifikováno heuristicky – nutná ruční kontrola dokumentu.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70382249",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=4AAEB85A7078B72FE06333F21FAC0E49&actSheet=B&pageB=all",
    "or_url": null,
@@ -2502,6 +2580,7 @@
     "datova_schranka": null
    },
    "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: TM Merch s.r.o.). Konkrétní položky majetku se z textu nepodařilo automaticky rozpoznat. Klasifikováno heuristicky – nutná ruční kontrola dokumentu.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70386227",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=46285FFB71994A28E06333F21FAC1529&actSheet=B&pageB=all",
    "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=14213516&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
@@ -2546,6 +2625,7 @@
     "datova_schranka": null
    },
    "shrnuti": "Insolvenční správce navrhuje soudu souhlas s prodejem tří spoluvlastnických podílů na pozemcích v k.ú. Újezd pod Troskami mimo veřejnou dražbu, prostřednictvím portálu www.burzaspravcu.cz předkladateli nejvyšší nabídky. Konkrétní kupní cena ani kupující nejsou v textu uvedeny.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70377793",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=42AC3D10B3B03BF4E06333F21FAC7928&actSheet=B&pageB=all",
    "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=06170412&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
@@ -2596,6 +2676,7 @@
     "datova_schranka": "fkpympi"
    },
    "shrnuti": "Insolvenční správce žádá soud o souhlas s prodejem čtyř vozidel (Ford Galaxy, Volkswagen Touareg, Ford Transit Custom, Ford Transit) z majetkové podstaty dlužníka mimo dražbu, a to prostřednictvím komisionáře Car Aukce, spol. s r.o. formou elektronických aukcí. Konkrétní kupní ceny ani kupující nejsou v dokumentu uvedeny, vyvolávací ceny se odvíjí od znaleckého posudku ve fázích 105%, 90%, 75% a dle komitenta.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70380591",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=38C36B55E24FD44DE06333F21FACB920&actSheet=B&pageB=all",
    "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=06184006&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
@@ -2640,6 +2721,7 @@
     "datova_schranka": "r2zp2mb"
    },
    "shrnuti": "Insolvenční správce žádá soud o souhlas se zpeněžením mimo dražbu tří spoluvlastnických podílů dlužníka na pozemcích v k.ú. Trmice, nabytých dědictvím, a to zájemci s nejvyšší cenovou nabídkou; kupní cena zatím není stanovena, čeká se na znalecký posudek.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70378264",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=2E8D229DF33FF1F7E06333F21FACA60D&actSheet=B&pageB=all",
    "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=07863802&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
@@ -2702,6 +2784,7 @@
     "datova_schranka": "zgaj8mz"
    },
    "shrnuti": "Insolvenční správce žádá soud o souhlas se zpeněžením mimo dražbu šesti movitých věcí z majetkové podstaty dlužníka Tomáše Vargy (počítačová sestava, mobilní telefon, chytré hodinky, sluchátka, koloběžka, kolo) formou přímého prodeje nejvyšší nabídce. Konkrétní kupní ceny ani zájemci nejsou v textu uvedeni.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70365943",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=460E8F40E1095A71E06333F21FACBC4D&actSheet=B&pageB=all",
    "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=07382821&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
@@ -2734,6 +2817,7 @@
     "datova_schranka": "euwkwt"
    },
    "shrnuti": "Insolvenční správce žádá soud o souhlas s přímým prodejem spoluvlastnického podílu dlužníka na bytové jednotce (vč. podílu na společných částech domu a pozemku) v České Lípě mimo dražbu, za nejvyšší nabídku kupní ceny; orientační hodnota dle odborného vyjádření činí 293 800 Kč, konkrétní kupní cena ani kupující zatím nejsou uvedeni.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70374211",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=449538B0B53025FCE06333F21FAC6D35&actSheet=B&pageB=all",
    "or_url": null,
@@ -2759,6 +2843,7 @@
     "datova_schranka": null
    },
    "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: Monsta Trade s.r.o.). Konkrétní položky majetku se z textu nepodařilo automaticky rozpoznat. Klasifikováno heuristicky – nutná ruční kontrola dokumentu.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70369550",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=44E2945726B8D38AE06333F21FACC3F6&actSheet=B&pageB=all",
    "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=07672462&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
@@ -2791,6 +2876,7 @@
     "datova_schranka": null
    },
    "shrnuti": "Insolvenční správce žádá soud o souhlas s prodejem vozidla Hyundai i20 (z nevypořádaného SJM dlužnice) mimo dražbu, kupní cena ani konkrétní kupující nejsou v návrhu uvedeny.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70365098",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=00F8752CDAEF1248E06333F21FACBAE1&actSheet=B&pageB=all",
    "or_url": null,
@@ -2816,6 +2902,7 @@
     "datova_schranka": null
    },
    "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: Jana Kvasničková). Konkrétní položky majetku se z textu nepodařilo automaticky rozpoznat. Klasifikováno heuristicky – nutná ruční kontrola dokumentu.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70354747",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=4C1DF6FFFF1F0C7FE06333F21FAC0E1F&actSheet=B&pageB=all",
    "or_url": null,
@@ -2848,6 +2935,7 @@
     "datova_schranka": null
    },
    "shrnuti": "Insolvenční správkyně žádá soud o souhlas se zpeněžením osobního automobilu Škoda Octavia mimo dražbu formou přímého prodeje prostřednictvím společnosti KLÁN, spol. s r.o. zájemci s nejvýhodnější nabídkou; konkrétní kupní cena zatím nebyla stanovena.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70350732",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=45BBCD2536858839E06333F21FAC7757&actSheet=B&pageB=all",
    "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=27470598&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
@@ -2946,6 +3034,7 @@
     "datova_schranka": null
    },
    "shrnuti": "Insolvenční správkyně žádá soud o souhlas se zpeněžením mimo dražbu movitého majetku dlužníka (IT vybavení - notebooky, mobilní telefony, tablety a příslušenství) vráceného po ukončení smluvního vztahu se společností Škoda X s.r.o., a to formou přímého prodeje zájemci s ekonomicky nejvýhodnější nabídkou; konkrétní kupní ceny ani zájemci zatím nejsou uvedeni.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70350662",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=45BBCD2536858839E06333F21FAC7757&actSheet=B&pageB=all",
    "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=27470598&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
@@ -2984,6 +3073,7 @@
     "datova_schranka": "cc8xwys"
    },
    "shrnuti": "Insolvenční správce žádá soud o souhlas se zpeněžením mimo dražbu dvou bytů (č. 100 a č. 107) na Ukrajině v Kyjevě, ul. Jamská 35/34, bez uvedené kupní ceny nebo konkrétního kupujícího - prodej proběhne až po uznání rozhodnutí ukrajinským soudem formou soutěže o nejlepší nabídku přes místní realitní kancelář.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70350545",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=3bf4f4e2-d7ae-4875-9cd2-ff22705e370f&actSheet=B&pageB=all",
    "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=49973215&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
@@ -3034,6 +3124,7 @@
     "datova_schranka": "fkpympi"
    },
    "shrnuti": "Insolvenční správce žádá soud o souhlas se zpeněžením nemovitostí na LV č. 641 v k.ú. Chotíkov společně se zajištěným movitým majetkem (olepovací stroj Egdeteq S-800 a další věc dle zápisu R 5/2022) a veškerým ostatním nezajištěným movitým majetkem dlužníka formou výběrového řízení obálkovou metodou s minimální nabídkovou cenou 54 820 000 Kč za celý soubor majetku.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70339955",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=3A2CF0F9DE2CC171E06333F21FACD972&actSheet=B&pageB=all",
    "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=62619624&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
@@ -3138,6 +3229,7 @@
     "datova_schranka": null
    },
    "shrnuti": "Insolvenční správce žádá soud o souhlas s prodejem souboru 13 movitých věcí (nákladní a osobní vozidla, pracovní stroje, zahradní traktory, svářečka) mimo dražbu; nejvýhodnější z obdržených nabídek na celý soubor činí 401 000 Kč bez DPH.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70345716",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=322989793181EED0E06333F21FAC4CE5&actSheet=B&pageB=all",
    "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=02094240&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
@@ -3170,6 +3262,7 @@
     "datova_schranka": null
    },
    "shrnuti": "Insolvenční správce žádá soud o souhlas se zpeněžením movitého majetku - modulového domu ECO Home Atrio 10+8x4 - formou prodeje mimo dražbu na základě výběrového řízení (inzerce) nejvyšší nabídce. Kupní cena nebyla v návrhu specifikována.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70341829",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=2BAC58839541F211E06333F21FACBE71&actSheet=B&pageB=all",
    "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=27952070&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
@@ -3220,6 +3313,7 @@
     "datova_schranka": null
    },
    "shrnuti": "Insolvenční správkyně nabízí k prodeji práva ke čtyřem ochranným známkám dlužníka Bellinni s.r.o. (LeGracie, PRO-TE(BE)-IN, Ran-ní ptáče, Slimka); kupní cena nebyla v textu uvedena, nabídky se přijímaly do 31. srpna 2026. Původně oslovený zájemce PK snack s.r.o. na nabídku nereagoval.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70346287",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=FC055A25FBD9E5C7E05333F21FAC306C&actSheet=B&pageB=all",
    "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=28129661&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
@@ -3252,6 +3346,7 @@
     "datova_schranka": "jidead"
    },
    "shrnuti": "Insolvenční správkyně navrhuje zpeněžení osobního automobilu Škoda Octavia z majetkové podstaty dlužníka formou přímého prodeje mimo dražbu nejvyšší nabídce; konkrétní kupní cena zatím není v návrhu uvedena.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70325187",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=3F0D551DF3C5E9BDE06333F21FACD6F7&actSheet=B&pageB=all",
    "or_url": null,
@@ -3284,6 +3379,7 @@
     "datova_schranka": null
    },
    "shrnuti": "Text dokumentu je silně poškozen OCR/pdftotext extrakcí a neobsahuje čitelné konkrétní údaje o nabízeném majetku, ceně ani kupujícím.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70325386",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=3B1068D648F4A3A9E06333F21FAC39BA&actSheet=B&pageB=all",
    "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=05418399&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
@@ -3316,6 +3412,7 @@
     "datova_schranka": null
    },
    "shrnuti": "Text dokumentu je zcela nečitelný v důsledku chyby OCR/extrakce - obsahuje pouze fragmenty formulářových polí bez identifikovatelného obsahu o konkrétním prodávaném majetku, ceně či kupujícím.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70325261",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=3B1068D648F4A3A9E06333F21FAC39BA&actSheet=B&pageB=all",
    "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=05418399&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
@@ -3348,6 +3445,7 @@
     "datova_schranka": "id8yyfh"
    },
    "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: Alena Antošová): movitý majetek (1 položka). Navrhovaná cena 150000 CZK. Klasifikováno heuristicky – ověřit v dokumentu.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70327446",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=28822697139A4B27E06333F21FAC4DEF&actSheet=B&pageB=all",
    "or_url": null,
@@ -3373,6 +3471,7 @@
     "datova_schranka": "wysyemi"
    },
    "shrnuti": "Insolvenční správce žádá soud o souhlas s prodejem movitého majetku dlužníka SAS and KIA trade s.r.o. mimo dražbu - nákladního a osobního automobilu, přívěsného vozíku a hotových výrobků/vybavení/materiálu. Cena nebude fixní, majetek bude nabídnut alespoň měsíc a prodán nejvyšší nabídce.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70297458",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=4B8C1E0C709C869AE06333F21FACA911&actSheet=B&pageB=all",
    "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=62360761&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
@@ -3405,6 +3504,7 @@
     "datova_schranka": "2t6wbxw"
    },
    "shrnuti": "Insolvenční správce žádá soud o souhlas s prodejem osobního automobilu Opel Vivaro-B (RZ 2BD8071) mimo dražbu, formou inzerce a prodeje nejvyšší nabídce. Kupní cena nebyla v žádosti stanovena.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70295874",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=497019B67B079593E06333F21FAC0E6F&actSheet=B&pageB=all",
    "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=06799671&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
@@ -3430,6 +3530,7 @@
     "datova_schranka": null
    },
    "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: Noëma Lucie Slabá). Konkrétní položky majetku se z textu nepodařilo automaticky rozpoznat. Klasifikováno heuristicky – nutná ruční kontrola dokumentu.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70298806",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=8BCE2D51E1196F46E05333F21FACD75F&actSheet=B&pageB=all",
    "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=45362874&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
@@ -3462,6 +3563,7 @@
     "datova_schranka": "mu9m9jk"
    },
    "shrnuti": "Insolvenční správce žádá soud o souhlas s prodejem lesního pozemku parc. č. 188 v k.ú. Drahov (LV 112, výměra 8742 m²) mimo dražbu za minimální kupní cenu 240 000 Kč, stanovenou porovnávací metodou bez znaleckého posudku.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70276571",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=4CE1786B158827B8E06333F21FACA327&actSheet=B&pageB=all",
    "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=87726521&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
@@ -3487,6 +3589,7 @@
     "datova_schranka": null
    },
    "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: JINDŘICH VALKOUN - AGROSLUŽBY s.r.o.). Konkrétní položky majetku se z textu nepodařilo automaticky rozpoznat. Klasifikováno heuristicky – nutná ruční kontrola dokumentu.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70276395",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=460E9024FA3F5A74E06333F21FACE8CB&actSheet=B&pageB=all",
    "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=24223506&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
@@ -3531,6 +3634,7 @@
     "datova_schranka": "gir33qv"
    },
    "shrnuti": "Insolvenční správce žádá o souhlas s prodejem mimo dražbu ideálních podílů 1/2 na pozemcích s rodinným domem v k.ú. Lešany nad Sázavou (minimální nabídka 2.550.000 Kč) a osobního automobilu Mercedes VITO oceněného na 120.000 Kč, oba prodeje formou veřejné nabídky na bezplatných portálech.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70280463",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=33573E5F6F988559E06333F21FACCD76&actSheet=B&pageB=all",
    "or_url": null,
@@ -3563,6 +3667,7 @@
     "datova_schranka": null
    },
    "shrnuti": "Insolvenční správce žádá soud o souhlas s prodejem osobního vozidla Škoda Octavia (r.v. 2011) z majetkové podstaty dlužníka mimo dražbu formou inzerce, prodej bude učiněn za nejvyšší nabídku bez stanovené konkrétní ceny.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70279779",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=322989793381EED0E06333F21FAC4CE5&actSheet=B&pageB=all",
    "or_url": null,
@@ -3595,6 +3700,7 @@
     "datova_schranka": null
    },
    "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: JIP - Papírny Větřní, a.s.): movitý majetek (1 položka). Navrhovaná cena 280000 CZK. Kupující: Cargo Rail s.r.o. Klasifikováno heuristicky – ověřit v dokumentu.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70266745",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=9b19c046-f34d-4ea8-a30e-234df4e0a2b9&actSheet=B&pageB=all",
    "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=45022526&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
@@ -3717,6 +3823,7 @@
     "datova_schranka": null
    },
    "shrnuti": "Insolvenční správce žádá soud o souhlas s prodejem 9 nákladních automobilů Mercedes-Benz Actros a 6 přívěsů PANAV (pol. č. 96-110) formou nabídkového řízení přes TIR CENTRUM s.r.o. a portál sauto.cz, a dále souboru movitých věcí (zbytkový odpad z provozní haly, pol. č. 111) přes portály burzaspravcu.cz a portaldrazeb.cz. Konkrétní kupní ceny nejsou v dokumentu uvedeny, budou podléhat schválení věřitelského výboru.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70239708",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=2272B601662A3AA8E06333F21FAC5121&actSheet=B&pageB=all",
    "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=25036114&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
@@ -3761,6 +3868,7 @@
     "datova_schranka": null
    },
    "shrnuti": "Insolvenční správce navrhuje soudu vydat souhlas se zpeněžením tří pohledávek z majetkové podstaty dlužníka ROKOS TRADE s.r.o. mimo dražbu, prodejem tomu, kdo nabídne nejvyšší cenu; konkrétní kupní ceny ani zájemci nejsou v textu uvedeni.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70250272",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=D60EFEE685E74D68E05333F21FAC3DF8&actSheet=B&pageB=all",
    "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=29377609&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
@@ -3793,6 +3901,7 @@
     "datova_schranka": "gugmvjn"
    },
    "shrnuti": "Insolvenční správce žádá soud o souhlas s prodejem garáže ve Velkém Malahově mimo dražbu panu Marku Jeníkovi za kupní cenu 75 000 Kč, namísto původně navrhovaných 90 000 Kč.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70229699",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=FD9B42DBCF9DA1B6E05333F21FACF2E2&actSheet=B&pageB=all",
    "or_url": null,
@@ -3825,6 +3934,7 @@
     "datova_schranka": null
    },
    "shrnuti": "Insolvenční správce navrhuje soudu souhlas s prodejem osobního automobilu Renault Megane Scenic (r.v. 2004) mimo veřejnou dražbu formou inzerce na portálech burzaspravcu.cz a bazos.cz předkladateli nejvyšší nabídky.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70217589",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=415A1FA943B205EDE06333F21FAC24E5&actSheet=B&pageB=all",
    "or_url": null,
@@ -3869,6 +3979,7 @@
     "datova_schranka": null
    },
    "shrnuti": "Insolvenční správce nežádá o prodej, ale o souhlas s vynětím tří nedohledatelných vozidel (BMW 335 XI, Toyota Corolla, Ford Focus C-Max) ze soupisu majetkové podstaty dle § 227 IZ jako neprodejného majetku; žádná kupní cena ani kupující nejsou uvedeny.",
+   "soupis": null,
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70209203",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=2271AEC0FC7A3343E06333F21FAC05B3&actSheet=B&pageB=all",
    "or_url": null,

@@ -35,17 +35,45 @@ def _load_pdf(doc_id: str) -> bytes:
     return data
 
 
+def _with_case_docs(record: dict, events: list) -> dict:
+    """Doplni k zaznamu veci nejnovejsi soupis (kap. 7) a shortlist dokumentu.
+
+    Vraci kopii - puvodni record z vyhledavani nechavame nedotceny.
+    Kdyz vec zadny soupis nema, klice zustanou None a upsert_case je diky
+    COALESCE nepretlaci pres uz ulozenou hodnotu.
+
+    Shortlist se pocita ze STEJNE stranky detailu, ktera uz je stazena kvuli
+    soupisu - nestoji tedy ani jeden request navic. Prazdny seznam se uklada
+    take (je to informace "divali jsme se a nic tam neni"), na rozdil od None,
+    ktery znamena "nevime".
+    """
+    row = dict(record)
+    soupis = detail.latest_soupis(events)
+    if soupis:
+        row["soupis_doc_id"] = soupis["doc_id"]
+        row["soupis_date"] = soupis["datum"].isoformat() if soupis["datum"] else None
+        row["soupis_label"] = soupis.get("popis")
+    row["dokumenty_json"] = json.dumps(detail.relevant_documents(events), ensure_ascii=False)
+    return row
+
+
 def process_case(conn, record: dict, date_from: date, date_to: date, stats: dict) -> None:
     now = _now_iso()
-    db.upsert_case(conn, record, now)
 
     try:
         events = detail.fetch_events(record["detail_id"])
     except Exception as exc:  # jedna rozbita vec nesmi shodit cely beh
         log.error("Detail %s (%s) selhal: %s", record["detail_id"],
                   record.get("spisova_znacka"), exc)
+        # Vec presto zaznamename - jen bez soupisu, o kterem nic nevime.
+        db.upsert_case(conn, record, now)
         stats["errors"] += 1
         return
+
+    # Soupis i shortlist dokumentu musi byt v zaznamu DRIV, nez se vec ulozi -
+    # jinak by se nikdy nezapsaly u veci, ktera v okne zadnou I_347 udalost nema
+    # (nize se pak nezpracovava zadny dokument a funkce skonci).
+    db.upsert_case(conn, _with_case_docs(record, events), now)
 
     targets = [
         e for e in detail.find_events(events, config.EVENT_CODE)
@@ -200,6 +228,151 @@ def run_backfill(date_from: date, date_to: Optional[date] = None, resume: bool =
         conn.close()
     log.info("=== BACKFILL HOTOVO: %s ===", total)
     return total
+
+
+# ---------------------------------------------------------------------------
+# Doplneni odkazu na soupis majetkove podstaty k uz ulozenym vecem
+# ---------------------------------------------------------------------------
+
+# Fronta se ridi tim, kdy jsme u veci naposledy koukali po soupisu, ne tim,
+# jestli uz nejaky ma. Vetsina veci zadny soupis nikdy mit nebude - kdyby se
+# radilo jen podle last_checked_at, tyhle "nenalezeno" veci by navzdy sedely v
+# cele fronty a beh s --limit by k dalsim vecem nikdy nedosel (tise, bez chyby).
+# NULL (nikdy nekontrolovano) se v SQLite pri ASC radi prvni = nove veci maji
+# prednost, pak nejdele nekontrolovane. Beh tak vzdycky postoupi a postupne
+# fronta rotuje, takze se zachyti i pozdejsi "- doplneni" / "- zmena".
+CASE_DOCS_SQL = """
+SELECT spisova_znacka, detail_id, dluznik_jmeno, soupis_doc_id, soupis_date, dokumenty_json
+FROM cases
+WHERE detail_id IS NOT NULL AND detail_id <> ''
+%s
+ORDER BY soupis_checked_at ASC, last_checked_at DESC, spisova_znacka
+%s
+"""
+
+
+def _soupis_stamp() -> str:
+    """Razitko kontroly soupisu - na rozdil od _now_iso() VCETNE mikrosekund.
+
+    Razitko je tridici klic fronty. Kdyby dve veci zkontrolovane v jednom behu
+    dostaly stejnou hodnotu (a _now_iso() zaokrouhluje na sekundy), rozhodl by
+    az stabilni druhotny klic a fronta by se zase zasekla na stejne hlave.
+    """
+    return datetime.now(timezone.utc).isoformat()
+
+
+def _mark_soupis_checked(conn, znacka: str, now: str) -> None:
+    """Zapise, ze vec uz byla na soupis kontrolovana (posun ve fronte)."""
+    conn.execute("UPDATE cases SET soupis_checked_at=? WHERE spisova_znacka=?",
+                 (now, znacka))
+    conn.commit()  # prubezne - timeout nesmi zahodit hotovou praci
+
+
+def refresh_case_docs(limit: Optional[int] = None, only_missing: bool = True) -> dict:
+    """Doplni k ulozenym vecem soupis majetkove podstaty A shortlist dokumentu.
+
+    Veci nasbirane driv ani jedno v databazi nemaji - tenhle beh to dohleda.
+    Obe veci se ctou z JEDNE stazene stranky detailu (oddil B), takze shortlist
+    dokumentu nestoji ani jeden request navic oproti puvodnimu behu po soupisech.
+
+    Beh je POUZE HTTP: stahuje jen HTML detailu veci (jeden request na vec).
+    ZADNE PDF se nestahuje a NEVOLA se LLM - workflow proto nepotrebuje
+    ANTHROPIC_API_KEY a beh nestoji nic krome par requestu.
+
+    only_missing=False vezme i veci, ktere uz odkaz maji: soupis i seznam
+    dokumentu se v case meni ("- doplneni", "- zmena", nove usneseni) a
+    novejsi verze prepise starsi.
+    """
+    stats = {"cases": 0, "updated": 0, "dokumenty": 0, "nenalezeno": 0, "errors": 0}
+
+    conn = db.connect()
+    db.init_schema(conn)
+    try:
+        where = ""
+        if only_missing:
+            # "Chybi" = chybi soupis NEBO chybi shortlist dokumentu. Vec, ktera
+            # uz soupis ma, ale je z doby pred shortlistem, se tim dostane do
+            # fronty taky - jinak by k dokumentum nikdy neprisla.
+            where = ("AND ((soupis_doc_id IS NULL OR soupis_doc_id = '')\n"
+                     "     OR dokumenty_json IS NULL OR dokumenty_json = '')")
+        tail = ""
+        params = ()
+        if limit is not None and limit > 0:
+            tail = "LIMIT ?"
+            params = (int(limit),)
+        rows = [dict(r) for r in conn.execute(CASE_DOCS_SQL % (where, tail), params).fetchall()]
+        stats["cases"] = len(rows)
+        log.info("=== SOUPISY + DOKUMENTY: %d veci ke kontrole (only_missing=%s) ===",
+                 len(rows), only_missing)
+
+        for i, row in enumerate(rows, 1):
+            znacka = row.get("spisova_znacka")
+            log.info("[%d/%d] %s - %s", i, len(rows), znacka, row.get("dluznik_jmeno"))
+            # Razitko se zapisuje u KAZDE zkontrolovane veci - i kdyz zadny
+            # soupis nema, i kdyz se detail nestahl. Jinak by se stejna vec
+            # tahala v kazdem behu znovu a fronta by se nikam neposunula.
+            checked = _soupis_stamp()
+            try:
+                events = detail.fetch_events(row["detail_id"])
+            except Exception as exc:  # jedna rozbita vec nesmi shodit cely beh
+                log.error("Detail %s (%s) selhal: %s", row["detail_id"], znacka, exc)
+                stats["errors"] += 1
+                _mark_soupis_checked(conn, znacka, checked)
+                continue
+
+            try:
+                soupis = detail.latest_soupis(events)
+                dokumenty = detail.relevant_documents(events)
+            except Exception as exc:
+                log.error("Vyhodnoceni detailu u %s selhalo: %s", znacka, exc)
+                stats["errors"] += 1
+                _mark_soupis_checked(conn, znacka, checked)
+                continue
+
+            # Razitko kontroly se meni vzdycky, obsah jen kdyz je opravdu novy.
+            sets = ["soupis_checked_at=?"]
+            params = [checked]
+
+            if not soupis:
+                stats["nenalezeno"] += 1
+                log.info("BEZ SOUPISU: %s", znacka)
+            else:
+                datum = soupis["datum"].isoformat() if soupis["datum"] else None
+                if soupis["doc_id"] == row.get("soupis_doc_id") \
+                        and datum == row.get("soupis_date"):
+                    log.debug("%s: soupis %s uz je aktualni", znacka, soupis["doc_id"])
+                else:
+                    sets += ["soupis_doc_id=?", "soupis_date=?", "soupis_label=?"]
+                    params += [soupis["doc_id"], datum, soupis.get("popis")]
+                    stats["updated"] += 1
+                    log.info("SOUPIS: %s | %s | %s | %s", znacka, datum,
+                             soupis["doc_id"], (soupis.get("popis") or "")[:60])
+
+            # Prazdny seznam ("[]") se uklada taky - je to informace "divali
+            # jsme se a nic relevantniho tam neni", ne "nevime".
+            dokumenty_json = json.dumps(dokumenty, ensure_ascii=False)
+            if dokumenty_json != (row.get("dokumenty_json") or ""):
+                sets.append("dokumenty_json=?")
+                params.append(dokumenty_json)
+                stats["dokumenty"] += 1
+                log.info("DOKUMENTY: %s | %d ks | %s", znacka, len(dokumenty),
+                         ", ".join(sorted(set(d["kategorie"] for d in dokumenty))) or "-")
+
+            params.append(znacka)
+            conn.execute("UPDATE cases SET %s WHERE spisova_znacka=?" % ", ".join(sets),
+                         params)
+            conn.commit()  # prubezne - timeout nesmi zahodit hotovou praci
+    finally:
+        conn.commit()
+        conn.close()
+
+    log.info("=== SOUPISY + DOKUMENTY HOTOVO: %s ===", stats)
+    return stats
+
+
+# Puvodni jmeno funkce. Beh uz nedohledava jen soupis, ale i shortlist
+# dokumentu; alias drzime, aby nic zvenci (workflow, skripty) neprestalo fungovat.
+refresh_soupis = refresh_case_docs
 
 
 # ---------------------------------------------------------------------------
@@ -403,6 +576,10 @@ def run_reclassify(limit: Optional[int] = None, only_heuristic: bool = True,
 
 def export_json(path=None) -> dict:
     """Vygeneruje docs/data.json pro dashboard."""
+    # Import az tady: dossier.py importuje pipeline (kvuli _load_pdf a PDF cache),
+    # takze opacny import na urovni modulu by byl kruhovy.
+    from . import dossier as dossier_mod
+
     path = path or config.DATA_JSON
     conn = db.connect()
     db.init_schema(conn)
@@ -418,6 +595,24 @@ def export_json(path=None) -> dict:
         except (ValueError, TypeError):
             assets = []
         created = (r.get("created_at") or "")[:10]
+        # Shortlist relevantnich dokumentu veci. Zadny jeden typ dokumentu neni
+        # spolehlive pritomny, takze dashboard nabizi rovnou cely kratky seznam.
+        try:
+            dokumenty = json.loads(r.get("dokumenty_json") or "[]")
+        except (ValueError, TypeError):
+            dokumenty = []
+        if not isinstance(dokumenty, list):
+            dokumenty = []
+        # Navrh casto popisuje majetek jen odkazem na soupis - dashboard proto
+        # nabizi primy odkaz na nejnovejsi soupis. Vec ho mit nemusi -> null.
+        soupis_doc_id = r.get("soupis_doc_id")
+        soupis = None
+        if soupis_doc_id:
+            soupis = {
+                "url": "%s?id=%s" % (config.DOC_URL, soupis_doc_id),
+                "datum": r.get("soupis_date"),
+                "popis": r.get("soupis_label"),
+            }
         opportunities.append(
             {
                 "doc_id": r["doc_id"],
@@ -437,6 +632,8 @@ def export_json(path=None) -> dict:
                     "datova_schranka": r.get("spravce_datova_schranka"),
                 },
                 "shrnuti": r.get("shrnuti"),
+                "soupis": soupis,
+                "dokumenty": dokumenty,
                 "doc_url": r.get("doc_url_main"),
                 "detail_url": r.get("detail_url"),
                 "or_url": r.get("or_url"),
@@ -445,6 +642,14 @@ def export_json(path=None) -> dict:
                 "first_seen": created or None,
             }
         )
+        # Uz sestaveny dossier (docs/dossier/<slug>.md) - dashboard je servirovan
+        # z docs/, takze odkaz je relativni. Slug pocita primo modul dossier,
+        # aby se logika nerozesla se jmenem souboru, ktery skutecne vznikl.
+        znacka = r.get("spisova_znacka")
+        if znacka:
+            slug = dossier_mod.slugify(znacka)
+            if (config.DOCS_DIR / dossier_mod.DOSSIER_SUBDIR / ("%s.md" % slug)).exists():
+                opportunities[-1]["dossier_url"] = "%s/%s.md" % (dossier_mod.DOSSIER_SUBDIR, slug)
 
     def _is_new(o):
         fs = o.get("first_seen")
