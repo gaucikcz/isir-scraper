@@ -1,18 +1,239 @@
 {
- "generated_at": "2026-09-06T08:41:34+00:00",
+ "generated_at": "2026-09-07T09:24:08+00:00",
  "window": {
   "from": "2026-07-22",
-  "to": "2026-09-04"
+  "to": "2026-09-07"
  },
  "stats": {
-  "total": 103,
-  "vysoka": 32,
-  "stredni": 47,
-  "nizka": 24,
-  "new_7d": 103,
-  "cases": 91
+  "total": 107,
+  "vysoka": 33,
+  "stredni": 48,
+  "nizka": 26,
+  "new_7d": 107,
+  "cases": 95
  },
  "opportunities": [
+  {
+   "doc_id": "70730818",
+   "spisova_znacka": "KSPL 58 INS 20550/2025",
+   "soud": "Krajského soudu v Plzni",
+   "dluznik_jmeno": "HLS SECURITY AGENCY s.r.o.",
+   "ico": "26383241",
+   "sidlo": "Plzeň, Čelakovského 858/3, PSČ 301 00, Okres Plzeň-město",
+   "stav_rizeni": "Prohlášený konkurs",
+   "datum_podani": "2026-09-07",
+   "priorita": "vysoka",
+   "assets": [
+    {
+     "typ": "nemovity",
+     "popis": "Bytová jednotka č. 858/4 v budově Jižní Předměstí č.p. 858, byt. dům, LV 10793, stojící na pozemku parc.č. 6369 (zastavěná plocha a nádvoří, výměra 201 m2, LV 10793), se spoluvlastnickým podílem o velikosti 131990/491075 na společných částech budovy a na uvedeném pozemku, k.ú. Plzeň, obec Plzeň, zapsáno na LV 15598.",
+     "navrhovana_cena": null,
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "Smrčka a Kubálek v.o.s.",
+    "email": "ak@akkubalek.cz",
+    "telefon": "+420 385 310 982",
+    "datova_schranka": "i7h4ea7"
+   },
+   "shrnuti": "Insolvenční správce žádá soud o souhlas s prodejem bytové jednotky č. 858/4 v Plzni (Jižní Předměstí) včetně spoluvlastnického podílu na pozemku mimo dražbu, nejvyšší nabídce; konkrétní kupní cena v dokumentu není uvedena.",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-09-07",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70730818",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_1054",
+     "datum": "2026-07-25",
+     "popis": "Zpráva insolvenčního správce",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70255453",
+     "kategorie": "zprava"
+    },
+    {
+     "kod": "I_1054",
+     "datum": "2026-07-25",
+     "popis": "Zpráva insolvenčního správce",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70255452",
+     "kategorie": "zprava"
+    },
+    {
+     "kod": "I_1054",
+     "datum": "2026-07-18",
+     "popis": "Zpráva insolvenčního správce",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70169636",
+     "kategorie": "zprava"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70730818",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=3F0D278547B1E9C0E06333F21FAC1A87&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=26383241&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-09-07"
+  },
+  {
+   "doc_id": "70735412",
+   "spisova_znacka": "KSOS 22 INS 13528/2025",
+   "soud": "Krajského soudu v Ostravě",
+   "dluznik_jmeno": "Robert Lazecký",
+   "ico": "63339552",
+   "sidlo": "Bílovec, Stará Ves 149, PSČ 743 01, Okres Nový Jičín",
+   "stav_rizeni": "Povoleno oddlužení",
+   "datum_podani": "2026-09-07",
+   "priorita": "nizka",
+   "assets": [],
+   "spravce": {
+    "jmeno": "Mgr. Aneta Šlosarová",
+    "email": null,
+    "telefon": null,
+    "datova_schranka": null
+   },
+   "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: Robert Lazecký). Konkrétní položky majetku se z textu nepodařilo automaticky rozpoznat. Klasifikováno heuristicky – nutná ruční kontrola dokumentu.",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-09-07",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70735412",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_829",
+     "datum": "2025-07-17",
+     "popis": "Výpis z katastru nemovitostí",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=62550176",
+     "kategorie": "katastr"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70735412",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=38C36B55E571D44DE06333F21FACB920&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=63339552&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-09-07"
+  },
+  {
+   "doc_id": "70732459",
+   "spisova_znacka": "KSCB 26 INS 13420/2025",
+   "soud": "Krajského soudu v Českých Budějovicích",
+   "dluznik_jmeno": "Lucie Máchová",
+   "ico": "74878506",
+   "sidlo": "Milevsko, R. Svobodové 1632, PSČ 399 01",
+   "stav_rizeni": "Povoleno oddlužení",
+   "datum_podani": "2026-09-07",
+   "priorita": "stredni",
+   "assets": [
+    {
+     "typ": "movity",
+     "popis": "Osobní automobil AUDI Q7, VIN WUAZZZ4L7AD026016, RZ 1AS 7777, rok výroby 2010, nepojízdný, položka soupisu č. II./1",
+     "navrhovana_cena": "242000 CZK",
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "Ing. Tomáš Pachman",
+    "email": "t.pachman@seznam.cz",
+    "telefon": "606 787 662",
+    "datova_schranka": null
+   },
+   "shrnuti": "Insolvenční správce žádá o schválení prodeje nepojízdného osobního automobilu AUDI Q7 (r.v. 2010) mimo dražbu formou výběrového řízení za nejvyšší nabídnutou cenu 242.000 Kč.",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-09-07",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70732459",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_347",
+     "datum": "2026-06-15",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=69582380",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_535",
+     "datum": "2026-06-22",
+     "popis": "Usnesení o prodeji mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=69808898",
+     "kategorie": "prodej"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70732459",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=38C36B55E4D4D44DE06333F21FACB920&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=74878506&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-09-07"
+  },
+  {
+   "doc_id": "70735710",
+   "spisova_znacka": "KSOS 14 INS 18869/2024",
+   "soud": "Krajského soudu v Ostravě",
+   "dluznik_jmeno": "Tomáš Hobík",
+   "ico": "88268381",
+   "sidlo": "Praha 9, Marešova 643/6, PSČ 798 00",
+   "stav_rizeni": "Povoleno oddlužení",
+   "datum_podani": "2026-09-07",
+   "priorita": "nizka",
+   "assets": [
+    {
+     "typ": "nehmotny",
+     "popis": "Obchodní podíl 100% ve společnosti Balance Building Industrie s.r.o., se sídlem Marešova 643/6, Černý Most, 198 00 Praha 9, IČ: 09504052 (základní kapitál 1 000 Kč)",
+     "navrhovana_cena": null,
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "Mgr. Dagmar Cenknerová, LEGAL INS v.o.s.",
+    "email": null,
+    "telefon": null,
+    "datova_schranka": null
+   },
+   "shrnuti": "Insolvenční správkyně žádá soud o souhlas s prodejem obchodního podílu ve výši 100% ve společnosti Balance Building Industrie s.r.o. mimo dražbu formou přímého prodeje nejvyšší nabídce; cena nebyla v žádosti konkrétně navržena, ocenění v soupisu majetkové podstaty činí 1 000 Kč.",
+   "soupis": {
+    "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=68682756",
+    "datum": "2026-05-19",
+    "popis": "Soupis majetkové podstaty"
+   },
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-09-07",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70735710",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_334",
+     "datum": "2026-05-19",
+     "popis": "Soupis majetkové podstaty",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=68682756",
+     "kategorie": "soupis"
+    },
+    {
+     "kod": "I_1054",
+     "datum": "2025-11-18",
+     "popis": "Zpráva insolvenčního správce",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=63923519",
+     "kategorie": "zprava"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70735710",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=2271AEC108CC3343E06333F21FAC05B3&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=88268381&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-09-07"
+  },
   {
    "doc_id": "70719380",
    "spisova_znacka": "KSUL 79 INS 3716/2026",
