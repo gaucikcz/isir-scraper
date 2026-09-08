@@ -1,18 +1,284 @@
 {
- "generated_at": "2026-09-07T09:24:08+00:00",
+ "generated_at": "2026-09-08T08:54:39+00:00",
  "window": {
   "from": "2026-07-22",
-  "to": "2026-09-07"
+  "to": "2026-09-08"
  },
  "stats": {
-  "total": 107,
-  "vysoka": 33,
-  "stredni": 48,
+  "total": 111,
+  "vysoka": 35,
+  "stredni": 50,
   "nizka": 26,
-  "new_7d": 107,
-  "cases": 95
+  "new_7d": 111,
+  "cases": 97
  },
  "opportunities": [
+  {
+   "doc_id": "70747192",
+   "spisova_znacka": "KSUL 79 INS 3716/2026",
+   "soud": "Krajského soudu v Ústí nad Labem",
+   "dluznik_jmeno": "HP fast s.r.o.",
+   "ico": "27354083",
+   "sidlo": "Ústí nad Labem, Kořenského 905/4, PSČ 400 03",
+   "stav_rizeni": "Prohlášený konkurs",
+   "datum_podani": "2026-09-08",
+   "priorita": "stredni",
+   "assets": [
+    {
+     "typ": "movity",
+     "popis": "Automobil Audi A6 AVANT 3.0 TDi (položka pořadové č. dle soupisu majetkové podstaty), SPZ neuvedeno čitelně",
+     "navrhovana_cena": null,
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "JUDr. Jan Barák, Langmeier & Co insolvenční správci, v.o.s.",
+    "email": "konkurzy@langmeier.cz",
+    "telefon": null,
+    "datova_schranka": "tteusut"
+   },
+   "shrnuti": "Insolvenční správce žádá soud o souhlas s prodejem osobního automobilu Audi A6 AVANT 3.0 TDi mimo dražbu formou inzerce na vybraných portálech; konkrétní kupní cena ani kupující v dokumentu nejsou uvedeni.",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-09-08",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70747192",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_347",
+     "datum": "2026-09-04",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70719380",
+     "kategorie": "navrh"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70747192",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=4B77D8EECD4AE229E06333F21FAC1C6A&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=27354083&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-09-08"
+  },
+  {
+   "doc_id": "70751494",
+   "spisova_znacka": "KSPA 71 INS 7530/2022",
+   "soud": "Krajského soudu v Hradci Králové - pobočka v Pardubicích",
+   "dluznik_jmeno": "Karel Krátký",
+   "ico": "07259638",
+   "sidlo": "Ostřetín, Ostřetín 92, PSČ 534 01, Okres Pardubice",
+   "stav_rizeni": "Povoleno oddlužení",
+   "datum_podani": "2026-09-08",
+   "priorita": "vysoka",
+   "assets": [
+    {
+     "typ": "nemovity",
+     "popis": "Nemovitost nabytá dlužníkem Karlem Krátkým na základě darovací smlouvy ze dne 27.10.2025 (konkrétní specifikace - katastrální území, parcela, LV - v textu chybí, přiložený obrázek/tabulka nebyl čitelný)",
+     "navrhovana_cena": null,
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "AAA INSOLVENCE OK v.o.s. (Mgr. Ing. Ondřej Malý, ohlášený společník)",
+    "email": "brno@insolvenceok.cz",
+    "telefon": "+420 776 679 950",
+    "datova_schranka": "8iedd6n"
+   },
+   "shrnuti": "Insolvenční správkyně navrhuje soudu vydat souhlas s prodejem nemovitosti (nabyté dlužníkem darovací smlouvou) mimo dražbu formou prodeje na realitním trhu nejvyšší nabídce; konkrétní specifikace nemovitosti ani cena nejsou v textu čitelně uvedeny.",
+   "soupis": {
+    "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70751394",
+    "datum": "2026-09-08",
+    "popis": "Soupis majetkové podstaty"
+   },
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-09-08",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70751494",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_334",
+     "datum": "2026-09-08",
+     "popis": "Soupis majetkové podstaty",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70751394",
+     "kategorie": "soupis"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70751494",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=DB7CF748A84F26B7E05333F21FAC15D7&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=07259638&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-09-08"
+  },
+  {
+   "doc_id": "70739723",
+   "spisova_znacka": "KSPH 80 INS 759/2026",
+   "soud": "Krajského soudu v Praze",
+   "dluznik_jmeno": "Thein Digital s.r.o.",
+   "ico": "60779420",
+   "sidlo": "Ostrava - Mariánské Hory, Novoveská 2056/5i, PSČ 709 00, Okres Ostrava-město",
+   "stav_rizeni": "Prohlášený konkurs",
+   "datum_podani": "2026-09-07",
+   "priorita": "stredni",
+   "assets": [
+    {
+     "typ": "movity",
+     "popis": "Zařízení Cisco Model (por. č. 10 oddílu II. Movitý majetek)",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "movity",
+     "popis": "Testovací zařízení Finisar (por. č. 11 oddílu II. Movitý majetek)",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "movity",
+     "popis": "Kroužkový vazač (por. č. 17 oddílu II. Movitý majetek)",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "movity",
+     "popis": "Monitor LCD ASUS (por. č. 25 oddílu II. Movitý majetek)",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "movity",
+     "popis": "Soubor tří monitorů LCD Samsung (por. č. 23 oddílu II. Movitý majetek)",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "movity",
+     "popis": "Zařízení Mosaic Optics 16GBase FC (por. č. 18 oddílu II. Movitý majetek)",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "movity",
+     "popis": "Notebook Lenovo ThinkPad (por. č. 15 oddílu II. Movitý majetek)",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "movity",
+     "popis": "Notebook Lenovo ThinkPad T470s, barva černá (por. č. 14 oddílu II. Movitý majetek)",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "movity",
+     "popis": "Videokonferenční zařízení Poly G40-T (por. č. 124 oddílu II. Movitý majetek)",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "movity",
+     "popis": "Tiskárna Sharp MX-M160D (por. č. 22 oddílu II. Movitý majetek)",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "movity",
+     "popis": "Soubor kancelářského nábytku - kancelářská skříňka, dva pracovní stoly 800×800 mm, dva pracovní stoly 1200×800 mm, další stůl a židle (por. č. 16 oddílu II. Movitý majetek)",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "movity",
+     "popis": "Tiskárna Lexmark MS317 (por. č. 24 oddílu II. Movitý majetek)",
+     "navrhovana_cena": null,
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "Mgr. Ing. Kateřina Pracná (endors insolvence v.o.s.)",
+    "email": null,
+    "telefon": null,
+    "datova_schranka": null
+   },
+   "shrnuti": "Insolvenční správkyně žádá soud o souhlas se zpeněžením movitého majetku dlužníka (použitá kancelářská a IT technika - notebooky, monitory, tiskárny, síťová a testovací zařízení, nábytek) mimo dražbu formou soutěže o nejvýhodnější nabídku, prodej jako celek, v souborech nebo po jednotlivých položkách. Konkrétní kupní cena ani kupující nejsou v textu uvedeny.",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-09-07",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70739723",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_347",
+     "datum": "2026-09-04",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70716981",
+     "kategorie": "navrh"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70739723",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=487D9CC80485B038E06333F21FAC3FAA&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=60779420&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-09-08"
+  },
+  {
+   "doc_id": "70736808",
+   "spisova_znacka": "KSOS 25 INS 22130/2025",
+   "soud": "Krajského soudu v Ostravě",
+   "dluznik_jmeno": "Jaroslav Molinek",
+   "ico": null,
+   "sidlo": "Morávka, Morávka ev. č. 114, PSČ 739 04",
+   "stav_rizeni": "Povoleno oddlužení",
+   "datum_podani": "2026-09-07",
+   "priorita": "vysoka",
+   "assets": [
+    {
+     "typ": "nemovity",
+     "popis": "Podíl o velikosti 1/2 na pozemcích parc. č. lesní pozemek o výměře cca (neuvedeno přesně) m2 a lesní pozemek o výměře (neuvedeno přesně) m2, zapsáno na LV, k.ú. Šumbark, obec Havířov, okres Karviná (Katastrální úřad pro Moravskoslezský kraj, KP Ostrava)",
+     "navrhovana_cena": null,
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "Mgr. Miroslav Vojtek, LL.M.",
+    "email": "isvojtek@outlook.com",
+    "telefon": null,
+    "datova_schranka": "htmqyvs"
+   },
+   "shrnuti": "Insolvenční správce žádá soud o souhlas s prodejem mimo dražbu spoluvlastnického podílu 1/2 na dvou lesních pozemcích v k.ú. Šumbark (obec Havířov). Navrhována je minimální nabídková cena cca 70 % hodnoty dle znaleckého posudku, formou přímého prodeje nejvyšší nabídce.",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-09-07",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70736808",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_829",
+     "datum": "2025-12-03",
+     "popis": "Výpis z katastru nemovitostí",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=64102977",
+     "kategorie": "katastr"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70736808",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=3F0D551E136FE9BDE06333F21FACD6F7&actSheet=B&pageB=all",
+   "or_url": null,
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-09-08"
+  },
   {
    "doc_id": "70730818",
    "spisova_znacka": "KSPL 58 INS 20550/2025",
@@ -263,6 +529,13 @@
    "dokumenty": [
     {
      "kod": "I_347",
+     "datum": "2026-09-08",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70747192",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_347",
      "datum": "2026-09-04",
      "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
      "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70719380",
@@ -303,6 +576,13 @@
    "shrnuti": "Insolvenční správkyně žádá soud o souhlas se zpeněžením osobního automobilu Škoda Superb z majetkové podstaty dlužníka mimo dražbu, přímým prodejem prostřednictvím společnosti KLÁN, spol. s r.o. zájemci s ekonomicky nejvýhodnější nabídkou; konkrétní kupní cena zatím nebyla stanovena.",
    "soupis": null,
    "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-09-07",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70739723",
+     "kategorie": "navrh"
+    },
     {
      "kod": "I_347",
      "datum": "2026-09-04",
