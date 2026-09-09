@@ -1,18 +1,213 @@
 {
- "generated_at": "2026-09-08T08:54:39+00:00",
+ "generated_at": "2026-09-09T09:00:32+00:00",
  "window": {
   "from": "2026-07-22",
-  "to": "2026-09-08"
+  "to": "2026-09-09"
  },
  "stats": {
-  "total": 111,
+  "total": 114,
   "vysoka": 35,
-  "stredni": 50,
-  "nizka": 26,
-  "new_7d": 111,
-  "cases": 97
+  "stredni": 51,
+  "nizka": 28,
+  "new_7d": 114,
+  "cases": 100
  },
  "opportunities": [
+  {
+   "doc_id": "70767824",
+   "spisova_znacka": "MSPH 92 INS 9447/2025",
+   "soud": "Městského soudu v Praze",
+   "dluznik_jmeno": "H.R.S. a.s.",
+   "ico": "26268329",
+   "sidlo": "Praha 8, Světova 523/1, PSČ 180 00",
+   "stav_rizeni": "Prohlášený konkurs",
+   "datum_podani": "2026-09-09",
+   "priorita": "nizka",
+   "assets": [],
+   "spravce": {
+    "jmeno": null,
+    "email": null,
+    "telefon": null,
+    "datova_schranka": null
+   },
+   "shrnuti": "Dokument je nečitelný/poškozený OCR výstup elektronického podpisového certifikátu, neobsahuje žádné identifikovatelné informace o konkrétním nabízeném majetku, cenách ani kupujících.",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-09-09",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70767824",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_1054",
+     "datum": "2026-07-08",
+     "popis": "Zpráva insolvenčního správce",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70033805",
+     "kategorie": "zprava"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70767824",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=34E994FC68A94B09E06333F21FACD9E2&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=26268329&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-09-09"
+  },
+  {
+   "doc_id": "70765790",
+   "spisova_znacka": "KSUL 23 INS 23288/2021",
+   "soud": "Krajského soudu v Ústí nad Labem",
+   "dluznik_jmeno": "František Donát",
+   "ico": "12767883",
+   "sidlo": "Chomutov, Chomutov 2000, PSČ 430 01",
+   "stav_rizeni": "Prohlášený konkurs",
+   "datum_podani": "2026-09-09",
+   "priorita": "nizka",
+   "assets": [
+    {
+     "typ": "nehmotny",
+     "popis": "Insolvenční správce zahrnul do soupisu majetkové podstaty mimo jiné následující pohledávky",
+     "navrhovana_cena": "500000 CZK",
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": null,
+    "email": "info@aikl.cz",
+    "telefon": null,
+    "datova_schranka": "i5cnee5"
+   },
+   "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: František Donát): nehmotný majetek (1 položka). Navrhovaná cena 500000 CZK. Podrobnosti jsou v soupisu majetkové podstaty. Klasifikováno heuristicky – ověřit v dokumentu.",
+   "soupis": {
+    "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=61393061",
+    "datum": "2025-03-31",
+    "popis": "Soupis majetkové podstaty"
+   },
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-09-09",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70765790",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_334",
+     "datum": "2025-03-31",
+     "popis": "Soupis majetkové podstaty",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=61393061",
+     "kategorie": "soupis"
+    },
+    {
+     "kod": "I_332",
+     "datum": "2026-08-11",
+     "popis": "Zpráva IS o stavu řízení",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70449286",
+     "kategorie": "zprava"
+    },
+    {
+     "kod": "I_332",
+     "datum": "2026-02-09",
+     "popis": "Zpráva IS o stavu řízení",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=64929677",
+     "kategorie": "zprava"
+    },
+    {
+     "kod": "I_332",
+     "datum": "2025-11-03",
+     "popis": "Zpráva IS o stavu řízení",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=63741435",
+     "kategorie": "zprava"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70765790",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=D2012D17108F3E5FE05333F21FAC7078&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=12767883&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "heuristic",
+   "first_seen": "2026-09-09"
+  },
+  {
+   "doc_id": "70755727",
+   "spisova_znacka": "KSPL 56 INS 1629/2025",
+   "soud": "Krajského soudu v Plzni",
+   "dluznik_jmeno": "JČ Leščinský s.r.o.",
+   "ico": "17546371",
+   "sidlo": "Sokolov, Ondříčkova 519, PSČ 356 01, Okres Sokolov",
+   "stav_rizeni": "Prohlášený konkurs",
+   "datum_podani": "2026-09-08",
+   "priorita": "stredni",
+   "assets": [
+    {
+     "typ": "nehmotny",
+     "popis": "Ochranná známka 'JČ Lešcinský s.r.o.', registrovaná u Úřadu průmyslového vlastnictví, den zápisu 02.10.2024, číslo přihlášky 593081, druh obrazová, platnost do 29.04.2034 (položka soupisu č. 10)",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "nehmotny",
+     "popis": "Ochranná známka 'NGHI GLOBAL UGSLASH' (přesný přepis nejistý), registrovaná u Úřadu průmyslového vlastnictví, den zápisu 09.10.2024, číslo přihlášky 593080, druh obrazová, platnost do 29.04.2034 (položka soupisu č. 11)",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "nehmotny",
+     "popis": "Ochranná známka (název nejistý, OCR nečitelný), registrovaná u Úřadu průmyslového vlastnictví, den zápisu 20.11.2024, číslo přihlášky 593079, druh obrazová, platnost do 29.04.2034 (položka soupisu č. 12)",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "movity",
+     "popis": "Soubor kancelářského nábytku (položka soupisu č. 17)",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "movity",
+     "popis": "Notebook Dell Latitude 5580 (položka soupisu č. 18)",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "movity",
+     "popis": "Monitor Samsung S27R65 (položka soupisu č. 19)",
+     "navrhovana_cena": null,
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "Mgr. Ing. Gabriela Bergmannová Burzová, Sdružená konkurzní v.o.s.",
+    "email": null,
+    "telefon": null,
+    "datova_schranka": null
+   },
+   "shrnuti": "Insolvenční správce žádá soud o souhlas s prodejem mimo dražbu nezajištěného movitého a nehmotného majetku dlužníka JČ Lešcinský s.r.o. (3 ochranné známky, soubor kancelářského nábytku, notebook a monitor) za nejvyšší obdrženou nabídku ve stanovené lhůtě; konkrétní kupní ceny ani zájemci nejsou v textu uvedeni.",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-09-08",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70755727",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_332",
+     "datum": "2026-01-22",
+     "popis": "Zpráva IS o stavu řízení",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=64561252",
+     "kategorie": "zprava"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70755727",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=29EA6080A45119C2E06333F21FAC0491&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=17546371&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-09-09"
+  },
   {
    "doc_id": "70747192",
    "spisova_znacka": "KSUL 79 INS 3716/2026",
@@ -53,6 +248,13 @@
      "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
      "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70719380",
      "kategorie": "navrh"
+    },
+    {
+     "kod": "I_332",
+     "datum": "2026-09-09",
+     "popis": "Zpráva IS o stavu řízení",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70766603",
+     "kategorie": "zprava"
     }
    ],
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70747192",
@@ -540,6 +742,13 @@
      "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
      "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70719380",
      "kategorie": "navrh"
+    },
+    {
+     "kod": "I_332",
+     "datum": "2026-09-09",
+     "popis": "Zpráva IS o stavu řízení",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70766603",
+     "kategorie": "zprava"
     }
    ],
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70719380",
@@ -623,7 +832,11 @@
     "datova_schranka": null
    },
    "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: Michal Groborz): nemovitý majetek (1 položka). Podrobnosti jsou v soupisu majetkové podstaty. Klasifikováno heuristicky – ověřit v dokumentu.",
-   "soupis": null,
+   "soupis": {
+    "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70754753",
+    "datum": "2026-09-08",
+    "popis": "Soupis majetkové podstaty"
+   },
    "dokumenty": [
     {
      "kod": "I_347",
@@ -633,11 +846,25 @@
      "kategorie": "navrh"
     },
     {
+     "kod": "I_334",
+     "datum": "2026-09-08",
+     "popis": "Soupis majetkové podstaty",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70754753",
+     "kategorie": "soupis"
+    },
+    {
      "kod": "I_829",
      "datum": "2025-03-11",
      "popis": "Výpis z katastru nemovitostí",
      "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=61179249",
      "kategorie": "katastr"
+    },
+    {
+     "kod": "I_535",
+     "datum": "2026-09-09",
+     "popis": "Usnesení o prodeji mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70767420",
+     "kategorie": "prodej"
     }
    ],
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70723653",
