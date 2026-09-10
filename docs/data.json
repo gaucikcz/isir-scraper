@@ -1,18 +1,364 @@
 {
- "generated_at": "2026-09-09T09:00:32+00:00",
+ "generated_at": "2026-09-10T08:59:38+00:00",
  "window": {
   "from": "2026-07-22",
-  "to": "2026-09-09"
+  "to": "2026-09-10"
  },
  "stats": {
-  "total": 114,
+  "total": 119,
   "vysoka": 35,
-  "stredni": 51,
-  "nizka": 28,
-  "new_7d": 114,
-  "cases": 100
+  "stredni": 55,
+  "nizka": 29,
+  "new_7d": 119,
+  "cases": 103
  },
  "opportunities": [
+  {
+   "doc_id": "70782142",
+   "spisova_znacka": "KSOL 10 INS 1878/2026",
+   "soud": "Krajského soudu v Ostravě - pobočka v Olomouci",
+   "dluznik_jmeno": "Tomáš Slavík",
+   "ico": null,
+   "sidlo": "Orlová, Osvobození 796, PSČ 735 14, Okres Karviná",
+   "stav_rizeni": "Povoleno oddlužení",
+   "datum_podani": "2026-09-10",
+   "priorita": "stredni",
+   "assets": [
+    {
+     "typ": "movity",
+     "popis": "Motocykl tov. zn. DUCATI MONSTER 900, RZ: 1TI 721, VIN: ZDMM200AA1B009573",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "movity",
+     "popis": "Motocykl tov. zn. DUCATI MONSTER M620 I.E., RZ: 5J6 708, VIN: ZDMM400AA2B022281",
+     "navrhovana_cena": null,
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "Mgr. Monika Urbanová",
+    "email": "is-urbanova@seznam.cz",
+    "telefon": "724 865 878",
+    "datova_schranka": "ebrqtey"
+   },
+   "shrnuti": "Insolvenční správkyně žádá soud o souhlas s prodejem dvou motocyklů (Ducati Monster 900 a Ducati Monster M620 I.E.) z majetkové podstaty dlužníka mimo dražbu, bez uvedení konkrétní kupní ceny nebo kupujícího.",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-09-10",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70782142",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_829",
+     "datum": "2026-02-11",
+     "popis": "Výpis z katastru nemovitostí",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=64970827",
+     "kategorie": "katastr"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70782142",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=50A708C16E1AE3A8E06333F21FAC6DBC&actSheet=B&pageB=all",
+   "or_url": null,
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-09-10"
+  },
+  {
+   "doc_id": "70778247",
+   "spisova_znacka": "KSUL 63 INS 16103/2024",
+   "soud": "Krajského soudu v Ústí nad Labem",
+   "dluznik_jmeno": "STEBAL Spedition, s.r.o.",
+   "ico": "25036114",
+   "sidlo": "Dubí, Horská 302, PSČ 417 02",
+   "stav_rizeni": "Prohlášený konkurs",
+   "datum_podani": "2026-09-10",
+   "priorita": "stredni",
+   "assets": [
+    {
+     "typ": "movity",
+     "popis": "Vozidla a návěsy (tahače a přívěsy) sepsané v majetkové podstatě dlužníka STEBAL Spedition, s.r.o., nabízené k prodeji formou nabídkového řízení prostřednictvím TIR CENTRUM s.r.o. (nárok na vlastnictví uplatňuje JUMBO Logistic, s.r.o. ve vylučovací žalobě sp. zn. 68 ICm 2081/2025)",
+     "navrhovana_cena": null,
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "AZAM – insolvence, v.o.s. (Mgr. Bc. Jan Mašek)",
+    "email": "masek@azaminsolvence.cz",
+    "telefon": "702 136 258",
+    "datova_schranka": null
+   },
+   "shrnuti": "Insolvenční správce žádá soud o souhlas s prodejem vozidel a návěsů z majetkové podstaty dlužníka STEBAL Spedition, s.r.o. mimo dražbu formou nabídkového řízení přes TIR CENTRUM s.r.o. a portál sauto.cz; konkrétní kupní ceny nejsou v textu uvedeny, k vozidlům probíhá vylučovací spor s JUMBO Logistic, s.r.o.",
+   "soupis": {
+    "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70420779",
+    "datum": "2026-08-07",
+    "popis": "Soupis majetkové podstaty - doplnění"
+   },
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-09-10",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70778247",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_347",
+     "datum": "2026-08-26",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70620244",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_347",
+     "datum": "2026-07-24",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70239708",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_454",
+     "datum": "2026-08-07",
+     "popis": "Soupis majetkové podstaty - doplnění",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70420779",
+     "kategorie": "soupis"
+    },
+    {
+     "kod": "I_454",
+     "datum": "2026-07-14",
+     "popis": "Soupis majetkové podstaty - doplnění",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70115267",
+     "kategorie": "soupis"
+    },
+    {
+     "kod": "I_334",
+     "datum": "2026-03-10",
+     "popis": "Soupis majetkové podstaty",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=65759368",
+     "kategorie": "soupis"
+    },
+    {
+     "kod": "I_1054",
+     "datum": "2026-06-18",
+     "popis": "Zpráva insolvenčního správce",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=69662970",
+     "kategorie": "zprava"
+    },
+    {
+     "kod": "I_1054",
+     "datum": "2026-03-19",
+     "popis": "Zpráva insolvenčního správce",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=66222694",
+     "kategorie": "zprava"
+    },
+    {
+     "kod": "I_1054",
+     "datum": "2026-01-22",
+     "popis": "Zpráva insolvenčního správce",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=64567751",
+     "kategorie": "zprava"
+    },
+    {
+     "kod": "I_535",
+     "datum": "2026-09-01",
+     "popis": "Usnesení o prodeji mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70676194",
+     "kategorie": "prodej"
+    },
+    {
+     "kod": "I_535",
+     "datum": "2026-07-24",
+     "popis": "Usnesení o prodeji mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70239921",
+     "kategorie": "prodej"
+    },
+    {
+     "kod": "I_535",
+     "datum": "2026-01-28",
+     "popis": "Usnesení o prodeji mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=64650800",
+     "kategorie": "prodej"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70778247",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=2272B601662A3AA8E06333F21FAC5121&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=25036114&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-09-10"
+  },
+  {
+   "doc_id": "70783761",
+   "spisova_znacka": "KSLB 76 INS 6198/2024",
+   "soud": "Krajského soudu v Ústí nad Labem - pobočka v Liberci",
+   "dluznik_jmeno": "Milan Mitlener",
+   "ico": null,
+   "sidlo": "Frýdštejn, Frýdštejn 128, PSČ 463 42",
+   "stav_rizeni": "Povoleno oddlužení",
+   "datum_podani": "2026-09-10",
+   "priorita": "nizka",
+   "assets": [],
+   "spravce": {
+    "jmeno": null,
+    "email": null,
+    "telefon": null,
+    "datova_schranka": null
+   },
+   "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: Milan Mitlener). Konkrétní položky majetku se z textu nepodařilo automaticky rozpoznat. Klasifikováno heuristicky – nutná ruční kontrola dokumentu.",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-09-10",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70783761",
+     "kategorie": "navrh"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70783761",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=13EA15E35215AEC6E06333F21FAC5869&actSheet=B&pageB=all",
+   "or_url": null,
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-09-10"
+  },
+  {
+   "doc_id": "70780704",
+   "spisova_znacka": "KSBR 47 INS 12093/2020",
+   "soud": "Krajského soudu v Brně",
+   "dluznik_jmeno": "Agency worker company, s.r.o.",
+   "ico": "05163307",
+   "sidlo": "Brno, Příkop 838/6, PSČ 602 00",
+   "stav_rizeni": "Prohlášený konkurs",
+   "datum_podani": "2026-09-10",
+   "priorita": "stredni",
+   "assets": [
+    {
+     "typ": "movity",
+     "popis": "XL) - 27 ks o mikina pánská, bílá s potiskem \"Faurecia\" (vpředu a vzadu) (velikost: XXL) - 5 ks o mikina pánská, bílá s potiskem \"Faurecia\" (vpředu a vzadu) (velikost: XXXL) - 10 ks Cena pracovního oblečení byla…",
+     "navrhovana_cena": "10000 CZK",
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": null,
+    "email": null,
+    "telefon": null,
+    "datova_schranka": null
+   },
+   "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: Agency worker company, s.r.o.): movitý majetek (1 položka). Navrhovaná cena 10000 CZK. Podrobnosti jsou v soupisu majetkové podstaty. Klasifikováno heuristicky – ověřit v dokumentu.",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-09-10",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70780704",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_347",
+     "datum": "2026-02-16",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=65018973",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_332",
+     "datum": "2026-03-30",
+     "popis": "Zpráva IS o stavu řízení",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=66700332",
+     "kategorie": "zprava"
+    },
+    {
+     "kod": "I_332",
+     "datum": "2025-09-17",
+     "popis": "Zpráva IS o stavu řízení",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=63262707",
+     "kategorie": "zprava"
+    },
+    {
+     "kod": "I_332",
+     "datum": "2024-12-17",
+     "popis": "Zpráva IS o stavu řízení",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=60349124",
+     "kategorie": "zprava"
+    },
+    {
+     "kod": "I_535",
+     "datum": "2026-02-17",
+     "popis": "Usnesení o prodeji mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=65025729",
+     "kategorie": "prodej"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70780704",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=A5A88C3C9796325DE05333F21FAC3651&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=05163307&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "heuristic",
+   "first_seen": "2026-09-10"
+  },
+  {
+   "doc_id": "70769811",
+   "spisova_znacka": "KSPH 61 INS 23654/2025",
+   "soud": "Krajského soudu v Praze",
+   "dluznik_jmeno": "Tomáš Cibuzar",
+   "ico": null,
+   "sidlo": "Slaný, Otakara Jaroše 1659, PSČ 274 01, Okres Kladno",
+   "stav_rizeni": "Povoleno oddlužení",
+   "datum_podani": "2026-09-09",
+   "priorita": "stredni",
+   "assets": [
+    {
+     "typ": "movity",
+     "popis": "Správce si dovoluje požádat insolvenční soud, aby v souladu s § 289 zákona č. 182/2006 Sb., insolvenční zákon, vydal souhlas se zpeněžením Vozidla prodejem mimo dražbu.",
+     "navrhovana_cena": null,
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "EF Insolvence, v.o.s.",
+    "email": "office@efinsolvence.cz",
+    "telefon": null,
+    "datova_schranka": null
+   },
+   "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: Tomáš Cibuzar): movitý majetek (1 položka). Klasifikováno heuristicky – ověřit v dokumentu.",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-09-09",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70769811",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_347",
+     "datum": "2026-08-24",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70580921",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_1054",
+     "datum": "2026-06-04",
+     "popis": "Zpráva insolvenčního správce",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=69354499",
+     "kategorie": "zprava"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70769811",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=45C1327928E5A99FE06333F21FAC75EC&actSheet=B&pageB=all",
+   "or_url": null,
+   "text_source": "pdftotext",
+   "classified_by": "heuristic",
+   "first_seen": "2026-09-10"
+  },
   {
    "doc_id": "70767824",
    "spisova_znacka": "MSPH 92 INS 9447/2025",
@@ -1191,6 +1537,13 @@
      "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
      "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70681657",
      "kategorie": "navrh"
+    },
+    {
+     "kod": "I_535",
+     "datum": "2026-09-10",
+     "popis": "Usnesení o prodeji mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70779021",
+     "kategorie": "prodej"
     }
    ],
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70681657",
@@ -2273,6 +2626,13 @@
    "dokumenty": [
     {
      "kod": "I_347",
+     "datum": "2026-09-10",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70778247",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_347",
      "datum": "2026-08-26",
      "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
      "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70620244",
@@ -2283,13 +2643,6 @@
      "datum": "2026-07-24",
      "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
      "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70239708",
-     "kategorie": "navrh"
-    },
-    {
-     "kod": "I_347",
-     "datum": "2026-01-22",
-     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
-     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=64567951",
      "kategorie": "navrh"
     },
     {
@@ -2660,6 +3013,13 @@
    "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: Tomáš Cibuzar): movitý majetek (1 položka). Navrhovaná cena 100000 CZK. Klasifikováno heuristicky – ověřit v dokumentu.",
    "soupis": null,
    "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-09-09",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70769811",
+     "kategorie": "navrh"
+    },
     {
      "kod": "I_347",
      "datum": "2026-08-24",
@@ -7462,6 +7822,13 @@
    "dokumenty": [
     {
      "kod": "I_347",
+     "datum": "2026-09-10",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70778247",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_347",
      "datum": "2026-08-26",
      "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
      "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70620244",
@@ -7472,13 +7839,6 @@
      "datum": "2026-07-24",
      "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
      "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70239708",
-     "kategorie": "navrh"
-    },
-    {
-     "kod": "I_347",
-     "datum": "2026-01-22",
-     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
-     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=64567951",
      "kategorie": "navrh"
     },
     {
