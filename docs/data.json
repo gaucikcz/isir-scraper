@@ -1,18 +1,151 @@
 {
- "generated_at": "2026-09-10T08:59:38+00:00",
+ "generated_at": "2026-09-11T08:57:12+00:00",
  "window": {
   "from": "2026-07-22",
-  "to": "2026-09-10"
+  "to": "2026-09-11"
  },
  "stats": {
-  "total": 119,
+  "total": 122,
   "vysoka": 35,
-  "stredni": 55,
-  "nizka": 29,
-  "new_7d": 119,
-  "cases": 103
+  "stredni": 57,
+  "nizka": 30,
+  "new_7d": 122,
+  "cases": 106
  },
  "opportunities": [
+  {
+   "doc_id": "70795831",
+   "spisova_znacka": "KSCB 26 INS 10232/2026",
+   "soud": "Krajského soudu v Českých Budějovicích",
+   "dluznik_jmeno": "Sweet concept s.r.o.",
+   "ico": "10814809",
+   "sidlo": "Týn nad Vltavou, Alej míru 609, PSČ 375 01",
+   "stav_rizeni": "Prohlášený konkurs",
+   "datum_podani": "2026-09-11",
+   "priorita": "nizka",
+   "assets": [],
+   "spravce": {
+    "jmeno": null,
+    "email": null,
+    "telefon": null,
+    "datova_schranka": null
+   },
+   "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: Sweet concept s.r.o.). Konkrétní položky majetku se z textu nepodařilo automaticky rozpoznat. Klasifikováno heuristicky – nutná ruční kontrola dokumentu.",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-09-11",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70795831",
+     "kategorie": "navrh"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70795831",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=529D2B693BED19C4E06333F21FAC3222&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=10814809&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-09-11"
+  },
+  {
+   "doc_id": "70787777",
+   "spisova_znacka": "KSPL 66 INS 4776/2026",
+   "soud": "Krajského soudu v Plzni",
+   "dluznik_jmeno": "Josef Tomek",
+   "ico": null,
+   "sidlo": "Plzeň, Koperníkova 895/23, PSČ 301 00, Okres Plzeň-město",
+   "stav_rizeni": "Povoleno oddlužení",
+   "datum_podani": "2026-09-10",
+   "priorita": "stredni",
+   "assets": [
+    {
+     "typ": "movity",
+     "popis": "usnesením Krajského soudu v Plzni č. j. KSPL 66 INS 4776/2026-B-9 ze dne 7. 9. 2026 bylo schváleno oddlužení dlužníka plněním splátkového kalendáře se zpeněžením majetkové podstaty. Do majetkové podstaty dlužníka byl…",
+     "navrhovana_cena": null,
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "Ing. Ivana Zálešáková",
+    "email": "zalesakova.i@email.cz",
+    "telefon": "732 213 435",
+    "datova_schranka": "tmmypq2"
+   },
+   "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: Josef Tomek): movitý majetek (1 položka). Klasifikováno heuristicky – ověřit v dokumentu.",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-09-10",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70787777",
+     "kategorie": "navrh"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70787777",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=4CE1786B13D827B8E06333F21FACA327&actSheet=B&pageB=all",
+   "or_url": null,
+   "text_source": "pdftotext",
+   "classified_by": "heuristic",
+   "first_seen": "2026-09-11"
+  },
+  {
+   "doc_id": "70787739",
+   "spisova_znacka": "MSPH 60 INS 20234/2025",
+   "soud": "Městského soudu v Praze",
+   "dluznik_jmeno": "MUNTERASI s.r.o.",
+   "ico": "28125827",
+   "sidlo": "Praha 5, Heranova 1550/1, PSČ 155 00, Okres Hlavní město Praha",
+   "stav_rizeni": "Prohlášený konkurs",
+   "datum_podani": "2026-09-10",
+   "priorita": "stredni",
+   "assets": [
+    {
+     "typ": "movity",
+     "popis": "Vozidlo Mercedes-Benz Sprinter, RZ 3AM 4638, VIN WDB9066571P590480, rok výroby 2013, najeto více jak 300 000 km, vykazuje značné známky používání (kosmetické vady, odřenky, zprohýbané plechy)",
+     "navrhovana_cena": null,
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "JUDr. Stanislava Vohradská, insolvenční správkyně",
+    "email": "insoffice@vohradska.cz",
+    "telefon": null,
+    "datova_schranka": "yympa8y"
+   },
+   "shrnuti": "Insolvenční správkyně žádá soud o souhlas s prodejem movitého majetku (vozidlo Mercedes-Benz Sprinter) z majetkové podstaty dlužníka MUNTERASI s.r.o. mimo dražbu, formou prodeje nejvyšší nabídce po inzerci min. 14 dní.",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-09-10",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70787739",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_347",
+     "datum": "2026-07-08",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70033336",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_332",
+     "datum": "2026-07-30",
+     "popis": "Zpráva IS o stavu řízení",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70308486",
+     "kategorie": "zprava"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70787739",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=4153D1DD2883C51FE06333F21FACA229&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=28125827&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-09-11"
+  },
   {
    "doc_id": "70782142",
    "spisova_znacka": "KSOL 10 INS 1878/2026",
@@ -210,15 +343,7 @@
    },
    "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: Milan Mitlener). Konkrétní položky majetku se z textu nepodařilo automaticky rozpoznat. Klasifikováno heuristicky – nutná ruční kontrola dokumentu.",
    "soupis": null,
-   "dokumenty": [
-    {
-     "kod": "I_347",
-     "datum": "2026-09-10",
-     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
-     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70783761",
-     "kategorie": "navrh"
-    }
-   ],
+   "dokumenty": [],
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70783761",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=13EA15E35215AEC6E06333F21FAC5869&actSheet=B&pageB=all",
    "or_url": null,
@@ -287,6 +412,13 @@
      "popis": "Zpráva IS o stavu řízení",
      "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=60349124",
      "kategorie": "zprava"
+    },
+    {
+     "kod": "I_535",
+     "datum": "2026-09-10",
+     "popis": "Usnesení o prodeji mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70788602",
+     "kategorie": "prodej"
     },
     {
      "kod": "I_535",
@@ -601,6 +733,13 @@
      "popis": "Zpráva IS o stavu řízení",
      "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70766603",
      "kategorie": "zprava"
+    },
+    {
+     "kod": "I_535",
+     "datum": "2026-09-11",
+     "popis": "Usnesení o prodeji mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70793394",
+     "kategorie": "prodej"
     }
    ],
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70747192",
@@ -1095,6 +1234,13 @@
      "popis": "Zpráva IS o stavu řízení",
      "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70766603",
      "kategorie": "zprava"
+    },
+    {
+     "kod": "I_535",
+     "datum": "2026-09-11",
+     "popis": "Usnesení o prodeji mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70793394",
+     "kategorie": "prodej"
     }
    ],
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70719380",
