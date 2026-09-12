@@ -1,18 +1,60 @@
 {
- "generated_at": "2026-09-11T08:57:12+00:00",
+ "generated_at": "2026-09-12T08:40:10+00:00",
  "window": {
   "from": "2026-07-22",
   "to": "2026-09-11"
  },
  "stats": {
-  "total": 122,
-  "vysoka": 35,
+  "total": 123,
+  "vysoka": 36,
   "stredni": 57,
   "nizka": 30,
-  "new_7d": 122,
-  "cases": 106
+  "new_7d": 123,
+  "cases": 107
  },
  "opportunities": [
+  {
+   "doc_id": "70806426",
+   "spisova_znacka": "KSUL 70 INS 7791/2025",
+   "soud": "Krajského soudu v Ústí nad Labem",
+   "dluznik_jmeno": "Ing. Jiří Mašek",
+   "ico": null,
+   "sidlo": "Jiříkov, Teplická 772/8, PSČ 407 53",
+   "stav_rizeni": "Povoleno oddlužení",
+   "datum_podani": "2026-09-11",
+   "priorita": "vysoka",
+   "assets": [
+    {
+     "typ": "nemovity",
+     "popis": "Katastrální území: Jiříkov Město: Jiříkov Okres: Děčín Kraj: Ústecký kraj",
+     "navrhovana_cena": "3200000 CZK",
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": null,
+    "email": null,
+    "telefon": null,
+    "datova_schranka": null
+   },
+   "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: Ing. Jiří Mašek): nemovitý majetek (1 položka). Navrhovaná cena 3200000 CZK. Klasifikováno heuristicky – ověřit v dokumentu.",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-09-11",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70806426",
+     "kategorie": "navrh"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70806426",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=3357593171A98533E06333F21FAC7416&actSheet=B&pageB=all",
+   "or_url": null,
+   "text_source": "pdftotext",
+   "classified_by": "heuristic",
+   "first_seen": "2026-09-12"
+  },
   {
    "doc_id": "70795831",
    "spisova_znacka": "KSCB 26 INS 10232/2026",
@@ -39,6 +81,13 @@
      "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
      "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70795831",
      "kategorie": "navrh"
+    },
+    {
+     "kod": "I_535",
+     "datum": "2026-09-11",
+     "popis": "Usnesení o prodeji mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70806554",
+     "kategorie": "prodej"
     }
    ],
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70795831",
