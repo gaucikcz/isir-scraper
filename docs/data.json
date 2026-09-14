@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-13T09:35:02+00:00",
+ "generated_at": "2026-09-14T09:54:24+00:00",
  "window": {
   "from": "2026-07-22",
   "to": "2026-09-11"
@@ -461,6 +461,13 @@
      "popis": "Zpráva IS o stavu řízení",
      "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=60349124",
      "kategorie": "zprava"
+    },
+    {
+     "kod": "I_535",
+     "datum": "2026-09-14",
+     "popis": "Usnesení o prodeji mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70815013",
+     "kategorie": "prodej"
     },
     {
      "kod": "I_535",
