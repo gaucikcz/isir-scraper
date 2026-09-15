@@ -1,18 +1,266 @@
 {
- "generated_at": "2026-09-14T09:54:24+00:00",
+ "generated_at": "2026-09-15T09:29:31+00:00",
  "window": {
   "from": "2026-07-22",
-  "to": "2026-09-11"
+  "to": "2026-09-15"
  },
  "stats": {
-  "total": 123,
-  "vysoka": 36,
-  "stredni": 57,
+  "total": 127,
+  "vysoka": 38,
+  "stredni": 59,
   "nizka": 30,
   "new_7d": 20,
-  "cases": 107
+  "cases": 111
  },
  "opportunities": [
+  {
+   "doc_id": "70837896",
+   "spisova_znacka": "KSCB 27 INS 5024/2025",
+   "soud": "Krajského soudu v Českých Budějovicích",
+   "dluznik_jmeno": "Vojtěch Hlavatý",
+   "ico": "88234533",
+   "sidlo": "Strakonice, Havlíčkova 393, PSČ 386 01",
+   "stav_rizeni": "Povoleno oddlužení",
+   "datum_podani": "2026-09-15",
+   "priorita": "vysoka",
+   "assets": [
+    {
+     "typ": "nemovity",
+     "popis": "Spoluvlastnický podíl 1/4 na pozemku st. parc. č. 66 (jehož součástí je stavba Drachkov, č.e. 39) a na pozemku parc. č. 504/20, zapsáno na LV č. 147, k.ú. Drachkov",
+     "navrhovana_cena": "230000 CZK",
+     "kupujici": "Martin Kostka"
+    }
+   ],
+   "spravce": {
+    "jmeno": "TP Insolvence, v.o.s. (ohlášený společník Šimon Peták)",
+    "email": null,
+    "telefon": null,
+    "datova_schranka": null
+   },
+   "shrnuti": "Insolvenční správce žádá soud o souhlas se zpeněžením spoluvlastnického podílu 1/4 na nemovitostech v k.ú. Drachkov prodejem mimo dražbu Martinu Kostkovi za 230 000 Kč.",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-09-15",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70837896",
+     "kategorie": "navrh"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70837896",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=2E8D58DB9FDBF202E06333F21FAC2AD4&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=88234533&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-09-15"
+  },
+  {
+   "doc_id": "70835987",
+   "spisova_znacka": "KSOL 10 INS 20106/2024",
+   "soud": "Krajského soudu v Ostravě - pobočka v Olomouci",
+   "dluznik_jmeno": "BYT&BYT s.r.o.",
+   "ico": "02717212",
+   "sidlo": "Hanušovice, V Zátiší 67, PSČ 788 33",
+   "stav_rizeni": "Prohlášený konkurs",
+   "datum_podani": "2026-09-15",
+   "priorita": "stredni",
+   "assets": [
+    {
+     "typ": "movity",
+     "popis": "V ě c : Žádost o udělení písemného souhlasu se zpeněžením osobního automobilu prodejem mimo dražbu ve smyslu ust. § 286 ve spojení s ust. § 289 zákona č. 182/2006 Sb., o úpadku a způsobech jeho řešení (insolvenční…",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "nehmotny",
+     "popis": "V této souvislosti je nutno zdůraznit, že k výše identifikovanému osobnímu automobilu uplatnil věřitel Finanční úřad pro Olomoucký kraj právo na uspokojení přísl. přihlášených pohledávek ze zajištění, a to z titulu…",
+     "navrhovana_cena": null,
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "Mgr. Radek Frkal",
+    "email": "kancelar@inskol.eu",
+    "telefon": "730 150 551",
+    "datova_schranka": "6k65rha"
+   },
+   "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: BYT&BYT s.r.o.): movitý majetek, nehmotný majetek (2 položky). Klasifikováno heuristicky – ověřit v dokumentu.",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-09-15",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70835987",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_829",
+     "datum": "2024-12-19",
+     "popis": "Výpis z katastru nemovitostí",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=60385356",
+     "kategorie": "katastr"
+    },
+    {
+     "kod": "I_332",
+     "datum": "2026-07-17",
+     "popis": "Zpráva IS o stavu řízení",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70161890",
+     "kategorie": "zprava"
+    },
+    {
+     "kod": "I_332",
+     "datum": "2026-03-03",
+     "popis": "Zpráva IS o stavu řízení",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=65379780",
+     "kategorie": "zprava"
+    },
+    {
+     "kod": "I_332",
+     "datum": "2025-12-01",
+     "popis": "Zpráva IS o stavu řízení",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=64066187",
+     "kategorie": "zprava"
+    },
+    {
+     "kod": "I_535",
+     "datum": "2025-11-05",
+     "popis": "Usnesení o prodeji mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=63776553",
+     "kategorie": "prodej"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70835987",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=26B865901A3D8235E06333F21FACED9C&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=02717212&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "heuristic",
+   "first_seen": "2026-09-15"
+  },
+  {
+   "doc_id": "70821309",
+   "spisova_znacka": "KSUL 79 INS 2140/2025",
+   "soud": "Krajského soudu v Ústí nad Labem",
+   "dluznik_jmeno": "Martina Dudková",
+   "ico": null,
+   "sidlo": "Chomutov, Dřínovská 4583, PSČ 430 04",
+   "stav_rizeni": "Prohlášený konkurs",
+   "datum_podani": "2026-09-14",
+   "priorita": "vysoka",
+   "assets": [
+    {
+     "typ": "nemovity",
+     "popis": "Bytová jednotka č. 4583/20 v budově Chomutov č.p. 4580, 4581, 4582, 4583, stojící na pozemku parc.č. 4801/20, 4801/21, 4801/22, 4801/23, obec Chomutov, k.ú. Chomutov I, LV č. 4089, včetně spoluvlastnického podílu o velikosti 369/54938 na společných částech budovy a na uvedených pozemcích, LV č. 1729.",
+     "navrhovana_cena": null,
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "JUDr. Martin Hanke, insolvenční správce (Insolvency Project v.o.s.)",
+    "email": "smejcova@insolvencyproject.cz",
+    "telefon": "734 755 714",
+    "datova_schranka": null
+   },
+   "shrnuti": "Insolvenční správce žádá o souhlas s prodejem bytové jednotky v Chomutově mimo dražbu přímému zájemci za cenu nejvyšší nabídky; konkrétní cena ani kupující zatím nejsou uvedeny.",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-09-14",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70821309",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_332",
+     "datum": "2026-05-29",
+     "popis": "Zpráva IS o stavu řízení",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=69188523",
+     "kategorie": "zprava"
+    },
+    {
+     "kod": "I_332",
+     "datum": "2026-03-20",
+     "popis": "Zpráva IS o stavu řízení",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=66284549",
+     "kategorie": "zprava"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70821309",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=2C6DE69A5BF0E587E06333F21FACF088&actSheet=B&pageB=all",
+   "or_url": null,
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-09-15"
+  },
+  {
+   "doc_id": "70820694",
+   "spisova_znacka": "KSUL 69 INS 16234/2024",
+   "soud": "Krajského soudu v Ústí nad Labem",
+   "dluznik_jmeno": "Stavební společnost BRABEC s.r.o.",
+   "ico": "06182381",
+   "sidlo": "Lužice, Svinčice 26, PSČ 434 01",
+   "stav_rizeni": "Prohlášený konkurs",
+   "datum_podani": "2026-09-14",
+   "priorita": "stredni",
+   "assets": [
+    {
+     "typ": "movity",
+     "popis": "Nákladní automobil sklápěcí TATRA T815 (položka soupisu majetkové podstaty poř. č. 10)",
+     "navrhovana_cena": null,
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "Mgr. Miroslav Ambrož",
+    "email": "ak.ambroz@seznam.cz",
+    "telefon": "+420776652064",
+    "datova_schranka": "y87xtfk"
+   },
+   "shrnuti": "Insolvenční správce žádá soud o souhlas s prodejem nákladního automobilu TATRA T815 mimo dražbu, a to zájemci s nejvyšší cenovou nabídkou obstaranou přímým oslovením a inzercí; konkrétní cena ani kupující nejsou v dokumentu uvedeny.",
+   "soupis": {
+    "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70747501",
+    "datum": "2026-09-08",
+    "popis": "Soupis majetkové podstaty"
+   },
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-09-14",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70820694",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_334",
+     "datum": "2026-09-08",
+     "popis": "Soupis majetkové podstaty",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70747501",
+     "kategorie": "soupis"
+    },
+    {
+     "kod": "I_334",
+     "datum": "2026-04-01",
+     "popis": "Soupis majetkové podstaty",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=66788264",
+     "kategorie": "soupis"
+    },
+    {
+     "kod": "I_332",
+     "datum": "2026-08-31",
+     "popis": "Zpráva IS o stavu řízení",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70654619",
+     "kategorie": "zprava"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70820694",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=22728CE0D10B3AB7E06333F21FACFF79&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=06182381&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-09-15"
+  },
   {
    "doc_id": "70806426",
    "spisova_znacka": "KSUL 70 INS 7791/2025",
@@ -346,6 +594,13 @@
     },
     {
      "kod": "I_535",
+     "datum": "2026-09-15",
+     "popis": "Usnesení o prodeji mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70838372",
+     "kategorie": "prodej"
+    },
+    {
+     "kod": "I_535",
      "datum": "2026-09-01",
      "popis": "Usnesení o prodeji mimo dražbu",
      "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70676194",
@@ -356,13 +611,6 @@
      "datum": "2026-07-24",
      "popis": "Usnesení o prodeji mimo dražbu",
      "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70239921",
-     "kategorie": "prodej"
-    },
-    {
-     "kod": "I_535",
-     "datum": "2026-01-28",
-     "popis": "Usnesení o prodeji mimo dražbu",
-     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=64650800",
      "kategorie": "prodej"
     }
    ],
@@ -2891,6 +3139,13 @@
     },
     {
      "kod": "I_535",
+     "datum": "2026-09-15",
+     "popis": "Usnesení o prodeji mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70838372",
+     "kategorie": "prodej"
+    },
+    {
+     "kod": "I_535",
      "datum": "2026-09-01",
      "popis": "Usnesení o prodeji mimo dražbu",
      "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70676194",
@@ -2901,13 +3156,6 @@
      "datum": "2026-07-24",
      "popis": "Usnesení o prodeji mimo dražbu",
      "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70239921",
-     "kategorie": "prodej"
-    },
-    {
-     "kod": "I_535",
-     "datum": "2026-01-28",
-     "popis": "Usnesení o prodeji mimo dražbu",
-     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=64650800",
      "kategorie": "prodej"
     }
    ],
@@ -8087,6 +8335,13 @@
     },
     {
      "kod": "I_535",
+     "datum": "2026-09-15",
+     "popis": "Usnesení o prodeji mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70838372",
+     "kategorie": "prodej"
+    },
+    {
+     "kod": "I_535",
      "datum": "2026-09-01",
      "popis": "Usnesení o prodeji mimo dražbu",
      "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70676194",
@@ -8097,13 +8352,6 @@
      "datum": "2026-07-24",
      "popis": "Usnesení o prodeji mimo dražbu",
      "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70239921",
-     "kategorie": "prodej"
-    },
-    {
-     "kod": "I_535",
-     "datum": "2026-01-28",
-     "popis": "Usnesení o prodeji mimo dražbu",
-     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=64650800",
      "kategorie": "prodej"
     }
    ],
