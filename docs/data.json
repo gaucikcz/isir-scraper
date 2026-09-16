@@ -1,18 +1,60 @@
 {
- "generated_at": "2026-09-15T09:29:31+00:00",
+ "generated_at": "2026-09-16T09:19:56+00:00",
  "window": {
   "from": "2026-07-22",
-  "to": "2026-09-15"
+  "to": "2026-09-16"
  },
  "stats": {
-  "total": 127,
+  "total": 128,
   "vysoka": 38,
   "stredni": 59,
-  "nizka": 30,
-  "new_7d": 20,
-  "cases": 111
+  "nizka": 31,
+  "new_7d": 17,
+  "cases": 112
  },
  "opportunities": [
+  {
+   "doc_id": "70852812",
+   "spisova_znacka": "KSOL 10 INS 21938/2024",
+   "soud": "Krajského soudu v Ostravě - pobočka v Olomouci",
+   "dluznik_jmeno": "Irena Valentová",
+   "ico": null,
+   "sidlo": "Litovel, Nová Ves 53, PSČ 783 21, Okres Olomouc",
+   "stav_rizeni": "Prohlášený konkurs",
+   "datum_podani": "2026-09-16",
+   "priorita": "nizka",
+   "assets": [],
+   "spravce": {
+    "jmeno": null,
+    "email": null,
+    "telefon": null,
+    "datova_schranka": null
+   },
+   "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: Irena Valentová). Konkrétní položky majetku se z textu nepodařilo automaticky rozpoznat. Klasifikováno heuristicky – nutná ruční kontrola dokumentu.",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-09-16",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70852812",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_829",
+     "datum": "2025-02-04",
+     "popis": "Výpis z katastru nemovitostí",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=60793729",
+     "kategorie": "katastr"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70852812",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=295ED48AA7689874E06333F21FAC997E&actSheet=B&pageB=all",
+   "or_url": null,
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-09-16"
+  },
   {
    "doc_id": "70837896",
    "spisova_znacka": "KSCB 27 INS 5024/2025",
@@ -640,7 +682,15 @@
    },
    "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: Milan Mitlener). Konkrétní položky majetku se z textu nepodařilo automaticky rozpoznat. Klasifikováno heuristicky – nutná ruční kontrola dokumentu.",
    "soupis": null,
-   "dokumenty": [],
+   "dokumenty": [
+    {
+     "kod": "I_535",
+     "datum": "2026-09-15",
+     "popis": "Usnesení o prodeji mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70844639",
+     "kategorie": "prodej"
+    }
+   ],
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70783761",
    "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=13EA15E35215AEC6E06333F21FAC5869&actSheet=B&pageB=all",
    "or_url": null,
