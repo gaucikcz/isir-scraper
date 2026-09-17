@@ -1,18 +1,114 @@
 {
- "generated_at": "2026-09-16T09:19:56+00:00",
+ "generated_at": "2026-09-17T09:28:58+00:00",
  "window": {
   "from": "2026-07-22",
   "to": "2026-09-16"
  },
  "stats": {
-  "total": 128,
-  "vysoka": 38,
+  "total": 130,
+  "vysoka": 39,
   "stredni": 59,
-  "nizka": 31,
-  "new_7d": 17,
-  "cases": 112
+  "nizka": 32,
+  "new_7d": 16,
+  "cases": 113
  },
  "opportunities": [
+  {
+   "doc_id": "70859936",
+   "spisova_znacka": "KSUL 71 INS 767/2026",
+   "soud": "Krajského soudu v Ústí nad Labem",
+   "dluznik_jmeno": "Jaroslava Uchytilová",
+   "ico": null,
+   "sidlo": "Chomutov, Palackého 3996, PSČ 430 01",
+   "stav_rizeni": "Povoleno oddlužení",
+   "datum_podani": "2026-09-16",
+   "priorita": "vysoka",
+   "assets": [
+    {
+     "typ": "nemovity",
+     "popis": "Spoluvlastnický podíl 1/65 na pozemku parc.č. 2381/34 (zahrada), obec Zlaté Hory, okres Jeseník, k.ú. Zlaté Hory v Jeseníkách, LV 1734",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "nemovity",
+     "popis": "Spoluvlastnický podíl 1/65 na pozemku parc.č. 2381/35 (zahrada), obec Zlaté Hory, okres Jeseník, k.ú. Zlaté Hory v Jeseníkách, LV 1216",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "nemovity",
+     "popis": "Spoluvlastnický podíl 1/2 na pozemku parc.č. 2381/8 (zahrada), obec Zlaté Hory, okres Jeseník, k.ú. Zlaté Hory v Jeseníkách, LV 1202",
+     "navrhovana_cena": null,
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "JUDr. Martin Hanke, Insolvency Project v.o.s.",
+    "email": "smejcova@insolvencyproject.cz",
+    "telefon": "734 755 714",
+    "datova_schranka": null
+   },
+   "shrnuti": "Insolvenční správce žádá o souhlas s prodejem mimo dražbu tří spoluvlastnických podílů na pozemcích (zahradách) v k.ú. Zlaté Hory v Jeseníkách, přímému zájemci za cenu nejvyšší nabídky; konkrétní cena ani kupující zatím nejsou uvedeny.",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-09-16",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70859936",
+     "kategorie": "navrh"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70859936",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=487DAA15C45DB2C7E06333F21FACA8A6&actSheet=B&pageB=all",
+   "or_url": null,
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-09-17"
+  },
+  {
+   "doc_id": "70858992",
+   "spisova_znacka": "MSPH 92 INS 3175/2025",
+   "soud": "Městského soudu v Praze",
+   "dluznik_jmeno": "Veronika Tykalová",
+   "ico": null,
+   "sidlo": "Praha 9, Zárybská 671/8, PSČ 190 00, Okres Hlavní město Praha",
+   "stav_rizeni": "Povoleno oddlužení",
+   "datum_podani": "2026-09-16",
+   "priorita": "nizka",
+   "assets": [],
+   "spravce": {
+    "jmeno": null,
+    "email": null,
+    "telefon": null,
+    "datova_schranka": null
+   },
+   "shrnuti": "Text dokumentu je nečitelný (poškozený OCR výstup certifikátu/kvalifikovaného časového razítka), neobsahuje žádné identifikovatelné informace o konkrétním majetku nabízeném k prodeji mimo dražbu.",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-09-16",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70858992",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_347",
+     "datum": "2026-08-13",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70474405",
+     "kategorie": "navrh"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70858992",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=2E6A2608F6674CDEE06333F21FACCA52&actSheet=B&pageB=all",
+   "or_url": null,
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-09-17"
+  },
   {
    "doc_id": "70852812",
    "spisova_znacka": "KSOL 10 INS 21938/2024",
@@ -476,6 +572,13 @@
      "popis": "Zpráva IS o stavu řízení",
      "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70308486",
      "kategorie": "zprava"
+    },
+    {
+     "kod": "I_535",
+     "datum": "2026-09-17",
+     "popis": "Usnesení o prodeji mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70867171",
+     "kategorie": "prodej"
     }
    ],
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70787739",
@@ -5055,6 +5158,13 @@
    "shrnuti": "Dokument je nečitelný/poškozený výstup OCR (jedná se zjevně o jiný typ formuláře, patrně přihlášku pohledávky, nikoli návrh na zpeněžení majetku mimo dražbu) a neobsahuje žádné identifikovatelné položky majetku nabízené k prodeji.",
    "soupis": null,
    "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-09-16",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70858992",
+     "kategorie": "navrh"
+    },
     {
      "kod": "I_347",
      "datum": "2026-08-13",
