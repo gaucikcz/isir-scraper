@@ -1,18 +1,109 @@
 {
- "generated_at": "2026-09-17T09:28:58+00:00",
+ "generated_at": "2026-09-18T09:02:04+00:00",
  "window": {
   "from": "2026-07-22",
-  "to": "2026-09-16"
+  "to": "2026-09-18"
  },
  "stats": {
-  "total": 130,
+  "total": 132,
   "vysoka": 39,
-  "stredni": 59,
-  "nizka": 32,
-  "new_7d": 16,
-  "cases": 113
+  "stredni": 60,
+  "nizka": 33,
+  "new_7d": 13,
+  "cases": 115
  },
  "opportunities": [
+  {
+   "doc_id": "70884073",
+   "spisova_znacka": "KSOL 10 INS 20726/2025",
+   "soud": "Krajského soudu v Ostravě - pobočka v Olomouci",
+   "dluznik_jmeno": "David Bouchal",
+   "ico": null,
+   "sidlo": "Jindřichov, Jindřichov 78, PSČ 788 23, Okres Šumperk",
+   "stav_rizeni": "Povoleno oddlužení",
+   "datum_podani": "2026-09-18",
+   "priorita": "nizka",
+   "assets": [],
+   "spravce": {
+    "jmeno": null,
+    "email": null,
+    "telefon": null,
+    "datova_schranka": null
+   },
+   "shrnuti": "Text dokumentu je silně poškozený OCR výstup (vygenerovaný z formuláře/tabulky), ze kterého nelze spolehlivě identifikovat žádnou konkrétní položku majetku, cenu ani kupujícího. Nelze tedy vytvořit žádný věcný záznam o nabízeném majetku.",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-09-18",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70884073",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_829",
+     "datum": "2025-11-25",
+     "popis": "Výpis z katastru nemovitostí",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=64005674",
+     "kategorie": "katastr"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70884073",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=3F0C94E4C78DE9D0E06333F21FAC62F2&actSheet=B&pageB=all",
+   "or_url": null,
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-09-18"
+  },
+  {
+   "doc_id": "70877913",
+   "spisova_znacka": "KSOS 39 INS 8523/2026",
+   "soud": "Krajského soudu v Ostravě",
+   "dluznik_jmeno": "ExaSoft Holding a.s.",
+   "ico": "29383161",
+   "sidlo": "Karviná, Rudé armády 651/19a, PSČ 733 01",
+   "stav_rizeni": "Prohlášený konkurs",
+   "datum_podani": "2026-09-17",
+   "priorita": "stredni",
+   "assets": [
+    {
+     "typ": "movity",
+     "popis": "Movité věci z majetkové podstaty dlužníka ExaSoft Holding a.s. (blíže nespecifikované, sepsané do majetkové podstaty)",
+     "navrhovana_cena": null,
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "Mgr. Martina Kaplánková",
+    "email": "advokat@kaplankova.cz",
+    "telefon": "773 319 386 / 775 959 727",
+    "datova_schranka": "d4ex4d3"
+   },
+   "shrnuti": "Insolvenční správkyně žádá soud o souhlas s prodejem movitých věcí z majetkové podstaty dlužníka ExaSoft Holding a.s. mimo dražbu za cenu odpovídající nejvyšší nabídce. Konkrétní specifikace věcí, cena ani kupující nejsou v textu uvedeny.",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-09-17",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70877913",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_829",
+     "datum": "2026-05-18",
+     "popis": "Výpis z katastru nemovitostí",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=68639074",
+     "kategorie": "katastr"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70877913",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=50A708C172BAE3A8E06333F21FAC6DBC&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=29383161&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-09-18"
+  },
   {
    "doc_id": "70859936",
    "spisova_znacka": "KSUL 71 INS 767/2026",
@@ -718,6 +809,13 @@
     },
     {
      "kod": "I_1054",
+     "datum": "2026-09-18",
+     "popis": "Zpráva insolvenčního správce",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70881299",
+     "kategorie": "zprava"
+    },
+    {
+     "kod": "I_1054",
      "datum": "2026-06-18",
      "popis": "Zpráva insolvenčního správce",
      "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=69662970",
@@ -728,13 +826,6 @@
      "datum": "2026-03-19",
      "popis": "Zpráva insolvenčního správce",
      "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=66222694",
-     "kategorie": "zprava"
-    },
-    {
-     "kod": "I_1054",
-     "datum": "2026-01-22",
-     "popis": "Zpráva insolvenčního správce",
-     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=64567751",
      "kategorie": "zprava"
     },
     {
@@ -1134,6 +1225,13 @@
      "popis": "Zpráva IS o stavu řízení",
      "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=64561252",
      "kategorie": "zprava"
+    },
+    {
+     "kod": "I_535",
+     "datum": "2026-09-17",
+     "popis": "Usnesení o prodeji mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70874254",
+     "kategorie": "prodej"
     }
    ],
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70755727",
@@ -3271,6 +3369,13 @@
     },
     {
      "kod": "I_1054",
+     "datum": "2026-09-18",
+     "popis": "Zpráva insolvenčního správce",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70881299",
+     "kategorie": "zprava"
+    },
+    {
+     "kod": "I_1054",
      "datum": "2026-06-18",
      "popis": "Zpráva insolvenčního správce",
      "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=69662970",
@@ -3281,13 +3386,6 @@
      "datum": "2026-03-19",
      "popis": "Zpráva insolvenčního správce",
      "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=66222694",
-     "kategorie": "zprava"
-    },
-    {
-     "kod": "I_1054",
-     "datum": "2026-01-22",
-     "popis": "Zpráva insolvenčního správce",
-     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=64567751",
      "kategorie": "zprava"
     },
     {
@@ -6929,6 +7027,27 @@
      "popis": "Soupis majetkové podstaty - doplnění",
      "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=69940134",
      "kategorie": "soupis"
+    },
+    {
+     "kod": "I_535",
+     "datum": "2026-09-18",
+     "popis": "Usnesení o prodeji mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70883266",
+     "kategorie": "prodej"
+    },
+    {
+     "kod": "I_535",
+     "datum": "2026-09-18",
+     "popis": "Usnesení o prodeji mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70882718",
+     "kategorie": "prodej"
+    },
+    {
+     "kod": "I_535",
+     "datum": "2026-09-18",
+     "popis": "Usnesení o prodeji mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70882386",
+     "kategorie": "prodej"
     }
    ],
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70350732",
@@ -7062,6 +7181,27 @@
      "popis": "Soupis majetkové podstaty - doplnění",
      "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=69940134",
      "kategorie": "soupis"
+    },
+    {
+     "kod": "I_535",
+     "datum": "2026-09-18",
+     "popis": "Usnesení o prodeji mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70883266",
+     "kategorie": "prodej"
+    },
+    {
+     "kod": "I_535",
+     "datum": "2026-09-18",
+     "popis": "Usnesení o prodeji mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70882718",
+     "kategorie": "prodej"
+    },
+    {
+     "kod": "I_535",
+     "datum": "2026-09-18",
+     "popis": "Usnesení o prodeji mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70882386",
+     "kategorie": "prodej"
     }
    ],
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70350662",
@@ -8474,6 +8614,13 @@
     },
     {
      "kod": "I_1054",
+     "datum": "2026-09-18",
+     "popis": "Zpráva insolvenčního správce",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70881299",
+     "kategorie": "zprava"
+    },
+    {
+     "kod": "I_1054",
      "datum": "2026-06-18",
      "popis": "Zpráva insolvenčního správce",
      "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=69662970",
@@ -8484,13 +8631,6 @@
      "datum": "2026-03-19",
      "popis": "Zpráva insolvenčního správce",
      "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=66222694",
-     "kategorie": "zprava"
-    },
-    {
-     "kod": "I_1054",
-     "datum": "2026-01-22",
-     "popis": "Zpráva insolvenčního správce",
-     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=64567751",
      "kategorie": "zprava"
     },
     {
