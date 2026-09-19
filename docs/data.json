@@ -1,18 +1,72 @@
 {
- "generated_at": "2026-09-18T09:02:04+00:00",
+ "generated_at": "2026-09-19T08:50:22+00:00",
  "window": {
   "from": "2026-07-22",
   "to": "2026-09-18"
  },
  "stats": {
-  "total": 132,
+  "total": 133,
   "vysoka": 39,
-  "stredni": 60,
+  "stredni": 61,
   "nizka": 33,
-  "new_7d": 13,
-  "cases": 115
+  "new_7d": 11,
+  "cases": 116
  },
  "opportunities": [
+  {
+   "doc_id": "70889750",
+   "spisova_znacka": "KSHK 42 INS 7230/2026",
+   "soud": "Krajského soudu v Hradci Králové",
+   "dluznik_jmeno": "ZONES s.r.o.",
+   "ico": "26008220",
+   "sidlo": "Vamberk, Žamberecká 483, PSČ 517 54",
+   "stav_rizeni": "Prohlášený konkurs",
+   "datum_podani": "2026-09-18",
+   "priorita": "stredni",
+   "assets": [
+    {
+     "typ": "movity",
+     "popis": "Vybavení bývalé provozovny dlužníka v Brně, ulice Palackého a skladové zásoby z této prodejny (soubor regálů a polic, výpočetní technika, příslušenství k mobilním telefonům, náhradní díly mobilních zařízení, kancelářský nábytek); aktuálně na adrese Cejl 7, Brno.",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "movity",
+     "popis": "Vybavení bývalé provozovny dlužníka v Hradci Králové a skladové zásoby z prodejny (soubor regálů a polic, výpočetní technika, příslušenství k mobilním telefonům, náhradní díly mobilních zařízení, kancelářský nábytek) - potenciální předmět zajištění pohledávky P5 věřitele JUDr. Martina Nového.",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "movity",
+     "popis": "Movité věci - vybavení provozovny dlužníka v Brně, ulice Palackého, aktuálně umístěné v kontejneru v Brně - Řečkovicích (soubor regálů a polic, výpočetní technika, kancelářský nábytek).",
+     "navrhovana_cena": null,
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "Ing. Mgr. Tomáš Hřeben, ADF IS v.o.s.",
+    "email": "insolvence@adfis.cz",
+    "telefon": "+420 775 883 777",
+    "datova_schranka": "rjarxy9"
+   },
+   "shrnuti": "Insolvenční správce žádá soud o souhlas se zpeněžením movitých věcí (vybavení a skladové zásoby bývalých provozoven dlužníka v Brně a Hradci Králové) mimo dražbu formou inzerátu na www.burzaspravcu.cz a prodejem nejvyšší nabídce; konkrétní kupní cena ani kupující zatím nejsou stanoveny.",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-09-18",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70889750",
+     "kategorie": "navrh"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70889750",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=4CE1B4520F5A27B5E06333F21FACD116&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=26008220&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "ocr",
+   "classified_by": "llm",
+   "first_seen": "2026-09-19"
+  },
   {
    "doc_id": "70884073",
    "spisova_znacka": "KSOL 10 INS 20726/2025",
@@ -414,6 +468,13 @@
      "popis": "Zpráva IS o stavu řízení",
      "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=66284549",
      "kategorie": "zprava"
+    },
+    {
+     "kod": "I_535",
+     "datum": "2026-09-18",
+     "popis": "Usnesení o prodeji mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70888890",
+     "kategorie": "prodej"
     }
    ],
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70821309",
