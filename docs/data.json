@@ -1,18 +1,176 @@
 {
- "generated_at": "2026-09-20T09:18:44+00:00",
+ "generated_at": "2026-09-21T09:59:05+00:00",
  "window": {
   "from": "2026-07-22",
-  "to": "2026-09-18"
+  "to": "2026-09-21"
  },
  "stats": {
-  "total": 133,
-  "vysoka": 39,
-  "stredni": 61,
-  "nizka": 33,
-  "new_7d": 10,
-  "cases": 116
+  "total": 136,
+  "vysoka": 40,
+  "stredni": 62,
+  "nizka": 34,
+  "new_7d": 13,
+  "cases": 119
  },
  "opportunities": [
+  {
+   "doc_id": "70894843",
+   "spisova_znacka": "MSPH 98 INS 281/2026",
+   "soud": "Městského soudu v Praze",
+   "dluznik_jmeno": "Long creek a.s.",
+   "ico": "17195276",
+   "sidlo": "Praha 5, Geologická 988/4, PSČ 152 00",
+   "stav_rizeni": "Prohlášený konkurs",
+   "datum_podani": "2026-09-21",
+   "priorita": "vysoka",
+   "assets": [
+    {
+     "typ": "nemovity",
+     "popis": "soupisu majetkové podstaty pod č. 4. Podrobnosti: Kingspan Therma - 2 balení, soubor rozbalených zateplovacích materiálů, polystyrenové bloky-různá síla - 8 ks, dlaždice béžové 8 ks, balík šedých dlaždic…",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "movity",
+     "popis": "b) Soubor zbytkového stavebního majetku-zapsaný v soupisu majetkové podstaty pod č. 4. Podrobnosti: Kingspan Therma - 2 balení, soubor rozbalených zateplovacích materiálů, polystyrenové bloky-různá síla - 8 ks, dlaždice…",
+     "navrhovana_cena": null,
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "JUDr. Miloslav Havlena",
+    "email": "Havlena.insolvence@seznam.cz",
+    "telefon": "608 951 955",
+    "datova_schranka": null
+   },
+   "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: Long creek a.s.): nemovitý majetek, movitý majetek (2 položky). Klasifikováno heuristicky – ověřit v dokumentu.",
+   "soupis": {
+    "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70565344",
+    "datum": "2026-08-21",
+    "popis": "Soupis majetkové podstaty"
+   },
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-09-21",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70894843",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_334",
+     "datum": "2026-08-21",
+     "popis": "Soupis majetkové podstaty",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70565344",
+     "kategorie": "soupis"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70894843",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=45B841BA4D6B884DE06333F21FAC4D9D&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=17195276&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "heuristic",
+   "first_seen": "2026-09-21"
+  },
+  {
+   "doc_id": "70898630",
+   "spisova_znacka": "MSPH 99 INS 21857/2025",
+   "soud": "Městského soudu v Praze",
+   "dluznik_jmeno": "Partnership s.r.o.",
+   "ico": "29416175",
+   "sidlo": "Praha 10, Korunní 2569/108g, PSČ 101 00",
+   "stav_rizeni": "Prohlášený konkurs",
+   "datum_podani": "2026-09-21",
+   "priorita": "stredni",
+   "assets": [
+    {
+     "typ": "movity",
+     "popis": "Do soupisu majetkové podstaty výše uvedeného dlužníka byl mimo jiné sepsán majetek pod položkami: č. název popis 2 Skútr JONWAY AA, r.v. 2011, RZ nefunkční motor, skútr spadl do vody cca v roce 2024. 7S8699, VIN…",
+     "navrhovana_cena": "50000 CZK",
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": null,
+    "email": null,
+    "telefon": null,
+    "datova_schranka": null
+   },
+   "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: Partnership s.r.o.): movitý majetek (1 položka). Navrhovaná cena 50000 CZK. Klasifikováno heuristicky – ověřit v dokumentu.",
+   "soupis": {
+    "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70550879",
+    "datum": "2026-08-20",
+    "popis": "Soupis majetkové podstaty"
+   },
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-09-21",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70898630",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_334",
+     "datum": "2026-08-20",
+     "popis": "Soupis majetkové podstaty",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70550879",
+     "kategorie": "soupis"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70898630",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=4388141BC26E760EE06333F21FACBA1E&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=29416175&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "heuristic",
+   "first_seen": "2026-09-21"
+  },
+  {
+   "doc_id": "70898057",
+   "spisova_znacka": "KSCB 44 INS 15786/2025",
+   "soud": "Krajského soudu v Českých Budějovicích",
+   "dluznik_jmeno": "Petr Vyskočil",
+   "ico": "22440674",
+   "sidlo": "Český Krumlov, Sídliště Plešivec 388, PSČ 381 01",
+   "stav_rizeni": "Povoleno oddlužení",
+   "datum_podani": "2026-09-21",
+   "priorita": "nizka",
+   "assets": [],
+   "spravce": {
+    "jmeno": null,
+    "email": null,
+    "telefon": null,
+    "datova_schranka": null
+   },
+   "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: Petr Vyskočil). Konkrétní položky majetku se z textu nepodařilo automaticky rozpoznat. Klasifikováno heuristicky – nutná ruční kontrola dokumentu.",
+   "soupis": {
+    "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70897961",
+    "datum": "2026-09-21",
+    "popis": "Soupis majetkové podstaty"
+   },
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-09-21",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70898057",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_334",
+     "datum": "2026-09-21",
+     "popis": "Soupis majetkové podstaty",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70897961",
+     "kategorie": "soupis"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70898057",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=3A2CF0F9D6BFC171E06333F21FACD972&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=22440674&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-09-21"
+  },
   {
    "doc_id": "70889750",
    "spisova_znacka": "KSHK 42 INS 7230/2026",
