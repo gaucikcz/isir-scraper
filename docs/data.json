@@ -1,18 +1,386 @@
 {
- "generated_at": "2026-09-21T09:59:05+00:00",
+ "generated_at": "2026-09-22T09:21:19+00:00",
  "window": {
   "from": "2026-07-22",
-  "to": "2026-09-21"
+  "to": "2026-09-22"
  },
  "stats": {
-  "total": 136,
-  "vysoka": 40,
-  "stredni": 62,
-  "nizka": 34,
-  "new_7d": 13,
-  "cases": 119
+  "total": 143,
+  "vysoka": 43,
+  "stredni": 64,
+  "nizka": 36,
+  "new_7d": 20,
+  "cases": 125
  },
  "opportunities": [
+  {
+   "doc_id": "70913828",
+   "spisova_znacka": "KSBR 65 INS 4313/2026",
+   "soud": "Krajského soudu v Brně",
+   "dluznik_jmeno": "BK Instal s.r.o.",
+   "ico": "11826584",
+   "sidlo": "Brno, Purkyňova 648/125, PSČ 612 00",
+   "stav_rizeni": "Prohlášený konkurs",
+   "datum_podani": "2026-09-22",
+   "priorita": "stredni",
+   "assets": [
+    {
+     "typ": "movity",
+     "popis": "ačka kabelová DeWalt x m43 Dron DJI Mini 3 Pro x m44 Monitor HP E240 (2) x m45 Monitor Samsung S24R350PZU (2) x m46 Dálkoměr DISTO S910 x m47 NTB DELL 242 x m48 NTB Lenovo TYPE4178 x m49 Tablet Lenovo TABM9 x m50…",
+     "navrhovana_cena": null,
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "AHF insolvence, v.o.s.",
+    "email": "sekretariat@ahfinsolvence.cz",
+    "telefon": "+420 513 034 433",
+    "datova_schranka": null
+   },
+   "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: BK Instal s.r.o.): movitý majetek (1 položka). Klasifikováno heuristicky – ověřit v dokumentu.",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-09-22",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70913828",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_347",
+     "datum": "2026-08-20",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70550656",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_347",
+     "datum": "2026-08-19",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70531153",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_535",
+     "datum": "2026-09-08",
+     "popis": "Usnesení o prodeji mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70757776",
+     "kategorie": "prodej"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70913828",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=4C2CEE8C727B5B4CE06333F21FACA8BD&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=11826584&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "heuristic",
+   "first_seen": "2026-09-22"
+  },
+  {
+   "doc_id": "70913846",
+   "spisova_znacka": "MSPH 90 INS 13048/2025",
+   "soud": "Městského soudu v Praze",
+   "dluznik_jmeno": "Dušan Forejt",
+   "ico": null,
+   "sidlo": "Pečky, Masarykovo náměstí 78, PSČ 289 11, Okres Kolín",
+   "stav_rizeni": "Povoleno oddlužení",
+   "datum_podani": "2026-09-22",
+   "priorita": "nizka",
+   "assets": [
+    {
+     "typ": "nehmotny",
+     "popis": "Jmenovitá hodnota akcií 1.000,00 Kč, akcie v listinné podobě, není veřejně obchodovatelná.",
+     "navrhovana_cena": "1000 CZK",
+     "kupujici": "Zprostředkovatel: Dražební společnost MORAVA s.r.o."
+    }
+   ],
+   "spravce": {
+    "jmeno": "Ing. Petr Janíček",
+    "email": null,
+    "telefon": null,
+    "datova_schranka": null
+   },
+   "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: Dušan Forejt): nehmotný majetek (1 položka). Navrhovaná cena 1000 CZK. Kupující: Zprostředkovatel: Dražební společnost MORAVA s.r.o. Podrobnosti jsou v soupisu majetkové podstaty. Klasifikováno heuristicky – ověřit v dokumentu.",
+   "soupis": {
+    "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=64630317",
+    "datum": "2026-01-27",
+    "popis": "Soupis majetkové podstaty - doplnění"
+   },
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-09-22",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70913846",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_454",
+     "datum": "2026-01-27",
+     "popis": "Soupis majetkové podstaty - doplnění",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=64630317",
+     "kategorie": "soupis"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70913846",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=38DBE5AD7D5175E2E06333F21FAC4FC8&actSheet=B&pageB=all",
+   "or_url": null,
+   "text_source": "pdftotext",
+   "classified_by": "heuristic",
+   "first_seen": "2026-09-22"
+  },
+  {
+   "doc_id": "70904836",
+   "spisova_znacka": "KSOS 39 INS 4053/2026",
+   "soud": "Krajského soudu v Ostravě",
+   "dluznik_jmeno": "GL-S-T spol. s r.o.",
+   "ico": "65142381",
+   "sidlo": "Vsetín, 4. května 352, PSČ 755 01",
+   "stav_rizeni": "Prohlášený konkurs",
+   "datum_podani": "2026-09-21",
+   "priorita": "stredni",
+   "assets": [
+    {
+     "typ": "movity",
+     "popis": "Soubor hutního materiálu (ocelové profily/jekly, ocelové trubky, betonářská žebírková ocel, kulatina, plochá ocel a pásovina, úhelníky, ocelové plechy a přířezy) a vybavení zámečnické dílny (ocelové skladovací stojany, rozbrušovací pila na kov KDR 300 PR, ruční paletový vozík, pracovní schůdky a další dílenské vybavení), cca 4 tuny materiálu, uloženo v kryté dílně a venkovních prostorách v pronaja",
+     "navrhovana_cena": "60000 CZK",
+     "kupujici": "Josef Dérik"
+    }
+   ],
+   "spravce": {
+    "jmeno": "JUDr. Mgr. Ing. Martin Veselý",
+    "email": "insolvencnispravce@martin-vesely.cz",
+    "telefon": "+420 721 128 128",
+    "datova_schranka": "fv9w9vg"
+   },
+   "shrnuti": "Insolvenční správce žádá soud o souhlas s prodejem souboru hutního materiálu a vybavení zámečnické dílny mimo dražbu zájemci Josefu Dérikovi za 60 000 Kč, přičemž kupující na vlastní náklady zajistí vyklizení, manipulaci a odvoz majetku.",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-09-21",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70904836",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_829",
+     "datum": "2026-03-17",
+     "popis": "Výpis z katastru nemovitostí",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=66098897",
+     "kategorie": "katastr"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70904836",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=4C1E17FD20C30C81E06333F21FAC06E1&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=65142381&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-09-22"
+  },
+  {
+   "doc_id": "70901438",
+   "spisova_znacka": "MSPH 55 INS 155/2026",
+   "soud": "Městského soudu v Praze",
+   "dluznik_jmeno": "PPS Czechia s.r.o.",
+   "ico": "19450346",
+   "sidlo": "Praha 6, K letišti 1049/57, PSČ 160 00, Okres Hlavní město Praha",
+   "stav_rizeni": "Prohlášený konkurs",
+   "datum_podani": "2026-09-21",
+   "priorita": "nizka",
+   "assets": [],
+   "spravce": {
+    "jmeno": null,
+    "email": null,
+    "telefon": null,
+    "datova_schranka": null
+   },
+   "shrnuti": "Text dokumentu je silně poškozený (nesprávné kódování/OCR) a neumožňuje spolehlivě identifikovat konkrétní položky majetku nabízené k prodeji mimo dražbu, jejich popis ani navrhované ceny.",
+   "soupis": {
+    "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=69940755",
+    "datum": "2026-06-30",
+    "popis": "Soupis majetkové podstaty"
+   },
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-09-21",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70901438",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_334",
+     "datum": "2026-06-30",
+     "popis": "Soupis majetkové podstaty",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=69940755",
+     "kategorie": "soupis"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70901438",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=46285FFB79844A28E06333F21FAC1529&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=19450346&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-09-22"
+  },
+  {
+   "doc_id": "70902698",
+   "spisova_znacka": "KSPL 66 INS 8254/2025",
+   "soud": "Krajského soudu v Plzni",
+   "dluznik_jmeno": "Denis Hajaš",
+   "ico": null,
+   "sidlo": "Přeštice, Řičákova 1423, PSČ 334 01, Okres Plzeň-jih",
+   "stav_rizeni": "Povoleno oddlužení",
+   "datum_podani": "2026-09-21",
+   "priorita": "vysoka",
+   "assets": [
+    {
+     "typ": "nemovity",
+     "popis": "Pozemek parc.č. 339/4, zahrada, výměra 1007 m2, zapsáno na LV č. 1561, k.ú. Novosad, okres Trebišov, Slovenská republika (položka č. 7 majetkové podstaty)",
+     "navrhovana_cena": null,
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "Administrace insolvencí Císař, Češka, Smutný a spol.",
+    "email": "info@aiccs.cz",
+    "telefon": "+420222755661",
+    "datova_schranka": null
+   },
+   "shrnuti": "Insolvenční správce navrhuje prodej pozemku (zahrada) v k.ú. Novosad na Slovensku mimo veřejnou dražbu, formou inzerce a prodeje předkladateli nejvyšší nabídky. Kupní cena nebyla v textu uvedena.",
+   "soupis": {
+    "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=68129100",
+    "datum": "2026-05-06",
+    "popis": "Soupis majetkové podstaty - doplnění"
+   },
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-09-21",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70902698",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_454",
+     "datum": "2026-05-06",
+     "popis": "Soupis majetkové podstaty - doplnění",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=68129100",
+     "kategorie": "soupis"
+    },
+    {
+     "kod": "I_1054",
+     "datum": "2026-05-04",
+     "popis": "Zpráva insolvenčního správce",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=68028500",
+     "kategorie": "zprava"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70902698",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=3229F49D72591544E06333F21FACC4A3&actSheet=B&pageB=all",
+   "or_url": null,
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-09-22"
+  },
+  {
+   "doc_id": "70904856",
+   "spisova_znacka": "KSHK 45 INS 5276/2024",
+   "soud": "Krajského soudu v Hradci Králové",
+   "dluznik_jmeno": "Michal Matura",
+   "ico": null,
+   "sidlo": "Stružinec, Tuhaň 73, PSČ 512 51, Okres Semily",
+   "stav_rizeni": "Povoleno oddlužení",
+   "datum_podani": "2026-09-21",
+   "priorita": "vysoka",
+   "assets": [
+    {
+     "typ": "nemovity",
+     "popis": "Nemovitá věc dlužníka Michala Matury - konkrétní specifikace (adresa, k.ú., parcelní číslo, LV) není z poškozeného textu dokumentu čitelná.",
+     "navrhovana_cena": null,
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": null,
+    "email": null,
+    "telefon": null,
+    "datova_schranka": null
+   },
+   "shrnuti": "Insolvenční správce žádá soud o souhlas se zpeněžením nemovité věci z majetkové podstaty dlužníka Michala Matury mimo dražbu; text dokumentu je silně poškozený (nečitelné kódování/OCR) a neumožňuje přesnou identifikaci nemovitosti, cenu ani kupujícího.",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-09-21",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70904856",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_332",
+     "datum": "2026-02-02",
+     "popis": "Zpráva IS o stavu řízení",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=64703658",
+     "kategorie": "zprava"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70904856",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=1476A84270EC775CE06333F21FAC063F&actSheet=B&pageB=all",
+   "or_url": null,
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-09-22"
+  },
+  {
+   "doc_id": "70901381",
+   "spisova_znacka": "KSPH 61 INS 9256/2021",
+   "soud": "Krajského soudu v Praze",
+   "dluznik_jmeno": "Kateřina Rychlá",
+   "ico": null,
+   "sidlo": "Praha, Písková 830/25, PSČ 143 00, Okres Hlavní město Praha",
+   "stav_rizeni": "Povoleno oddlužení",
+   "datum_podani": "2026-09-21",
+   "priorita": "vysoka",
+   "assets": [
+    {
+     "typ": "nemovity",
+     "popis": "Spoluvlastnický podíl 1/6 na pozemcích - ostatní plocha p.č. a orná půda p.č., vše k.ú. Kutná Hora, zapsáno na LV, nabyto dědictvím (dosud neoceněno znalcem)",
+     "navrhovana_cena": null,
+     "kupujici": "Ing. Jaroslav Žabka (majoritní spoluvlastník, projevil zájem o odkup)"
+    },
+    {
+     "typ": "nemovity",
+     "popis": "Spoluvlastnický podíl 1/6 na pozemcích - zastavěná plocha a nádvoří p.č., jehož součástí je jiná stavba čp. Karlov, zahrada p.č., pozemek zastavěná plocha a nádvoří p.č., vše k.ú. Kutná Hora, zapsáno na LV, nabyto dědictvím (dosud neoceněno znalcem)",
+     "navrhovana_cena": null,
+     "kupujici": "Ing. Jaroslav Žabka (majoritní spoluvlastník, projevil zájem o odkup)"
+    }
+   ],
+   "spravce": {
+    "jmeno": "Mgr. Vladimír Turoň, insolvenční správce",
+    "email": "jnemethova.notar@seznam.cz",
+    "telefon": null,
+    "datova_schranka": "9ircazr"
+   },
+   "shrnuti": "Insolvenční správce navrhuje prodej dvou minoritních spoluvlastnických podílů (1/6) dlužnice na pozemcích v k.ú. Kutná Hora mimo dražbu formou internetové inzerce, přičemž zájem o odkup projevil majoritní spoluvlastník Ing. Jaroslav Žabka minimálně za cenu dle budoucího znaleckého posudku. Konkrétní kupní cena zatím není stanovena, nemovitosti mají být teprve oceněny znalcem.",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-09-21",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70901381",
+     "kategorie": "navrh"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70901381",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=C243973FE8F4515DE05333F21FACC730&actSheet=B&pageB=all",
+   "or_url": null,
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-09-22"
+  },
   {
    "doc_id": "70894843",
    "spisova_znacka": "MSPH 98 INS 281/2026",
@@ -4357,6 +4725,13 @@
    "dokumenty": [
     {
      "kod": "I_347",
+     "datum": "2026-09-22",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70913828",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_347",
      "datum": "2026-08-20",
      "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
      "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70550656",
@@ -4368,6 +4743,13 @@
      "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
      "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70531153",
      "kategorie": "navrh"
+    },
+    {
+     "kod": "I_535",
+     "datum": "2026-09-08",
+     "popis": "Usnesení o prodeji mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70757776",
+     "kategorie": "prodej"
     }
    ],
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70550656",
@@ -4588,6 +4970,13 @@
    "dokumenty": [
     {
      "kod": "I_347",
+     "datum": "2026-09-22",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70913828",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_347",
      "datum": "2026-08-20",
      "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
      "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70550656",
@@ -4599,6 +4988,13 @@
      "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
      "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70531153",
      "kategorie": "navrh"
+    },
+    {
+     "kod": "I_535",
+     "datum": "2026-09-08",
+     "popis": "Usnesení o prodeji mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70757776",
+     "kategorie": "prodej"
     }
    ],
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70531153",
