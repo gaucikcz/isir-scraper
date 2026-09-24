@@ -1,18 +1,276 @@
 {
- "generated_at": "2026-09-23T09:21:54+00:00",
+ "generated_at": "2026-09-24T09:21:56+00:00",
  "window": {
   "from": "2026-07-22",
-  "to": "2026-09-23"
+  "to": "2026-09-24"
  },
  "stats": {
-  "total": 152,
-  "vysoka": 47,
-  "stredni": 66,
+  "total": 157,
+  "vysoka": 49,
+  "stredni": 69,
   "nizka": 39,
-  "new_7d": 25,
-  "cases": 132
+  "new_7d": 29,
+  "cases": 137
  },
  "opportunities": [
+  {
+   "doc_id": "70947696",
+   "spisova_znacka": "KSOS 37 INS 6832/2026",
+   "soud": "Krajského soudu v Ostravě",
+   "dluznik_jmeno": "DŘEVOZED s.r.o.",
+   "ico": "13992554",
+   "sidlo": "Karlovice, Karlovice 72, PSČ 793 23",
+   "stav_rizeni": "Prohlášený konkurs",
+   "datum_podani": "2026-09-24",
+   "priorita": "vysoka",
+   "assets": [
+    {
+     "typ": "nemovity",
+     "popis": "Dlužník: DŘEVOZED s.r.o., IČO: 13992554, se sídlem č. p. 72, 793 23 Karlovice",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "movity",
+     "popis": "pol. č. 4 - Nákladní automobil zn. RENAULT MASTER, VIN: VF1FDC1H641319493",
+     "navrhovana_cena": null,
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "Mgr. Davida Stoška Havlíčkovo",
+    "email": "INFO@AICCS.CZ",
+    "telefon": "+420 222 755 661",
+    "datova_schranka": null
+   },
+   "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: DŘEVOZED s.r.o.): nemovitý majetek, movitý majetek (2 položky). Klasifikováno heuristicky – ověřit v dokumentu.",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-09-24",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70947696",
+     "kategorie": "navrh"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70947696",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=4F39F166AC75C849E06333F21FAC9888&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=13992554&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "heuristic",
+   "first_seen": "2026-09-24"
+  },
+  {
+   "doc_id": "70941391",
+   "spisova_znacka": "KSUL 63 INS 22127/2025",
+   "soud": "Krajského soudu v Ústí nad Labem",
+   "dluznik_jmeno": "Barksale s.r.o.",
+   "ico": "09970207",
+   "sidlo": "Teplice, Štúrova 590/35, PSČ 415 01",
+   "stav_rizeni": "Prohlášený konkurs",
+   "datum_podani": "2026-09-24",
+   "priorita": "stredni",
+   "assets": [
+    {
+     "typ": "movity",
+     "popis": "správcem dlužníka společnost Moravská insolvenční, v.o.s., IČO: 07585004, se sídlem Tišnov, nám. Komenského 124, PSČ 666 01. Do soupisu majetkové podstaty dlužníka byly mj. pojaty následující movité věci uvedené v části…",
+     "navrhovana_cena": null,
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": null,
+    "email": "spravce@moravskainsolvencni.cz",
+    "telefon": "+420 731 153 207",
+    "datova_schranka": "phgaba8"
+   },
+   "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: Barksale s.r.o.): movitý majetek (1 položka). Klasifikováno heuristicky – ověřit v dokumentu.",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-09-24",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70941391",
+     "kategorie": "navrh"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70941391",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=438FD6BCE98FE961E06333F21FAC76E7&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=09970207&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "heuristic",
+   "first_seen": "2026-09-24"
+  },
+  {
+   "doc_id": "70946984",
+   "spisova_znacka": "KSUL 74 INS 18911/2025",
+   "soud": "Krajského soudu v Ústí nad Labem",
+   "dluznik_jmeno": "delivrium s.r.o.",
+   "ico": "09735780",
+   "sidlo": "Louny, Hilbertova 68, PSČ 440 01",
+   "stav_rizeni": "Prohlášený konkurs",
+   "datum_podani": "2026-09-24",
+   "priorita": "stredni",
+   "assets": [
+    {
+     "typ": "movity",
+     "popis": "Motocykl Torrot Muvi, položka II./7 soupisu majetkové podstaty",
+     "navrhovana_cena": null,
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "JUVENTUS insolvenční v.o.s.",
+    "email": "info@juventus-insolvencni.cz",
+    "telefon": "585 203 221",
+    "datova_schranka": "yc86sxw"
+   },
+   "shrnuti": "Insolvenční správce žádá o souhlas se zpeněžením mimo dražbu pouze u položky II./7 soupisu majetkové podstaty - motocyklu Torrot Muvi (jde o opravu dřívějšího chybného návrhu, který se týkal položek II./10 až II./22).",
+   "soupis": {
+    "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70876883",
+    "datum": "2026-09-17",
+    "popis": "Soupis majetkové podstaty"
+   },
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-09-24",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70946984",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_334",
+     "datum": "2026-09-17",
+     "popis": "Soupis majetkové podstaty",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70876883",
+     "kategorie": "soupis"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70946984",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=44E29457244DD38AE06333F21FACC3F6&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=09735780&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-09-24"
+  },
+  {
+   "doc_id": "70942837",
+   "spisova_znacka": "MSPH 78 INS 441/2025",
+   "soud": "Městského soudu v Praze",
+   "dluznik_jmeno": "Fispro Invest Platinum s.r.o.",
+   "ico": "08256381",
+   "sidlo": "Praha 10, Korunní 2569/108, PSČ 101 00, Okres Hlavní město Praha",
+   "stav_rizeni": "Prohlášený konkurs",
+   "datum_podani": "2026-09-24",
+   "priorita": "vysoka",
+   "assets": [
+    {
+     "typ": "nemovity",
+     "popis": "Pozemky parc. č. 421/1 (zahrada, 704 m2), 421/2 (zahrada, 1359 m2), 422 (zastavěná plocha a nádvoří, 608 m2), vše zapsáno na LV, k.ú. Brestov, obec Brestov, okres Humenné, Slovenská republika",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "nemovity",
+     "popis": "Rodinný dům č.p. 62 na pozemku parc. č. 422, k.ú. Brestov, obec Brestov, okres Humenné, Slovenská republika",
+     "navrhovana_cena": null,
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "Ing. Petr Bendl, insolvenční správce",
+    "email": "petrbendl@seznam.cz",
+    "telefon": null,
+    "datova_schranka": null
+   },
+   "shrnuti": "Insolvenční správce žádá soud o souhlas s prodejem nemovitého majetku dlužníka mimo dražbu – pozemků a rodinného domu v k.ú. Brestov (SR) – bez uvedení konkrétní kupní ceny.",
+   "soupis": {
+    "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=62345836",
+    "datum": "2025-06-27",
+    "popis": "Soupis majetkové podstaty"
+   },
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-09-24",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70942837",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_334",
+     "datum": "2025-06-27",
+     "popis": "Soupis majetkové podstaty",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=62345836",
+     "kategorie": "soupis"
+    },
+    {
+     "kod": "I_332",
+     "datum": "2026-06-16",
+     "popis": "Zpráva IS o stavu řízení",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=69610073",
+     "kategorie": "zprava"
+    },
+    {
+     "kod": "I_1054",
+     "datum": "2026-03-19",
+     "popis": "Zpráva insolvenčního správce",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=66224186",
+     "kategorie": "zprava"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70942837",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=29EA12CB38FC197DE06333F21FAC2C60&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=08256381&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-09-24"
+  },
+  {
+   "doc_id": "70937572",
+   "spisova_znacka": "MSPH 89 INS 3340/2026",
+   "soud": "Městského soudu v Praze",
+   "dluznik_jmeno": "Tadeáš Fořt",
+   "ico": "09452761",
+   "sidlo": "Praha, Karmelitská 382/14, PSČ 118 00",
+   "stav_rizeni": "Povoleno oddlužení",
+   "datum_podani": "2026-09-23",
+   "priorita": "stredni",
+   "assets": [
+    {
+     "typ": "movity",
+     "popis": "Osobní automobil Ford Kuga, VIN: WF0AXXWPMAFU17458",
+     "navrhovana_cena": null,
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "JUVENTUS insolvenční v.o.s.",
+    "email": "info@juventus-insolvencni.cz",
+    "telefon": "585203221",
+    "datova_schranka": "yc86sxw"
+   },
+   "shrnuti": "Insolvenční správce žádá soud o souhlas se zpeněžením osobního automobilu Ford Kuga z majetkové podstaty dlužníka mimo dražbu formou inzerce s prodejem za nejvyšší nabídku, cena nebyla v návrhu stanovena.",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-09-23",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70937572",
+     "kategorie": "navrh"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70937572",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=4C1DF703ACAA0CA2E06333F21FACBD6E&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=09452761&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-09-24"
+  },
   {
    "doc_id": "70930215",
    "spisova_znacka": "MSPH 78 INS 2023/2026",
@@ -721,7 +979,7 @@
    "dluznik_jmeno": "Denis Hajaš",
    "ico": null,
    "sidlo": "Přeštice, Řičákova 1423, PSČ 334 01, Okres Plzeň-jih",
-   "stav_rizeni": "Povoleno oddlužení",
+   "stav_rizeni": "Prohlášený konkurs",
    "datum_podani": "2026-09-21",
    "priorita": "vysoka",
    "assets": [
