@@ -1,18 +1,127 @@
 {
- "generated_at": "2026-09-24T09:21:56+00:00",
+ "generated_at": "2026-09-25T09:38:52+00:00",
  "window": {
   "from": "2026-07-22",
-  "to": "2026-09-24"
+  "to": "2026-09-25"
  },
  "stats": {
-  "total": 157,
-  "vysoka": 49,
+  "total": 159,
+  "vysoka": 50,
   "stredni": 69,
-  "nizka": 39,
+  "nizka": 40,
   "new_7d": 29,
-  "cases": 137
+  "cases": 139
  },
  "opportunities": [
+  {
+   "doc_id": "70956704",
+   "spisova_znacka": "KSBR 47 INS 7638/2025",
+   "soud": "Krajského soudu v Brně",
+   "dluznik_jmeno": "Renata Kocmanová",
+   "ico": null,
+   "sidlo": "Zlín, náměstí Míru 12, PSČ 760 01",
+   "stav_rizeni": "Povoleno oddlužení",
+   "datum_podani": "2026-09-25",
+   "priorita": "vysoka",
+   "assets": [
+    {
+     "typ": "nemovity",
+     "popis": "Spoluvlastnický podíl 1/4 na souboru nemovitostí zapsaných na LV 195, k.ú. Rokytnice u Slavičína, obec Rokytnice: pozemek parc. č. st. 215 (zastavěná plocha a nádvoří, 309 m2) se stavbou č.p. 154 (rodinný dům) a pozemek parc. č. 220 (orná půda, 1333 m2), oba v CHKO",
+     "navrhovana_cena": "2900000 CZK",
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "Kancelář správců v.o.s. (ohlášený společník Ing. Michal Zámečník)",
+    "email": "info@kancelarspravcu.com",
+    "telefon": "735 755 070",
+    "datova_schranka": "f3f55tq"
+   },
+   "shrnuti": "Insolvenční správce žádá soud o souhlas s prodejem spoluvlastnického podílu 1/4 dlužnice na rodinném domě s pozemky v k.ú. Rokytnice u Slavičína (LV 195) mimo dražbu prostřednictvím realitního zprostředkovatele Good move reality s.r.o., a to za celkovou kupní cenu nemovitosti 2 900 000 Kč (prodej se řeší společně s dalším spoluvlastníkem - dlužníkem Stanislavem Kynčlem v jiném insolvenčním řízení).",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-09-25",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70956704",
+     "kategorie": "navrh"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70956704",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=3229897939F9EED0E06333F21FAC4CE5&actSheet=B&pageB=all",
+   "or_url": null,
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-09-25"
+  },
+  {
+   "doc_id": "70962417",
+   "spisova_znacka": "MSPH 91 INS 10533/2024",
+   "soud": "Městského soudu v Praze",
+   "dluznik_jmeno": "Barrandov Televizní Studio a.s.",
+   "ico": "41693311",
+   "sidlo": "Praha 5, Kříženeckého náměstí 322/5, PSČ 152 00, Okres Hlavní město Praha",
+   "stav_rizeni": "Prohlášený konkurs",
+   "datum_podani": "2026-09-25",
+   "priorita": "nizka",
+   "assets": [],
+   "spravce": {
+    "jmeno": "Ing. David Jánošík",
+    "email": "janosik@dfj.cz",
+    "telefon": null,
+    "datova_schranka": null
+   },
+   "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: Barrandov Televizní Studio a.s.). Konkrétní položky majetku se z textu nepodařilo automaticky rozpoznat. Klasifikováno heuristicky – nutná ruční kontrola dokumentu.",
+   "soupis": {
+    "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70962381",
+    "datum": "2026-09-25",
+    "popis": "Soupis majetkové podstaty"
+   },
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-09-25",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70962417",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_334",
+     "datum": "2026-09-25",
+     "popis": "Soupis majetkové podstaty",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70962381",
+     "kategorie": "soupis"
+    },
+    {
+     "kod": "I_332",
+     "datum": "2026-08-28",
+     "popis": "Zpráva IS o stavu řízení",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70650792",
+     "kategorie": "zprava"
+    },
+    {
+     "kod": "I_332",
+     "datum": "2025-10-17",
+     "popis": "Zpráva IS o stavu řízení",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=63593840",
+     "kategorie": "zprava"
+    },
+    {
+     "kod": "I_332",
+     "datum": "2025-06-04",
+     "popis": "Zpráva IS o stavu řízení",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=62098234",
+     "kategorie": "zprava"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70962417",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=18B8C94A894FFFDBE06333F21FACEE10&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=41693311&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-09-25"
+  },
   {
    "doc_id": "70947696",
    "spisova_znacka": "KSOS 37 INS 6832/2026",
@@ -1232,6 +1341,13 @@
      "popis": "Soupis majetkové podstaty",
      "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70550879",
      "kategorie": "soupis"
+    },
+    {
+     "kod": "I_535",
+     "datum": "2026-09-25",
+     "popis": "Usnesení o prodeji mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70958321",
+     "kategorie": "prodej"
     }
    ],
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70898630",
