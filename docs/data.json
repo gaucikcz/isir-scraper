@@ -1,18 +1,141 @@
 {
- "generated_at": "2026-09-25T09:38:52+00:00",
+ "generated_at": "2026-09-26T09:23:14+00:00",
  "window": {
   "from": "2026-07-22",
   "to": "2026-09-25"
  },
  "stats": {
-  "total": 159,
+  "total": 161,
   "vysoka": 50,
-  "stredni": 69,
-  "nizka": 40,
+  "stredni": 70,
+  "nizka": 41,
   "new_7d": 29,
-  "cases": 139
+  "cases": 141
  },
  "opportunities": [
+  {
+   "doc_id": "70963395",
+   "spisova_znacka": "KSCB 28 INS 3559/2026",
+   "soud": "Krajského soudu v Českých Budějovicích",
+   "dluznik_jmeno": "Bc. Andrea Drnovská",
+   "ico": "21428409",
+   "sidlo": "Soběslav, Mokrá 25, PSČ 392 01",
+   "stav_rizeni": "Povoleno oddlužení",
+   "datum_podani": "2026-09-25",
+   "priorita": "stredni",
+   "assets": [
+    {
+     "typ": "movity",
+     "popis": "em Slezská 2033/11, 120 00 Praha 2 zapsaná v obchodním rejstříku vedeném Městským soudem v Praze, oddíl A, vložka č. 74568 (dále jen „insolvenční správce“). II. Insolvenční správce sepsal do majetkové podstaty dlužníka…",
+     "navrhovana_cena": null,
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "Bc. Andrea Drnovská",
+    "email": null,
+    "telefon": null,
+    "datova_schranka": null
+   },
+   "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: Bc. Andrea Drnovská): movitý majetek (1 položka). Klasifikováno heuristicky – ověřit v dokumentu.",
+   "soupis": {
+    "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70184122",
+    "datum": "2026-07-20",
+    "popis": "Soupis majetkové podstaty - doplnění"
+   },
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-09-25",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70963395",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_454",
+     "datum": "2026-07-20",
+     "popis": "Soupis majetkové podstaty - doplnění",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70184122",
+     "kategorie": "soupis"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70963395",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=4B8C1E0C72A0869AE06333F21FACA911&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=21428409&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "heuristic",
+   "first_seen": "2026-09-26"
+  },
+  {
+   "doc_id": "70962799",
+   "spisova_znacka": "MSPH 57 INS 12810/2024",
+   "soud": "Městského soudu v Praze",
+   "dluznik_jmeno": "Ernea Group s.r.o.",
+   "ico": "01959166",
+   "sidlo": "Praha 10, Chudenická 1059/30, PSČ 102 00",
+   "stav_rizeni": "Prohlášený konkurs",
+   "datum_podani": "2026-09-25",
+   "priorita": "nizka",
+   "assets": [
+    {
+     "typ": "nehmotny",
+     "popis": "Proto se na Vás obracím s nabídkou na odkup daných pohledávek a to za vyvolávací sumu aukce, tedy za 2 000 Kč.",
+     "navrhovana_cena": "2000 CZK",
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "Mgr. Robert Hynek",
+    "email": "ludek.michal@okdrazebnik.cz",
+    "telefon": "733 415 413",
+    "datova_schranka": null
+   },
+   "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: Ernea Group s.r.o.): nehmotný majetek (1 položka). Navrhovaná cena 2000 CZK. Podrobnosti jsou v soupisu majetkové podstaty. Klasifikováno heuristicky – ověřit v dokumentu.",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-09-25",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70962799",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_347",
+     "datum": "2024-12-17",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=60352583",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_1054",
+     "datum": "2026-07-29",
+     "popis": "Zpráva insolvenčního správce",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70294572",
+     "kategorie": "zprava"
+    },
+    {
+     "kod": "I_1054",
+     "datum": "2026-07-23",
+     "popis": "Zpráva insolvenčního správce",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70233285",
+     "kategorie": "zprava"
+    },
+    {
+     "kod": "I_1054",
+     "datum": "2026-04-15",
+     "popis": "Zpráva insolvenčního správce",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=67310393",
+     "kategorie": "zprava"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70962799",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=1CE017EBA121588FE06333F21FAC0D0E&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=01959166&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "heuristic",
+   "first_seen": "2026-09-26"
+  },
   {
    "doc_id": "70956704",
    "spisova_znacka": "KSBR 47 INS 7638/2025",
