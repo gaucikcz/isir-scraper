@@ -1,18 +1,206 @@
 {
- "generated_at": "2026-09-28T10:57:25+00:00",
+ "generated_at": "2026-09-29T10:43:39+00:00",
  "window": {
   "from": "2026-07-22",
-  "to": "2026-09-25"
+  "to": "2026-09-29"
  },
  "stats": {
-  "total": 161,
+  "total": 163,
   "vysoka": 50,
-  "stredni": 70,
-  "nizka": 41,
-  "new_7d": 28,
-  "cases": 141
+  "stredni": 71,
+  "nizka": 42,
+  "new_7d": 27,
+  "cases": 143
  },
  "opportunities": [
+  {
+   "doc_id": "70981465",
+   "spisova_znacka": "KSUL 23 INS 16713/2025",
+   "soud": "Krajského soudu v Ústí nad Labem",
+   "dluznik_jmeno": "FROST TEAM s.r.o.",
+   "ico": "24690279",
+   "sidlo": "Chlumec - Střížovice, Chlumec - Střížovice 256, PSČ 400 10",
+   "stav_rizeni": "Prohlášený konkurs",
+   "datum_podani": "2026-09-29",
+   "priorita": "stredni",
+   "assets": [
+    {
+     "typ": "movity",
+     "popis": "Vozidlo MS Tuning Retromania, RZ a VIN neuvedeny (nečitelné v OCR)",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "movity",
+     "popis": "Vozidlo Volkswagen Passat Variant, RZ a VIN neuvedeny (nečitelné v OCR)",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "movity",
+     "popis": "Vozidlo Polaris Sportsman XP, RZ a VIN neuvedeny (nečitelné v OCR)",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "movity",
+     "popis": "Vozidlo Volkswagen Passat Variant (druhý kus), RZ a VIN neuvedeny (nečitelné v OCR)",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "movity",
+     "popis": "Vozidlo Maro, RZ a VIN neuvedeny (nečitelné v OCR)",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "movity",
+     "popis": "Vozidlo Fiat Fiorino, RZ a VIN neuvedeny (nečitelné v OCR)",
+     "navrhovana_cena": null,
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "Mgr. Ing. Richard Jasinský, Insolvence Group v.o.s.",
+    "email": "richjasi@seznam.cz",
+    "telefon": null,
+    "datova_schranka": "tiqppm"
+   },
+   "shrnuti": "Insolvenční správce žádá soud o souhlas s prodejem šesti motorových vozidel (položky soupisu B/II č. 1-6) mimo dražbu, kupní cena bude určena výběrem nejvyšší nabídky, konkrétní částky ani kupující v textu nejsou uvedeny.",
+   "soupis": {
+    "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70444686",
+    "datum": "2026-08-11",
+    "popis": "Soupis majetkové podstaty"
+   },
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-09-29",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70981465",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_334",
+     "datum": "2026-08-11",
+     "popis": "Soupis majetkové podstaty",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70444686",
+     "kategorie": "soupis"
+    },
+    {
+     "kod": "I_454",
+     "datum": "2026-02-11",
+     "popis": "Soupis majetkové podstaty - doplnění",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=64973931",
+     "kategorie": "soupis"
+    },
+    {
+     "kod": "I_334",
+     "datum": "2026-01-05",
+     "popis": "Soupis majetkové podstaty",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=64364395",
+     "kategorie": "soupis"
+    },
+    {
+     "kod": "I_332",
+     "datum": "2026-04-17",
+     "popis": "Zpráva IS o stavu řízení",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=67442043",
+     "kategorie": "zprava"
+    },
+    {
+     "kod": "I_332",
+     "datum": "2026-04-17",
+     "popis": "Zpráva IS o stavu řízení",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=67441708",
+     "kategorie": "zprava"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70981465",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=3DE71A61764E68B6E06333F21FACCD5C&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=24690279&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-09-29"
+  },
+  {
+   "doc_id": "70980239",
+   "spisova_znacka": "KSPH 82 INS 19871/2022",
+   "soud": "Krajského soudu v Praze",
+   "dluznik_jmeno": "Michal Ďurech",
+   "ico": "71258299",
+   "sidlo": "Kutná Hora, Svatý Mikuláš 173, PSČ 284 01",
+   "stav_rizeni": "Prohlášený konkurs",
+   "datum_podani": "2026-09-29",
+   "priorita": "nizka",
+   "assets": [
+    {
+     "typ": "nehmotny",
+     "popis": "Pohledávka za Nikolou Baltonovou (soupisová položka P20) na zaplacení částky 2.000.000 Kč dle rozsudku Krajského soudu v Praze ze dne 26.9.2024, č.j. 73 ICm 107/2024-45, potvrzeného rozsudkem Vrchního soudu v Praze ze dne 9.6.2025, č.j. 106 VSPH 288/2025-103 (pohledávka z odpůrčí žaloby, incidenční spor pod 15)",
+     "navrhovana_cena": "1000000 CZK",
+     "kupujici": "Michaela Poláková"
+    }
+   ],
+   "spravce": {
+    "jmeno": "Mgr. Jiří Štancl, ŠTANCL - insolvence v.o.s.",
+    "email": null,
+    "telefon": null,
+    "datova_schranka": null
+   },
+   "shrnuti": "Insolvenční správce žádá o souhlas se zpeněžením pohledávky za Nikolou Baltonovou ve výši 2.000.000 Kč mimo dražbu za cenu 1.000.000 Kč (50 % nominále) paní Michaele Polákové, sestře dlužnice ve vedlejším řízení.",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-09-29",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70980239",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_347",
+     "datum": "2025-11-12",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=63855081",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_332",
+     "datum": "2024-11-25",
+     "popis": "Zpráva IS o stavu řízení",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=60116329",
+     "kategorie": "zprava"
+    },
+    {
+     "kod": "I_332",
+     "datum": "2024-05-30",
+     "popis": "Zpráva IS o stavu řízení",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=58408023",
+     "kategorie": "zprava"
+    },
+    {
+     "kod": "I_535",
+     "datum": "2025-11-14",
+     "popis": "Usnesení o prodeji mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=63896654",
+     "kategorie": "prodej"
+    },
+    {
+     "kod": "I_535",
+     "datum": "2025-02-28",
+     "popis": "Usnesení o prodeji mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=61068613",
+     "kategorie": "prodej"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70980239",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=EFEC6DBE0859D9A5E05333F21FAC13A2&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=71258299&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-09-29"
+  },
   {
    "doc_id": "70963395",
    "spisova_znacka": "KSCB 28 INS 3559/2026",
@@ -1195,6 +1383,13 @@
      "popis": "Soupis majetkové podstaty",
      "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=69940755",
      "kategorie": "soupis"
+    },
+    {
+     "kod": "I_535",
+     "datum": "2026-09-29",
+     "popis": "Usnesení o prodeji mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70981208",
+     "kategorie": "prodej"
     }
    ],
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70901438",
