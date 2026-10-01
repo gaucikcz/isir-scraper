@@ -1,18 +1,187 @@
 {
- "generated_at": "2026-09-30T10:32:51+00:00",
+ "generated_at": "2026-10-01T10:59:47+00:00",
  "window": {
   "from": "2026-07-22",
-  "to": "2026-09-30"
+  "to": "2026-10-01"
  },
  "stats": {
-  "total": 167,
-  "vysoka": 51,
+  "total": 170,
+  "vysoka": 52,
   "stredni": 72,
-  "nizka": 44,
-  "new_7d": 24,
-  "cases": 146
+  "nizka": 46,
+  "new_7d": 18,
+  "cases": 149
  },
  "opportunities": [
+  {
+   "doc_id": "71009060",
+   "spisova_znacka": "KSPL 58 INS 16567/2024",
+   "soud": "Krajského soudu v Plzni",
+   "dluznik_jmeno": "Petr Zítka",
+   "ico": null,
+   "sidlo": "Vejprnice, Dukelská 377, PSČ 330 27, Okres Plzeň-sever",
+   "stav_rizeni": "Povoleno oddlužení",
+   "datum_podani": "2026-10-01",
+   "priorita": "nizka",
+   "assets": [],
+   "spravce": {
+    "jmeno": null,
+    "email": null,
+    "telefon": null,
+    "datova_schranka": null
+   },
+   "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: Petr Zítka). Konkrétní položky majetku se z textu nepodařilo automaticky rozpoznat. Klasifikováno heuristicky – nutná ruční kontrola dokumentu.",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-10-01",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71009060",
+     "kategorie": "navrh"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71009060",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=2271AEC0F6323343E06333F21FAC05B3&actSheet=B&pageB=all",
+   "or_url": null,
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-10-01"
+  },
+  {
+   "doc_id": "71006024",
+   "spisova_znacka": "KSBR 26 INS 2513/2024",
+   "soud": "Krajského soudu v Brně",
+   "dluznik_jmeno": "Bronislava Němcová",
+   "ico": "62178831",
+   "sidlo": "Rosice, U Sýpky 169, PSČ 665 01",
+   "stav_rizeni": "Prohlášený konkurs",
+   "datum_podani": "2026-10-01",
+   "priorita": "vysoka",
+   "assets": [
+    {
+     "typ": "nemovity",
+     "popis": "Spoluvlastnický podíl id. 1/3 na pozemku p.č. St. 1037, zastavěná plocha a nádvoří, jehož součástí je stavba (řadová garáž) č.e. v obci Rosice, LV č. 1268, k.ú. Rosice u Brna",
+     "navrhovana_cena": null,
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "Indra-Šebesta v.o.s. (Mgr. Lucie Havranová)",
+    "email": "spravce@indrasebesta.cz",
+    "telefon": "537 001 260",
+    "datova_schranka": "uqsje8r"
+   },
+   "shrnuti": "Insolvenční správce žádá soud o souhlas s prodejem spoluvlastnického podílu id. 1/3 dlužnice na pozemku a garáži v k.ú. Rosice u Brna mimo dražbu formou výběrového řízení o nejvyšší nabídku, které provede společnost PROKONZULTA, a.s. Kupní cena ani konkrétní zájemce nejsou v textu uvedeny.",
+   "soupis": {
+    "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=68207165",
+    "datum": "2026-05-07",
+    "popis": "Soupis majetkové podstaty"
+   },
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-10-01",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71006024",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_347",
+     "datum": "2025-08-05",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=62779534",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_334",
+     "datum": "2026-05-07",
+     "popis": "Soupis majetkové podstaty",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=68207165",
+     "kategorie": "soupis"
+    },
+    {
+     "kod": "I_332",
+     "datum": "2026-04-22",
+     "popis": "Zpráva IS o stavu řízení",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=67616254",
+     "kategorie": "zprava"
+    },
+    {
+     "kod": "I_1054",
+     "datum": "2026-03-17",
+     "popis": "Zpráva insolvenčního správce",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=66097414",
+     "kategorie": "zprava"
+    },
+    {
+     "kod": "I_1054",
+     "datum": "2026-01-12",
+     "popis": "Zpráva insolvenčního správce",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=64440951",
+     "kategorie": "zprava"
+    },
+    {
+     "kod": "I_535",
+     "datum": "2025-08-25",
+     "popis": "Usnesení o prodeji mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=63004559",
+     "kategorie": "prodej"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71006024",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=0F9C72CFACED37A0E06333F21FAC4AC0&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=62178831&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-10-01"
+  },
+  {
+   "doc_id": "71008625",
+   "spisova_znacka": "KSCB 26 INS 19346/2022",
+   "soud": "Krajského soudu v Českých Budějovicích",
+   "dluznik_jmeno": "Andrej Gorol",
+   "ico": null,
+   "sidlo": "Bělčice, nám. J. Kučery 84, PSČ 387 43, Okres Strakonice",
+   "stav_rizeni": "Povoleno oddlužení",
+   "datum_podani": "2026-10-01",
+   "priorita": "nizka",
+   "assets": [],
+   "spravce": {
+    "jmeno": null,
+    "email": null,
+    "telefon": null,
+    "datova_schranka": null
+   },
+   "shrnuti": "Text dokumentu nebyl čitelný (obsahuje pouze upozornění na nutnost Adobe Reader pro zobrazení PDF portfolia), nelze z něj zjistit žádné konkrétní nabízené položky majetku.",
+   "soupis": {
+    "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71008719",
+    "datum": "2026-10-01",
+    "popis": "Soupis majetkové podstaty"
+   },
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-10-01",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71008625",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_334",
+     "datum": "2026-10-01",
+     "popis": "Soupis majetkové podstaty",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71008719",
+     "kategorie": "soupis"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71008625",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=EF2310435BF3A68DE05333F21FAC2845&actSheet=B&pageB=all",
+   "or_url": null,
+   "text_source": "none",
+   "classified_by": "llm",
+   "first_seen": "2026-10-01"
+  },
   {
    "doc_id": "70997388",
    "spisova_znacka": "MSPH 76 INS 18625/2023",
