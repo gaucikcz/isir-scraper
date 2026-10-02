@@ -1,18 +1,163 @@
 {
- "generated_at": "2026-10-01T10:59:47+00:00",
+ "generated_at": "2026-10-02T10:33:06+00:00",
  "window": {
   "from": "2026-07-22",
-  "to": "2026-10-01"
+  "to": "2026-10-02"
  },
  "stats": {
-  "total": 170,
+  "total": 173,
   "vysoka": 52,
-  "stredni": 72,
+  "stredni": 75,
   "nizka": 46,
-  "new_7d": 18,
-  "cases": 149
+  "new_7d": 16,
+  "cases": 152
  },
  "opportunities": [
+  {
+   "doc_id": "71022897",
+   "spisova_znacka": "KSCB 44 INS 14589/2025",
+   "soud": "Krajského soudu v Českých Budějovicích",
+   "dluznik_jmeno": "Daniel Růžička",
+   "ico": "19466056",
+   "sidlo": "České Budějovice, Žižkova tř. 1915/1b, PSČ 370 01",
+   "stav_rizeni": "Povoleno oddlužení",
+   "datum_podani": "2026-10-02",
+   "priorita": "stredni",
+   "assets": [
+    {
+     "typ": "movity",
+     "popis": "Osobní automobil Honda CIVIC 1.8 I-VTEC, RZ C1, VIN SHHFK19708U100xxx (první registrace dle dokumentu nečitelná), sepsaný v soupisu majetkové podstaty v oddílu II. Movitý majetek",
+     "navrhovana_cena": null,
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "Indra Šebesta v.o.s.",
+    "email": "spravce@indrasebesta.cz",
+    "telefon": null,
+    "datova_schranka": "uTvseU"
+   },
+   "shrnuti": "Insolvenční správce žádá soud o souhlas s prodejem osobního automobilu Honda Civic z majetkové podstaty dlužníka mimo dražbu, formou prodeje nejvyšší/nejvýhodnější nabídce; konkrétní kupní cena ani kupující nejsou v textu uvedeny.",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-10-02",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71022897",
+     "kategorie": "navrh"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71022897",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=3A2CF0F9C9ACC171E06333F21FACD972&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=19466056&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-10-02"
+  },
+  {
+   "doc_id": "71022607",
+   "spisova_znacka": "KSOS 25 INS 9330/2025",
+   "soud": "Krajského soudu v Ostravě",
+   "dluznik_jmeno": "Kristián Kováč",
+   "ico": "09076271",
+   "sidlo": "Bohumín - Nový Bohumín, Poděbradova 124, PSČ 735 81, Okres Karviná",
+   "stav_rizeni": "Povoleno oddlužení",
+   "datum_podani": "2026-10-02",
+   "priorita": "stredni",
+   "assets": [
+    {
+     "typ": "movity",
+     "popis": "Nelze určit – text dokumentu je nečitelný (chybný OCR výstup), konkrétní položky majetku nebylo možné extrahovat.",
+     "navrhovana_cena": null,
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": null,
+    "email": null,
+    "telefon": null,
+    "datova_schranka": null
+   },
+   "shrnuti": "Dokument je silně poškozený OCR výstup (prakticky nečitelný), z něhož nelze spolehlivě identifikovat konkrétní položky majetku ani navrhované kupní ceny.",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-10-02",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71022607",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_829",
+     "datum": "2025-05-21",
+     "popis": "Výpis z katastru nemovitostí",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=61936873",
+     "kategorie": "katastr"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71022607",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=3229F83B775A6D94E06333F21FAC7180&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=09076271&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-10-02"
+  },
+  {
+   "doc_id": "71014275",
+   "spisova_znacka": "MSPH 57 INS 4305/2026",
+   "soud": "Městského soudu v Praze",
+   "dluznik_jmeno": "Romana Němcová",
+   "ico": null,
+   "sidlo": "Praha 9, Poděbradská 531/50, PSČ 190 00, Okres Hlavní město Praha",
+   "stav_rizeni": "Povoleno oddlužení",
+   "datum_podani": "2026-10-01",
+   "priorita": "stredni",
+   "assets": [
+    {
+     "typ": "movity",
+     "popis": "Osobní automobil PEUGEOT 207 W KOMBI, 1,36-54kW, červená barva, RZ:9S66437, VIN: VF3WEKFVC34486982, první zaevidování 17.09.2008",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "movity",
+     "popis": "Osobní automobil ŠKODA OCTAVIA, 1,39-90kW, světle zelená barva, benzín, RZ:8AF1561, VIN: TMBBJ61Z8B2094111, první zaevidování 21.01.2011",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "movity",
+     "popis": "Osobní automobil FORD FIESTA JH1, 1,3-50kW, hatchback, černá barva, 5 dveří, RZ:3AU8504, VIN: WF0HXXGAJH7Y12548, první zaevidování 17.07.2007",
+     "navrhovana_cena": null,
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "Ing. Lee Louda, Ph.D.",
+    "email": null,
+    "telefon": null,
+    "datova_schranka": null
+   },
+   "shrnuti": "Insolvenční správce žádá soud o souhlas s prodejem tří osobních automobilů (Peugeot 207, Škoda Octavia, Ford Fiesta) ze soupisu movitého majetku dlužnice mimo dražbu nejvyšší nabídce; konkrétní kupní ceny ani kupující nejsou v dokumentu uvedeny.",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-10-01",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71014275",
+     "kategorie": "navrh"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71014275",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=4C2CEE8C72E65B4CE06333F21FACA8BD&actSheet=B&pageB=all",
+   "or_url": null,
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-10-02"
+  },
   {
    "doc_id": "71009060",
    "spisova_znacka": "KSPL 58 INS 16567/2024",
