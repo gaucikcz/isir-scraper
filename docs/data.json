@@ -1,18 +1,213 @@
 {
- "generated_at": "2026-10-02T10:33:06+00:00",
+ "generated_at": "2026-10-03T09:54:38+00:00",
  "window": {
   "from": "2026-07-22",
   "to": "2026-10-02"
  },
  "stats": {
-  "total": 173,
-  "vysoka": 52,
-  "stredni": 75,
-  "nizka": 46,
-  "new_7d": 16,
-  "cases": 152
+  "total": 177,
+  "vysoka": 53,
+  "stredni": 76,
+  "nizka": 48,
+  "new_7d": 18,
+  "cases": 155
  },
  "opportunities": [
+  {
+   "doc_id": "71027663",
+   "spisova_znacka": "MSPH 95 INS 5243/2026",
+   "soud": "Městského soudu v Praze",
+   "dluznik_jmeno": "Eria Labs s.r.o.",
+   "ico": "07599773",
+   "sidlo": "Praha 1, Rybná 716/24, PSČ 110 00",
+   "stav_rizeni": "Prohlášený konkurs",
+   "datum_podani": "2026-10-02",
+   "priorita": "nizka",
+   "assets": [],
+   "spravce": {
+    "jmeno": null,
+    "email": null,
+    "telefon": null,
+    "datova_schranka": null
+   },
+   "shrnuti": "Text dokumentu je silně poškozený OCR výstupem a neobsahuje čitelné informace o konkrétních položkách majetku, cenách ani kupujících, proto nelze identifikovat žádné konkrétní nabízené položky.",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-10-02",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71027663",
+     "kategorie": "navrh"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71027663",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=4CE224D0400B9FC3E06333F21FAC6807&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=07599773&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-10-03"
+  },
+  {
+   "doc_id": "71027634",
+   "spisova_znacka": "MSPH 78 INS 2023/2026",
+   "soud": "Městského soudu v Praze",
+   "dluznik_jmeno": "PRETON spol. s r.o.",
+   "ico": "44962002",
+   "sidlo": "Praha 4, Pod Lomem 1592/12, PSČ 143 00, Okres Hlavní město Praha",
+   "stav_rizeni": "Prohlášený konkurs",
+   "datum_podani": "2026-10-02",
+   "priorita": "vysoka",
+   "assets": [
+    {
+     "typ": "nemovity",
+     "popis": "Pozemky p.č. 164/97, p.č. 164/99 a p.č. 164/176 - fakticky komunikace v obytné zástavbě, zapsané pod položkou č. 1 soupisu majetkové podstaty",
+     "navrhovana_cena": null,
+     "kupujici": "obec Tuřany"
+    },
+    {
+     "typ": "nemovity",
+     "popis": "Pozemky p.č. 167/2 a p.č. 164/174 - dle územního plánu veřejná zeleň, zapsané pod položkou č. 1 soupisu majetkové podstaty",
+     "navrhovana_cena": null,
+     "kupujici": "obec Tuřany"
+    }
+   ],
+   "spravce": {
+    "jmeno": "Ing. Květoslava Brátová, Ph.D. / Ing. Václav Krejčí - Brátová a Krejčí, v.o.s.",
+    "email": "insolvence@inspravce.cz",
+    "telefon": "601 330 871",
+    "datova_schranka": null
+   },
+   "shrnuti": "Insolvenční správce doplňuje návrh na souhlas se zpeněžením pozemků dlužníka mimo dražbu (komunikace a veřejná zeleň), jako jediného reálného zájemce označuje obec Tuřany, cena v dokumentu neuvedena.",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-10-02",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71027634",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_347",
+     "datum": "2026-09-23",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70930215",
+     "kategorie": "navrh"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71027634",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=497019B67F4C9593E06333F21FAC0E6F&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=44962002&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-10-03"
+  },
+  {
+   "doc_id": "71028497",
+   "spisova_znacka": "KSUL 23 INS 23513/2025",
+   "soud": "Krajského soudu v Ústí nad Labem",
+   "dluznik_jmeno": "Jan Zita",
+   "ico": "07919867",
+   "sidlo": "Bechllín, Předonín 58, PSČ 411 08",
+   "stav_rizeni": "Povoleno oddlužení",
+   "datum_podani": "2026-10-02",
+   "priorita": "stredni",
+   "assets": [
+    {
+     "typ": "movity",
+     "popis": "Osobní automobil ŠKODA SUPERB, rok výroby 2011 (položka poř. č. II./4 soupisu majetkové podstaty), prodej formou elektronické aukce prostřednictvím společnosti Car Aukce, spol. s r.o.",
+     "navrhovana_cena": null,
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "Mgr. Radim Janoušek, JUVENTUS insolvenční v.o.s.",
+    "email": "info@juventus-insolvencni.cz",
+    "telefon": "585 203 221",
+    "datova_schranka": "yc86sxw"
+   },
+   "shrnuti": "Insolvenční správce žádá soud o souhlas se zpeněžením osobního automobilu ŠKODA SUPERB (r.v. 2011) z majetkové podstaty dlužníka Jana Zity formou elektronické aukce mimo dražbu. Kupní cena v textu není uvedena.",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-10-02",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71028497",
+     "kategorie": "navrh"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71028497",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=45C132792860A99FE06333F21FAC75EC&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=07919867&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-10-03"
+  },
+  {
+   "doc_id": "71028621",
+   "spisova_znacka": "KSHK 45 INS 7450/2022",
+   "soud": "Krajského soudu v Hradci Králové",
+   "dluznik_jmeno": "Milena Mrhalová",
+   "ico": null,
+   "sidlo": "Hradec Králové - Slezské Předměstí, Severní 764/50, PSČ 500 03, Okres Hradec Králové",
+   "stav_rizeni": "Povoleno oddlužení",
+   "datum_podani": "2026-10-02",
+   "priorita": "nizka",
+   "assets": [
+    {
+     "typ": "nehmotny",
+     "popis": "Pohledávka dlužnice (insolvenční správkyně) za žalovanou Janou Vavřinkovou, přiznaná rozsudkem Krajského soudu v Hradci Králové ze dne 6.5.2024, č.j. 45 ICm 1080/2023, v současnosti bezvýsledně exekučně vymáhaná",
+     "navrhovana_cena": null,
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "Mgr. Ing. Ondřej Malý, AAA INSOLVENCE OK v.o.s.",
+    "email": "maly@insolvenceok.cz",
+    "telefon": "+420 603 235 004",
+    "datova_schranka": null
+   },
+   "shrnuti": "Insolvenční správkyně navrhuje soudu souhlas se zpeněžením pohledávky dlužnice za Janou Vavřinkovou mimo dražbu, prodejem zájemci s nejvyšší nabídkou; konkrétní cena ani kupující zatím nejsou určeni.",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-10-02",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71028621",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_332",
+     "datum": "2026-07-07",
+     "popis": "Zpráva IS o stavu řízení",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70014477",
+     "kategorie": "zprava"
+    },
+    {
+     "kod": "I_332",
+     "datum": "2026-04-13",
+     "popis": "Zpráva IS o stavu řízení",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=67216337",
+     "kategorie": "zprava"
+    },
+    {
+     "kod": "I_332",
+     "datum": "2025-07-01",
+     "popis": "Zpráva IS o stavu řízení",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=62366912",
+     "kategorie": "zprava"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71028621",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=DB7598C6FB2E2683E05333F21FAC8D0A&actSheet=B&pageB=all",
+   "or_url": null,
+   "text_source": "ocr",
+   "classified_by": "llm",
+   "first_seen": "2026-10-03"
+  },
   {
    "doc_id": "71022897",
    "spisova_znacka": "KSCB 44 INS 14589/2025",
@@ -1421,6 +1616,13 @@
    "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: PRETON spol. s r.o.): nemovitý majetek (1 položka). Navrhovaná cena 150000 CZK. Klasifikováno heuristicky – ověřit v dokumentu.",
    "soupis": null,
    "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-10-02",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71027634",
+     "kategorie": "navrh"
+    },
     {
      "kod": "I_347",
      "datum": "2026-09-23",
