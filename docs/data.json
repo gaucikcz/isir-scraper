@@ -1,18 +1,67 @@
 {
- "generated_at": "2026-10-04T10:36:27+00:00",
+ "generated_at": "2026-10-05T11:32:04+00:00",
  "window": {
   "from": "2026-07-22",
-  "to": "2026-10-02"
+  "to": "2026-10-05"
  },
  "stats": {
-  "total": 177,
+  "total": 178,
   "vysoka": 53,
   "stredni": 76,
-  "nizka": 48,
-  "new_7d": 16,
+  "nizka": 49,
+  "new_7d": 17,
   "cases": 155
  },
  "opportunities": [
+  {
+   "doc_id": "71033220",
+   "spisova_znacka": "KSOS 22 INS 13528/2025",
+   "soud": "Krajského soudu v Ostravě",
+   "dluznik_jmeno": "Robert Lazecký",
+   "ico": "63339552",
+   "sidlo": "Bílovec, Stará Ves 149, PSČ 743 01, Okres Nový Jičín",
+   "stav_rizeni": "Povoleno oddlužení",
+   "datum_podani": "2026-10-05",
+   "priorita": "nizka",
+   "assets": [],
+   "spravce": {
+    "jmeno": "Mgr. Aneta Šlosarová, advokátka a insolvenční správkyně",
+    "email": "slosarova@akslosarova.cz",
+    "telefon": null,
+    "datova_schranka": null
+   },
+   "shrnuti": "Insolvenční správkyně žádá soud (v postavení věřitelského orgánu) o souhlas se zpeněžením motocyklu Suzuki Burgman z majetkové podstaty dlužníka Roberta Lazeckého mimo dražbu za cenu nejméně 10 000 Kč.",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-10-05",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71033220",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_347",
+     "datum": "2026-09-07",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70735412",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_829",
+     "datum": "2025-07-17",
+     "popis": "Výpis z katastru nemovitostí",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=62550176",
+     "kategorie": "katastr"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71033220",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=38C36B55E571D44DE06333F21FACB920&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=63339552&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-10-05"
+  },
   {
    "doc_id": "71027663",
    "spisova_znacka": "MSPH 95 INS 5243/2026",
@@ -513,6 +562,13 @@
      "popis": "Soupis majetkové podstaty",
      "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71008719",
      "kategorie": "soupis"
+    },
+    {
+     "kod": "I_535",
+     "datum": "2026-10-05",
+     "popis": "Usnesení o prodeji mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71033728",
+     "kategorie": "prodej"
     }
    ],
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71008625",
@@ -1136,6 +1192,13 @@
      "popis": "Soupis majetkové podstaty - doplnění",
      "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70184122",
      "kategorie": "soupis"
+    },
+    {
+     "kod": "I_535",
+     "datum": "2026-10-05",
+     "popis": "Usnesení o prodeji mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71039213",
+     "kategorie": "prodej"
     }
    ],
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70963395",
@@ -4299,6 +4362,13 @@
    "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: Robert Lazecký). Konkrétní položky majetku se z textu nepodařilo automaticky rozpoznat. Klasifikováno heuristicky – nutná ruční kontrola dokumentu.",
    "soupis": null,
    "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-10-05",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71033220",
+     "kategorie": "navrh"
+    },
     {
      "kod": "I_347",
      "datum": "2026-09-07",
