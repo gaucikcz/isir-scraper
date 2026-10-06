@@ -1,18 +1,134 @@
 {
- "generated_at": "2026-10-05T11:32:04+00:00",
+ "generated_at": "2026-10-06T11:18:45+00:00",
  "window": {
   "from": "2026-07-22",
-  "to": "2026-10-05"
+  "to": "2026-10-06"
  },
  "stats": {
-  "total": 178,
-  "vysoka": 53,
+  "total": 180,
+  "vysoka": 54,
   "stredni": 76,
-  "nizka": 49,
-  "new_7d": 17,
-  "cases": 155
+  "nizka": 50,
+  "new_7d": 19,
+  "cases": 157
  },
  "opportunities": [
+  {
+   "doc_id": "71052688",
+   "spisova_znacka": "MSPH 79 INS 13447/2019",
+   "soud": "Městského soudu v Praze",
+   "dluznik_jmeno": "Tip-Ex Partner, s.r.o.",
+   "ico": "61063045",
+   "sidlo": "Praha 5, Elišky Přemyslovny 1343, PSČ 156 00",
+   "stav_rizeni": "Prohlášený konkurs",
+   "datum_podani": "2026-10-06",
+   "priorita": "nizka",
+   "assets": [
+    {
+     "typ": "nehmotny",
+     "popis": "Pohledávka za panem Ing. Václavem Malým (ručení za závazek dle § 68 ZOK) ve výši cca 20.966.346,67 Kč jistiny a nákladů, přiznaná rozsudkem Krajského soudu v Plzni č.j. 44 Cm 97/2021-568, vymáhaná v exekuci sp. zn. 070 EX 1536/24; možný společný prodej s pohledávkami společnosti jmt insol, v.o.s. za týmž dlužníkem (jistiny 2.948.000 Kč a 11.370.000 Kč)",
+     "navrhovana_cena": null,
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "TP Insolvence, v.o.s. (Mgr. Tomáš Pospíchal)",
+    "email": null,
+    "telefon": null,
+    "datova_schranka": null
+   },
+   "shrnuti": "Insolvenční správce žádá soud o souhlas s prodejem (postoupením) pohledávky dlužníka za panem Ing. Václavem Malým mimo dražbu formou výběrového řízení nejvyšší nabídce, případně společně s obdobnými pohledávkami jiného věřitele (jmt insol, v.o.s.); konkrétní kupní cena zatím není stanovena.",
+   "soupis": {
+    "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=49682013",
+    "datum": "2022-01-12",
+    "popis": "Soupis majetkové podstaty - doplnění"
+   },
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-10-06",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71052688",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_454",
+     "datum": "2022-01-12",
+     "popis": "Soupis majetkové podstaty - doplnění",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=49682013",
+     "kategorie": "soupis"
+    },
+    {
+     "kod": "I_332",
+     "datum": "2026-07-24",
+     "popis": "Zpráva IS o stavu řízení",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70247918",
+     "kategorie": "zprava"
+    },
+    {
+     "kod": "I_332",
+     "datum": "2026-04-21",
+     "popis": "Zpráva IS o stavu řízení",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=67556273",
+     "kategorie": "zprava"
+    },
+    {
+     "kod": "I_332",
+     "datum": "2026-03-11",
+     "popis": "Zpráva IS o stavu řízení",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=65829941",
+     "kategorie": "zprava"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71052688",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=8D74FE1E5563658EE05333F21FACC455&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=61063045&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-10-06"
+  },
+  {
+   "doc_id": "71041602",
+   "spisova_znacka": "KSBR 40 INS 19784/2025",
+   "soud": "Krajského soudu v Brně",
+   "dluznik_jmeno": "Milan Jaroš",
+   "ico": "87403404",
+   "sidlo": "Mořice, Mořice 135, PSČ 798 28",
+   "stav_rizeni": "Povoleno oddlužení",
+   "datum_podani": "2026-10-05",
+   "priorita": "vysoka",
+   "assets": [
+    {
+     "typ": "nemovity",
+     "popis": "Pozemek parc. č. 597 (zastavěná plocha a nádvoří) o výměře 1631 m², jehož součástí je stavba rodinného domu č.p. 135, zapsáno na LV č. 477 pro k.ú. a obec Mořice, Katastrální úřad pro Olomoucký kraj, KP Prostějov",
+     "navrhovana_cena": "2550000 CZK",
+     "kupujici": "Renata Jarošová"
+    }
+   ],
+   "spravce": {
+    "jmeno": "Šefčík, Štefánek a spol., v.o.s. (JUDr. Michael Štefánek, ohlášený společník)",
+    "email": "ikrutilova@csas.cz",
+    "telefon": "+420 703 481 611",
+    "datova_schranka": "hxrww7h"
+   },
+   "shrnuti": "Prodává se pozemek s rodinným domem č.p. 135 v Mořicích (LV č. 477) formou přímého prodeje manželce dlužníka Renatě Jarošové za kupní cenu 2 550 000 Kč, kupní cena již byla uhrazena.",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-10-05",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71041602",
+     "kategorie": "navrh"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71041602",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=4153D1DD23BFC51FE06333F21FACA229&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=87403404&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-10-06"
+  },
   {
    "doc_id": "71033220",
    "spisova_znacka": "KSOS 22 INS 13528/2025",
@@ -290,6 +406,13 @@
      "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
      "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71022897",
      "kategorie": "navrh"
+    },
+    {
+     "kod": "I_535",
+     "datum": "2026-10-06",
+     "popis": "Usnesení o prodeji mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71050276",
+     "kategorie": "prodej"
     }
    ],
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71022897",
@@ -783,6 +906,13 @@
     },
     {
      "kod": "I_535",
+     "datum": "2026-10-06",
+     "popis": "Usnesení o prodeji mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71045458",
+     "kategorie": "prodej"
+    },
+    {
+     "kod": "I_535",
      "datum": "2026-08-24",
      "popis": "Usnesení o prodeji mimo dražbu",
      "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70573920",
@@ -793,13 +923,6 @@
      "datum": "2026-07-27",
      "popis": "Smlouva o prodeji mimo dražbu",
      "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70266589",
-     "kategorie": "prodej"
-    },
-    {
-     "kod": "I_535",
-     "datum": "2026-07-17",
-     "popis": "Usnesení o prodeji mimo dražbu",
-     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70166373",
      "kategorie": "prodej"
     }
    ],
@@ -11222,6 +11345,13 @@
     },
     {
      "kod": "I_535",
+     "datum": "2026-10-06",
+     "popis": "Usnesení o prodeji mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71045458",
+     "kategorie": "prodej"
+    },
+    {
+     "kod": "I_535",
      "datum": "2026-08-24",
      "popis": "Usnesení o prodeji mimo dražbu",
      "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70573920",
@@ -11232,13 +11362,6 @@
      "datum": "2026-07-27",
      "popis": "Smlouva o prodeji mimo dražbu",
      "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70266589",
-     "kategorie": "prodej"
-    },
-    {
-     "kod": "I_535",
-     "datum": "2026-07-17",
-     "popis": "Usnesení o prodeji mimo dražbu",
-     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70166373",
      "kategorie": "prodej"
     }
    ],
