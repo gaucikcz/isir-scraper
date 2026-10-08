@@ -1,18 +1,340 @@
 {
- "generated_at": "2026-10-07T11:07:26+00:00",
+ "generated_at": "2026-10-08T11:25:03+00:00",
  "window": {
   "from": "2026-07-22",
-  "to": "2026-10-07"
+  "to": "2026-10-08"
  },
  "stats": {
-  "total": 186,
-  "vysoka": 56,
+  "total": 192,
+  "vysoka": 59,
   "stredni": 79,
-  "nizka": 51,
-  "new_7d": 23,
-  "cases": 162
+  "nizka": 54,
+  "new_7d": 25,
+  "cases": 167
  },
  "opportunities": [
+  {
+   "doc_id": "71078950",
+   "spisova_znacka": "KSCB 28 INS 3503/2026",
+   "soud": "Krajského soudu v Českých Budějovicích",
+   "dluznik_jmeno": "Jiří Bust",
+   "ico": null,
+   "sidlo": "Volary, Pod kostelem 326, PSČ 384 51",
+   "stav_rizeni": "Povoleno oddlužení",
+   "datum_podani": "2026-10-08",
+   "priorita": "nizka",
+   "assets": [],
+   "spravce": {
+    "jmeno": null,
+    "email": null,
+    "telefon": null,
+    "datova_schranka": null
+   },
+   "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: Jiří Bust). Konkrétní položky majetku se z textu nepodařilo automaticky rozpoznat. Klasifikováno heuristicky – nutná ruční kontrola dokumentu.",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-10-08",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71078950",
+     "kategorie": "navrh"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71078950",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=4B7881DBF839E21CE06333F21FAC24B7&actSheet=B&pageB=all",
+   "or_url": null,
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-10-08"
+  },
+  {
+   "doc_id": "71078030",
+   "spisova_znacka": "KSPH 69 INS 13390/2025",
+   "soud": "Krajského soudu v Praze",
+   "dluznik_jmeno": "Pavel Papík",
+   "ico": "70768765",
+   "sidlo": "Chlístov, Žabovřesky 61, PSČ 256 01, Okres Benešov",
+   "stav_rizeni": "Povoleno oddlužení",
+   "datum_podani": "2026-10-08",
+   "priorita": "nizka",
+   "assets": [
+    {
+     "typ": "nehmotny",
+     "popis": "Pohledávka dlužníka za Nathanem Woolfem ve výši 60.800 Kč s příslušenstvím (neuhrazená cena za provedené práce na rodinném domě)",
+     "navrhovana_cena": null,
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "Mgr. Jiří Zrůstek, Zrůstek a partneři, v.o.s.",
+    "email": null,
+    "telefon": null,
+    "datova_schranka": null
+   },
+   "shrnuti": "Insolvenční správce žádá soud o souhlas s prodejem pohledávky dlužníka Pavla Papíka za Nathanem Woolfem ve výši 60.800 Kč s příslušenstvím mimo dražbu, prodej proběhne nejvyšší nabídce formou inzerce na bezúplatných serverech.",
+   "soupis": {
+    "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=64080851",
+    "datum": "2025-12-02",
+    "popis": "Soupis majetkové podstaty"
+   },
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-10-08",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71078030",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_334",
+     "datum": "2025-12-02",
+     "popis": "Soupis majetkové podstaty",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=64080851",
+     "kategorie": "soupis"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71078030",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=38DBE5AD810C75E2E06333F21FAC4FC8&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=70768765&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-10-08"
+  },
+  {
+   "doc_id": "71080524",
+   "spisova_znacka": "KSUL 79 INS 15961/2024",
+   "soud": "Krajského soudu v Ústí nad Labem",
+   "dluznik_jmeno": "Mgr. Ludmila Navrátilová",
+   "ico": "87512131",
+   "sidlo": "Řehlovice, Brozánky 60, PSČ 400 02",
+   "stav_rizeni": "Prohlášený konkurs",
+   "datum_podani": "2026-10-08",
+   "priorita": "vysoka",
+   "assets": [
+    {
+     "typ": "nemovity",
+     "popis": "Základní cena stavebního pozemku ZC = ZCv * O1 * O2 * O3 * O4 * O5 * O6 = 1 046,00 Kč/m2",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "movity",
+     "popis": "ovými kamny a přímým vstupem na terasu - moderní kuchyňská linka se spotřebiči a jídelní částí - luxusní koupelna (vana, sprcha, dvě umyvadla, WC, bidet) - 3 samostatné ložnice s na míru řešenými úložnými prostory…",
+     "navrhovana_cena": "10700000 CZK",
+     "kupujici": null
+    },
+    {
+     "typ": "nehmotny",
+     "popis": "Výrokem znaleckého posudku nechť je také rozdělení obvyklé ceny na hodnotu pozemku parc. č. st. 540 včetně stavby rodinného domu č.p. 60 spolu s pozemkem parc. č. 1119/12 a na hodnotu pozemku parc. č. 1119/13, které…",
+     "navrhovana_cena": null,
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": null,
+    "email": "oportys@oportys.com",
+    "telefon": "+420 605 060 000",
+    "datova_schranka": null
+   },
+   "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: Mgr. Ludmila Navrátilová): nemovitý majetek, movitý majetek, nehmotný majetek (3 položky). Navrhovaná cena 10700000 CZK. Klasifikováno heuristicky – ověřit v dokumentu.",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-10-08",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71080524",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_332",
+     "datum": "2026-08-24",
+     "popis": "Zpráva IS o stavu řízení",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70582242",
+     "kategorie": "zprava"
+    },
+    {
+     "kod": "I_332",
+     "datum": "2026-05-27",
+     "popis": "Zpráva IS o stavu řízení",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=69071640",
+     "kategorie": "zprava"
+    },
+    {
+     "kod": "I_332",
+     "datum": "2026-02-23",
+     "popis": "Zpráva IS o stavu řízení",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=65093075",
+     "kategorie": "zprava"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71080524",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=22728CE0CF223AB7E06333F21FACFF79&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=87512131&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "heuristic",
+   "first_seen": "2026-10-08"
+  },
+  {
+   "doc_id": "71080255",
+   "spisova_znacka": "KSUL 79 INS 15956/2024",
+   "soud": "Krajského soudu v Ústí nad Labem",
+   "dluznik_jmeno": "Miloslav Navrátil",
+   "ico": "65075528",
+   "sidlo": "Řehlovice, Brozánky 60, PSČ 400 02",
+   "stav_rizeni": "Prohlášený konkurs",
+   "datum_podani": "2026-10-08",
+   "priorita": "vysoka",
+   "assets": [
+    {
+     "typ": "nemovity",
+     "popis": "Základní cena stavebního pozemku ZC = ZCv * O1 * O2 * O3 * O4 * O5 * O6 = 1 046,00 Kč/m2",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "movity",
+     "popis": "ovými kamny a přímým vstupem na terasu - moderní kuchyňská linka se spotřebiči a jídelní částí - luxusní koupelna (vana, sprcha, dvě umyvadla, WC, bidet) - 3 samostatné ložnice s na míru řešenými úložnými prostory…",
+     "navrhovana_cena": "10700000 CZK",
+     "kupujici": null
+    },
+    {
+     "typ": "nehmotny",
+     "popis": "Výrokem znaleckého posudku nechť je také rozdělení obvyklé ceny na hodnotu pozemku parc. č. st. 540 včetně stavby rodinného domu č.p. 60 spolu s pozemkem parc. č. 1119/12 a na hodnotu pozemku parc. č. 1119/13, které…",
+     "navrhovana_cena": null,
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": null,
+    "email": "oportys@oportys.com",
+    "telefon": "+420 605 060 000",
+    "datova_schranka": null
+   },
+   "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: Miloslav Navrátil): nemovitý majetek, movitý majetek, nehmotný majetek (3 položky). Navrhovaná cena 10700000 CZK. Klasifikováno heuristicky – ověřit v dokumentu.",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-10-08",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71080255",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_332",
+     "datum": "2026-08-24",
+     "popis": "Zpráva IS o stavu řízení",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70582763",
+     "kategorie": "zprava"
+    },
+    {
+     "kod": "I_332",
+     "datum": "2026-05-27",
+     "popis": "Zpráva IS o stavu řízení",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=69071502",
+     "kategorie": "zprava"
+    },
+    {
+     "kod": "I_332",
+     "datum": "2025-11-13",
+     "popis": "Zpráva IS o stavu řízení",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=63880524",
+     "kategorie": "zprava"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71080255",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=2272B60165EC3AA8E06333F21FAC5121&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=65075528&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "heuristic",
+   "first_seen": "2026-10-08"
+  },
+  {
+   "doc_id": "71072428",
+   "spisova_znacka": "KSBR 31 INS 17086/2025",
+   "soud": "Krajského soudu v Brně",
+   "dluznik_jmeno": "Edita Moudrá",
+   "ico": null,
+   "sidlo": "Znojmo, Bolzanova 1941/8, PSČ 669 02",
+   "stav_rizeni": "Prohlášený konkurs",
+   "datum_podani": "2026-10-07",
+   "priorita": "nizka",
+   "assets": [],
+   "spravce": {
+    "jmeno": "Mgr. Zuzana Zajícová",
+    "email": "zuzana.zajicova@gmail.com",
+    "telefon": "+420 777756465",
+    "datova_schranka": null
+   },
+   "shrnuti": "Dokument žádá soud o souhlas s prodejem nezajištěného majetku mimo dražbu nejvyšší nabídce, avšak konkrétní seznam majetku v textu chybí (nebyl v OCR/extrakci dokumentu zachycen) a cena není uvedena.",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-10-07",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71072428",
+     "kategorie": "navrh"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71072428",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=3E0A1E4594C8C5B9E06333F21FACD576&actSheet=B&pageB=all",
+   "or_url": null,
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-10-08"
+  },
+  {
+   "doc_id": "71072519",
+   "spisova_znacka": "KSBR 31 INS 21134/2024",
+   "soud": "Krajského soudu v Brně",
+   "dluznik_jmeno": "Stanislav Kynčl",
+   "ico": null,
+   "sidlo": "Zlín, Ševcovská 4064, PSČ 760 01",
+   "stav_rizeni": "Povoleno oddlužení",
+   "datum_podani": "2026-10-07",
+   "priorita": "vysoka",
+   "assets": [
+    {
+     "typ": "nemovity",
+     "popis": "Spoluvlastnický podíl o velikosti 1/4 na nemovitostech v k.ú. Rokytnice u Slavičína, obec Rokytnice, LV 195: pozemek parc. č. St. 215 (výměra 309 m2, zastavěná plocha a nádvoří) jehož součástí je stavba č.p. 154 (rodinný dům), a pozemek parc. č. 220 (výměra 1333 m2, orná půda). Prodej celého podílu 1/4, přičemž dlužník vlastní 1/4 z tohoto podílu, druhou čtvrtinu vlastní dlužnice Renata Kocmanová ",
+     "navrhovana_cena": "2900000 CZK",
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "JUDr. Ilona Dorková, Insolvency Project v.o.s.",
+    "email": "smejcova@insolvencyproject.cz",
+    "telefon": "734 755 714",
+    "datova_schranka": null
+   },
+   "shrnuti": "Insolvenční správce žádá soud o souhlas se zpeněžením spoluvlastnického podílu 1/4 na rodinném domě a pozemcích v k.ú. Rokytnice u Slavičína mimo dražbu, prostřednictvím realitního zprostředkovatele Good move reality s.r.o., za celkovou kupní cenu nemovitosti 2 900 000 Kč (včetně provize 120 000 Kč).",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-10-07",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71072519",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_347",
+     "datum": "2026-08-18",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70516329",
+     "kategorie": "navrh"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71072519",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=28D091F975EE9C1CE06333F21FAC98E4&actSheet=B&pageB=all",
+   "or_url": null,
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-10-08"
+  },
   {
    "doc_id": "71067349",
    "spisova_znacka": "KSOL 10 INS 5722/2026",
@@ -490,6 +812,13 @@
      "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
      "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71041602",
      "kategorie": "navrh"
+    },
+    {
+     "kod": "I_535",
+     "datum": "2026-10-07",
+     "popis": "Usnesení o prodeji mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71071340",
+     "kategorie": "prodej"
     }
    ],
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71041602",
@@ -629,6 +958,13 @@
      "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
      "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70930215",
      "kategorie": "navrh"
+    },
+    {
+     "kod": "I_535",
+     "datum": "2026-10-08",
+     "popis": "Usnesení o prodeji mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71085155",
+     "kategorie": "prodej"
     }
    ],
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71027634",
@@ -832,6 +1168,13 @@
      "popis": "Výpis z katastru nemovitostí",
      "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=61936873",
      "kategorie": "katastr"
+    },
+    {
+     "kod": "I_535",
+     "datum": "2026-10-08",
+     "popis": "Usnesení o prodeji mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71076205",
+     "kategorie": "prodej"
     }
    ],
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71022607",
@@ -1440,7 +1783,7 @@
     },
     {
      "kod": "I_535",
-     "datum": "2025-03-26",
+     "datum": "2026-03-26",
      "popis": "Usnesení o prodeji mimo dražbu",
      "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=66555245",
      "kategorie": "prodej"
@@ -2185,6 +2528,13 @@
      "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
      "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70930215",
      "kategorie": "navrh"
+    },
+    {
+     "kod": "I_535",
+     "datum": "2026-10-08",
+     "popis": "Usnesení o prodeji mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71085155",
+     "kategorie": "prodej"
     }
    ],
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70930215",
@@ -7937,6 +8287,13 @@
    "shrnuti": "Insolvenční správce žádá o souhlas se zpeněžením 1/4 spoluvlastnického podílu dlužníka na rodinném domě a pozemcích v k.ú. Rokytnice u Slavičína (LV 195) mimo dražbu; nemovitost bude prodána jako celek za sjednanou kupní cenu 2 900 000 Kč prostřednictvím realitního zprostředkovatele Good move reality s.r.o.",
    "soupis": null,
    "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-10-07",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71072519",
+     "kategorie": "navrh"
+    },
     {
      "kod": "I_347",
      "datum": "2026-08-18",
