@@ -1,18 +1,141 @@
 {
- "generated_at": "2026-10-09T11:23:08+00:00",
+ "generated_at": "2026-10-10T10:39:14+00:00",
  "window": {
   "from": "2026-07-22",
   "to": "2026-10-09"
  },
  "stats": {
-  "total": 197,
+  "total": 198,
   "vysoka": 60,
   "stredni": 81,
-  "nizka": 56,
-  "new_7d": 27,
-  "cases": 171
+  "nizka": 57,
+  "new_7d": 25,
+  "cases": 172
  },
  "opportunities": [
+  {
+   "doc_id": "71100955",
+   "spisova_znacka": "KSBR 52 INS 3368/2022",
+   "soud": "Krajského soudu v Brně",
+   "dluznik_jmeno": "Tomáš Wolker Stavitelství s.r.o.",
+   "ico": "29297168",
+   "sidlo": "Prostějov, U Stadionu 2459/1, PSČ 796 01",
+   "stav_rizeni": "Prohlášený konkurs",
+   "datum_podani": "2026-10-09",
+   "priorita": "nizka",
+   "assets": [
+    {
+     "typ": "nehmotny",
+     "popis": "Pohledávky za panem Tomášem Wolkerem, bytem Vrahovická 615/61, Prostějov, IČO 44048629, RČ 690801/4476, z titulu bezdůvodného obohacení a zápůjček, přihlášené v insolvenčním řízení KSBR 52 INS 11654/2022 jako pohledávky P14/1 až P14/6, zjištěná výše 19 966 559,75 Kč (položka č. IV/33 soupisu majetkové podstaty)",
+     "navrhovana_cena": null,
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "Mgr. Emil Fischer, EF Insolvence v.o.s.",
+    "email": null,
+    "telefon": "+420 608 963 203",
+    "datova_schranka": "7nzsisk"
+   },
+   "shrnuti": "Insolvenční správce žádá soud o souhlas se zpeněžením mimo dražbu pohledávek za panem Tomášem Wolkerem (položka IV/33 soupisu) ve zjištěné výši cca 19 966 559,75 Kč; konkrétní prodejní cena ani kupující nejsou v textu uvedeny.",
+   "soupis": {
+    "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71100829",
+    "datum": "2026-10-09",
+    "popis": "Soupis majetkové podstaty"
+   },
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-10-09",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71100955",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_347",
+     "datum": "2024-06-13",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=58555501",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_347",
+     "datum": "2023-07-28",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=55376635",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_334",
+     "datum": "2026-10-09",
+     "popis": "Soupis majetkové podstaty",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71100829",
+     "kategorie": "soupis"
+    },
+    {
+     "kod": "I_334",
+     "datum": "2024-06-17",
+     "popis": "Soupis majetkové podstaty",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=58589291",
+     "kategorie": "soupis"
+    },
+    {
+     "kod": "I_334",
+     "datum": "2024-02-26",
+     "popis": "Soupis majetkové podstaty",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=57436777",
+     "kategorie": "soupis"
+    },
+    {
+     "kod": "I_332",
+     "datum": "2026-07-01",
+     "popis": "Zpráva IS o stavu řízení",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=69964283",
+     "kategorie": "zprava"
+    },
+    {
+     "kod": "I_332",
+     "datum": "2025-11-10",
+     "popis": "Zpráva IS o stavu řízení",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=63824012",
+     "kategorie": "zprava"
+    },
+    {
+     "kod": "I_332",
+     "datum": "2025-06-03",
+     "popis": "Zpráva IS o stavu řízení",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=62083552",
+     "kategorie": "zprava"
+    },
+    {
+     "kod": "I_535",
+     "datum": "2024-06-20",
+     "popis": "Usnesení o prodeji mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=58636834",
+     "kategorie": "prodej"
+    },
+    {
+     "kod": "I_535",
+     "datum": "2024-02-27",
+     "popis": "Usnesení o prodeji mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=57448259",
+     "kategorie": "prodej"
+    },
+    {
+     "kod": "I_535",
+     "datum": "2023-07-31",
+     "popis": "Usnesení o prodeji mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=55389248",
+     "kategorie": "prodej"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71100955",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=D845710628383D71E05333F21FAC2867&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=29297168&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-10-10"
+  },
   {
    "doc_id": "71095878",
    "spisova_znacka": "KSOS 25 INS 1990/2026",
