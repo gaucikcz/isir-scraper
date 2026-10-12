@@ -1,18 +1,233 @@
 {
- "generated_at": "2026-10-11T10:51:19+00:00",
+ "generated_at": "2026-10-12T12:02:45+00:00",
  "window": {
   "from": "2026-07-22",
-  "to": "2026-10-09"
+  "to": "2026-10-12"
  },
  "stats": {
-  "total": 198,
-  "vysoka": 60,
-  "stredni": 81,
+  "total": 200,
+  "vysoka": 61,
+  "stredni": 82,
   "nizka": 57,
-  "new_7d": 21,
-  "cases": 172
+  "new_7d": 23,
+  "cases": 173
  },
  "opportunities": [
+  {
+   "doc_id": "71116578",
+   "spisova_znacka": "KSUL 79 INS 12926/2025",
+   "soud": "Krajského soudu v Ústí nad Labem",
+   "dluznik_jmeno": "Zuzana Remencová",
+   "ico": null,
+   "sidlo": "Kadaň, Chomutovská 1255, PSČ 432 01",
+   "stav_rizeni": "Povoleno oddlužení",
+   "datum_podani": "2026-10-12",
+   "priorita": "vysoka",
+   "assets": [
+    {
+     "typ": "nemovity",
+     "popis": "Spoluvlastnický podíl o velikosti 1/10 na pozemku parc. č. st. 736/2, zastavěná plocha a nádvoří, o výměře 439 m², LV č. 525, k.ú. Náměšť na Hané",
+     "navrhovana_cena": null,
+     "kupujici": "Zemědělské družstvo Senice na Hané"
+    },
+    {
+     "typ": "nemovity",
+     "popis": "Spoluvlastnický podíl o velikosti 1/10 na pozemku parc. č. 1460/5, ostatní plocha (manipulační plocha), o výměře 1 518 m², LV č. 525, k.ú. Náměšť na Hané",
+     "navrhovana_cena": null,
+     "kupujici": "Zemědělské družstvo Senice na Hané"
+    }
+   ],
+   "spravce": {
+    "jmeno": "Mgr. Ing. Ivana Zálešáková",
+    "email": null,
+    "telefon": null,
+    "datova_schranka": null
+   },
+   "shrnuti": "Insolvenční správkyně navrhuje prodej spoluvlastnického podílu dlužnice o velikosti 1/10 na dvou pozemcích (LV č. 525, k.ú. Náměšť na Hané) mimo dražbu, s minimální nabízenou cenou 27 000 Kč celkem za oba podíly dohromady, zájemcem je Zemědělské družstvo Senice na Hané.",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-10-12",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71116578",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_332",
+     "datum": "2026-07-28",
+     "popis": "Zpráva IS o stavu řízení",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70278448",
+     "kategorie": "zprava"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71116578",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=385EC885626B1214E06333F21FACEB96&actSheet=B&pageB=all",
+   "or_url": null,
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-10-12"
+  },
+  {
+   "doc_id": "71103771",
+   "spisova_znacka": "KSPL 58 INS 11358/2024",
+   "soud": "Krajského soudu v Plzni",
+   "dluznik_jmeno": "Farma Racov s.r.o.",
+   "ico": "27969797",
+   "sidlo": "Staré Sedlo, Racov 58, PSČ 348 02, Okres Tachov",
+   "stav_rizeni": "Prohlášený konkurs",
+   "datum_podani": "2026-10-11",
+   "priorita": "stredni",
+   "assets": [
+    {
+     "typ": "movity",
+     "popis": "Položka č. 4 - Přívěs",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "movity",
+     "popis": "Položka č. 5 - Traktor ZETOR 6718",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "movity",
+     "popis": "Položka č. 8 - Škoda Fabia combi",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "movity",
+     "popis": "Položka č. 11 - Nissan Navara",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "movity",
+     "popis": "Položka č. 12 - Traktor John Deere 6115M",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "movity",
+     "popis": "Položka č. 13 - Traktor John Deere 6210R",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "movity",
+     "popis": "Položka č. 15 - Přívěs Daltec",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "movity",
+     "popis": "Položka č. 18 - Sekačka KUHN",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "movity",
+     "popis": "Položka č. 19 - Sekačka POTTINGER na ND",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "movity",
+     "popis": "Položka č. 20 - Sekačka POTTINGER funkční",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "movity",
+     "popis": "Položka č. 21 - Mulčovač McConnel MR46",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "movity",
+     "popis": "Položka č. 22 - Shrnovač KUHN GA 8731",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "movity",
+     "popis": "Položka č. 23 - Rozmetadlo hnojiv LELY 3155 PD",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "movity",
+     "popis": "Položka č. 24 - Obraceč KUHN",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "movity",
+     "popis": "Položka č. 25 - Balička píce KUHN",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "movity",
+     "popis": "Položka č. 26 - Fekální přívěs",
+     "navrhovana_cena": null,
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "ISALIS v.o.s. (Mgr. Jiří Andrýsek, ohlášený společník)",
+    "email": "info@isalis.cz",
+    "telefon": "296 789 789, 734 768 931",
+    "datova_schranka": "f4taerv"
+   },
+   "shrnuti": "Insolvenční správce žádá soud o souhlas se zpeněžením movitého zemědělského majetku dlužníka Farma Racov s.r.o. (traktory, přívěsy, sekačky a další zemědělská technika) mimo dražbu, a to prodejem nejvyšší učiněné nabídce. Konkrétní kupní ceny ani zájemci nejsou v textu uvedeni.",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-10-11",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71103771",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_347",
+     "datum": "2026-08-11",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70439971",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_347",
+     "datum": "2026-02-12",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=64992171",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_535",
+     "datum": "2026-08-24",
+     "popis": "Usnesení o prodeji mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70578028",
+     "kategorie": "prodej"
+    },
+    {
+     "kod": "I_535",
+     "datum": "2026-02-17",
+     "popis": "Usnesení o prodeji mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=65025522",
+     "kategorie": "prodej"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71103771",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=1B29FC1FDFCA0C06E06333F21FAC37F2&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=27969797&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "ocr",
+   "classified_by": "llm",
+   "first_seen": "2026-10-12"
+  },
   {
    "doc_id": "71100955",
    "spisova_znacka": "KSBR 52 INS 3368/2022",
@@ -496,6 +711,13 @@
      "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
      "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71086380",
      "kategorie": "navrh"
+    },
+    {
+     "kod": "I_535",
+     "datum": "2026-10-12",
+     "popis": "Usnesení o prodeji mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71116905",
+     "kategorie": "prodej"
     }
    ],
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71086380",
@@ -10106,6 +10328,13 @@
    "shrnuti": "Insolvenční správce žádá soud o souhlas se zpeněžením mimo dražbu nákladního automobilu Volvo FH (vyřazeného z provozu, nepojízdného) formou prodeje za nejvýše učiněnou nabídku; konkrétní kupní cena ani kupující v textu nejsou uvedeni.",
    "soupis": null,
    "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-10-11",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71103771",
+     "kategorie": "navrh"
+    },
     {
      "kod": "I_347",
      "datum": "2026-08-11",
