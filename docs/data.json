@@ -1,18 +1,218 @@
 {
- "generated_at": "2026-10-12T12:02:45+00:00",
+ "generated_at": "2026-10-13T11:51:21+00:00",
  "window": {
   "from": "2026-07-22",
-  "to": "2026-10-12"
+  "to": "2026-10-13"
  },
  "stats": {
-  "total": 200,
-  "vysoka": 61,
-  "stredni": 82,
+  "total": 203,
+  "vysoka": 63,
+  "stredni": 83,
   "nizka": 57,
-  "new_7d": 23,
-  "cases": 173
+  "new_7d": 25,
+  "cases": 176
  },
  "opportunities": [
+  {
+   "doc_id": "71124473",
+   "spisova_znacka": "KSOS 22 INS 21975/2025",
+   "soud": "Krajského soudu v Ostravě",
+   "dluznik_jmeno": "FORMANKA 1894 s.r.o.",
+   "ico": "04320034",
+   "sidlo": "Ostrava - Moravská Ostrava, 28. října 770/6, PSČ 702 00",
+   "stav_rizeni": "Prohlášený konkurs",
+   "datum_podani": "2026-10-13",
+   "priorita": "vysoka",
+   "assets": [
+    {
+     "typ": "nemovity",
+     "popis": "Lumír Šindelář <lumir@sindelarlegal.cz> Odesláno: neděle 11. října 2026 19:20 Komu: koci@ahfinsolvence.cz Kopie: ondrej-stejskal Předmět: Re: Vybavení restaurace Formanka, Lipůvka č.p.193 - nabídka odkupu nezajištěného…",
+     "navrhovana_cena": null,
+     "kupujici": "FORMANKA 1894 s.r.o."
+    },
+    {
+     "typ": "movity",
+     "popis": "Insolvenční správce pak obdržel od kupující - společnosti VENAMA s.r.o., se sídlem Soběšická 117/73, 614 00 Brno-Husovice, IČ: 29370094, písemnou nabídku k odkupu předmětných movitých věcí specifikovaných shora přímým…",
+     "navrhovana_cena": "22000000 CZK",
+     "kupujici": null
+    },
+    {
+     "typ": "nehmotny",
+     "popis": "h movitých věcí specifikovaných shora, aby k prodeji a zpeněžení mohlo dojít buď jednou kupní smlouvou anebo dvěma samostatnými smlouvami, v níž bude výslovně uvedeno, že předmět zajištění bude zpeněžen za kupní cenu ve…",
+     "navrhovana_cena": null,
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "Mgr. Zdeněk Kočí",
+    "email": "sekretariat@ahfinsolvence.cz",
+    "telefon": "+420 513 034 433",
+    "datova_schranka": null
+   },
+   "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: FORMANKA 1894 s.r.o.): nemovitý majetek, movitý majetek, nehmotný majetek (3 položky). Navrhovaná cena 22000000 CZK. Kupující: FORMANKA 1894 s.r.o. Klasifikováno heuristicky – ověřit v dokumentu.",
+   "soupis": {
+    "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=64947244",
+    "datum": "2026-02-10",
+    "popis": "Soupis majetkové podstaty"
+   },
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-10-13",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71124473",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_347",
+     "datum": "2026-06-09",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=69439058",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_334",
+     "datum": "2026-02-10",
+     "popis": "Soupis majetkové podstaty",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=64947244",
+     "kategorie": "soupis"
+    },
+    {
+     "kod": "I_829",
+     "datum": "2025-11-24",
+     "popis": "Výpis z katastru nemovitostí",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=63995298",
+     "kategorie": "katastr"
+    },
+    {
+     "kod": "I_332",
+     "datum": "2026-02-10",
+     "popis": "Zpráva IS o stavu řízení",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=64946152",
+     "kategorie": "zprava"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71124473",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=3F0C94E4D584E9D0E06333F21FAC62F2&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=04320034&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "heuristic",
+   "first_seen": "2026-10-13"
+  },
+  {
+   "doc_id": "71124255",
+   "spisova_znacka": "KSPL 51 INS 20034/2024",
+   "soud": "Krajského soudu v Plzni",
+   "dluznik_jmeno": "Marek Demeter",
+   "ico": null,
+   "sidlo": "Milhostov, Milhostov 74, PSČ 350 02, Okres Cheb",
+   "stav_rizeni": "Povoleno oddlužení",
+   "datum_podani": "2026-10-13",
+   "priorita": "vysoka",
+   "assets": [
+    {
+     "typ": "nemovity",
+     "popis": "Spoluvlastnický podíl o velikosti 1/3 na bytové jednotce č. 74/81 (byt 3+1, cca 73 m2), k níž náleží spoluvlastnický podíl id. 927/3443 na společných částech budovy č.p. 74 a pozemku parc. č. 33/4, obec a k.ú. Milhostov, okres Cheb, LV č. 99 a 119, vlastník dlužník Marek Demeter",
+     "navrhovana_cena": "212222 CZK",
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "Ing. Karel Kuna",
+    "email": "kkuna@corpora.cz",
+    "telefon": null,
+    "datova_schranka": null
+   },
+   "shrnuti": "Insolvenční správce žádá o souhlas se zpeněžením spoluvlastnického podílu 1/3 na bytové jednotce v Milhostově mimo dražbu za kupní cenu 212 222 Kč, odpovídající nejvyšší nabídce z veřejného výběrového řízení (burzaspravcu.cz).",
+   "soupis": {
+    "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=67225120",
+    "datum": "2026-04-13",
+    "popis": "Soupis majetkové podstaty - doplnění"
+   },
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-10-13",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71124255",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_347",
+     "datum": "2026-05-15",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=68548509",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_454",
+     "datum": "2026-04-13",
+     "popis": "Soupis majetkové podstaty - doplnění",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=67225120",
+     "kategorie": "soupis"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71124255",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=26B87431F64D83B4E06333F21FAC39C7&actSheet=B&pageB=all",
+   "or_url": null,
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-10-13"
+  },
+  {
+   "doc_id": "71120238",
+   "spisova_znacka": "KSPH 82 INS 18713/2025",
+   "soud": "Krajského soudu v Praze",
+   "dluznik_jmeno": "Jan-Marek Prosner",
+   "ico": "23234245",
+   "sidlo": "Klatovy, Maxima Gorkého 44, PSČ 339 01, Okres Klatovy",
+   "stav_rizeni": "Povoleno oddlužení",
+   "datum_podani": "2026-10-12",
+   "priorita": "stredni",
+   "assets": [
+    {
+     "typ": "movity",
+     "popis": "Osobní motocykl Honda CBR 1000 RR, VIN uveden v textu, první zaevidování dle dokumentu",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "movity",
+     "popis": "Osobní motocykl Honda CBR RR, VIN uveden v textu, první zaevidování dle dokumentu",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "movity",
+     "popis": "Osobní automobil Audi A6, VIN uveden v textu, první zaevidování dle dokumentu",
+     "navrhovana_cena": null,
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "Indra & Šebesta v.o.s.",
+    "email": "spravce@indrasebesta.cz",
+    "telefon": null,
+    "datova_schranka": "u7vsjer"
+   },
+   "shrnuti": "Insolvenční správce žádá soud o souhlas s prodejem mimo dražbu nejvýhodnější nabídce - dvou motocyklů Honda CBR a automobilu Audi A6 z majetkové podstaty dlužníka Jan-Marek Prosner. Konkrétní kupní cena ani kupující zatím nejsou v textu uvedeny, prodej proběhne formou výběru nejvyšší nabídky.",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-10-12",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71120238",
+     "kategorie": "navrh"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71120238",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=40170875904BF691E06333F21FAC9274&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=23234245&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-10-13"
+  },
   {
    "doc_id": "71116578",
    "spisova_znacka": "KSUL 79 INS 12926/2025",
