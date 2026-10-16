@@ -1,18 +1,106 @@
 {
- "generated_at": "2026-10-15T09:12:07+00:00",
+ "generated_at": "2026-10-16T09:04:31+00:00",
  "window": {
   "from": "2026-07-22",
   "to": "2026-10-15"
  },
  "stats": {
-  "total": 219,
+  "total": 221,
   "vysoka": 70,
   "stredni": 90,
-  "nizka": 59,
-  "new_7d": 33,
-  "cases": 189
+  "nizka": 61,
+  "new_7d": 29,
+  "cases": 191
  },
  "opportunities": [
+  {
+   "doc_id": "71169304",
+   "spisova_znacka": "MSPH 93 INS 23675/2025",
+   "soud": "Městského soudu v Praze",
+   "dluznik_jmeno": "Crumena trading, s.r.o.",
+   "ico": "06526390",
+   "sidlo": "Praha 1, Školská 689/20, PSČ 110 00, Okres Hlavní město Praha",
+   "stav_rizeni": "Prohlášený konkurs",
+   "datum_podani": "2026-10-15",
+   "priorita": "nizka",
+   "assets": [],
+   "spravce": {
+    "jmeno": null,
+    "email": null,
+    "telefon": null,
+    "datova_schranka": null
+   },
+   "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: Crumena trading, s.r.o.). Konkrétní položky majetku se z textu nepodařilo automaticky rozpoznat. Klasifikováno heuristicky – nutná ruční kontrola dokumentu.",
+   "soupis": {
+    "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71175616",
+    "datum": "2026-10-15",
+    "popis": "Soupis majetkové podstaty"
+   },
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-10-15",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71169304",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_334",
+     "datum": "2026-10-15",
+     "popis": "Soupis majetkové podstaty",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71175616",
+     "kategorie": "soupis"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71169304",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=45C13279297EA99FE06333F21FAC75EC&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=06526390&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-10-16"
+  },
+  {
+   "doc_id": "71176490",
+   "spisova_znacka": "MSPH 57 INS 20481/2023",
+   "soud": "Městského soudu v Praze",
+   "dluznik_jmeno": "Arben Simitqiu",
+   "ico": null,
+   "sidlo": "Praha 6, Dejvická 524/17, PSČ 160 00, Okres Hlavní město Praha",
+   "stav_rizeni": "Povoleno oddlužení",
+   "datum_podani": "2026-10-15",
+   "priorita": "nizka",
+   "assets": [
+    {
+     "typ": "nehmotny",
+     "popis": "Obchodní podíl ve výši 100 % ve společnosti Right position s.r.o., IČO 17933536, se sídlem Praha, Pernerova 412/6, 186 00, odpovídající vkladu do základního kapitálu ve výši 200 000 Kč",
+     "navrhovana_cena": null,
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "AKKRM insolvence, v.o.s. (JUDr. Vojtěch Mádr, ohlášený společník)",
+    "email": "insolvence@akkrm.cz",
+    "telefon": null,
+    "datova_schranka": "zgaj8mz"
+   },
+   "shrnuti": "Insolvenční správce žádá soud o souhlas s prodejem 100% obchodního podílu dlužníka ve společnosti Right position s.r.o. formou přímého prodeje mimo dražbu zájemci s nejvyšší nabídkou; kupní cena není v návrhu stanovena.",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-10-15",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71176490",
+     "kategorie": "navrh"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71176490",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=0D140AE5EF60533DE06333F21FAC372D&actSheet=B&pageB=all",
+   "or_url": null,
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-10-16"
+  },
   {
    "doc_id": "71160612",
    "spisova_znacka": "MSPH 99 INS 23056/2025",
@@ -193,6 +281,13 @@
      "popis": "Zpráva pro oddlužení",
      "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=63192041",
      "kategorie": "zprava"
+    },
+    {
+     "kod": "I_535",
+     "datum": "2026-10-16",
+     "popis": "Usnesení o prodeji mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71186297",
+     "kategorie": "prodej"
     }
    ],
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71163199",
@@ -1205,6 +1300,13 @@
      "popis": "Výpis z katastru nemovitostí",
      "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=69505044",
      "kategorie": "katastr"
+    },
+    {
+     "kod": "I_535",
+     "datum": "2026-10-16",
+     "popis": "Usnesení o prodeji mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71181114",
+     "kategorie": "prodej"
     }
    ],
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71130661",
@@ -1973,6 +2075,13 @@
      "popis": "Zpráva IS o stavu řízení",
      "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=64297778",
      "kategorie": "zprava"
+    },
+    {
+     "kod": "I_535",
+     "datum": "2026-10-16",
+     "popis": "Usnesení o prodeji mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71186236",
+     "kategorie": "prodej"
     }
    ],
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71095385",
@@ -2751,6 +2860,13 @@
     },
     {
      "kod": "I_535",
+     "datum": "2026-10-15",
+     "popis": "Usnesení o prodeji mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71175292",
+     "kategorie": "prodej"
+    },
+    {
+     "kod": "I_535",
      "datum": "2026-06-17",
      "popis": "Usnesení o prodeji mimo dražbu",
      "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=69645655",
@@ -2761,13 +2877,6 @@
      "datum": "2026-05-19",
      "popis": "Usnesení o prodeji mimo dražbu",
      "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=68673198",
-     "kategorie": "prodej"
-    },
-    {
-     "kod": "I_535",
-     "datum": "2026-05-18",
-     "popis": "Usnesení o prodeji mimo dražbu",
-     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=68647939",
      "kategorie": "prodej"
     }
    ],
@@ -2927,6 +3036,13 @@
      "popis": "Zpráva IS o stavu řízení",
      "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=67556273",
      "kategorie": "zprava"
+    },
+    {
+     "kod": "I_535",
+     "datum": "2026-10-15",
+     "popis": "Usnesení o prodeji mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71176367",
+     "kategorie": "prodej"
     }
    ],
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71052688",
@@ -11717,6 +11833,13 @@
     },
     {
      "kod": "I_535",
+     "datum": "2026-10-15",
+     "popis": "Usnesení o prodeji mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71175292",
+     "kategorie": "prodej"
+    },
+    {
+     "kod": "I_535",
      "datum": "2026-06-17",
      "popis": "Usnesení o prodeji mimo dražbu",
      "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=69645655",
@@ -11727,13 +11850,6 @@
      "datum": "2026-05-19",
      "popis": "Usnesení o prodeji mimo dražbu",
      "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=68673198",
-     "kategorie": "prodej"
-    },
-    {
-     "kod": "I_535",
-     "datum": "2026-05-18",
-     "popis": "Usnesení o prodeji mimo dražbu",
-     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=68647939",
      "kategorie": "prodej"
     }
    ],
