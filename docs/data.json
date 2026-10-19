@@ -1,18 +1,109 @@
 {
- "generated_at": "2026-10-18T08:53:01+00:00",
+ "generated_at": "2026-10-19T09:57:48+00:00",
  "window": {
   "from": "2026-07-22",
-  "to": "2026-10-16"
+  "to": "2026-10-19"
  },
  "stats": {
-  "total": 223,
+  "total": 225,
   "vysoka": 71,
-  "stredni": 91,
+  "stredni": 93,
   "nizka": 61,
-  "new_7d": 25,
-  "cases": 193
+  "new_7d": 27,
+  "cases": 194
  },
  "opportunities": [
+  {
+   "doc_id": "71199805",
+   "spisova_znacka": "KSPL 29 INS 3827/2026",
+   "soud": "Krajského soudu v Plzni",
+   "dluznik_jmeno": "Laura Böhmová",
+   "ico": null,
+   "sidlo": "Týn nad Vltavou, náměstí Míru 2, PSČ 375 01, Okres České Budějovice",
+   "stav_rizeni": "Povoleno oddlužení",
+   "datum_podani": "2026-10-19",
+   "priorita": "stredni",
+   "assets": [
+    {
+     "typ": "movity",
+     "popis": "Osobní motorové vozidlo Opel Insignia Sports Tourer SW, stav tachometru 202 000 km, individuální dovoz ze zahraničí, zapsáno do soupisu majetkové podstaty dlužnice",
+     "navrhovana_cena": null,
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "JUDr. Dagmar Vříhová, VRZ insolvence, v.o.s.",
+    "email": null,
+    "telefon": null,
+    "datova_schranka": null
+   },
+   "shrnuti": "Insolvenční správce žádá soud o souhlas se zpeněžením osobního vozidla Opel Insignia Sports Tourer SW mimo dražbu formou přímého prodeje nejvyšší nabídce, nejdříve ke dni 15.12.2026, bez vypracování znaleckého posudku.",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-10-19",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71199805",
+     "kategorie": "navrh"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71199805",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=4B7881DBF997E21CE06333F21FAC24B7&actSheet=B&pageB=all",
+   "or_url": null,
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-10-19"
+  },
+  {
+   "doc_id": "71195455",
+   "spisova_znacka": "KSUL 23 INS 23513/2025",
+   "soud": "Krajského soudu v Ústí nad Labem",
+   "dluznik_jmeno": "Jan Zita",
+   "ico": "07919867",
+   "sidlo": "Bechllín, Předonín 58, PSČ 411 08",
+   "stav_rizeni": "Povoleno oddlužení",
+   "datum_podani": "2026-10-19",
+   "priorita": "stredni",
+   "assets": [
+    {
+     "typ": "movity",
+     "popis": "Osobní automobil zn. ŠKODA SUPERB, rok výroby 2011 (položka poř. č. II./4 soupisu majetkové podstaty)",
+     "navrhovana_cena": null,
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "Mgr. Radim Janoušek, JUVENTUS insolvenční v.o.s.",
+    "email": "info@juventus-insolvencni.cz",
+    "telefon": "585 203 221",
+    "datova_schranka": "yc86sxw"
+   },
+   "shrnuti": "Insolvenční správce žádá soud o souhlas se zpeněžením osobního automobilu ŠKODA SUPERB (r.v. 2011) z majetkové podstaty dlužníka Jana Zity mimo dražbu formou elektronické aukce prostřednictvím Car Aukce, spol. s r.o. Kupní cena nebyla v textu specifikována, prodej proběhne nejvyšší nabídce.",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-10-19",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71195455",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_347",
+     "datum": "2026-10-02",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71028497",
+     "kategorie": "navrh"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71195455",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=45C132792860A99FE06333F21FAC75EC&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=07919867&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-10-19"
+  },
   {
    "doc_id": "71191351",
    "spisova_znacka": "MSPH 91 INS 2565/2024",
@@ -3411,6 +3502,13 @@
    "shrnuti": "Insolvenční správce žádá soud o souhlas se zpeněžením osobního automobilu ŠKODA SUPERB (r.v. 2011) z majetkové podstaty dlužníka Jana Zity formou elektronické aukce mimo dražbu. Kupní cena v textu není uvedena.",
    "soupis": null,
    "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-10-19",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71195455",
+     "kategorie": "navrh"
+    },
     {
      "kod": "I_347",
      "datum": "2026-10-02",
