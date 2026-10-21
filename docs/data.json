@@ -1,18 +1,115 @@
 {
- "generated_at": "2026-10-20T09:28:22+00:00",
+ "generated_at": "2026-10-21T09:24:21+00:00",
  "window": {
   "from": "2026-07-22",
   "to": "2026-10-20"
  },
  "stats": {
-  "total": 228,
+  "total": 230,
   "vysoka": 73,
-  "stredni": 94,
+  "stredni": 96,
   "nizka": 61,
-  "new_7d": 28,
-  "cases": 196
+  "new_7d": 27,
+  "cases": 198
  },
  "opportunities": [
+  {
+   "doc_id": "71217793",
+   "spisova_znacka": "KSCB 26 INS 4572/2026",
+   "soud": "Krajského soudu v Českých Budějovicích",
+   "dluznik_jmeno": "Milan Palas",
+   "ico": "02033968",
+   "sidlo": "Člunek, Člunek 86, PSČ 378 33",
+   "stav_rizeni": "Povoleno oddlužení",
+   "datum_podani": "2026-10-20",
+   "priorita": "stredni",
+   "assets": [
+    {
+     "typ": "movity",
+     "popis": "II./9 Přípojné vozidlo SVAN 150 000 Kč RZ 2BF 7733; VIN TK9NCH303E1885040; bez STK; v depozitu",
+     "navrhovana_cena": "3715000 CZK",
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": null,
+    "email": "insolvencni-spravce@seznam.cz",
+    "telefon": "+420 602 153 934",
+    "datova_schranka": "cags8bz"
+   },
+   "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: Milan Palas): movitý majetek (1 položka). Navrhovaná cena 3715000 CZK. Klasifikováno heuristicky – ověřit v dokumentu.",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-10-20",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71217793",
+     "kategorie": "navrh"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71217793",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=4CE1786B131B27B8E06333F21FACA327&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=02033968&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "heuristic",
+   "first_seen": "2026-10-21"
+  },
+  {
+   "doc_id": "71218687",
+   "spisova_znacka": "KSCB 26 INS 14424/2025",
+   "soud": "Krajského soudu v Českých Budějovicích",
+   "dluznik_jmeno": "Pavel Papoušek",
+   "ico": null,
+   "sidlo": "Velešín, Sídliště 374, PSČ 382 32",
+   "stav_rizeni": "Povoleno oddlužení",
+   "datum_podani": "2026-10-20",
+   "priorita": "stredni",
+   "assets": [
+    {
+     "typ": "movity",
+     "popis": "Osobní automobil, tovární značka Škoda, obchodní označení Octavia Liftback, RZ 587610, VIN TMBJU2034661, žlutá barva",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "movity",
+     "popis": "Nákladní automobil, tovární značka Škoda, obchodní označení Octavia skříňový, RZ 336704, VIN TMBG216720982782, černá barva",
+     "navrhovana_cena": null,
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "IN SOLKO v.o.s., insolvenční správce - Ing. Lucie Horská, ohlášený společník",
+    "email": "kancelar@inskol.eu",
+    "telefon": "792 655 889",
+    "datova_schranka": "6k65rha"
+   },
+   "shrnuti": "Insolvenční správce žádá soud o souhlas se zpeněžením dvou movitých věcí (osobní a nákladní automobil Škoda) mimo dražbu formou prodeje nejvyšší nabídce; konkrétní kupní cena ani kupující nejsou v textu uvedeny.",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-10-20",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71218687",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_1036",
+     "datum": "2026-04-21",
+     "popis": "Zpráva pro oddlužení",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=67549947",
+     "kategorie": "zprava"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71218687",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=3DFA341AC0B40CEEE06333F21FAC2B62&actSheet=B&pageB=all",
+   "or_url": null,
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-10-21"
+  },
   {
    "doc_id": "71213499",
    "spisova_znacka": "KSOL 10 INS 1878/2026",
