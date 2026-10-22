@@ -1,18 +1,184 @@
 {
- "generated_at": "2026-10-21T09:24:21+00:00",
+ "generated_at": "2026-10-22T09:27:28+00:00",
  "window": {
   "from": "2026-07-22",
-  "to": "2026-10-20"
+  "to": "2026-10-21"
  },
  "stats": {
-  "total": 230,
-  "vysoka": 73,
-  "stredni": 96,
+  "total": 233,
+  "vysoka": 74,
+  "stredni": 98,
   "nizka": 61,
-  "new_7d": 27,
-  "cases": 198
+  "new_7d": 23,
+  "cases": 201
  },
  "opportunities": [
+  {
+   "doc_id": "71231084",
+   "spisova_znacka": "KSOS 37 INS 6372/2026",
+   "soud": "Krajského soudu v Ostravě",
+   "dluznik_jmeno": "Radek Januš",
+   "ico": "66938970",
+   "sidlo": "Liptál, Liptál 361, PSČ 756 31, Okres Vsetín",
+   "stav_rizeni": "Povoleno oddlužení",
+   "datum_podani": "2026-10-21",
+   "priorita": "stredni",
+   "assets": [
+    {
+     "typ": "movity",
+     "popis": "Osobní automobil Audi A8 (zkomolený text), RZ: 4AJ 2438, VIN: TU4ZH6N020516, datum registrace 17.08.2013 (odhad z poškozeného OCR), položka II.I6 soupisu majetkové podstaty, nezajištěný majetek",
+     "navrhovana_cena": null,
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "JUVENTUS insolvenční v.o.s.",
+    "email": "info@juventus-insolvencni.cz",
+    "telefon": "585203221",
+    "datova_schranka": "yc86sxw"
+   },
+   "shrnuti": "Insolvenční správce žádá soud o souhlas s prodejem osobního automobilu z majetkové podstaty dlužníka mimo dražbu formou inzerce na portálech dražeb a inzerce vozidel, a to za nejvyšší nabídku. Konkrétní kupní cena ani kupující nejsou v textu uvedeni.",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-10-21",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71231084",
+     "kategorie": "navrh"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71231084",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=4CE197B5E39827B3E06333F21FAC7208&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=66938970&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-10-22"
+  },
+  {
+   "doc_id": "71235532",
+   "spisova_znacka": "KSOS 39 INS 19092/2025",
+   "soud": "Krajského soudu v Ostravě",
+   "dluznik_jmeno": "Rybka - stavby a služby, s.r.o.",
+   "ico": "27820327",
+   "sidlo": "Kravaře, Kostelní 733/2b, PSČ 747 21",
+   "stav_rizeni": "Prohlášený konkurs",
+   "datum_podani": "2026-10-21",
+   "priorita": "vysoka",
+   "assets": [
+    {
+     "typ": "nemovity",
+     "popis": "Finanční úřad pro Moravskoslezský kraj jako člen věřitelského výboru v insolvenčním řízení dlužníka: Rybka – stavby a služby, s.r.o., IČ: 27820327, obdržel dne 19.10.2026 Vaši žádost o vyjádření k návrhu na přímý prodej…",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "movity",
+     "popis": "Finanční úřad pro Moravskoslezský kraj jako člen věřitelského výboru v insolvenčním řízení dlužníka: Rybka – stavby a služby, s.r.o., IČ: 27820327, obdržel dne 19.10.2026 Vaši žádost o vyjádření k návrhu na přímý prodej…",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "nehmotny",
+     "popis": "Dražebník: 1.Pohledávková s.r.o. IČO 25841114, se sídlem Bezručova 2246/31a, 79401, Krnov Zastupující osoba: Ing. Jiří Javorník Kontaktní osoba: Ing. Jiří Javorník, tel. 608888976, drazby@pohledavkova.cz",
+     "navrhovana_cena": "33333 CZK",
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "Mgr. Eva Králová",
+    "email": "konkurzy@foltan.cz",
+    "telefon": "553 613 311",
+    "datova_schranka": "4hun2cu"
+   },
+   "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: Rybka - stavby a služby, s.r.o.): nemovitý majetek, movitý majetek, nehmotný majetek (3 položky). Navrhovaná cena 33333 CZK. Klasifikováno heuristicky – ověřit v dokumentu.",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-10-21",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71235532",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_347",
+     "datum": "2026-06-08",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=69423655",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_829",
+     "datum": "2025-10-15",
+     "popis": "Výpis z katastru nemovitostí",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=63568581",
+     "kategorie": "katastr"
+    },
+    {
+     "kod": "I_1054",
+     "datum": "2026-10-09",
+     "popis": "Zpráva insolvenčního správce",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71091646",
+     "kategorie": "zprava"
+    },
+    {
+     "kod": "I_535",
+     "datum": "2026-06-08",
+     "popis": "Usnesení o prodeji mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=69423722",
+     "kategorie": "prodej"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71235532",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=3F0C94E4BB06E9D0E06333F21FAC62F2&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=27820327&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "heuristic",
+   "first_seen": "2026-10-22"
+  },
+  {
+   "doc_id": "71233408",
+   "spisova_znacka": "KSPL 58 INS 17921/2024",
+   "soud": "Krajského soudu v Plzni",
+   "dluznik_jmeno": "Denisa Knittichová",
+   "ico": null,
+   "sidlo": "Klatovy, Čechova 892, PSČ 339 01, Okres Klatovy",
+   "stav_rizeni": "Povoleno oddlužení",
+   "datum_podani": "2026-10-21",
+   "priorita": "stredni",
+   "assets": [
+    {
+     "typ": "movity",
+     "popis": "Osobní automobil Dacia Sandero, r.v. 2013, VIN UU155DAAC49005223",
+     "navrhovana_cena": null,
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "Mgr. Ondřej Platil, AS ZIZLAVSKÝ v.o.s.",
+    "email": "oddluzeni@zizlavsky.cz",
+    "telefon": "+420224947055",
+    "datova_schranka": "r7arpz6"
+   },
+   "shrnuti": "Insolvenční správce žádá soud o souhlas s prodejem osobního automobilu Dacia Sandero (r.v. 2013) z majetkové podstaty dlužnice formou přímého prodeje mimo dražbu nejvyšší nabídce; konkrétní kupní cena ani kupující nejsou v textu uvedeny.",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-10-21",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71233408",
+     "kategorie": "navrh"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71233408",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=2271AEC102573343E06333F21FAC05B3&actSheet=B&pageB=all",
+   "or_url": null,
+   "text_source": "ocr",
+   "classified_by": "llm",
+   "first_seen": "2026-10-22"
+  },
   {
    "doc_id": "71217793",
    "spisova_znacka": "KSCB 26 INS 4572/2026",
@@ -210,6 +376,13 @@
      "popis": "Soupis majetkové podstaty",
      "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=57399422",
      "kategorie": "soupis"
+    },
+    {
+     "kod": "I_535",
+     "datum": "2026-10-21",
+     "popis": "Usnesení o prodeji mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71236607",
+     "kategorie": "prodej"
     }
    ],
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71214927",
@@ -966,6 +1139,13 @@
      "popis": "Výpis z katastru nemovitostí",
      "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=64005674",
      "kategorie": "katastr"
+    },
+    {
+     "kod": "I_535",
+     "datum": "2026-10-21",
+     "popis": "Usnesení o prodeji mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71233753",
+     "kategorie": "prodej"
     }
    ],
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71145423",
@@ -1112,6 +1292,13 @@
     },
     {
      "kod": "I_535",
+     "datum": "2026-10-21",
+     "popis": "Usnesení o prodeji mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71233901",
+     "kategorie": "prodej"
+    },
+    {
+     "kod": "I_535",
      "datum": "2026-02-25",
      "popis": "Usnesení o prodeji mimo dražbu",
      "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=65158795",
@@ -1164,6 +1351,13 @@
      "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
      "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71148386",
      "kategorie": "navrh"
+    },
+    {
+     "kod": "I_535",
+     "datum": "2026-10-21",
+     "popis": "Usnesení o prodeji mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71233558",
+     "kategorie": "prodej"
     }
    ],
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71148386",
@@ -6477,6 +6671,13 @@
      "popis": "Výpis z katastru nemovitostí",
      "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=64005674",
      "kategorie": "katastr"
+    },
+    {
+     "kod": "I_535",
+     "datum": "2026-10-21",
+     "popis": "Usnesení o prodeji mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71233753",
+     "kategorie": "prodej"
     }
    ],
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70884073",
