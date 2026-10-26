@@ -1,18 +1,78 @@
 {
- "generated_at": "2026-10-25T09:11:15+00:00",
+ "generated_at": "2026-10-26T10:10:55+00:00",
  "window": {
   "from": "2026-07-22",
-  "to": "2026-10-23"
+  "to": "2026-10-26"
  },
  "stats": {
-  "total": 240,
+  "total": 241,
   "vysoka": 77,
-  "stredni": 100,
+  "stredni": 101,
   "nizka": 63,
-  "new_7d": 17,
-  "cases": 208
+  "new_7d": 18,
+  "cases": 209
  },
  "opportunities": [
+  {
+   "doc_id": "71278436",
+   "spisova_znacka": "KSLB 82 INS 4810/2026",
+   "soud": "Krajského soudu v Ústí nad Labem - pobočka v Liberci",
+   "dluznik_jmeno": "Hospoda u Kryštofa s.r.o.",
+   "ico": "21232709",
+   "sidlo": "Liberec, Ruprechtická 681/172, PSČ 460 14",
+   "stav_rizeni": "Prohlášený konkurs",
+   "datum_podani": "2026-10-26",
+   "priorita": "stredni",
+   "assets": [
+    {
+     "typ": "movity",
+     "popis": "Položka M1 - vybavení restaurace - talíře (nádobí)",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "movity",
+     "popis": "Položka M2 - PC (PC sestava) + tiskárna",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "movity",
+     "popis": "Položka M3 - vybavení kuchyně - ohřev talířů",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "movity",
+     "popis": "Položka M4 - vybavení kuchyně - fritéza a tál",
+     "navrhovana_cena": null,
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "Ing. Jana Zdelmannová, LIFT insolvenční v.o.s.",
+    "email": null,
+    "telefon": null,
+    "datova_schranka": null
+   },
+   "shrnuti": "Insolvenční správce žádá soud o souhlas se zpeněžením mimo dražbu čtyř movitých věcí sepsaných v majetkové podstatě dlužníka Hospoda u Kryštofa s.r.o. (vybavení restaurace a kuchyně, PC s tiskárnou), a to za nejvyšší nabídnutou cenu; konkrétní kupní cena ani zájemce nejsou v textu uvedeny.",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-10-26",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71278436",
+     "kategorie": "navrh"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71278436",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=4CE224D03BCE9FC3E06333F21FAC6807&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=21232709&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-10-26"
+  },
   {
    "doc_id": "71259758",
    "spisova_znacka": "MSPH 89 INS 1626/2026",
