@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T10:37:49+00:00",
+ "generated_at": "2026-10-29T10:56:09+00:00",
  "window": {
   "from": "2026-07-22",
   "to": "2026-10-27"
@@ -9,7 +9,7 @@
   "vysoka": 79,
   "stredni": 107,
   "nizka": 65,
-  "new_7d": 23,
+  "new_7d": 21,
   "cases": 216
  },
  "opportunities": [
@@ -1371,6 +1371,13 @@
      "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
      "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71233408",
      "kategorie": "navrh"
+    },
+    {
+     "kod": "I_535",
+     "datum": "2026-10-29",
+     "popis": "Usnesení o prodeji mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71309250",
+     "kategorie": "prodej"
     }
    ],
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71233408",
