@@ -1,18 +1,272 @@
 {
- "generated_at": "2026-10-29T10:56:09+00:00",
+ "generated_at": "2026-10-30T10:54:21+00:00",
  "window": {
   "from": "2026-07-22",
-  "to": "2026-10-27"
+  "to": "2026-10-30"
  },
  "stats": {
-  "total": 251,
-  "vysoka": 79,
-  "stredni": 107,
-  "nizka": 65,
-  "new_7d": 21,
-  "cases": 216
+  "total": 256,
+  "vysoka": 81,
+  "stredni": 109,
+  "nizka": 66,
+  "new_7d": 23,
+  "cases": 220
  },
  "opportunities": [
+  {
+   "doc_id": "71320348",
+   "spisova_znacka": "KSBR 32 INS 10113/2025",
+   "soud": "Krajského soudu v Brně",
+   "dluznik_jmeno": "Petr Matějka",
+   "ico": "75666120",
+   "sidlo": "Třebíč, Hartmannova 1144/102, PSČ 674 01",
+   "stav_rizeni": "Povoleno oddlužení",
+   "datum_podani": "2026-10-30",
+   "priorita": "stredni",
+   "assets": [
+    {
+     "typ": "movity",
+     "popis": "Motocykl tov. zn. Aprilia ETV 1000 CAPONORD, RZ: 1BM 061, VIN: ZD4PSB0003S000262, rok výroby 2004, sepsaný v oddílu II. Movitý majetek pod poř. č. 3 soupisu majetkové podstaty",
+     "navrhovana_cena": null,
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "Jakub Háj a spol., zast. Mgr. Jakub Háj, ohlášený společník",
+    "email": null,
+    "telefon": null,
+    "datova_schranka": "m8qbbpp"
+   },
+   "shrnuti": "Insolvenční správce žádá soud o souhlas s prodejem motocyklu Aprilia ETV 1000 CAPONORD mimo dražbu formou inzerce a prodeje nejvyšší nabídce, nejméně však za 25 000 Kč.",
+   "soupis": {
+    "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=65229705",
+    "datum": "2026-02-27",
+    "popis": "Soupis majetkové podstaty"
+   },
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-10-30",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71320348",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_334",
+     "datum": "2026-02-27",
+     "popis": "Soupis majetkové podstaty",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=65229705",
+     "kategorie": "soupis"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71320348",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=353A01DA9C6A455CE06333F21FAC6FAE&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=75666120&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-10-30"
+  },
+  {
+   "doc_id": "71319750",
+   "spisova_znacka": "KSLB 82 INS 1426/2025",
+   "soud": "Krajského soudu v Ústí nad Labem - pobočka v Liberci",
+   "dluznik_jmeno": "Luděk Hron",
+   "ico": null,
+   "sidlo": "Nový Bor, Mařákova 518, PSČ 473 01",
+   "stav_rizeni": "Povoleno oddlužení",
+   "datum_podani": "2026-10-30",
+   "priorita": "vysoka",
+   "assets": [
+    {
+     "typ": "nemovity",
+     "popis": "Ideální spoluvlastnický podíl o velikosti 1/2 na pozemku parc. č. 551/1 (trvalý travní porost) a pozemku parc. č. 551/3 (ostatní plocha), k.ú. Okrouhlá u Nového Boru, obec Okrouhlá, zapsáno na LV, Katastrální úřad pro Liberecký kraj, pracoviště Česká Lípa. Zajištěný věřitel žádá o zpeněžení nemovitosti jako celku ve součinnosti se spoluvlastnicí id. podílu 1/2 paní Zuzanou Cemperovou.",
+     "navrhovana_cena": null,
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "Mgr. Roman Keznikl, LL.M.",
+    "email": null,
+    "telefon": null,
+    "datova_schranka": null
+   },
+   "shrnuti": "Insolvenční správce žádá soud o souhlas se zpeněžením mimo dražbu ideálního spoluvlastnického podílu 1/2 dlužníka na dvou pozemcích v k.ú. Okrouhlá u Nového Boru formou přímého prodeje nejvyšší nabídce; minimální cena podílu dlužníka je stanovena na 400 000 Kč (minimální cena nemovitosti jako celku tedy cca 800 000 Kč).",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-10-30",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71319750",
+     "kategorie": "navrh"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71319750",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=2C6DE221E8B6E580E06333F21FAC0F3B&actSheet=B&pageB=all",
+   "or_url": null,
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-10-30"
+  },
+  {
+   "doc_id": "71324961",
+   "spisova_znacka": "KSBR 27 INS 2394/2024",
+   "soud": "Krajského soudu v Brně",
+   "dluznik_jmeno": "Ing.Bc. Patrik Čajka",
+   "ico": "72331305",
+   "sidlo": "Vracov, Borová 1708, PSČ 696 42",
+   "stav_rizeni": "Povoleno oddlužení",
+   "datum_podani": "2026-10-30",
+   "priorita": "nizka",
+   "assets": [],
+   "spravce": {
+    "jmeno": null,
+    "email": null,
+    "telefon": null,
+    "datova_schranka": null
+   },
+   "shrnuti": "Dokument je silně poškozený OCR výstup (certifikát/validační protokol elektronického podpisu), nikoli čitelný text návrhu na zpeněžení majetku mimo dražbu. Nelze z něj spolehlivě identifikovat žádnou konkrétní položku majetku, cenu ani kupujícího.",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-10-30",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71324961",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_1054",
+     "datum": "2026-05-14",
+     "popis": "Zpráva insolvenčního správce",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=68466899",
+     "kategorie": "zprava"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71324961",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=0F46945128F1FACFE06333F21FAC0B2A&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=72331305&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-10-30"
+  },
+  {
+   "doc_id": "71315520",
+   "spisova_znacka": "KSOS 39 INS 4053/2026",
+   "soud": "Krajského soudu v Ostravě",
+   "dluznik_jmeno": "GL-S-T spol. s r.o.",
+   "ico": "65142381",
+   "sidlo": "Vsetín, 4. května 352, PSČ 755 01",
+   "stav_rizeni": "Prohlášený konkurs",
+   "datum_podani": "2026-10-29",
+   "priorita": "vysoka",
+   "assets": [
+    {
+     "typ": "nemovity",
+     "popis": "Pozemek parc. č. 2024/15 (st. 2041/5?), ostatní plocha, zeleň, k.ú. Vsetín, výměra cca 38 m2 (LV dle správce)",
+     "navrhovana_cena": "1100 CZK",
+     "kupujici": null
+    },
+    {
+     "typ": "nemovity",
+     "popis": "Pozemek parc. č. 2024/14, ostatní plocha, silnice, k.ú. Vsetín, výměra cca 48 m2",
+     "navrhovana_cena": "900 CZK",
+     "kupujici": null
+    },
+    {
+     "typ": "nemovity",
+     "popis": "Pozemek parc. č. 2024/8 a 2024/4, ostatní plocha, ostatní komunikace, k.ú. Vsetín, výměra cca 150 m2",
+     "navrhovana_cena": "1700 CZK",
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "Martin Veselý",
+    "email": "insolvence.sprava@martinvesely.cz",
+    "telefon": null,
+    "datova_schranka": null
+   },
+   "shrnuti": "Insolvenční správce žádá soud o souhlas k prodeji tří drobných pozemků (ostatní plocha - zeleň, silnice, ostatní komunikace) v k.ú. Vsetín mimo dražbu, celkem za cca 3700 Kč, jako příslušenství k sousední nemovitosti kupovaného vlastníka.",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-10-29",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71315520",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_347",
+     "datum": "2026-09-21",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70904836",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_829",
+     "datum": "2026-03-17",
+     "popis": "Výpis z katastru nemovitostí",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=66098897",
+     "kategorie": "katastr"
+    },
+    {
+     "kod": "I_535",
+     "datum": "2026-09-30",
+     "popis": "Usnesení o prodeji mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70991321",
+     "kategorie": "prodej"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71315520",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=4C1E17FD20C30C81E06333F21FAC06E1&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=65142381&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-10-30"
+  },
+  {
+   "doc_id": "71315504",
+   "spisova_znacka": "KSPL 51 INS 17635/2024",
+   "soud": "Krajského soudu v Plzni",
+   "dluznik_jmeno": "Ing. Jan Vaňous",
+   "ico": "14365987",
+   "sidlo": "Plzeň, Částkova 1689/79, PSČ 326 00, Okres Plzeň-město",
+   "stav_rizeni": "Povoleno oddlužení",
+   "datum_podani": "2026-10-29",
+   "priorita": "stredni",
+   "assets": [
+    {
+     "typ": "movity",
+     "popis": "Traktor zemědělský ZETOR 5611, VIN: 11395 (pol. č. 1/6 soupisu majetkové podstaty)",
+     "navrhovana_cena": "90000 CZK",
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "Ing. Robert Beneš",
+    "email": "insolvence.prerov@email.cz",
+    "telefon": "+420 777574438",
+    "datova_schranka": "td8xu27"
+   },
+   "shrnuti": "Insolvenční správce navrhuje prodej traktoru ZETOR 5611 mimo dražbu za nejvyšší nabídnutou cenu 90 000 Kč, ačkoliv byl v soupisu oceněn na 50 000 Kč.",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-10-29",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71315504",
+     "kategorie": "navrh"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71315504",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=234F1012135EEF7EE06333F21FACD164&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=14365987&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "ocr",
+   "classified_by": "llm",
+   "first_seen": "2026-10-30"
+  },
   {
    "doc_id": "71294271",
    "spisova_znacka": "KSCB 27 INS 16365/2025",
@@ -756,6 +1010,13 @@
      "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
      "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71278436",
      "kategorie": "navrh"
+    },
+    {
+     "kod": "I_535",
+     "datum": "2026-10-29",
+     "popis": "Usnesení o prodeji mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71314153",
+     "kategorie": "prodej"
     }
    ],
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71278436",
@@ -1538,6 +1799,13 @@
      "popis": "Výpis z katastru nemovitostí",
      "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=64970827",
      "kategorie": "katastr"
+    },
+    {
+     "kod": "I_535",
+     "datum": "2026-10-29",
+     "popis": "Usnesení o prodeji mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71314034",
+     "kategorie": "prodej"
     }
    ],
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71213499",
@@ -7383,6 +7651,13 @@
    "dokumenty": [
     {
      "kod": "I_347",
+     "datum": "2026-10-29",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71315520",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_347",
      "datum": "2026-09-21",
      "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
      "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70904836",
@@ -8593,6 +8868,13 @@
      "popis": "Výpis z katastru nemovitostí",
      "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=64970827",
      "kategorie": "katastr"
+    },
+    {
+     "kod": "I_535",
+     "datum": "2026-10-29",
+     "popis": "Usnesení o prodeji mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71314034",
+     "kategorie": "prodej"
     }
    ],
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70782142",
