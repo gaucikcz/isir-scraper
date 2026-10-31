@@ -1,18 +1,71 @@
 {
- "generated_at": "2026-10-30T10:54:21+00:00",
+ "generated_at": "2026-10-31T10:25:58+00:00",
  "window": {
   "from": "2026-07-22",
   "to": "2026-10-30"
  },
  "stats": {
-  "total": 256,
-  "vysoka": 81,
+  "total": 257,
+  "vysoka": 82,
   "stredni": 109,
   "nizka": 66,
-  "new_7d": 23,
-  "cases": 220
+  "new_7d": 17,
+  "cases": 221
  },
  "opportunities": [
+  {
+   "doc_id": "71327942",
+   "spisova_znacka": "KSHK 70 INS 1916/2026",
+   "soud": "Krajského soudu v Hradci Králové",
+   "dluznik_jmeno": "Bořivoj Šimek",
+   "ico": null,
+   "sidlo": "Ostroměř, U Splavu 260, PSČ 507 52, Okres Jičín",
+   "stav_rizeni": "Povoleno oddlužení",
+   "datum_podani": "2026-10-30",
+   "priorita": "vysoka",
+   "assets": [
+    {
+     "typ": "nemovity",
+     "popis": "Spoluvlastnický podíl id. 1/2 na stavbě bez č.p./č.e. (garáž) na pozemku parc. č. st. 4249, a pozemku na LV 4302, stavbě bez č.p./č.e. a pozemku na LV 23731, k.ú. Zařičí nad Mží, obec Přerov, dle znaleckého posudku",
+     "navrhovana_cena": null,
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "ADF IS v.o.s.",
+    "email": "insolvence@adfis.cz",
+    "telefon": null,
+    "datova_schranka": "rjarxy"
+   },
+   "shrnuti": "Insolvenční správce ADF IS v.o.s. žádá soud o souhlas se zpeněžením mimo dražbu spoluvlastnického podílu id. 1/2 dlužníka na nemovitostech (garáž, pozemky) v k.ú. Zařičí nad Mží, obec Přerov. Konkrétní navrhovaná kupní cena ani kupující nejsou v textu uvedeny.",
+   "soupis": {
+    "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71295636",
+    "datum": "2026-10-27",
+    "popis": "Soupis majetkové podstaty"
+   },
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-10-30",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71327942",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_334",
+     "datum": "2026-10-27",
+     "popis": "Soupis majetkové podstaty",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71295636",
+     "kategorie": "soupis"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71327942",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=483F25F018830023E06333F21FAC8DD0&actSheet=B&pageB=all",
+   "or_url": null,
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-10-31"
+  },
   {
    "doc_id": "71320348",
    "spisova_znacka": "KSBR 32 INS 10113/2025",
