@@ -1,18 +1,184 @@
 {
- "generated_at": "2026-11-04T12:12:11+00:00",
+ "generated_at": "2026-11-05T12:25:19+00:00",
  "window": {
   "from": "2026-07-22",
-  "to": "2026-11-04"
+  "to": "2026-11-05"
  },
  "stats": {
-  "total": 275,
-  "vysoka": 88,
+  "total": 278,
+  "vysoka": 90,
   "stredni": 114,
-  "nizka": 73,
-  "new_7d": 29,
-  "cases": 235
+  "nizka": 74,
+  "new_7d": 27,
+  "cases": 236
  },
  "opportunities": [
+  {
+   "doc_id": "71385692",
+   "spisova_znacka": "KSHK 35 INS 13737/2026",
+   "soud": "Krajského soudu v Hradci Králové",
+   "dluznik_jmeno": "\"STAVEBNĚ-OBCHODNÍ CENTRUM, s.r.o.\"",
+   "ico": "25924095",
+   "sidlo": "Vrchlabí, Na bělidle 1731, PSČ 543 01",
+   "stav_rizeni": "Prohlášený konkurs",
+   "datum_podani": "2026-11-05",
+   "priorita": "vysoka",
+   "assets": [
+    {
+     "typ": "nemovity",
+     "popis": "Výpis z LV k objektu Na bělidle 1739, Vrchlabí - veřejný odkaz Ing. Ferdinand Brádler. pozemky a stavby (2x) Na bělidle 1731, 543 01 Vrchlabí 2.",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "movity",
+     "popis": "Vlastník je výlučným vlastníkem nebytových a skladových prostor nacházejících se na adrese Na bělidle 1731, 543 01 Vrchlabí, ve kterých se ke dni podání tohoto přípisu stále neoprávněně nachází movitý majetek dlužníka…",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "nehmotny",
+     "popis": "povědnost správce: Snaha vyčkávat na prodej zbytkového majetku v likvidaci/konkursu na úkor Vlastníka je v rozporu se zásadou rychlosti a hospodárnosti insolvenčního řízení dle § 5 písm. a) zákona č. 182/2006 Sb…",
+     "navrhovana_cena": "2000 CZK",
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "Ing. Ladislav Málek",
+    "email": "ladislav.malek@jmtinsol.cz",
+    "telefon": null,
+    "datova_schranka": "8tzzh39"
+   },
+   "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: \"STAVEBNĚ-OBCHODNÍ CENTRUM, s.r.o.\"): nemovitý majetek, movitý majetek, nehmotný majetek (3 položky). Navrhovaná cena 2000 CZK. Klasifikováno heuristicky – ověřit v dokumentu.",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-11-05",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71385692",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_347",
+     "datum": "2026-10-22",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71248260",
+     "kategorie": "navrh"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71385692",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=55B07BE0BAF162B5E06333F21FACEAD8&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=25924095&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "heuristic",
+   "first_seen": "2026-11-05"
+  },
+  {
+   "doc_id": "71384449",
+   "spisova_znacka": "KSOL 10 INS 21938/2024",
+   "soud": "Krajského soudu v Ostravě - pobočka v Olomouci",
+   "dluznik_jmeno": "Irena Valentová",
+   "ico": null,
+   "sidlo": "Litovel, Nová Ves 53, PSČ 783 21, Okres Olomouc",
+   "stav_rizeni": "Prohlášený konkurs",
+   "datum_podani": "2026-11-05",
+   "priorita": "vysoka",
+   "assets": [
+    {
+     "typ": "nemovity",
+     "popis": "Spoluvlastnický podíl dlužníka Miroslava Valenty (zajištěná i nezajištěná část) na nemovitostech zapsaných na LV 305, LV 737 a LV 797, k.ú. a obec Brozany nad Ohří, okres Litoměřice - orná půda o výměře 606 m2, 4430 m2 a 1111 m2 (zajištěný podíl ve výši 0,032 %, 0,0032 %, resp. 0,00031 %)",
+     "navrhovana_cena": null,
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "CLMZ Insolvence v.o.s. (Mgr. Tomáš Linha, advokát)",
+    "email": "linha@clmz.cz",
+    "telefon": "224 250 573",
+    "datova_schranka": "bu8d3nf"
+   },
+   "shrnuti": "Insolvenční správce navrhuje zpeněžit mimo dražbu spoluvlastnický podíl dlužníka Miroslava Valenty na nemovitostech (orná půda) v k.ú. Brozany nad Ohří, zapsaných na LV 305, 737 a 797, včetně zajištěné i nezajištěné části podílu; odhadovaná hodnota celého podílu je cca 1.100 Kč, konkrétní kupní cena ani kupující nejsou v textu uvedeny.",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-11-05",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71384449",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_347",
+     "datum": "2026-09-16",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70852812",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_829",
+     "datum": "2025-02-04",
+     "popis": "Výpis z katastru nemovitostí",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=60793729",
+     "kategorie": "katastr"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71384449",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=295ED48AA7689874E06333F21FAC997E&actSheet=B&pageB=all",
+   "or_url": null,
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-11-05"
+  },
+  {
+   "doc_id": "71376436",
+   "spisova_znacka": "KSBR 33 INS 20441/2023",
+   "soud": "Krajského soudu v Brně",
+   "dluznik_jmeno": "AMTA s.r.o.",
+   "ico": "07039204",
+   "sidlo": "Brno, Bayerova 34, PSČ 602 00",
+   "stav_rizeni": "Prohlášený konkurs",
+   "datum_podani": "2026-11-04",
+   "priorita": "nizka",
+   "assets": [
+    {
+     "typ": "nehmotny",
+     "popis": "rozhodnutí (zejména z důvodu lidského příběhu pana Němce). Současně lze předpokládat, že v obou případech bude ve věci podáno odvolání, ať už jedné či druhé strany. 3 Za této situace považujeme za vhodné prověřit…",
+     "navrhovana_cena": "90750 CZK vč. DPH",
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "JUDr. Kamila Zedníčková",
+    "email": "joukl@akjoukl.cz",
+    "telefon": "+420 605 248 208",
+    "datova_schranka": null
+   },
+   "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: AMTA s.r.o.): nehmotný majetek (1 položka). Navrhovaná cena 90750 CZK vč. DPH. Klasifikováno heuristicky – ověřit v dokumentu.",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-11-04",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71376436",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_332",
+     "datum": "2025-02-25",
+     "popis": "Zpráva IS o stavu řízení",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=61030578",
+     "kategorie": "zprava"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71376436",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=0D1382FA8C615360E06333F21FAC8A90&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=07039204&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "heuristic",
+   "first_seen": "2026-11-05"
+  },
   {
    "doc_id": "71368215",
    "spisova_znacka": "KSOS 37 INS 8245/2026",
@@ -532,6 +698,13 @@
     },
     {
      "kod": "I_535",
+     "datum": "2026-11-05",
+     "popis": "Usnesení o prodeji mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71388705",
+     "kategorie": "prodej"
+    },
+    {
+     "kod": "I_535",
      "datum": "2026-07-22",
      "popis": "Usnesení o prodeji mimo dražbu",
      "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70218622",
@@ -542,13 +715,6 @@
      "datum": "2026-03-24",
      "popis": "Usnesení o prodeji mimo dražbu",
      "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=66422595",
-     "kategorie": "prodej"
-    },
-    {
-     "kod": "I_535",
-     "datum": "2025-11-26",
-     "popis": "Usnesení o prodeji mimo dražbu",
-     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=64018471",
      "kategorie": "prodej"
     }
    ],
@@ -2557,6 +2723,13 @@
    "shrnuti": "Insolvenční správce žádá o povolení výjimky dle § 283 odst. 2 IZ pro bezodkladné zpeněžení skladových zásob (vč. stavební chemie) a souvisejících movitých věcí mimo dražbu z důvodu ukončení nájmu skladového prostoru a hrozících nákladů na skladování; konkrétní kupní cena ani kupující nejsou v dokumentu uvedeny.",
    "soupis": null,
    "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-11-05",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71385692",
+     "kategorie": "navrh"
+    },
     {
      "kod": "I_347",
      "datum": "2026-10-22",
@@ -9530,6 +9703,13 @@
    "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: Irena Valentová). Konkrétní položky majetku se z textu nepodařilo automaticky rozpoznat. Klasifikováno heuristicky – nutná ruční kontrola dokumentu.",
    "soupis": null,
    "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-11-05",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71384449",
+     "kategorie": "navrh"
+    },
     {
      "kod": "I_347",
      "datum": "2026-09-16",
