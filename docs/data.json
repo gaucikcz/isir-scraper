@@ -1,18 +1,154 @@
 {
- "generated_at": "2026-11-06T12:09:45+00:00",
+ "generated_at": "2026-11-07T11:06:31+00:00",
  "window": {
   "from": "2026-07-22",
   "to": "2026-11-06"
  },
  "stats": {
-  "total": 280,
+  "total": 282,
   "vysoka": 91,
-  "stredni": 115,
+  "stredni": 117,
   "nizka": 74,
-  "new_7d": 29,
-  "cases": 238
+  "new_7d": 26,
+  "cases": 240
  },
  "opportunities": [
+  {
+   "doc_id": "71404561",
+   "spisova_znacka": "KSOS 31 INS 13432/2025",
+   "soud": "Krajského soudu v Ostravě",
+   "dluznik_jmeno": "ELTICH elektropráce s.r.o.",
+   "ico": "10914021",
+   "sidlo": "Ostrava - Moravská Ostrava, Janáčkova 1024/18, PSČ 702 00",
+   "stav_rizeni": "Prohlášený konkurs",
+   "datum_podani": "2026-11-06",
+   "priorita": "stredni",
+   "assets": [
+    {
+     "typ": "movity",
+     "popis": "Vozidlo zn. ŠKODA OCTAVIA, RZ: 9T50084 (pol. č. 3 soupisu majetkové podstaty)",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "movity",
+     "popis": "Vozidlo zn. PEUGEOT BOXER, RZ: 1TC6173 (pol. č. 4 soupisu majetkové podstaty)",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "movity",
+     "popis": "Vozidlo zn. VOLKSWAGEN TRANSPORTER, RZ: 2TF6570 (pol. č. 5 soupisu majetkové podstaty)",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "movity",
+     "popis": "Vozidlo zn. VOLKSWAGEN TRANSPORTER, RZ: 2TF6746 (pol. č. 6 soupisu majetkové podstaty)",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "movity",
+     "popis": "Vozidlo zn. MERCEDES-BENZ VITO 120 CDI, RZ: 2TH8608 (pol. č. 7 soupisu majetkové podstaty)",
+     "navrhovana_cena": null,
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "Administrace insolvencí Císař, Češka, Smutný a spol.",
+    "email": "info@aiccs.cz",
+    "telefon": "+420 222 755 661",
+    "datova_schranka": null
+   },
+   "shrnuti": "Insolvenční správce žádá soud o souhlas s prodejem pěti vozidel (položky č. 3-7 soupisu majetkové podstaty) mimo veřejnou dražbu, formou nabídkového řízení na portálech dobradrazba.cz a bazos.cz předkladateli nejvyšší nabídky; kupní ceny nejsou v textu uvedeny.",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-11-06",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71404561",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_332",
+     "datum": "2026-11-03",
+     "popis": "Zpráva IS o stavu řízení",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71354642",
+     "kategorie": "zprava"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71404561",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=38C39E4C6346B1E5E06333F21FAC92D2&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=10914021&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-11-07"
+  },
+  {
+   "doc_id": "71404891",
+   "spisova_znacka": "KSHK 45 INS 5735/2024",
+   "soud": "Krajského soudu v Hradci Králové",
+   "dluznik_jmeno": "Pavel Zámiš",
+   "ico": null,
+   "sidlo": "Dvůr Králové nad Labem, Kollárova 1961, PSČ 544 01, Okres Trutnov",
+   "stav_rizeni": "Povoleno oddlužení",
+   "datum_podani": "2026-11-06",
+   "priorita": "stredni",
+   "assets": [
+    {
+     "typ": "movity",
+     "popis": "Osobní automobil zn. Kia Sportage, sepsaný v majetkové podstatě dlužníka Pavla Zámiše pod položkou poř. č. II oddíl II",
+     "navrhovana_cena": null,
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "Ing. David Papoušek, Ph.D.",
+    "email": "DavidPapousek@seznam.cz",
+    "telefon": null,
+    "datova_schranka": "bwybqnw"
+   },
+   "shrnuti": "Insolvenční správce žádá soud o souhlas se zpeněžením mimo dražbu osobního automobilu zn. Kia Sportage z majetkové podstaty dlužníka přímým prodejem za nejvyšší nabídku; prodej bude inzerován na www.tipcars.cz po dobu 14 dnů, cena nebyla v textu určena.",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-11-06",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71404891",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_332",
+     "datum": "2026-09-23",
+     "popis": "Zpráva IS o stavu řízení",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70934762",
+     "kategorie": "zprava"
+    },
+    {
+     "kod": "I_332",
+     "datum": "2026-03-11",
+     "popis": "Zpráva IS o stavu řízení",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=65834334",
+     "kategorie": "zprava"
+    },
+    {
+     "kod": "I_332",
+     "datum": "2025-10-03",
+     "popis": "Zpráva IS o stavu řízení",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=63444422",
+     "kategorie": "zprava"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71404891",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=13E9C9F5C488AE4DE06333F21FACB2EC&actSheet=B&pageB=all",
+   "or_url": null,
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-11-07"
+  },
   {
    "doc_id": "71399518",
    "spisova_znacka": "KSPL 66 INS 6221/2025",
