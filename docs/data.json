@@ -1,18 +1,60 @@
 {
- "generated_at": "2026-11-07T11:06:31+00:00",
+ "generated_at": "2026-11-08T11:18:41+00:00",
  "window": {
   "from": "2026-07-22",
-  "to": "2026-11-06"
+  "to": "2026-11-08"
  },
  "stats": {
-  "total": 282,
+  "total": 283,
   "vysoka": 91,
-  "stredni": 117,
+  "stredni": 118,
   "nizka": 74,
   "new_7d": 26,
-  "cases": 240
+  "cases": 241
  },
  "opportunities": [
+  {
+   "doc_id": "71407547",
+   "spisova_znacka": "KSPL 58 INS 8643/2025",
+   "soud": "Krajského soudu v Plzni",
+   "dluznik_jmeno": "Milena Hráchová",
+   "ico": "02814447",
+   "sidlo": "Strašice, Strašice 525, PSČ 338 45, Okres Rokycany",
+   "stav_rizeni": "Povoleno oddlužení",
+   "datum_podani": "2026-11-08",
+   "priorita": "stredni",
+   "assets": [
+    {
+     "typ": "movity",
+     "popis": "1. V majetkové podstatě dlužníka Milena Hráchová (dále jen „Dlužník“) je zapsán pod položkou č. 2 následující majetek: (i) osobní automobil zn. Volkswagen Passat, RZ: 8P78768, rok 2014, VIN: ; (dále jen „Automobil“)…",
+     "navrhovana_cena": null,
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "JUDr. Václav Mlnářík",
+    "email": "mlnarik@ikkm.cz",
+    "telefon": "+420 732 833 203",
+    "datova_schranka": "w38izsv"
+   },
+   "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: Milena Hráchová): movitý majetek (1 položka). Klasifikováno heuristicky – ověřit v dokumentu.",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-11-08",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71407547",
+     "kategorie": "navrh"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71407547",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=3229C53AD875ED64E06333F21FAC30CF&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=02814447&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "heuristic",
+   "first_seen": "2026-11-08"
+  },
   {
    "doc_id": "71404561",
    "spisova_znacka": "KSOS 31 INS 13432/2025",
