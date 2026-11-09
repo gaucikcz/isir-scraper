@@ -1,18 +1,161 @@
 {
- "generated_at": "2026-11-08T11:18:41+00:00",
+ "generated_at": "2026-11-09T12:55:38+00:00",
  "window": {
   "from": "2026-07-22",
-  "to": "2026-11-08"
+  "to": "2026-11-09"
  },
  "stats": {
-  "total": 283,
-  "vysoka": 91,
+  "total": 286,
+  "vysoka": 93,
   "stredni": 118,
-  "nizka": 74,
-  "new_7d": 26,
-  "cases": 241
+  "nizka": 75,
+  "new_7d": 29,
+  "cases": 244
  },
  "opportunities": [
+  {
+   "doc_id": "71410762",
+   "spisova_znacka": "KSPH 61 INS 22894/2025",
+   "soud": "Krajského soudu v Praze",
+   "dluznik_jmeno": "Jana Hubačová",
+   "ico": "14294371",
+   "sidlo": "Kněžmost, Hřbitovní 156, PSČ 294 02, Okres Mladá Boleslav",
+   "stav_rizeni": "Povoleno oddlužení",
+   "datum_podani": "2026-11-09",
+   "priorita": "vysoka",
+   "assets": [
+    {
+     "typ": "nemovity",
+     "popis": "Spoluvlastnický podíl o velikosti id. 1/12 na pozemku parc. č. 1769 (zastavěná plocha), pozemku parc. č. 1770 (zahrada) a stavbě č.p. 559 (rodinný dům), vše zapsáno na LV č. 698, k.ú. a obec Mnichovo Hradiště, vedeno Katastrálním úřadem pro Středočeský kraj, Katastrální pracoviště Mladá Boleslav.",
+     "navrhovana_cena": null,
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "Mgr. Jan Urban",
+    "email": "urban.ak@email.cz",
+    "telefon": "776838594",
+    "datova_schranka": null
+   },
+   "shrnuti": "Insolvenční správce žádá soud o souhlas s prodejem menšinového spoluvlastnického podílu (id. 1/12) dlužnice na rodinném domě s pozemky v k.ú. Mnichovo Hradiště mimo dražbu, formou veřejného výběrového řízení na Portálu dražeb EK ČR; cena nebyla v textu uvedena.",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-11-09",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71410762",
+     "kategorie": "navrh"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71410762",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=44E29457271DD38AE06333F21FACC3F6&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=14294371&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-11-09"
+  },
+  {
+   "doc_id": "71409050",
+   "spisova_znacka": "KSPA 71 INS 20623/2025",
+   "soud": "Krajského soudu v Hradci Králové - pobočka v Pardubicích",
+   "dluznik_jmeno": "Karel Hűbl",
+   "ico": null,
+   "sidlo": "Ústí nad Orlicí, Quido Kociana 1184, PSČ 562 01, Okres Ústí nad Orlicí",
+   "stav_rizeni": "Povoleno oddlužení",
+   "datum_podani": "2026-11-09",
+   "priorita": "nizka",
+   "assets": [],
+   "spravce": {
+    "jmeno": null,
+    "email": "insolvence@rb-is.cz",
+    "telefon": "235 318 118",
+    "datova_schranka": null
+   },
+   "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: Karel Hűbl). Konkrétní položky majetku se z textu nepodařilo automaticky rozpoznat. Klasifikováno heuristicky – nutná ruční kontrola dokumentu.",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-11-09",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71409050",
+     "kategorie": "navrh"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71409050",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=3F0D27854832E9C0E06333F21FAC1A87&actSheet=B&pageB=all",
+   "or_url": null,
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-11-09"
+  },
+  {
+   "doc_id": "71412426",
+   "spisova_znacka": "KSBR 27 INS 6164/2021",
+   "soud": "Krajského soudu v Brně",
+   "dluznik_jmeno": "Jana Pechová",
+   "ico": null,
+   "sidlo": "Želeč-Prostějov, Želeč 186, PSČ 796 01",
+   "stav_rizeni": "Povoleno oddlužení",
+   "datum_podani": "2026-11-09",
+   "priorita": "vysoka",
+   "assets": [
+    {
+     "typ": "nemovity",
+     "popis": "Spoluvlastnický podíl o velikosti 1/5 na nemovitosti zapsané na LV 240, k.ú. Dolní Radíkov (pořadové číslo 8 soupisu)",
+     "navrhovana_cena": "410368 CZK",
+     "kupujici": null
+    },
+    {
+     "typ": "nemovity",
+     "popis": "Spoluvlastnický podíl o velikosti 1/5 na nemovitosti zapsané na LV 24, k.ú. Matějov (pořadové číslo 9 soupisu)",
+     "navrhovana_cena": "568000 CZK",
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "Ing. Marcela Prokopová (CRIST insolvenční v.o.s.)",
+    "email": null,
+    "telefon": "725855044",
+    "datova_schranka": "2udh35c"
+   },
+   "shrnuti": "Insolvenční správce žádá soud o souhlas s přímým prodejem dvou dědictvím nabytých spoluvlastnických podílů (1/5) na nemovitostech v k.ú. Dolní Radíkov a k.ú. Matějov za ceny dle znaleckého ocenění, celkem 978368 Kč.",
+   "soupis": {
+    "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71402196",
+    "datum": "2026-11-06",
+    "popis": "Soupis majetkové podstaty"
+   },
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-11-09",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71412426",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_334",
+     "datum": "2026-11-06",
+     "popis": "Soupis majetkové podstaty",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71402196",
+     "kategorie": "soupis"
+    },
+    {
+     "kod": "I_334",
+     "datum": "2023-03-31",
+     "popis": "Soupis majetkové podstaty",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=54124738",
+     "kategorie": "soupis"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71412426",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=BEE1A94C8A4B3CE1E05333F21FAC5858&actSheet=B&pageB=all",
+   "or_url": null,
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-11-09"
+  },
   {
    "doc_id": "71407547",
    "spisova_znacka": "KSPL 58 INS 8643/2025",
@@ -983,6 +1126,13 @@
     },
     {
      "kod": "I_1054",
+     "datum": "2026-11-09",
+     "popis": "Zpráva insolvenčního správce",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71419329",
+     "kategorie": "zprava"
+    },
+    {
+     "kod": "I_1054",
      "datum": "2026-06-25",
      "popis": "Zpráva insolvenčního správce",
      "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=69893212",
@@ -993,13 +1143,6 @@
      "datum": "2026-06-23",
      "popis": "Zpráva IS o stavu řízení",
      "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=69851830",
-     "kategorie": "zprava"
-    },
-    {
-     "kod": "I_1054",
-     "datum": "2026-04-07",
-     "popis": "Zpráva insolvenčního správce",
-     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=66962313",
      "kategorie": "zprava"
     },
     {
@@ -1703,6 +1846,13 @@
      "popis": "Zpráva insolvenčního správce",
      "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=68466899",
      "kategorie": "zprava"
+    },
+    {
+     "kod": "I_535",
+     "datum": "2026-11-09",
+     "popis": "Usnesení o prodeji mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71417677",
+     "kategorie": "prodej"
     }
    ],
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71324961",
