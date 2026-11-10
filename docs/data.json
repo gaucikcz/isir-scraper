@@ -1,18 +1,113 @@
 {
- "generated_at": "2026-11-09T12:55:38+00:00",
+ "generated_at": "2026-11-10T12:41:59+00:00",
  "window": {
   "from": "2026-07-22",
-  "to": "2026-11-09"
+  "to": "2026-11-10"
  },
  "stats": {
-  "total": 286,
-  "vysoka": 93,
+  "total": 288,
+  "vysoka": 95,
   "stredni": 118,
   "nizka": 75,
-  "new_7d": 29,
-  "cases": 244
+  "new_7d": 25,
+  "cases": 246
  },
  "opportunities": [
+  {
+   "doc_id": "71434711",
+   "spisova_znacka": "MSPH 89 INS 20376/2025",
+   "soud": "Městského soudu v Praze",
+   "dluznik_jmeno": "Ludmila Toneva",
+   "ico": "05871786",
+   "sidlo": "Praha 9, Freyova 983/25, PSČ 190 00",
+   "stav_rizeni": "Povoleno oddlužení",
+   "datum_podani": "2026-11-10",
+   "priorita": "vysoka",
+   "assets": [
+    {
+     "typ": "nemovity",
+     "popis": "Nemovitý majetek dlužnice blíže nespecifikovaný v dostupném textu dokumentu (OCR nečitelné/poškozené)",
+     "navrhovana_cena": null,
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": null,
+    "email": null,
+    "telefon": null,
+    "datova_schranka": null
+   },
+   "shrnuti": "Text dokumentu je silně poškozený OCR a neumožňuje spolehlivě identifikovat konkrétní položky majetku, jejich popis ani navrhovanou kupní cenu.",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-11-10",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71434711",
+     "kategorie": "navrh"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71434711",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=41A8C8CAB105E9ADE06333F21FACE3B0&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=05871786&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-11-10"
+  },
+  {
+   "doc_id": "71421168",
+   "spisova_znacka": "KSHK 35 INS 18354/2024",
+   "soud": "Krajského soudu v Hradci Králové",
+   "dluznik_jmeno": "Karel Pecher",
+   "ico": null,
+   "sidlo": "Hořice, Škrétova 940, PSČ 508 01, Okres Jičín",
+   "stav_rizeni": "Povoleno oddlužení",
+   "datum_podani": "2026-11-09",
+   "priorita": "vysoka",
+   "assets": [
+    {
+     "typ": "nemovity",
+     "popis": "Id. 1/2 na nemovitostech zapsaných na LV č. 112 pro k.ú. a obec Boháňka (Katastrální úřad pro Královéhradecký kraj, KP Jičín): pozemek č. parc. St. 125 o výměře 103 m2 (zastavěná plocha a nádvoří) se stavbou rodinného domu č.p. 17; pozemek č. parc. St. 138 o výměře 38 m2 (zastavěná plocha a nádvoří) se stavbou bez č.p./č.e.; pozemek č. parc. 89/3 o výměře 545 m2 (trvalý travní porost); pozemek č. ",
+     "navrhovana_cena": null,
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "Mgr. Irena Jonáková",
+    "email": "jonakova@akjonak.cz",
+    "telefon": "569 434 440",
+    "datova_schranka": "ydntcjb"
+   },
+   "shrnuti": "Insolvenční správkyně žádá soud o souhlas s prodejem mimo dražbu spoluvlastnického podílu id. 1/2 dlužníka na nemovitostech (pozemky a stavby) v k.ú. Boháňka, LV č. 112, přičemž prodej bude realizován společně s druhým spoluvlastnickým podílem jako celek prostřednictvím realitní kanceláře; konkrétní kupní cena zatím nebyla stanovena, prodej má proběhnout za nejvyšší nabídku.",
+   "soupis": {
+    "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=62278404",
+    "datum": "2025-06-20",
+    "popis": "Soupis majetkové podstaty - změna"
+   },
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-11-09",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71421168",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_538",
+     "datum": "2025-06-20",
+     "popis": "Soupis majetkové podstaty - změna",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=62278404",
+     "kategorie": "soupis"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71421168",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=234F101218BEEF7EE06333F21FACD164&actSheet=B&pageB=all",
+   "or_url": null,
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-11-10"
+  },
   {
    "doc_id": "71410762",
    "spisova_znacka": "KSPH 61 INS 22894/2025",
@@ -1375,6 +1470,13 @@
      "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
      "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71344274",
      "kategorie": "navrh"
+    },
+    {
+     "kod": "I_535",
+     "datum": "2026-11-10",
+     "popis": "Usnesení o prodeji mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71433835",
+     "kategorie": "prodej"
     }
    ],
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71344274",
@@ -1613,7 +1715,11 @@
     "datova_schranka": "uqsje8r"
    },
    "shrnuti": "Insolvenční správce žádá soud o souhlas s prodejem šesti pohledávek dlužníka PhDr. Romana Petra mimo dražbu formou výběrového řízení (inzerce min. 30 dní); pohledávky za RP INVEST, a.s. (pol. č. 74, 75, 81, 82) budou zpeněženy jako jeden celek, ostatní (Fadet s.r.o., Praha Chodov Invest s.r.o., Tierto s.r.o.) samostatně. Kupní cena ani konkrétní zájemce nejsou v textu uvedeny.",
-   "soupis": null,
+   "soupis": {
+    "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71431961",
+    "datum": "2026-11-10",
+    "popis": "Soupis majetkové podstaty - doplnění"
+   },
    "dokumenty": [
     {
      "kod": "I_347",
@@ -1621,6 +1727,13 @@
      "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
      "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71335993",
      "kategorie": "navrh"
+    },
+    {
+     "kod": "I_454",
+     "datum": "2026-11-10",
+     "popis": "Soupis majetkové podstaty - doplnění",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71431961",
+     "kategorie": "soupis"
     },
     {
      "kod": "I_332",
