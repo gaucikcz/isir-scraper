@@ -1,18 +1,140 @@
 {
- "generated_at": "2026-11-10T12:41:59+00:00",
+ "generated_at": "2026-11-11T11:55:07+00:00",
  "window": {
   "from": "2026-07-22",
-  "to": "2026-11-10"
+  "to": "2026-11-11"
  },
  "stats": {
-  "total": 288,
-  "vysoka": 95,
+  "total": 290,
+  "vysoka": 96,
   "stredni": 118,
-  "nizka": 75,
-  "new_7d": 25,
-  "cases": 246
+  "nizka": 76,
+  "new_7d": 21,
+  "cases": 248
  },
  "opportunities": [
+  {
+   "doc_id": "71449273",
+   "spisova_znacka": "KSCB 46 INS 1506/2026",
+   "soud": "Krajského soudu v Českých Budějovicích",
+   "dluznik_jmeno": "Jakub Kupka",
+   "ico": null,
+   "sidlo": "Tábor, Žižkovo náměstí 3/3, PSČ 390 01",
+   "stav_rizeni": "Povoleno oddlužení",
+   "datum_podani": "2026-11-11",
+   "priorita": "vysoka",
+   "assets": [
+    {
+     "typ": "nemovity",
+     "popis": "Spoluvlastnický podíl ve výši id. 1/2 na pozemku parc. č. (zastavěná plocha a nádvoří), na pozemku stojí stavba (rodinný dům, který není jeho součástí, evidován na LV); dále spoluvlastnický podíl id. 1/2 na pozemku parc. č. (zahrada); vše zapsáno na LV, k.ú. Čeonkovice, obec Tábor, Katastrální pracoviště Tábor.",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "nemovity",
+     "popis": "Spoluvlastnický podíl ve výši id. 1/2 na nemovitosti - stavbě rodinného domu č.p., nacházející se na pozemku parc. č., zapsáno na LV, k.ú. Čeonkovice, obec Tábor, Katastrální pracoviště Tábor.",
+     "navrhovana_cena": null,
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "ROTT & BUCHTA insolvenční správci v.o.s. (Mgr. Michael Rott, ohlášený společník)",
+    "email": "insolvence@rbis.cz",
+    "telefon": null,
+    "datova_schranka": null
+   },
+   "shrnuti": "Insolvenční správce žádá soud o souhlas se zpeněžením mimo dražbu dvou spoluvlastnických podílů (rodinný dům a související pozemky, k.ú. Čeonkovice, obec Tábor) za cenu stanovenou znaleckým posudkem minimálně ve výši 1 985 400 Kč, případně za zprostředkování realitní kanceláří s provizí do 5 % z dosažené kupní ceny.",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-11-11",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71449273",
+     "kategorie": "navrh"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71449273",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=483E88946C21003FE06333F21FAC3BD4&actSheet=B&pageB=all",
+   "or_url": null,
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-11-11"
+  },
+  {
+   "doc_id": "71447861",
+   "spisova_znacka": "KSBR 26 INS 14923/2023",
+   "soud": "Krajského soudu v Brně",
+   "dluznik_jmeno": "JIVAS 68 s.r.o.",
+   "ico": "07294433",
+   "sidlo": "Brno, Bayerova 803/34, PSČ 602 00",
+   "stav_rizeni": "Prohlášený konkurs",
+   "datum_podani": "2026-11-11",
+   "priorita": "nizka",
+   "assets": [
+    {
+     "typ": "nehmotny",
+     "popis": "Pohledávka dlužníka JIVAS 68 s.r.o. za společností BROJAN, spol. s.r.o., IČ 63485761, z titulu práva na vydání bezdůvodného obohacení ve výši 468 100 Kč, přihlášená do insolvenčního řízení BROJAN, spol. s.r.o. (KSBR 26 INS 20425/2016) pod P18, pravost určena rozsudkem Krajského soudu v Brně",
+     "navrhovana_cena": null,
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "Mgr. Indra-Šebesta, v.o.s. (jednající Mgr. Lucie Havranová)",
+    "email": "spravce@indra-sebesta.cz",
+    "telefon": "537 001 260",
+    "datova_schranka": "uqsje8r"
+   },
+   "shrnuti": "Insolvenční správce žádá soud o souhlas s prodejem pohledávky dlužníka JIVAS 68 s.r.o. za společností BROJAN, spol. s.r.o. ve výši 468 100 Kč mimo dražbu formou výběrového řízení na nejvyšší/nejvýhodnější nabídku; kupní cena ani konkrétní zájemce nejsou v dokumentu uvedeny.",
+   "soupis": {
+    "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=56904493",
+    "datum": "2024-01-04",
+    "popis": "Soupis majetkové podstaty"
+   },
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-11-11",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71447861",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_334",
+     "datum": "2024-01-04",
+     "popis": "Soupis majetkové podstaty",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=56904493",
+     "kategorie": "soupis"
+    },
+    {
+     "kod": "I_332",
+     "datum": "2026-04-07",
+     "popis": "Zpráva IS o stavu řízení",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=66966404",
+     "kategorie": "zprava"
+    },
+    {
+     "kod": "I_332",
+     "datum": "2025-10-08",
+     "popis": "Zpráva IS o stavu řízení",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=63481791",
+     "kategorie": "zprava"
+    },
+    {
+     "kod": "I_332",
+     "datum": "2025-04-29",
+     "popis": "Zpráva IS o stavu řízení",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=61692515",
+     "kategorie": "zprava"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71447861",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=05EC346222325AD9E06333F21FACA22E&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=07294433&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-11-11"
+  },
   {
    "doc_id": "71434711",
    "spisova_znacka": "MSPH 89 INS 20376/2025",
@@ -357,6 +479,13 @@
      "popis": "Zpráva IS o stavu řízení",
      "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71354642",
      "kategorie": "zprava"
+    },
+    {
+     "kod": "I_535",
+     "datum": "2026-11-11",
+     "popis": "Usnesení o prodeji mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71445065",
+     "kategorie": "prodej"
     }
    ],
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71404561",
@@ -1603,6 +1732,13 @@
      "popis": "Zpráva pro oddlužení",
      "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70447415",
      "kategorie": "zprava"
+    },
+    {
+     "kod": "I_535",
+     "datum": "2026-11-11",
+     "popis": "Usnesení o prodeji mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71443844",
+     "kategorie": "prodej"
     }
    ],
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71335577",
