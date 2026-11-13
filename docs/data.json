@@ -1,18 +1,109 @@
 {
- "generated_at": "2026-11-12T12:46:42+00:00",
+ "generated_at": "2026-11-13T12:15:31+00:00",
  "window": {
   "from": "2026-07-22",
-  "to": "2026-11-12"
+  "to": "2026-11-13"
  },
  "stats": {
-  "total": 297,
+  "total": 299,
   "vysoka": 98,
   "stredni": 118,
-  "nizka": 81,
-  "new_7d": 22,
-  "cases": 255
+  "nizka": 83,
+  "new_7d": 21,
+  "cases": 257
  },
  "opportunities": [
+  {
+   "doc_id": "71478750",
+   "spisova_znacka": "MSPH 96 INS 12063/2026",
+   "soud": "Městského soudu v Praze",
+   "dluznik_jmeno": "codemanufaktur s.r.o.",
+   "ico": "17147531",
+   "sidlo": "Praha 2, Rašínovo nábřeží 383/58, PSČ 128 00",
+   "stav_rizeni": "Prohlášený konkurs",
+   "datum_podani": "2026-11-13",
+   "priorita": "nizka",
+   "assets": [],
+   "spravce": {
+    "jmeno": null,
+    "email": null,
+    "telefon": null,
+    "datova_schranka": null
+   },
+   "shrnuti": "Dokument je silně poškozený OCR výstup (formulář ISIR), ze kterého nelze spolehlivě extrahovat konkrétní položky majetku, jejich popis ani navrhované ceny.",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-11-13",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71478750",
+     "kategorie": "navrh"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71478750",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=54D0CB69FD95335CE06333F21FAC2609&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=17147531&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-11-13"
+  },
+  {
+   "doc_id": "71485347",
+   "spisova_znacka": "MSPH 98 INS 9983/2021",
+   "soud": "Městského soudu v Praze",
+   "dluznik_jmeno": "Miroslava Mikulicová",
+   "ico": null,
+   "sidlo": "Praha 9, Nad kolčavkou 2561/2, PSČ 190 00",
+   "stav_rizeni": "Povoleno oddlužení",
+   "datum_podani": "2026-11-13",
+   "priorita": "nizka",
+   "assets": [],
+   "spravce": {
+    "jmeno": null,
+    "email": null,
+    "telefon": null,
+    "datova_schranka": null
+   },
+   "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: Miroslava Mikulicová). Konkrétní položky majetku se z textu nepodařilo automaticky rozpoznat. Klasifikováno heuristicky – nutná ruční kontrola dokumentu.",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-11-13",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71485347",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_332",
+     "datum": "2026-08-04",
+     "popis": "Zpráva IS o stavu řízení",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70358303",
+     "kategorie": "zprava"
+    },
+    {
+     "kod": "I_1054",
+     "datum": "2026-03-18",
+     "popis": "Zpráva insolvenčního správce",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=66159136",
+     "kategorie": "zprava"
+    },
+    {
+     "kod": "I_332",
+     "datum": "2024-08-20",
+     "popis": "Zpráva IS o stavu řízení",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=59204956",
+     "kategorie": "zprava"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71485347",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=C24397401339515DE05333F21FACC730&actSheet=B&pageB=all",
+   "or_url": null,
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-11-13"
+  },
   {
    "doc_id": "71466739",
    "spisova_znacka": "MSPH 94 INS 6021/2026",
@@ -887,9 +978,9 @@
     },
     {
      "kod": "I_332",
-     "datum": "2025-10-02",
+     "datum": "2025-10-03",
      "popis": "Zpráva IS o stavu řízení",
-     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=63420059",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=63444422",
      "kategorie": "zprava"
     }
    ],
@@ -1124,6 +1215,13 @@
      "kategorie": "katastr"
     },
     {
+     "kod": "I_332",
+     "datum": "2026-11-13",
+     "popis": "Zpráva IS o stavu řízení",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71480269",
+     "kategorie": "zprava"
+    },
+    {
      "kod": "I_535",
      "datum": "2026-11-11",
      "popis": "Usnesení o prodeji mimo dražbu",
@@ -1331,6 +1429,13 @@
      "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
      "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71367189",
      "kategorie": "navrh"
+    },
+    {
+     "kod": "I_535",
+     "datum": "2026-11-13",
+     "popis": "Usnesení o prodeji mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71475703",
+     "kategorie": "prodej"
     }
    ],
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71367189",
@@ -10812,6 +10917,13 @@
      "popis": "Výpis z katastru nemovitostí",
      "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=60793729",
      "kategorie": "katastr"
+    },
+    {
+     "kod": "I_332",
+     "datum": "2026-11-13",
+     "popis": "Zpráva IS o stavu řízení",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71480269",
+     "kategorie": "zprava"
     },
     {
      "kod": "I_535",
