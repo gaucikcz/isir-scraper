@@ -1,18 +1,60 @@
 {
- "generated_at": "2026-11-15T11:59:14+00:00",
+ "generated_at": "2026-11-16T12:48:15+00:00",
  "window": {
   "from": "2026-07-22",
-  "to": "2026-11-13"
+  "to": "2026-11-16"
  },
  "stats": {
-  "total": 299,
-  "vysoka": 98,
+  "total": 300,
+  "vysoka": 99,
   "stredni": 118,
   "nizka": 83,
   "new_7d": 17,
-  "cases": 257
+  "cases": 258
  },
  "opportunities": [
+  {
+   "doc_id": "71495509",
+   "spisova_znacka": "MSPH 57 INS 23585/2025",
+   "soud": "Městského soudu v Praze",
+   "dluznik_jmeno": "Kristýna Merhautová",
+   "ico": "01151169",
+   "sidlo": "Praha 8, Na Žertvách 879/36, PSČ 180 00, Okres Hlavní město Praha",
+   "stav_rizeni": "Povoleno oddlužení",
+   "datum_podani": "2026-11-16",
+   "priorita": "vysoka",
+   "assets": [
+    {
+     "typ": "nemovity",
+     "popis": "Spoluvlastnický podíl o velikosti 1/2 na jednotce č. (byt), vymezené v budově Libeň č.p., bytový dům, stojící na pozemku parcela č. (zastavěná plocha a nádvoří), LV č., vč. spoluvlastnického podílu o velikosti 1/2 na společných částech domu a pozemku, způsob ochrany památkově chráněné území, k.ú. Libeň, Katastrální úřad pro hlavní město Prahu, Katastrální pracoviště Praha",
+     "navrhovana_cena": null,
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "LIQUIDATORS v.o.s.",
+    "email": null,
+    "telefon": null,
+    "datova_schranka": null
+   },
+   "shrnuti": "Insolvenční správce žádá soud o souhlas s prodejem spoluvlastnického podílu 1/2 na bytové jednotce v Praze - Libni mimo dražbu, prodej za nejvyšší nabídku, cena v textu neuvedena.",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-11-16",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71495509",
+     "kategorie": "navrh"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71495509",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=45B841BA4092884DE06333F21FAC4D9D&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=01151169&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-11-16"
+  },
   {
    "doc_id": "71478750",
    "spisova_znacka": "MSPH 96 INS 12063/2026",
@@ -76,6 +118,13 @@
      "kategorie": "navrh"
     },
     {
+     "kod": "I_1054",
+     "datum": "2026-11-16",
+     "popis": "Zpráva insolvenčního správce",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71496023",
+     "kategorie": "zprava"
+    },
+    {
      "kod": "I_332",
      "datum": "2026-08-04",
      "popis": "Zpráva IS o stavu řízení",
@@ -87,13 +136,6 @@
      "datum": "2026-03-18",
      "popis": "Zpráva insolvenčního správce",
      "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=66159136",
-     "kategorie": "zprava"
-    },
-    {
-     "kod": "I_332",
-     "datum": "2024-08-20",
-     "popis": "Zpráva IS o stavu řízení",
-     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=59204956",
      "kategorie": "zprava"
     }
    ],
