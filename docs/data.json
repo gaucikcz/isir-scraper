@@ -1,18 +1,417 @@
 {
- "generated_at": "2026-11-17T13:29:23+00:00",
+ "generated_at": "2026-11-18T13:06:52+00:00",
  "window": {
   "from": "2026-07-22",
-  "to": "2026-11-16"
+  "to": "2026-11-18"
  },
  "stats": {
-  "total": 300,
-  "vysoka": 99,
-  "stredni": 118,
-  "nizka": 83,
-  "new_7d": 14,
-  "cases": 258
+  "total": 306,
+  "vysoka": 100,
+  "stredni": 120,
+  "nizka": 86,
+  "new_7d": 18,
+  "cases": 264
  },
  "opportunities": [
+  {
+   "doc_id": "71507967",
+   "spisova_znacka": "KSOS 25 INS 10841/2026",
+   "soud": "Krajského soudu v Ostravě",
+   "dluznik_jmeno": "ZDRAVÍ V RÁJI Karviná s.r.o.",
+   "ico": "07394837",
+   "sidlo": "Karviná, Ciolkovského 843/52, PSČ 734 01",
+   "stav_rizeni": "Prohlášený konkurs",
+   "datum_podani": "2026-11-18",
+   "priorita": "nizka",
+   "assets": [],
+   "spravce": {
+    "jmeno": null,
+    "email": null,
+    "telefon": null,
+    "datova_schranka": null
+   },
+   "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: ZDRAVÍ V RÁJI Karviná s.r.o.). Konkrétní položky majetku se z textu nepodařilo automaticky rozpoznat. Klasifikováno heuristicky – nutná ruční kontrola dokumentu.",
+   "soupis": {
+    "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70957192",
+    "datum": "2026-09-25",
+    "popis": "Soupis majetkové podstaty"
+   },
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-11-18",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71507967",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_334",
+     "datum": "2026-09-25",
+     "popis": "Soupis majetkové podstaty",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70957192",
+     "kategorie": "soupis"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71507967",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=53B7BD179CB60BD0E06333F21FAC516D&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=07394837&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-11-18"
+  },
+  {
+   "doc_id": "71505320",
+   "spisova_znacka": "MSPH 90 INS 1940/2026",
+   "soud": "Městského soudu v Praze",
+   "dluznik_jmeno": "Jakub Sadílek",
+   "ico": null,
+   "sidlo": "Praha 9, Anderleho 858/1, PSČ 198 00",
+   "stav_rizeni": "Povoleno oddlužení",
+   "datum_podani": "2026-11-18",
+   "priorita": "stredni",
+   "assets": [
+    {
+     "typ": "movity",
+     "popis": "Osobní automobil zn. BMW X3 2.0 I X83, RZ: 1AEK153, první registrace 2008, zapsán v majetkové podstatě dlužníka Jakuba Sadílka pod položkou č. 2",
+     "navrhovana_cena": null,
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "Insolvenční kancelář Kaplan Mlnářík a spol. (JUDr. Václav Mlnářík, Ph.D., ohlášený společník)",
+    "email": "mlnarik@ikkm.cz",
+    "telefon": "+420 732 833 203",
+    "datova_schranka": "w38izsv"
+   },
+   "shrnuti": "Insolvenční správce navrhuje zpeněžit osobní automobil BMW X3 2.0 I X83 z majetkové podstaty dlužníka Jakuba Sadílka přímým prodejem mimo dražbu zájemci s nejvyšší nabídkou; konkrétní kupní cena ani kupující nejsou v textu uvedeny.",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-11-18",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71505320",
+     "kategorie": "navrh"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71505320",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=497019B67E999593E06333F21FAC0E6F&actSheet=B&pageB=all",
+   "or_url": null,
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-11-18"
+  },
+  {
+   "doc_id": "71510703",
+   "spisova_znacka": "KSHK 35 INS 21081/2025",
+   "soud": "Krajského soudu v Hradci Králové",
+   "dluznik_jmeno": "Lenka Jeníková",
+   "ico": null,
+   "sidlo": "Borovnička, Borovnička 38, PSČ 544 75, Okres Trutnov",
+   "stav_rizeni": "Povoleno oddlužení",
+   "datum_podani": "2026-11-18",
+   "priorita": "vysoka",
+   "assets": [
+    {
+     "typ": "nemovity",
+     "popis": "Obvyklá cena pozemků byla dodatkem č. 1 ke znaleckému posudku č. 023292/2026 (Ing. Tomáš Volek, č. položky 052607/2026, vyhotoven dne 7.7.2026) určena ke dni 2.4.2026 částkou 323.670 Kč, z toho pozemek parc. č. 43…",
+     "navrhovana_cena": "323670 CZK",
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "Mgr. Josefu Milichovskému",
+    "email": "jmilichovsky@veleba-milichovsky.cz",
+    "telefon": "603 599 951",
+    "datova_schranka": null
+   },
+   "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: Lenka Jeníková): nemovitý majetek (1 položka). Navrhovaná cena 323670 CZK. Klasifikováno heuristicky – ověřit v dokumentu.",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-11-18",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71510703",
+     "kategorie": "navrh"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71510703",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=3F0D551E0895E9BDE06333F21FACD6F7&actSheet=B&pageB=all",
+   "or_url": null,
+   "text_source": "pdftotext",
+   "classified_by": "heuristic",
+   "first_seen": "2026-11-18"
+  },
+  {
+   "doc_id": "71507880",
+   "spisova_znacka": "KSPA 60 INS 14821/2025",
+   "soud": "Krajského soudu v Hradci Králové - pobočka v Pardubicích",
+   "dluznik_jmeno": "WURsystems s.r.o.",
+   "ico": "06100325",
+   "sidlo": "Pardubice-Studánka, Pod Lipami 28, PSČ 530 03, Okres Pardubice",
+   "stav_rizeni": "Prohlášený konkurs",
+   "datum_podani": "2026-11-18",
+   "priorita": "stredni",
+   "assets": [
+    {
+     "typ": "movity",
+     "popis": "Jediným dalším dosud nezpeněženým majetkem v řízení jsou kancelářské stoly (položka II.6 soupisu MP). Tyto movité věci inzeruje insolvenční správce již od počátku letošního roku, přičemž souhlas s jejich zpeněžením mimo…",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "nehmotny",
+     "popis": "4. 2026). Insolvenční správce k dané pohledávce opatřil dále výpis z upraveného seznamu přihlášených pohledávek z insolvenčního řízení společnosti ZJ Design s.r.o., prokazující zjištění a neuspokojení pohledávky…",
+     "navrhovana_cena": "2100 CZK",
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "JUVENTUS insolvenční, v.o.s.",
+    "email": "info@juventus-insolvencni.cz",
+    "telefon": "585 203 221",
+    "datova_schranka": "yc86sxw"
+   },
+   "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: WURsystems s.r.o.): movitý majetek, nehmotný majetek (2 položky). Navrhovaná cena 2100 CZK. Podrobnosti jsou v soupisu majetkové podstaty. Klasifikováno heuristicky – ověřit v dokumentu.",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-11-18",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71507880",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_347",
+     "datum": "2026-05-04",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=68028574",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_347",
+     "datum": "2026-04-07",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=66960697",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_332",
+     "datum": "2026-10-30",
+     "popis": "Zpráva IS o stavu řízení",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71322826",
+     "kategorie": "zprava"
+    },
+    {
+     "kod": "I_535",
+     "datum": "2026-09-30",
+     "popis": "Usnesení o prodeji mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70994102",
+     "kategorie": "prodej"
+    },
+    {
+     "kod": "I_535",
+     "datum": "2026-06-16",
+     "popis": "Usnesení o prodeji mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=69603958",
+     "kategorie": "prodej"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71507880",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=3A2CF0F9CAF7C171E06333F21FACD972&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=06100325&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "heuristic",
+   "first_seen": "2026-11-18"
+  },
+  {
+   "doc_id": "71504378",
+   "spisova_znacka": "KSUL 63 INS 961/2022",
+   "soud": "Krajského soudu v Ústí nad Labem",
+   "dluznik_jmeno": "Karolina Özcan",
+   "ico": null,
+   "sidlo": "Chomutov, Rokycanova 3814/4, PSČ 430 01",
+   "stav_rizeni": "Povoleno oddlužení",
+   "datum_podani": "2026-11-18",
+   "priorita": "nizka",
+   "assets": [],
+   "spravce": {
+    "jmeno": null,
+    "email": "licita@licita.cz",
+    "telefon": "777 009 922",
+    "datova_schranka": null
+   },
+   "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: Karolina Özcan). Konkrétní položky majetku se z textu nepodařilo automaticky rozpoznat. Klasifikováno heuristicky – nutná ruční kontrola dokumentu.",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-11-18",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71504378",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_332",
+     "datum": "2026-01-06",
+     "popis": "Zpráva IS o stavu řízení",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=64377976",
+     "kategorie": "zprava"
+    },
+    {
+     "kod": "I_332",
+     "datum": "2025-07-14",
+     "popis": "Zpráva IS o stavu řízení",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=62494049",
+     "kategorie": "zprava"
+    },
+    {
+     "kod": "I_332",
+     "datum": "2024-07-04",
+     "popis": "Zpráva IS o stavu řízení",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=58789439",
+     "kategorie": "zprava"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71504378",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=39A05977BC12BFDAE06333F21FAC354D&actSheet=B&pageB=all",
+   "or_url": null,
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-11-18"
+  },
+  {
+   "doc_id": "71511034",
+   "spisova_znacka": "MSPH 88 INS 9952/2014",
+   "soud": "Městského soudu v Praze",
+   "dluznik_jmeno": "RETRUCK, spol. s r.o.",
+   "ico": "64830381",
+   "sidlo": "Plzeň, Budilova 161/15, PSČ 301 00",
+   "stav_rizeni": "Prohlášený konkurs",
+   "datum_podani": "2026-11-18",
+   "priorita": "nizka",
+   "assets": [
+    {
+     "typ": "nehmotny",
+     "popis": "Pohledávka č. 1 ve výši 12 342 Kč za společností Flipchart s.r.o., IČO: 29114322, náklady řízení dle usnesení MS Praha č.j. 207 ICm 347/2022-51, položka SMP č. 8",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "nehmotny",
+     "popis": "Pohledávka č. 2 ve výši 4 114 Kč za společností Flipchart s.r.o., náklady řízení dle usnesení Vrchního soudu v Praze č.j. 102 VSPH 323/2023-72, položka SMP č. 9",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "nehmotny",
+     "popis": "Pohledávka č. 3 ve výši 7 500 000 Kč za společností INSOLEN TRADE s.r.o. v likvidaci, IČO: 01551329, z bezdůvodného obohacení, položka SMP č. 10",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "nehmotny",
+     "popis": "Pohledávka č. 4 ve výši 53 482 Kč za společností Gerek Support s.r.o., IČO: 04954271, náklady řízení dle rozsudku MS Praha č.j. 188 ICm 1174/2017-245, položka SMP č. 11",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "nehmotny",
+     "popis": "Pohledávka č. 5 ve výši 28 897 Kč za společností Gerek Support s.r.o., náklady řízení dle rozsudku Vrchního soudu v Praze č.j. 3 VSPH 697/2020-423, položka SMP č. 12",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "nehmotny",
+     "popis": "Pohledávka č. 6 ve výši 2 238,50 Kč za společností Flipchart s.r.o., náklady řízení dle usnesení Nejvyššího soudu č.j. 29 ICdo 177/2023-127, položka SMP č. 13",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "nehmotny",
+     "popis": "Pohledávka č. 7 ve výši 4 114 Kč za společností ANTILIUS s.r.o. v likvidaci, IČO: 24297640, náklady řízení dle rozsudku Vrchního soudu v Praze č.j. 101 VSPH 119/2024-23, položka SMP č. 18",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "nehmotny",
+     "popis": "Pohledávka č. 8 ve výši 4 114 Kč za společností Gerek Support s.r.o., náklady řízení dle rozsudku Nejvyššího soudu č.j. 29 ICdo 77/2024-456, položka SMP č. 19",
+     "navrhovana_cena": null,
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "JUDr. Lukáš Holý",
+    "email": null,
+    "telefon": null,
+    "datova_schranka": null
+   },
+   "shrnuti": "Insolvenční správce žádá soud o souhlas s prodejem osmi nevymožených pohledávek dlužníka RETRUCK, spol. s r.o. mimo dražbu, a to společně jednou smlouvou o postoupení formou veřejné soutěže o nejvýhodnější nabídku. Konkrétní kupní cena ani vítězný zájemce zatím nejsou v textu uvedeny (lhůty a data mají být doplněny).",
+   "soupis": {
+    "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70325082",
+    "datum": "2026-07-31",
+    "popis": "Soupis majetkové podstaty - doplnění"
+   },
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-11-18",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71511034",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_454",
+     "datum": "2026-07-31",
+     "popis": "Soupis majetkové podstaty - doplnění",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70325082",
+     "kategorie": "soupis"
+    },
+    {
+     "kod": "I_454",
+     "datum": "2024-06-04",
+     "popis": "Soupis majetkové podstaty - doplnění",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=58453409",
+     "kategorie": "soupis"
+    },
+    {
+     "kod": "I_454",
+     "datum": "2024-01-24",
+     "popis": "Soupis majetkové podstaty - doplnění",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=57114995",
+     "kategorie": "soupis"
+    },
+    {
+     "kod": "I_332",
+     "datum": "2026-10-02",
+     "popis": "Zpráva IS o stavu řízení",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71025342",
+     "kategorie": "zprava"
+    },
+    {
+     "kod": "I_332",
+     "datum": "2026-07-10",
+     "popis": "Zpráva IS o stavu řízení",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70079549",
+     "kategorie": "zprava"
+    },
+    {
+     "kod": "I_332",
+     "datum": "2026-04-09",
+     "popis": "Zpráva IS o stavu řízení",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=67047534",
+     "kategorie": "zprava"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71511034",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=41ac3404-448f-45f8-a2f1-d5cc8c2924b6&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=64830381&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-11-18"
+  },
   {
    "doc_id": "71495509",
    "spisova_znacka": "MSPH 57 INS 23585/2025",
@@ -479,6 +878,13 @@
      "popis": "Soupis majetkové podstaty",
      "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70497483",
      "kategorie": "soupis"
+    },
+    {
+     "kod": "I_535",
+     "datum": "2026-11-18",
+     "popis": "Usnesení o prodeji mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71507559",
+     "kategorie": "prodej"
     }
    ],
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71455851",
@@ -839,6 +1245,13 @@
      "popis": "Soupis majetkové podstaty",
      "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=54124738",
      "kategorie": "soupis"
+    },
+    {
+     "kod": "I_535",
+     "datum": "2026-11-18",
+     "popis": "Usnesení o prodeji mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71511708",
+     "kategorie": "prodej"
     }
    ],
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71412426",
