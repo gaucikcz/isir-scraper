@@ -1,18 +1,114 @@
 {
- "generated_at": "2026-11-20T12:59:14+00:00",
+ "generated_at": "2026-11-21T12:42:01+00:00",
  "window": {
   "from": "2026-07-22",
   "to": "2026-11-20"
  },
  "stats": {
-  "total": 319,
-  "vysoka": 103,
-  "stredni": 127,
+  "total": 321,
+  "vysoka": 104,
+  "stredni": 128,
   "nizka": 89,
   "new_7d": 22,
-  "cases": 274
+  "cases": 276
  },
  "opportunities": [
+  {
+   "doc_id": "71547753",
+   "spisova_znacka": "KSBR 30 INS 19320/2024",
+   "soud": "Krajského soudu v Brně",
+   "dluznik_jmeno": "Jan Trčka",
+   "ico": null,
+   "sidlo": "Konice, Kladky 150, PSČ 798 52",
+   "stav_rizeni": "Povoleno oddlužení",
+   "datum_podani": "2026-11-20",
+   "priorita": "vysoka",
+   "assets": [
+    {
+     "typ": "nemovity",
+     "popis": "jiná stavba, pozemku parc. č. 641/7, zahrada, pozemku parc. č. 641/8, orná půda, pozemku parc. č. 643/2, orná půda, pozemku parc. č. 644, trvalý travní porost, pozemku parc. č. 645, orná půda, pozemku parc. č. 652/1…",
+     "navrhovana_cena": "543000 CZK",
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "JUDr. Lukáš Zrůst",
+    "email": null,
+    "telefon": null,
+    "datova_schranka": null
+   },
+   "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: Jan Trčka): nemovitý majetek (1 položka). Navrhovaná cena 543000 CZK. Klasifikováno heuristicky – ověřit v dokumentu.",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-11-20",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71547753",
+     "kategorie": "navrh"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71547753",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=26B87AB6EF5B8250E06333F21FAC19A2&actSheet=B&pageB=all",
+   "or_url": null,
+   "text_source": "pdftotext",
+   "classified_by": "heuristic",
+   "first_seen": "2026-11-21"
+  },
+  {
+   "doc_id": "71547517",
+   "spisova_znacka": "MSPH 95 INS 18033/2024",
+   "soud": "Městského soudu v Praze",
+   "dluznik_jmeno": "Milan Šimáček",
+   "ico": "48095753",
+   "sidlo": "Fulnek, Pohořilky 4, PSČ 742 45",
+   "stav_rizeni": "Povoleno oddlužení",
+   "datum_podani": "2026-11-20",
+   "priorita": "stredni",
+   "assets": [
+    {
+     "typ": "movity",
+     "popis": "Movitá věc dle soupisu majetkové podstaty, oddíl II. Movitý majetek, pořadové číslo 1 (konkrétní specifikace v textu chybí)",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "movity",
+     "popis": "Movitá věc dle soupisu majetkové podstaty, oddíl II. Movitý majetek, pořadové číslo 2 (konkrétní specifikace v textu chybí)",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "movity",
+     "popis": "Movitá věc dle soupisu majetkové podstaty, oddíl II. Movitý majetek, pořadové číslo 3 (konkrétní specifikace v textu chybí)",
+     "navrhovana_cena": null,
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "JUDr. Stanislava Vohradská, insolvenční správkyně",
+    "email": "insoffice@vohradska.cz",
+    "telefon": null,
+    "datova_schranka": "yympad"
+   },
+   "shrnuti": "Insolvenční správkyně žádá soud o souhlas s prodejem movitého majetku dlužníka (3 položky dle soupisu majetkové podstaty) mimo dražbu, a to za cenu nejvyšší nabídky na portálu Burza správců (nyní Dobrá dražba). Konkrétní popis ani cena jednotlivých položek nejsou v textu uvedeny.",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-11-20",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71547517",
+     "kategorie": "navrh"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71547517",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=250FBB92705EE9CFE06333F21FACC474&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=48095753&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-11-21"
+  },
   {
    "doc_id": "71536744",
    "spisova_znacka": "KSOS 14 INS 9257/2026",
