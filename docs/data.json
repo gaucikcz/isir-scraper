@@ -1,18 +1,240 @@
 {
- "generated_at": "2026-11-23T14:44:22+00:00",
+ "generated_at": "2026-11-24T14:55:38+00:00",
  "window": {
   "from": "2026-07-22",
-  "to": "2026-11-23"
+  "to": "2026-11-24"
  },
  "stats": {
-  "total": 325,
+  "total": 327,
   "vysoka": 105,
   "stredni": 130,
-  "nizka": 90,
-  "new_7d": 26,
-  "cases": 279
+  "nizka": 92,
+  "new_7d": 27,
+  "cases": 281
  },
  "opportunities": [
+  {
+   "doc_id": "71578216",
+   "spisova_znacka": "KSPA 60 INS 3891/2026",
+   "soud": "Krajského soudu v Hradci Králové - pobočka v Pardubicích",
+   "dluznik_jmeno": "ZELÍTRANS CZ s.r.o.",
+   "ico": "10733311",
+   "sidlo": "Svitavy, náměstí Míru 65/33, PSČ 568 02",
+   "stav_rizeni": "Prohlášený konkurs",
+   "datum_podani": "2026-11-24",
+   "priorita": "nizka",
+   "assets": [
+    {
+     "typ": "nehmotny",
+     "popis": "Pohledávka za dlužníkem RORENTO TRADE s.r.o., IČ: 04251547, splatná 14.12.2023, neuhrazená výše 15 329,49 Kč",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "nehmotny",
+     "popis": "Pohledávka za dlužníkem RORENTO TRADE s.r.o., IČ: 04251547, splatná 23.12.2023, neuhrazená výše 14 518,79 Kč",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "nehmotny",
+     "popis": "Pohledávka za dlužníkem TRANSPORT SH - RB s.r.o., IČ: 06658571, splatná 21.6.2023, neuhrazená výše 90 662,62 Kč",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "nehmotny",
+     "popis": "Pohledávka za dlužníkem TRANSPORT SH - RB s.r.o., IČ: 06658571, splatná 28.8.2023, neuhrazená výše 27 074,23 Kč",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "nehmotny",
+     "popis": "Pohledávka za dlužníkem TRANSPORT SH - RB s.r.o., IČ: 06658571, splatná 29.8.2023, neuhrazená výše 55 056,33 Kč",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "nehmotny",
+     "popis": "Pohledávka za dlužníkem TRANSPORT SH - RB s.r.o., IČ: 06658571, splatná 8.12.2023, neuhrazená výše 8 470 Kč",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "nehmotny",
+     "popis": "Pohledávka za dlužníkem Autodoprava Sedlák s.r.o., IČ: 07899416, splatná 1.6.2024, neuhrazená výše 52 828 Kč",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "nehmotny",
+     "popis": "Pohledávka za dlužníkem Autodoprava Sedlák s.r.o., IČ: 07899416, splatná 18.6.2024, neuhrazená výše 34 697 Kč",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "nehmotny",
+     "popis": "Pohledávka za dlužníkem GÁRF CZ s.r.o., IČ: 09250271, splatná 30.12.2024, neuhrazená výše 50 820 Kč",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "nehmotny",
+     "popis": "Pohledávka za dlužníkem Dominik Málek, IČ: 09478876, splatná 8.7.2025, neuhrazená výše 45 980 Kč",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "nehmotny",
+     "popis": "Pohledávka za dlužníkem CARGAS CZ s.r.o., IČ: 09766413, splatná 21.12.2024, neuhrazená výše 34 309 Kč",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "nehmotny",
+     "popis": "Pohledávka za dlužníkem EUROParts & oils s.r.o., IČ: 17236134, splatná 10.5.2024, neuhrazená výše 10 333,4 Kč",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "nehmotny",
+     "popis": "Pohledávka za dlužníkem FRAKOLOGISTIK s.r.o., IČ: 19482442, splatná 9.2.2024, neuhrazená výše 6 171 Kč",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "nehmotny",
+     "popis": "Pohledávka za dlužníkem OGOtrans INTERNATIONAL s.r.o., IČ: 19707070, splatná 30.12.2024, neuhrazená výše 26 258 Kč",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "nehmotny",
+     "popis": "Pohledávka za dlužníkem Rochl Company s.r.o., IČ: 22253297, splatná 18.5.2025, neuhrazená výše 35 488 Kč",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "nehmotny",
+     "popis": "Pohledávka za dlužníkem Lesostavby Beroun s.r.o., IČ: 25647148, splatná 29.11.2024, neuhrazená výše 121 574 Kč",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "nehmotny",
+     "popis": "Pohledávka za dlužníkem J+L Kubálek s.r.o., IČ: 28855108, splatná 2.8.2024, neuhrazená výše 2 904 Kč",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "nehmotny",
+     "popis": "Pohledávka za dlužníkem DSV Road AB\\pg 87 20 70-80, 556045667401, splatná 15.5.2025, neuhrazená výše 34 541 Kč",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "nehmotny",
+     "popis": "Pohledávka za dlužníkem DSV Road AB\\pg 87 20 70-80, 556045667401, splatná 15.8.2025, neuhrazená výše 35 314 Kč",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "nehmotny",
+     "popis": "Pohledávka za dlužníkem DSV Road AB\\pg 87 20 70-80, 556045667401, splatná 15.8.2025, neuhrazená výše 29 725 Kč",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "nehmotny",
+     "popis": "Pohledávka za dlužníkem Markéta Krejčí (FO - nepodnikatel), splatná 25.12.2024, neuhrazená výše 58 201 Kč",
+     "navrhovana_cena": null,
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "JUDr. Jakub Fránek, ADF IS v.o.s.",
+    "email": "insolvence@adfis.cz",
+    "telefon": "+420 775 883 777",
+    "datova_schranka": "rjarxy9"
+   },
+   "shrnuti": "Insolvenční správce žádá soud o souhlas s přímým prodejem souboru 21 pohledávek dlužníka ZELÍTRANS CZ s.r.o. vůči různým obchodním partnerům a jedné fyzické osobě mimo dražbu, a to nejvyšší nabídce. Konkrétní kupní cena ani kupující nejsou v textu uvedeny.",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-11-24",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71578216",
+     "kategorie": "navrh"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71578216",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=4B7881DBFA31E21CE06333F21FAC24B7&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=10733311&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-11-24"
+  },
+  {
+   "doc_id": "71572297",
+   "spisova_znacka": "KSOL 16 INS 4944/2023",
+   "soud": "Krajského soudu v Ostravě - pobočka v Olomouci",
+   "dluznik_jmeno": "Markéta Berkyová",
+   "ico": "76060748",
+   "sidlo": "Třebčín, Třebčín 133, PSČ 783 42",
+   "stav_rizeni": "Povoleno oddlužení",
+   "datum_podani": "2026-11-24",
+   "priorita": "nizka",
+   "assets": [],
+   "spravce": {
+    "jmeno": null,
+    "email": null,
+    "telefon": null,
+    "datova_schranka": null
+   },
+   "shrnuti": "Text dokumentu je silně poškozený OCR výstupem a neobsahuje čitelné informace o konkrétních položkách majetku, jejich popisu ani navrhovaných cenách. Nelze z něj identifikovat žádnou konkrétní nabízenou věc k prodeji mimo dražbu.",
+   "soupis": {
+    "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71572152",
+    "datum": "2026-11-24",
+    "popis": "Soupis majetkové podstaty"
+   },
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-11-24",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71572297",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_334",
+     "datum": "2026-11-24",
+     "popis": "Soupis majetkové podstaty",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71572152",
+     "kategorie": "soupis"
+    },
+    {
+     "kod": "I_334",
+     "datum": "2026-04-20",
+     "popis": "Soupis majetkové podstaty",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=67514009",
+     "kategorie": "soupis"
+    },
+    {
+     "kod": "I_829",
+     "datum": "2023-03-30",
+     "popis": "Výpis z katastru nemovitostí",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=54107183",
+     "kategorie": "katastr"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71572297",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=F6FE9307E387069FE05333F21FACBFB0&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=76060748&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-11-24"
+  },
   {
    "doc_id": "71553262",
    "spisova_znacka": "KSCB 41 INS 13260/2026",
@@ -185,6 +407,13 @@
      "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
      "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71066860",
      "kategorie": "navrh"
+    },
+    {
+     "kod": "I_535",
+     "datum": "2026-11-24",
+     "popis": "Usnesení o prodeji mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71575737",
+     "kategorie": "prodej"
     },
     {
      "kod": "I_535",
@@ -867,6 +1096,13 @@
      "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
      "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71530398",
      "kategorie": "navrh"
+    },
+    {
+     "kod": "I_535",
+     "datum": "2026-11-24",
+     "popis": "Usnesení o prodeji mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71570215",
+     "kategorie": "prodej"
     }
    ],
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71530398",
@@ -9105,6 +9341,13 @@
      "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
      "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71066860",
      "kategorie": "navrh"
+    },
+    {
+     "kod": "I_535",
+     "datum": "2026-11-24",
+     "popis": "Usnesení o prodeji mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71575737",
+     "kategorie": "prodej"
     },
     {
      "kod": "I_535",
