@@ -1,18 +1,202 @@
 {
- "generated_at": "2026-11-24T14:55:38+00:00",
+ "generated_at": "2026-11-25T14:27:08+00:00",
  "window": {
   "from": "2026-07-22",
-  "to": "2026-11-24"
+  "to": "2026-11-25"
  },
  "stats": {
-  "total": 327,
-  "vysoka": 105,
+  "total": 331,
+  "vysoka": 108,
   "stredni": 130,
-  "nizka": 92,
-  "new_7d": 27,
-  "cases": 281
+  "nizka": 93,
+  "new_7d": 31,
+  "cases": 285
  },
  "opportunities": [
+  {
+   "doc_id": "71584885",
+   "spisova_znacka": "KSBR 30 INS 22035/2025",
+   "soud": "Krajského soudu v Brně",
+   "dluznik_jmeno": "Aleš Fiala",
+   "ico": "62844288",
+   "sidlo": "Znojmo, Obroková 1/12, PSČ 669 02",
+   "stav_rizeni": "Povoleno oddlužení",
+   "datum_podani": "2026-11-25",
+   "priorita": "vysoka",
+   "assets": [
+    {
+     "typ": "nemovity",
+     "popis": "Spoluvlastnický podíl o velikosti 1/6 na pozemku parcelní číslo 1548/12, výměra 4 840 m2, orná půda, LV 660, k.ú. Náměšť na Hané, obec Náměšť na Hané, okres Olomouc",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "movity",
+     "popis": "Motocykl Honda VTX1300, RZ 6U1903, VIN 1HFS550X7307000, rok výroby 2007",
+     "navrhovana_cena": null,
+     "kupujici": null
+    },
+    {
+     "typ": "movity",
+     "popis": "Motocykl Honda CR, RZ 45821, VIN JH2SC33WXM203962, rok výroby 1998",
+     "navrhovana_cena": null,
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "Mgr. Ing. Jan Valtr, Společná kancelář insolvenčních správců, v.o.s.",
+    "email": null,
+    "telefon": null,
+    "datova_schranka": null
+   },
+   "shrnuti": "Insolvenční správce navrhuje prodej mimo dražbu spoluvlastnického podílu 1/6 na pozemku v k.ú. Náměšť na Hané a dvou motocyklů Honda; cena bude stanovena nejvyšší nabídkou, konkrétní částky nejsou v dokumentu uvedeny.",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-11-25",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71584885",
+     "kategorie": "navrh"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71584885",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=438F1680D60ED731E06333F21FACC9DE&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=62844288&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "doc_id": "71590019",
+   "spisova_znacka": "KSPH 69 INS 17657/2025",
+   "soud": "Krajského soudu v Praze",
+   "dluznik_jmeno": "Markéta Hradílková",
+   "ico": "71604383",
+   "sidlo": "Nebovidy, Nebovidy 76, PSČ 280 02, Okres Kolín",
+   "stav_rizeni": "Povoleno oddlužení",
+   "datum_podani": "2026-11-25",
+   "priorita": "vysoka",
+   "assets": [
+    {
+     "typ": "nemovity",
+     "popis": "spoluvlastnický podíl o velikosti id. 1/2 na nemovitých věcech: x pozemku parc. č. 345, zastavěná plocha a nádvoří, o výměře 364 m², jehož součástí je stavba Kaňk, č. p. 52, rodinný dům; x pozemku parc. č. 346/1…",
+     "navrhovana_cena": "1687500 CZK",
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": null,
+    "email": null,
+    "telefon": null,
+    "datova_schranka": null
+   },
+   "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: Markéta Hradílková): nemovitý majetek (1 položka). Navrhovaná cena 1687500 CZK. Klasifikováno heuristicky – ověřit v dokumentu.",
+   "soupis": {
+    "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71544566",
+    "datum": "2026-11-20",
+    "popis": "Soupis majetkové podstaty"
+   },
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-11-25",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71590019",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_334",
+     "datum": "2026-11-20",
+     "popis": "Soupis majetkové podstaty",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71544566",
+     "kategorie": "soupis"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71590019",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=3EF9EC94CB96CDD9E06333F21FAC1D46&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=71604383&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "heuristic",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "doc_id": "71589024",
+   "spisova_znacka": "KSOS 40 INS 12128/2025",
+   "soud": "Krajského soudu v Ostravě",
+   "dluznik_jmeno": "Adam Smetana",
+   "ico": "86876619",
+   "sidlo": "Frýdek - Frýdek, Místek, Třanovského 382, PSČ 738 01, Okres Frýdek-Místek",
+   "stav_rizeni": "Povoleno oddlužení",
+   "datum_podani": "2026-11-25",
+   "priorita": "vysoka",
+   "assets": [
+    {
+     "typ": "nemovity",
+     "popis": "Spoluvlastnický podíl o velikosti 1/20 na pozemku parc. č. st. 117 (zastavěná plocha a nádvoří, výměra 364 m², součástí je stavba Kostelní Lhota č.p. 101, rodinný dům) a na pozemku parc. č. 163/4 (zahrada, výměra 400 m²), zapsáno na LV č. 358, k.ú. a obec Kostelní Lhota, okres Nymburk.",
+     "navrhovana_cena": null,
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "AS ZIZLAVSKY v.o.s.",
+    "email": null,
+    "telefon": null,
+    "datova_schranka": null
+   },
+   "shrnuti": "Insolvenční správce žádá soud o souhlas s prodejem spoluvlastnického podílu 1/20 na rodinném domě a pozemcích v k.ú. Kostelní Lhota mimo dražbu formou přímého prodeje nejvyšší nabídce; ocenění podílu v soupisu majetkové podstaty činí 266 050 Kč, konkrétní kupní cena zatím není stanovena.",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-11-25",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71589024",
+     "kategorie": "navrh"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71589024",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=37E5D29D1779CD9FE06333F21FACF2EB&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=86876619&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-11-25"
+  },
+  {
+   "doc_id": "71587710",
+   "spisova_znacka": "KSOS 40 INS 19665/2023",
+   "soud": "Krajského soudu v Ostravě",
+   "dluznik_jmeno": "Monika Marcová",
+   "ico": null,
+   "sidlo": "Orlová, Ostravská 190, PSČ 735 14, Okres Karviná",
+   "stav_rizeni": "Povoleno oddlužení",
+   "datum_podani": "2026-11-25",
+   "priorita": "nizka",
+   "assets": [],
+   "spravce": {
+    "jmeno": null,
+    "email": null,
+    "telefon": null,
+    "datova_schranka": null
+   },
+   "shrnuti": "Text dokumentu je silně poškozený OCR výstup, ze kterého nelze spolehlivě identifikovat žádnou konkrétní položku majetku, navrhovanou cenu ani kupujícího.",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-11-25",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71587710",
+     "kategorie": "navrh"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71587710",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=091194853732FB42E06333F21FAC6D16&actSheet=B&pageB=all",
+   "or_url": null,
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-11-25"
+  },
   {
    "doc_id": "71578216",
    "spisova_znacka": "KSPA 60 INS 3891/2026",
@@ -999,6 +1183,13 @@
      "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
      "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71529959",
      "kategorie": "navrh"
+    },
+    {
+     "kod": "I_535",
+     "datum": "2026-11-25",
+     "popis": "Usnesení o prodeji mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71583843",
+     "kategorie": "prodej"
     }
    ],
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71529959",
