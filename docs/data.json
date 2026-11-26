@@ -1,18 +1,169 @@
 {
- "generated_at": "2026-11-25T14:27:08+00:00",
+ "generated_at": "2026-11-26T13:57:27+00:00",
  "window": {
   "from": "2026-07-22",
-  "to": "2026-11-25"
+  "to": "2026-11-26"
  },
  "stats": {
-  "total": 331,
+  "total": 334,
   "vysoka": 108,
-  "stredni": 130,
-  "nizka": 93,
-  "new_7d": 31,
-  "cases": 285
+  "stredni": 131,
+  "nizka": 95,
+  "new_7d": 28,
+  "cases": 288
  },
  "opportunities": [
+  {
+   "doc_id": "71603924",
+   "spisova_znacka": "KSOS 22 INS 22706/2025",
+   "soud": "Krajského soudu v Ostravě",
+   "dluznik_jmeno": "PALDOX palety s.r.o.",
+   "ico": "28653556",
+   "sidlo": "Opava, Hlavní 1248/2a, PSČ 747 06, Okres Opava",
+   "stav_rizeni": "Prohlášený konkurs",
+   "datum_podani": "2026-11-26",
+   "priorita": "stredni",
+   "assets": [
+    {
+     "typ": "movity",
+     "popis": "<UNKNOWN> - text dokumentu je nečitelný (OCR chyba), konkrétní položky majetku nelze identifikovat",
+     "navrhovana_cena": null,
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": null,
+    "email": null,
+    "telefon": null,
+    "datova_schranka": null
+   },
+   "shrnuti": "Dokument je silně poškozený OCR výstup (hlavička elektronického podpisu/kvalifikovaného certifikátu), neobsahuje čitelný popis konkrétního majetku ani navrhovanou cenu.",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-11-26",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71603924",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_829",
+     "datum": "2025-12-09",
+     "popis": "Výpis z katastru nemovitostí",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=64157395",
+     "kategorie": "katastr"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71603924",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=3F0D27855D03E9C0E06333F21FAC1A87&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=28653556&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-11-26"
+  },
+  {
+   "doc_id": "71601893",
+   "spisova_znacka": "KSBR 26 INS 21088/2025",
+   "soud": "Krajského soudu v Brně",
+   "dluznik_jmeno": "Tomáš Hanzal",
+   "ico": null,
+   "sidlo": "Olomouc, Edvarda Beneše 333/11, PSČ 779 00",
+   "stav_rizeni": "Povoleno oddlužení",
+   "datum_podani": "2026-11-26",
+   "priorita": "nizka",
+   "assets": [
+    {
+     "typ": "nehmotny",
+     "popis": "3.700 ks podílových listů fondu Conseq Invest Komoditní, ISIN, evidováno v samostatné evidenci investičních nástrojů vedené u Fio banky, a.s., na obchodním účtu zůstavitele Jaromíra Hanzala (zemř. 3.12.2025), z toho 1.100 ks náleží do majetkové podstaty; obvyklá cena ke dni úmrtí zůstavitele 186,40 Kč za kus; navrhovaný způsob zpeněžení: přímý prodej na burze cenných papírů Praha a.s. prostřednict",
+     "navrhovana_cena": null,
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "Mgr. Ing. Gabriela Bergmannová Kurzová, Sdružená konkurzní v.o.s.",
+    "email": null,
+    "telefon": null,
+    "datova_schranka": null
+   },
+   "shrnuti": "Insolvenční správce žádá soud o souhlas se zpeněžením podílových listů fondu Conseq Invest Komoditní (položka č. 3 soupisu) formou přímého prodeje na burze cenných papírů Praha prostřednictvím Fio banky, a.s.; konkrétní kupní cena v návrhu uvedena není.",
+   "soupis": {
+    "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=67890040",
+    "datum": "2026-04-29",
+    "popis": "Soupis majetkové podstaty"
+   },
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-11-26",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71601893",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_334",
+     "datum": "2026-04-29",
+     "popis": "Soupis majetkové podstaty",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=67890040",
+     "kategorie": "soupis"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71601893",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=42AC3D10B6B53BF4E06333F21FAC7928&actSheet=B&pageB=all",
+   "or_url": null,
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-11-26"
+  },
+  {
+   "doc_id": "71603929",
+   "spisova_znacka": "KSPH 84 INS 13695/2024",
+   "soud": "Krajského soudu v Praze",
+   "dluznik_jmeno": "Zuzana Al-Nasserová",
+   "ico": "71698019",
+   "sidlo": "Louňovice, Na Dolách 238, PSČ 251 62, Okres Praha-východ",
+   "stav_rizeni": "Prohlášený konkurs",
+   "datum_podani": "2026-11-26",
+   "priorita": "nizka",
+   "assets": [
+    {
+     "typ": "nehmotny",
+     "popis": "Můj klient spol. EXPRESS MONEY s.r.o., jakožto zástupce věřitelů, tímto souhlasí, aby byl obchodní podíl ve spol. GOODPATROL s.r.o. nyní nabízen k prodeji v internetové inzerci s podmínkou, že kupní cena bude uhrazena…",
+     "navrhovana_cena": null,
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "Mgr. Miroslav Lahoda",
+    "email": "zajic@zajiclegal.cz",
+    "telefon": "+420 774 744 394",
+    "datova_schranka": "dsia6jg"
+   },
+   "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: Zuzana Al-Nasserová): nehmotný majetek (1 položka). Klasifikováno heuristicky – ověřit v dokumentu.",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-11-26",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71603929",
+     "kategorie": "navrh"
+    },
+    {
+     "kod": "I_1054",
+     "datum": "2025-06-06",
+     "popis": "Zpráva insolvenčního správce",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=62124508",
+     "kategorie": "zprava"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71603929",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=1F4F363FD94D09A9E06333F21FAC4CF3&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=71698019&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "heuristic",
+   "first_seen": "2026-11-26"
+  },
   {
    "doc_id": "71584885",
    "spisova_znacka": "KSBR 30 INS 22035/2025",
