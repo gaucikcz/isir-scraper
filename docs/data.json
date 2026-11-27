@@ -1,18 +1,144 @@
 {
- "generated_at": "2026-11-26T13:57:27+00:00",
+ "generated_at": "2026-11-27T13:55:00+00:00",
  "window": {
   "from": "2026-07-22",
-  "to": "2026-11-26"
+  "to": "2026-11-27"
  },
  "stats": {
-  "total": 334,
-  "vysoka": 108,
-  "stredni": 131,
-  "nizka": 95,
-  "new_7d": 28,
-  "cases": 288
+  "total": 337,
+  "vysoka": 109,
+  "stredni": 132,
+  "nizka": 96,
+  "new_7d": 24,
+  "cases": 291
  },
  "opportunities": [
+  {
+   "doc_id": "71620644",
+   "spisova_znacka": "KSPH 71 INS 11483/2026",
+   "soud": "Krajského soudu v Praze",
+   "dluznik_jmeno": "Hynek Marek",
+   "ico": "42554021",
+   "sidlo": "Ondřejov, Choceradská 32, PSČ 251 65, Okres Praha-východ",
+   "stav_rizeni": "Povoleno oddlužení",
+   "datum_podani": "2026-11-27",
+   "priorita": "stredni",
+   "assets": [
+    {
+     "typ": "movity",
+     "popis": "Osobní vozidlo Ford Streetka (bez platného osvědčení o technické způsobilosti), náleží do majetkové podstaty dlužníka Hynka Marka",
+     "navrhovana_cena": "2000 CZK",
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "Mgr. Adéla Kolajová Němcová",
+    "email": "aknis@aknis.cz",
+    "telefon": "+420725155161",
+    "datova_schranka": null
+   },
+   "shrnuti": "Insolvenční správkyně žádá soud o souhlas se zpeněžením vozidla Ford Streetka mimo dražbu, přímým prodejem za 2.000 Kč z důvodu jeho prakticky nulové hodnoty.",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-11-27",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71620644",
+     "kategorie": "navrh"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71620644",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=54D0DE2E7008333FE06333F21FAC66FB&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=42554021&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-11-27"
+  },
+  {
+   "doc_id": "71621141",
+   "spisova_znacka": "MSPH 96 INS 7311/2026",
+   "soud": "Městského soudu v Praze",
+   "dluznik_jmeno": "Robert Janulík",
+   "ico": null,
+   "sidlo": "Praha, Pohnertova 1269/1, PSČ 182 00",
+   "stav_rizeni": "Povoleno oddlužení",
+   "datum_podani": "2026-11-27",
+   "priorita": "vysoka",
+   "assets": [
+    {
+     "typ": "nemovity",
+     "popis": "v insolvenčním řízení dlužníků Roberta Janulíka, nar. 30.8.1982 a Thuy Linh Janulíkové, nar. 5.10.1988, oba bytem Pohnertova 1269/1, 182 00 Praha 8, vedeném u Městského soudu v Praze pod sp.zn. MSPH 96 INS 7311/2026…",
+     "navrhovana_cena": null,
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "Mgr. Karel Knypl",
+    "email": "knypl@sterlingsro.cz",
+    "telefon": "602 665 047",
+    "datova_schranka": null
+   },
+   "shrnuti": "Insolvenční správce podal návrh na zpeněžení majetkové podstaty mimo dražbu (dlužník: Robert Janulík): nemovitý majetek (1 položka). Klasifikováno heuristicky – ověřit v dokumentu.",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-11-27",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71621141",
+     "kategorie": "navrh"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71621141",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=4FE325612EC80304E06333F21FAC5B80&actSheet=B&pageB=all",
+   "or_url": null,
+   "text_source": "pdftotext",
+   "classified_by": "heuristic",
+   "first_seen": "2026-11-27"
+  },
+  {
+   "doc_id": "71616816",
+   "spisova_znacka": "KSPA 60 INS 2787/2026",
+   "soud": "Krajského soudu v Hradci Králové - pobočka v Pardubicích",
+   "dluznik_jmeno": "Milan Girgle",
+   "ico": "06634672",
+   "sidlo": "Trpín, Trpín 121, PSČ 569 74, Okres Svitavy",
+   "stav_rizeni": "Povoleno oddlužení",
+   "datum_podani": "2026-11-27",
+   "priorita": "nizka",
+   "assets": [
+    {
+     "typ": "nehmotny",
+     "popis": "100% obchodní podíl ve společnosti Consulting Pro s.r.o., IČ 21896801",
+     "navrhovana_cena": null,
+     "kupujici": null
+    }
+   ],
+   "spravce": {
+    "jmeno": "Mgr. Václav Buriánek, Insolvency Project v.o.s.",
+    "email": "smejcova@insolvencyproject.cz",
+    "telefon": "734 755 714",
+    "datova_schranka": null
+   },
+   "shrnuti": "Insolvenční správce žádá o souhlas s prodejem 100% obchodního podílu ve společnosti Consulting Pro s.r.o. mimo dražbu, přímému zájemci za cenu nejvyšší nabídky; konkrétní kupující ani cena zatím nejsou určeny.",
+   "soupis": null,
+   "dokumenty": [
+    {
+     "kod": "I_347",
+     "datum": "2026-11-27",
+     "popis": "Návrh na vydání souhlasu se zpeněžením MP mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71616816",
+     "kategorie": "navrh"
+    }
+   ],
+   "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71616816",
+   "detail_url": "https://isir.justice.cz/isir/ueu/evidence_upadcu_detail.do?id=483832BD0F2A88F4E06333F21FAC5458&actSheet=B&pageB=all",
+   "or_url": "https://or.justice.cz/ias/ui/rejstrik-$firma?nazev=&ico=06634672&jenPlatne=PLATNE&polozek=50&typHledani=STARTS_WITH",
+   "text_source": "pdftotext",
+   "classified_by": "llm",
+   "first_seen": "2026-11-27"
+  },
   {
    "doc_id": "71603924",
    "spisova_znacka": "KSOS 22 INS 22706/2025",
@@ -1747,6 +1873,13 @@
      "popis": "Soupis majetkové podstaty",
      "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=70957192",
      "kategorie": "soupis"
+    },
+    {
+     "kod": "I_535",
+     "datum": "2026-11-27",
+     "popis": "Usnesení o prodeji mimo dražbu",
+     "url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71613981",
+     "kategorie": "prodej"
     }
    ],
    "doc_url": "https://isir.justice.cz/isir/doc/dokument.PDF?id=71507967",
