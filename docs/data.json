@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T13:55:00+00:00",
+ "generated_at": "2026-11-28T13:02:37+00:00",
  "window": {
   "from": "2026-07-22",
   "to": "2026-11-27"
@@ -9,7 +9,7 @@
   "vysoka": 109,
   "stredni": 132,
   "nizka": 96,
-  "new_7d": 24,
+  "new_7d": 18,
   "cases": 291
  },
  "opportunities": [
